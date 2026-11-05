@@ -32,3 +32,4 @@ See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at i
 | D2 | 6 Nov | Hook "owned Nvidia" changed to "bought Nvidia" | DONE | Accuracy: he held 4.9% |
 | D3 | 6 Nov | Kicker "cost him" changed to "missed out on" | DONE | Accuracy: it was a missed gain, not a loss |
 | D4 | 6 Nov | Tight draft v1: 279 to 248 words; photo hook; open loop; WeWork cut; peg moved to on-screen text | PROPOSED | User asked for a tighter version matching the repo skills and Metro |
+| D5 | 6 Nov | Draft v2: 8 hook options, 3 comparison variants (Buffett, Uncut Gems, Bond), numbers 14 to 11 | PROPOSED | User asked for multiple hooks and both comparison types |

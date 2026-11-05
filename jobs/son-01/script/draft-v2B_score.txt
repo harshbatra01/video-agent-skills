@@ -1,0 +1,13 @@
+draft-v2B_tagged.txt
+  words                   253
+  sentences               18
+  avg_sentence            14.1
+  longest_sentence        22
+  event_pct               44
+  tension_pct             38
+  info_pct                18
+  longest_info_run        2
+  pct_before_first_event  25
+  hard_word_pct           6.5
+  reading_ease            74
+reference range (4 scripts): event 40-79%, info 4-31%, info run 1-5, sentence 10.7-15.6, ease 68-80
