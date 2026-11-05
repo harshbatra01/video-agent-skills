@@ -1,0 +1,25 @@
+# Son draft v0, one sentence per line. Lines marked (SB) are his own voice from a real clip.
+T| This man bought Nvidia before the AI boom. Then sold it. Twice.
+I| He's basically the opposite of Warren Buffett.
+T| His name's Masayoshi Son, and the thing that made him one of the richest men alive is the same thing that keeps costing him fortunes.
+E| In 2000, for three days, he was the richest person on Earth.
+E| Then the dot-com crash hit, and he lost about 70 billion dollars.
+E| Around the same time, he met a young founder named Jack Ma, and after about six minutes, he handed him 20 million dollars.
+E| That bet on Alibaba was later worth more than 150 billion.
+T| So he did it again, bigger.
+E| In 2017, his new fund put about 4 billion dollars into a gaming chip company called Nvidia.
+E| Then the stock dropped, and in 2019 he sold every share.
+E| Months later, he was apologizing for WeWork.
+E| (SB) My own investment judgment was really bad.
+T| But Nvidia kept climbing.
+I| The shares he sold would later be worth about 150 billion dollars.
+E| (SB) The fish that got away was big.
+T| So you'd think he'd hold on next time.
+E| Last year, he bought Nvidia again, then sold every last share, 5.8 billion dollars' worth, to put the money into OpenAI.
+E| (SB) I was crying to sell Nvidia shares.
+I| Today he has 64.6 billion dollars in OpenAI, about an eighth of the company.
+E| He paid for part of it with borrowed money.
+I| So every time you ask ChatGPT something, you're using the company he bet SoftBank on.
+I| On November 10th, SoftBank reports its results.
+T| The first time he let Nvidia go, he missed out on 150 billion dollars.
+T| This time, he let it go on purpose.
