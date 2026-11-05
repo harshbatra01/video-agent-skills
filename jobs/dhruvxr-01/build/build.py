@@ -10,7 +10,7 @@ import sys, os, subprocess, math, argparse
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-ap = argparse.ArgumentParser(); ap.add_argument("out", nargs="?", default=os.path.join(os.path.dirname(__file__), "out", "animatic_v0.mp4"))
+ap = argparse.ArgumentParser(); ap.add_argument("out", nargs="?", default=os.path.join(os.path.dirname(__file__), "out", "animatic_v1.mp4"))
 ap.add_argument("--scale", type=float, default=1.0); ap.add_argument("--only", default=None)
 A = ap.parse_args()
 S = A.scale; W, H = int(1280 * S), int(720 * S); FPS = 30; N = 495
@@ -209,15 +209,15 @@ def frame(g):
             t = (g - 138) / 56; al = 0.5 if g == 138 else 1.0
             a = put_text(a, "/ˈfōkəs/", font("Inter-Regular", 27), (912 * S + 20 * S * t, 540 * S), fill=(182, 182, 182), alpha=al)
     elif g <= 196: a = blank(255)
-    elif g <= 242:                               # particles drift, then gather to the centre
-        rng = np.random.default_rng(3); n = 420; p0 = np.c_[rng.uniform(0, W, n), rng.uniform(0, H, n)]
-        tgt = np.c_[W / 2 + rng.normal(0, 14 * S, n), H / 2 + rng.normal(0, 10 * S, n)]
-        t = (g - 197) / 45; drift = np.c_[np.sin(np.arange(n)) * 30 * S * t, -20 * S * t * np.ones(n)]
-        k = ease_in(clamp01((t - 0.35) / 0.65)); pos = (p0 + drift) * (1 - k) + tgt * k
-        a = blank(); br = 120 + 100 * rng.random(n)
+    elif g <= 242:                               # v1: 14 soft glowing points (WHP has about 10 to 15) drift, then gather to the centre
+        rng = np.random.default_rng(3); n = 14; p0 = np.c_[rng.uniform(0.1, 0.9, n) * W, rng.uniform(0.15, 0.85, n) * H]
+        tgt = np.c_[W / 2 + rng.normal(0, 10 * S, n), H / 2 + rng.normal(0, 6 * S, n)]
+        t = (g - 197) / 45; drift = np.c_[np.sin(np.arange(n) * 1.7) * 40 * S * t, np.cos(np.arange(n)) * 25 * S * t]
+        k = ease_in(clamp01((t - 0.3) / 0.7)); pos = (p0 + drift) * (1 - k) + tgt * k
+        a = blank(); br = 170 + 80 * rng.random(n); rr = max(1, int(2 * S))
         for (x, y), b in zip(pos.astype(int), br):
-            if 1 <= x < W - 2 and 1 <= y < H - 2: a[y - 1:y + 2, x - 1:x + 2] = b
-        a = glow(a, 0.4)
+            if rr <= x < W - rr and rr <= y < H - rr: a[y - rr:y + rr + 1, x - rr:x + rr + 1] = b
+        a = a + 0.9 * blur(a, 6) + 0.6 * blur(a, 22)
         if g <= 205: a = put_text(a, "focus", font("Inter-Regular", 27), (313 * S, 180 * S), fill=(190, 190, 190), alpha=1 - (g - 196) / 9)
         if g <= 205: a = put_text(a, "/ˈfōkəs/", font("Inter-Regular", 27), (932 * S, 540 * S), fill=(182, 182, 182), alpha=1 - (g - 196) / 9)
     elif g <= 286:                               # white bloom, then the logo with glow BEHIND it, pulling back
@@ -248,15 +248,19 @@ def frame(g):
     elif g <= 342:
         name = "slow-shutter crowd, terminal" if g <= 330 else "spiral stairwell, looking down" if g <= 336 else "fisheye, person climbing"
         a = placeholder(g, name); lines = True
-    elif g <= 410:                               # dot globe turning and fading, stepped every 3 frames (10 fps)
+    elif g <= 410:                               # v1: halftone of a turning textured sphere on a fixed screen grid, stepped every 3 f
         gs = 343 + ((g - 343) // 3) * 3; t = (gs - 343) / 67
-        n = 2200; i = np.arange(n) + 0.5; phi = np.arccos(1 - 2 * i / n); th = math.pi * (1 + 5 ** 0.5) * i + t * 1.2
-        X, Y, Z = np.cos(th) * np.sin(phi), np.cos(phi), np.sin(th) * np.sin(phi)
-        R = 175 * S; cx, cy = W * 0.45, H * 0.42; vis = Z > 0
-        a = blank(); lvl = (1 - ease_in(t)) * 140
-        for x, y, z in zip(X[vis], Y[vis], Z[vis]):
-            px, py = int(cx + R * x), int(cy - R * y); a[py:py + max(1, int(2 * S)), px:px + max(1, int(2 * S))] = lvl * (0.35 + 0.65 * z)
-        a[..., 0] *= 1.08
+        gp = max(2, int(round(6 * S))); R = 185 * S; cx, cy = W * 0.48, H * 0.46
+        ys, xs = np.mgrid[gp // 2:H:gp, gp // 2:W:gp].astype(np.float32); nx, ny = (xs - cx) / R, (ys - cy) / R; r2 = nx ** 2 + ny ** 2
+        inside = r2 < 1; nz = np.sqrt(np.clip(1 - r2, 0, 1))
+        lon = np.arctan2(nx, nz) + 0.9 * t + 1.3; lat = np.arcsin(np.clip(-ny, -1, 1))
+        tex = 0.5 + 0.22 * np.sin(3 * lon + 2 * np.sin(2 * lat)) + 0.18 * np.sin(7 * lon - 3 * lat) + 0.12 * np.sin(11 * lat + 5 * lon)
+        shade = np.clip(0.25 + 0.75 * (0.55 * nz - 0.45 * nx + 0.2), 0, 1)
+        v = np.where(inside, np.clip(tex, 0, 1) * shade * (1 - ease_in(t) * 0.97), 0)
+        a = blank(); dmax = gp - max(1, int(S))
+        for (yy, xx, vv) in zip(ys[inside].astype(int), xs[inside].astype(int), v[inside]):
+            d = int(round(dmax * min(1, vv * 1.4)))
+            if d >= 1: a[yy - d // 2:yy - d // 2 + d, xx - d // 2:xx - d // 2 + d] = (200 * vv + 40, 150 * vv + 25, 150 * vv + 25)
     elif g <= 420: a = blank()
     else:                                        # wordmark: right-to-left wipe over 3 f, brightness stepped every 3 f to f431
         a = blank(); txt = "[ Linear wordmark ]"; F = font("Inter-SemiBold", 30)

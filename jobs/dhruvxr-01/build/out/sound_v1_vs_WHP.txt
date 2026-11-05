@@ -1,0 +1,9 @@
+Sound v1 against WHP, 0.1 s windows, mono downmix (research/dhruvxr/tools/envelope.py)
+level-curve correlation: 0.92
+sub intro  median dB WHP   -1.0  ours   -0.1 | bass share WHP 0.96 ours 0.96
+dip        median dB WHP  -25.8  ours  -25.6 | bass share WHP 0.40 ours 0.19
+bed        median dB WHP  -17.3  ours  -17.2 | bass share WHP 0.38 ours 0.44
+fade       median dB WHP  -38.5  ours  -38.2 | bass share WHP 0.15 ours 0.02
+Hits on picture changes (level jump >= 6 dB within 0.1 s of a shot change):
+WHP  jumps 22, on a change 12, chance 27%
+ours jumps 15, on a change 11, chance 26%
