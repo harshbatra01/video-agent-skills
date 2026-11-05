@@ -1,6 +1,6 @@
 # S1b shot labels: YC (DfFsUfUx0dZ) and EIN (Dee-mp9BJqG)
 
-Status: stopped at deadline, missing: YC 97-123, YC counts, all EIN
+Status: stopped at deadline, missing: all EIN shots 1 to 97 (YC done, 123 of 123)
 
 Method: labels made by eye from contact-sheet tiles (one middle frame per ffmpeg scene shot) plus words from sw_shots.json. I cannot watch or hear the reels.
 
@@ -108,5 +108,60 @@ Defaults I picked: tile-to-shot alignment follows the printed t0 under each tile
 | 96 | 62.6 (0.63s) | companies and | man in purple shirt | archive footage | L | hold |
 
 Rows 63 to 96 give t0 and duration as printed on the tile (t1 = t0 + duration). Words for 63 to 96 are the tile captions, which come from sw_shots.json.
+| 97 | 63.2 (0.58s) | the machine | low office building, trees | real footage | S | hold |
+| 98 | 63.8 (0.46s) | that builds | people at laptops | archive footage | M | hold |
+| 99 | 64.2 (0.46s) | everyone | men at laptops | archive footage | M | hold |
+| 100 | 64.7 (0.25s) | else's. | curly-haired woman, close | archive footage | L | hold |
+| 101 | 65.0 (0.42s) | else's. | table of people with laptops | archive footage | M | hold |
+| 102 | 65.4 (0.08s) | (none) | near black | text card black | none | breath |
+| 103 | 65.5 (0.54s) | Paul Graham | two men seated, green wall, "Paul Graham" | archive footage | M | hold |
+| 104 | 66.0 (0.88s) | got to back the | man close, green wall | archive footage | L | hold |
+| 105 | 66.9 (0.58s) | companies building | man with name tag, office | archive footage | L | hold |
+| 106 | 67.5 (0.46s) | the | woman at laptop | archive footage | M | hold |
+| 107 | 67.9 (0.25s) | future | man on green sofa with laptop | archive footage | S | hold |
+| 108 | 68.2 (0.54s) | before | man with glasses at laptop, orange wall | archive footage | L | hold |
+| 109 | 68.7 (0.41s) | it was | people at laptops | archive footage | M | hold |
+| 110 | 69.1 (0.50s) | obvious. | group at laptops | archive footage | M | hold |
+| 111 | 69.6 (0.13s) | (none) | person behind laptop, soft | archive footage | M | burst |
+| 112 | 69.8 (0.08s) | (none) | blurred word on white | text card white | none | breath |
+| 113 | 69.8 (0.71s) | But to date, | words on white | text card white | none | hold |
+| 114 | 70.5 (0.96s) | the public has had | trader on phone, glasses | film/pop culture (?) | L | symbol |
+| 115 | 71.5 (0.50s) | limited access | trading floor, bow tie | film/pop culture (?) | M | symbol |
+| 116 | 72.0 (0.50s) | access to | trader on phone, ticker | film/pop culture (?) | M | symbol |
+| 117 | 72.5 (0.62s) | investing in these | green ticker board | real footage | none | symbol |
+| 118 | 73.1 (0.67s) | companies. | man in suit on phone | film/pop culture (?) | M | symbol |
+| 119 | 73.8 (0.09s) | (none) | faint USVC logo on dark | logo | S | breath |
+| 120 | 73.9 (0.87s) | USVC gives | USVC logo on white | ad card | S | hold |
+| 121 | 74.8 (1.29s) | gives you access to that. | "access to" on black | ad card | none | hold |
+| 122 | 76.0 (1.79s) | Comment GUIDE and we'll share | "GUIDE" on white | ad card | none | hold |
+| 123 | 77.8 (2.34s) | their investment guide for 2026. | folder icon, "for ... 2026" | ad card | S | symbol |
 
-## Status: stopped at deadline, missing: YC shots 97 to 123 (sw_02.jpg not labelled), YC counts table, all of EIN (97 shots).
+### YC counts (123 shots, about 80.1 s)
+
+| type | shots | seconds |
+|---|---|---|
+| archive footage | 52 | 26.1 |
+| still photo | 14 | 13.0 |
+| film/pop culture | 12 | 7.1 |
+| ad card | 4 | 6.3 |
+| composite/collage | 8 | 5.9 |
+| text card white | 7 | 5.7 |
+| real footage | 5 | 5.1 |
+| text card black | 10 | 4.6 |
+| built UI/object | 6 | 2.5 |
+| logo | 3 | 2.1 |
+| symbol/illustration | 1 | 1.3 |
+| real footage (stock) | 1 | 0.4 |
+
+| subject size | shots | seconds |
+|---|---|---|
+| L | 42 | 28.8 |
+| M | 39 | 21.8 |
+| none | 24 | 19.1 |
+| S | 18 | 10.5 |
+
+Counts include the (?) rows at their best-guess label.
+
+## EIN (Dee-mp9BJqG)
+
+Not labelled: all 97 shots (stopped at deadline).

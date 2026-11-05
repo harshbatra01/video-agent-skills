@@ -1,6 +1,6 @@
 # S5 Rule book: Metro Media House style, buildable without the study
 
-Status: in progress
+Status: done
 
 Sources: research/metro-media-house/STUDY.md, numbers.json, SHOT-LOG.md. Reel codes: PAL=DclpjyxhKF6, ACK=DdHKc5GBqT- (organic Metro), YC=DfFsUfUx0dZ (paid on Metro), EIN=Dee-mp9BJqG (USVC, style cousin).
 
@@ -75,3 +75,40 @@ Our defaults: organic post, landscape 16:9 1920x1080 at 25 fps (all 4 are landsc
 - USE | Inverted-frame cut: 1 frame negative of shot A, optional 1 white or black frame, then shot B; about 1 every 3 to 5 s on sentence turns (11.4 to 13.5 a minute) | ACK 18 events, YC 18 | invert_frames.py (lower bound), flash_sheet.py | METRO ONLY (PAL 2+, EIN 0)
 - USE | Hard white single frames between shots | ACK 7.0, 10.0, 17.2 s; PAL 23.4 s | flash_sheet.py (CUT+FLASH 3 to 24 a reel) | SAME IN ALL 4
 - CHANGE | Pixel mosaic, grey-block dissolve, light leak: 1 a reel at most | ACK 31.0, 29.8, 44.0 to 44.6 | flash_sheet.py | SEEN ONCE each
+
+## 9. Colour and grade
+- USE | Full colour: mean saturation 0.25 to 0.36, vivid pixels 15 to 22%, near-monochrome shots 20 to 24% | ACK 0.36, 21.6% | colour_stats.py at 2 fps | METRO ONLY (EIN 0.17, 71% mono)
+- USE | Mean brightness 0.37 to 0.46, near-black pixels 21 to 25% | PAL 0.46, 21.4% | colour_stats.py | SAME IN ALL 4
+- USE | Vivid hues warm-led: red plus orange/yellow 48 to 66%, cyan/blue 28 to 48% | YC 66% / 28% | colour_stats.py | SAME IN ALL 4
+- USE | Soft edge glow or halation, slight vignette on paper #EDECEA to #F2F1EF (judged) | PAL 69.3 s framed photo | by eye on crops | SAME IN ALL 4
+- DROP | EIN's archival black and white look as the template | EIN 71% near-monochrome | colour_stats.py | SEEN ONCE
+
+## 10. Sound
+- USE | Voice nearly non-stop: 3.5 to 6.6 s total pause (gaps over 0.12 s) per reel | PAL 3.5 s | Whisper word gaps, as in numbers.json | METRO ONLY (EIN 10.2)
+- USE | Loud music bed 0.8 to 3.7 dB under the voice in gaps (low trust) | YC 0.8, ACK 3.7 | gap_level.py | SAME IN ALL 4
+- USE | Cut on words, not beats (beat hits at chance in all 4) | ACK 20% vs 20% chance | ref_stats.py | SAME IN ALL 4
+- CHANGE | Risers or hits on story turns, likely, not heard | YC loudness peaks 8 to 10, 42, 58 s | 2 s RMS | SEEN ONCE
+- CHANGE | Voice: theirs was not heard; pick ours by ear against the reels | n/a | listen | default
+
+## 11. Ending
+- USE | Mirrored two-line kicker, the second line flips the first, no lesson, last 2 sentences; write it before the body | PAL "The PayPal Mafia built the internet you scroll all day. The Palantir Mafia built the thing quietly watching you do it." | read the last 2 sentences | SAME IN ALL 4
+- USE | Callback picture under the kicker (the hook photo or its group) | PAL 69.3 to 76.7 | by eye | METRO ONLY (organic PAL, ACK)
+- CHANGE | Hold after the last word 0.3 to 6.2 s on file; ours ends on the kicker plus callback, no sting | PAL 1.8 s | ref_stats.py, Whisper end time | varies
+- DROP | 9 to 11 s ad tail and "Comment GUIDE" for our default organic post | YC 69.8 to 80.2 | n/a | paid only (EIN, YC)
+
+## 12. What not to copy
+- DROP | The M logo sting and any Metro or USVC mark | PAL 76.7 to 78.4; ACK 92.4 to 95.0 | by eye | PAL, ACK only
+- DROP | Their exact captions, layouts or built objects frame for frame; same rhythm, our own footage and designs | PAL receipt 13.0 to 16.5 | side-by-side review | all
+- DROP | Feature-film clips, the EIN look, thermal flash and neon outline as defaults (see above) | see sections 5, 7, 9 | footage map review | per rule
+
+## Checklist for a finished cut (run in this order)
+1. Format: 1920x1080, 25 fps, landscape. Length 78 to 95 s organic.
+2. ref_stats.py: median shot 0.54 to 0.75 s; 90th pct 1.2 to 1.6 s; 7 to 9 shots and 13 to 16 words in first 5 s; 1.08 to 1.55 shots a second; fastest quarter Q1 or Q2; 59 to 67% cuts on word starts; beat hits near chance; 5 to 8% shots of 4 frames or less; longest shot 4.1 to 6.6 s on proof only.
+3. Words: 230 to 250, 171 to 184 a minute, total pause 3.5 to 6.6 s.
+4. Script read: superlative hook line; name at 8 to 17 s; comparison at 4 to 8 s; one turn at 35 to 75%; zoom out at 75 to 90%; mirrored kicker; no more than 2 explaining sentences in a row; interest_score pass 18/24 with Interesting 9+.
+5. Frames 0 to 3 s: one photo, 3x3 grid reveal done by 1.3 s, at most 1 extra hit.
+6. invert_frames.py: about 11 to 14 inverted cuts a minute, on sentence turns. flash_sheet.py: white single frames present.
+7. Captions crop: every word, Inter Medium, cap 37 to 40 px, centre 44 to 52%, black on white cards, 8 to 15 big words.
+8. colour_stats.py: brightness 0.37 to 0.46, saturation 0.25 to 0.36, vivid 15 to 22%, near-black 21 to 25%.
+9. gap_level.py: bed 0.8 to 3.7 dB under voice.
+10. Picture: real people, one soundbite, printed numbers, logo bursts, white card every 10 to 20 s, no film clips, no M sting, no ad tail.

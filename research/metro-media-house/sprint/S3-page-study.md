@@ -1,6 +1,6 @@
 # S3: Metro Media House page study (4 reels)
 
-Status: in progress (started 13:21 IST)
+Status: done at 13:24 IST. All 4 parts covered. Web search was shallow (5 standard queries, no separate X or LinkedIn queries) and found nothing about the page itself.
 
 Source: reference-reels/<id>/reel.info.json and reel.transcript.json. No view counts exist in the data. Times converted from the epoch timestamp field.
 
@@ -39,6 +39,10 @@ Instagram itself is blocked here, so nothing below comes from the page. Searches
 | "metromedia.house" instagram | Nothing about the page. Only unrelated hits (for example https://www.metrotimes.com/arts/27-couples-who-made-detroit-the-backdrop-of-their-wedding-29236247/ , https://socialblade.com/instagram/user/metropoles , a different account). |
 | "Metro Media House" Instagram OR YouTube OR TikTok OR LinkedIn founder | Nothing about the page. Hits were different companies with similar names: https://en.wikipedia.org/wiki/Metromedia (old US broadcaster), https://en.wikipedia.org/wiki/Metro_(magazine) (New Zealand), https://www.smartcompany.com.au/?p=23695 (Metro Media Publishing, Australia). None link to metromedia.house. |
 | USVC usvchq sponsored Instagram reels creators | Nothing about USVC or usvchq. Only general articles on sponsored reels pricing (for example https://stackinfluence.com/blog/how-much-do-instagram-reel-creators-earn-2026 ). |
+| "Metro Media House" PayPal Mafia OR Ackman OR Palantir reel | Nothing about the page. Only general PayPal Mafia pages (for example https://en.wikipedia.org/wiki/PayPal_Mafia ). |
+| USVC AngelList venture fund "$500" Instagram paid partnership creators | Found the sponsor, not its creator deals (see below). |
+
+What USVC is (from search result snippets; pages not opened, so treat as unverified): an SEC-registered venture fund from AngelList with a $500 minimum and no accredited-investor rule, adviser AngelList Asset Management LLC, investment committee chaired by Naval Ravikant, portfolio said to include OpenAI, Anthropic and xAI, launched around April 2026 (one source gives an Aug 2025 trust date, which conflicts). Sources: https://yourstory.com/2026/04/angellist-usvc-venture-fund-500-dollar-entry , https://fintechreview.net/angellist-launches-usvc-fund-for-all-investors/ , https://www.producthunt.com/posts/1130053 , and a This Week in Startups episode titled "Naval's GP, Ankur Nagpal, Breaks Down The Viral USVC Fund" (https://mofibo.com/dk/podcasts/this-week-in-startups-119492/navals-gp-ankur-nagpal-breaks-down-the-viral-usvc-fund-e2284-14299493 ). This matches the sponsor line in our two paid captions. It also explains the topic choice for the paid reels: startup history and "access" stories suit a fund that sells retail access to private companies.
 
 Could not find (all unverified, still open):
 - Follower count of metromedia.house or usvchq.
