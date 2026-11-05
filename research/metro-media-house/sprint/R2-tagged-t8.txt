@@ -1,0 +1,24 @@
+E|Before Intel existed, eight young scientists walked out on their boss.
+T|Their boss had a Nobel Prize, and he called them traitors.
+I|They're basically the PayPal Mafia, just decades before PayPal existed.
+T|History calls them the Traitorous Eight, and the man who called them traitors was William Shockley.
+T|He won a Nobel Prize, but they won Silicon Valley.
+E|In 1957, the eight quit together.
+E|Then they started their own company, called Fairchild.
+E|In 1960, a photographer named Wayne Miller lined them up for one picture.
+E|This one.
+T|Look closely, because almost nobody in it is famous.
+E|But two of them are Robert Noyce and Gordon Moore.
+E|Later, Noyce and Moore left Fairchild and started a new company.
+E|They called it Intel.
+T|So you'd think the traitor label would follow them forever.
+T|It did the opposite.
+T|The name stuck, but as a badge.
+E|People who left Fairchild went on to start other chip companies too.
+I|That is why one walkout from 1957 still gets traced through the chip industry today.
+I|Right now, the AI boom is really a chip boom.
+E|Nvidia reports its results on November 17.
+I|And the phone in your hand runs on chips from the industry those eight helped start.
+T|Eight people, one decision, and they did not know how it would end.
+E|A Nobel winner called them traitors in 1957.
+E|Two of the traitors went on to start Intel.
