@@ -1,0 +1,199 @@
+{
+ "hits": [
+  {
+   "t": 0.1,
+   "peak_t": 0.56,
+   "peak_bands": {
+    "sub": 57.0,
+    "low": 47.4,
+    "lowmid": 29.8,
+    "high": 18.2,
+    "air": -0.1
+   },
+   "centroid_at_peak": 38,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 1.8,
+   "peak_t": 1.82,
+   "peak_bands": {
+    "sub": 35.8,
+    "low": 50.4,
+    "lowmid": 42.4,
+    "high": 21.2,
+    "air": 14.5
+   },
+   "centroid_at_peak": 195,
+   "decay_to_-20dB_s": 0.5
+  },
+  {
+   "t": 2.8,
+   "peak_t": 2.88,
+   "peak_bands": {
+    "sub": 41.6,
+    "low": 52.7,
+    "lowmid": 43.1,
+    "high": 27.1,
+    "air": 11.6
+   },
+   "centroid_at_peak": 191,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 3.9,
+   "peak_t": 4.46,
+   "peak_bands": {
+    "sub": 20.5,
+    "low": 52.5,
+    "lowmid": 41.5,
+    "high": 31.0,
+    "air": 24.4
+   },
+   "centroid_at_peak": 230,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 4.4,
+   "peak_t": 4.46,
+   "peak_bands": {
+    "sub": 20.5,
+    "low": 52.5,
+    "lowmid": 41.5,
+    "high": 31.0,
+    "air": 24.4
+   },
+   "centroid_at_peak": 230,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 6.45,
+   "peak_t": 6.41,
+   "peak_bands": {
+    "sub": 32.2,
+    "low": 52.1,
+    "lowmid": 41.5,
+    "high": 30.0,
+    "air": 16.6
+   },
+   "centroid_at_peak": 219,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 8.1,
+   "peak_t": 8.3,
+   "peak_bands": {
+    "sub": 55.4,
+    "low": 50.0,
+    "lowmid": 36.1,
+    "high": 36.0,
+    "air": 22.1
+   },
+   "centroid_at_peak": 91,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 9.7,
+   "peak_t": 9.86,
+   "peak_bands": {
+    "sub": 35.3,
+    "low": 51.6,
+    "lowmid": 43.7,
+    "high": 28.8,
+    "air": 16.8
+   },
+   "centroid_at_peak": 201,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 10.73,
+   "peak_t": 11.03,
+   "peak_bands": {
+    "sub": 33.5,
+    "low": 52.8,
+    "lowmid": 37.8,
+    "high": 28.8,
+    "air": 15.8
+   },
+   "centroid_at_peak": 189,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 11.03,
+   "peak_t": 11.03,
+   "peak_bands": {
+    "sub": 33.5,
+    "low": 52.8,
+    "lowmid": 37.8,
+    "high": 28.8,
+    "air": 15.8
+   },
+   "centroid_at_peak": 189,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 14.1,
+   "peak_t": 14.14,
+   "peak_bands": {
+    "sub": 24.8,
+    "low": 50.9,
+    "lowmid": 42.0,
+    "high": 30.1,
+    "air": 14.1
+   },
+   "centroid_at_peak": 225,
+   "decay_to_-20dB_s": null
+  },
+  {
+   "t": 14.5,
+   "peak_t": 14.54,
+   "peak_bands": {
+    "sub": 29.3,
+    "low": 49.5,
+    "lowmid": 41.0,
+    "high": 26.1,
+    "air": 18.7
+   },
+   "centroid_at_peak": 241,
+   "decay_to_-20dB_s": null
+  }
+ ],
+ "bed_4.6-6.3": {
+  "top_pitches_hz": [
+   659.4,
+   164.1,
+   27.6,
+   220.0,
+   522.9,
+   110.6,
+   261.8,
+   54.7
+  ],
+  "rms_db": -18.1
+ },
+ "bed_11.4-14.0": {
+  "top_pitches_hz": [
+   879.6,
+   109.6,
+   349.2,
+   174.6,
+   261.5,
+   659.6,
+   523.1,
+   164.6
+  ],
+  "rms_db": -17.9
+ },
+ "intro_0.1-1.6": {
+  "top_pitches_hz": [
+   30.7,
+   40.7,
+   50.7,
+   160.7,
+   65.3,
+   80.0,
+   152.0,
+   58.7
+  ],
+  "rms_db": -1.2
+ }
+}
