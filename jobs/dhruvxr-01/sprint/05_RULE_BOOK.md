@@ -1,6 +1,6 @@
 # 05 dhruvxr rule book
 
-Version 1 (first pass, 07:49 UTC, 5 Nov 2026). Source: `research/dhruvxr/STUDY.md` (cited as §). Nothing here is new measurement; every number comes from the study.
+Version 2 (final, 07:52 UTC, 5 Nov 2026). Source: `research/dhruvxr/STUDY.md` (cited as §), with shot start frames from `research/dhruvxr/raw/shots_by_hand.json`. Nothing here is new measurement; every number comes from the study, except percentages and pixel sizes worked out here from its numbers.
 
 How to read this:
 - **USE** = do it as measured. **CHANGE** = keep the device, change the number, source or scope. **DROP** = do not do it.
@@ -19,8 +19,8 @@ How to read this:
 
 ## 2. Pace
 - **R5 USE.** Total shots 26 to 31 for 15 to 16.5 s. Median shot 4 to 6 f. 35 to 58% of shots are 4 frames or less. Ex: WHP 31 shots, median 6 f, 35% at 4 f or less; ATN 26 shots, median 4 f, 58% [M, hand shot list, ±1 f].
-- **R6 USE.** After the opening burst, one card or one form per hold. Holds 0.9 to 2.4 s (27 to 72 f). Ex: ATN "Attention" f153 to f179 (0.9 s); ATN "Isn't enough anymore." f30 to f66 (1.2 s); WHP keyhole of dots f130 to f194 (2.1 s) [M].
-- **R7 USE.** One second, shorter burst after the middle: 4 to 7 shots of about 3 f within 0.7 to 0.8 s, placed between 43% and 69% of the run time. Ex: ATN f192 to f215 (7 backgrounds at 3 f each, 6.4 to 7.2 s, 43 to 48% in); WHP f322 to f342 (4 shots in 0.7 s, 10.7 to 11.4 s, 65 to 69% in) [M; percentages computed here].
+- **R6 USE.** After the opening burst, one card or one form per hold. Holds 0.9 to 2.4 s (27 to 72 f). Ex: ATN "Attention" f153 to f179 (0.9 s); ATN "Isn't enough anymore." f30 to f66 (1.2 s); WHP keyhole of dots f130 to f194 (65 f, 2.2 s) [M].
+- **R7 USE.** One second, shorter burst after the middle: 4 to 7 shots of 1 to 8 f (3 f each in ATN) within 0.7 to 0.8 s, placed between 43% and 69% of the run time. Ex: ATN f192 to f215 (7 backgrounds at 3 f each, 6.4 to 7.2 s, 43 to 48% in); WHP f322 to f342 (4 shots in 0.7 s, 10.7 to 11.4 s, 65 to 69% in) [M; percentages computed here].
 - **R8 USE.** Cuts stay off the beat grid. Do not snap cuts to beats. Ex: cuts on the beat grid WHP 11% vs 16% chance, ATN 0% vs 17% chance [M, medium trust]. Sound hits follow picture instead (R60).
 - **R9 USE.** The last 2.5 to 5.7 s carry no new idea: only the end mark and black (section 11). Ex: ATN f279 to f447 (5.6 s); WHP wordmark f421 to f494 (2.4 s) [M].
 
@@ -64,7 +64,7 @@ Only the moves in R25 to R31 are allowed (§9.7).
 - **R39 DROP.** Their lines and their argument. No "a great product isn't enough", no "attention isn't earned by features", no "earned by perception" [J, from §9.20 "drop copying"].
 
 ## 7. Picture content
-- **R40 USE.** Monochrome stock-like footage of hands, eyes, crowds and people, licensed or shot by us. Ex: WHP crowd f45 to f90 (2 to 3 s); ATN eye macro f30 to f66 [M frames, J content].
+- **R40 USE.** Monochrome stock-like footage of hands, eyes, crowds and people, licensed or shot by us. Ex: WHP hand writing f16 to f23, crowd f76 to f90; ATN eye macro f30 to f66 [M frames from `raw/shots_by_hand.json`, J content].
 - **R41 USE.** One screen tilted in 3D, with a 2-frame focus pull. It must be our own product UI or a UI designed from scratch. Ex: WHP checkout UI f91 to f111; ATN curved wall of websites f67 to f152 [M].
 - **R42 USE.** Tech and design imagery: UI, terminal-style logs, walls of screens, design-tool selection boxes, profile cards. Ex: WHP log list f112 to f129; ATN selection box f222 to f245 [M].
 - **R43 USE.** One digital glitch moment between 1.4 and 4.3 s (f42 to f129), 9 to 18 f long. Ex: WHP scan-line tear f112 to f129 (18 f); ATN rectangle-offset insert f42 to f50 (9 f) [M].
@@ -85,7 +85,7 @@ Only the moves in R25 to R31 are allowed (§9.7).
 - **R56 DROP.** Copying their effects as built: their keyhole, their Whop UI, their card designs, their particle-to-Whop-logo, their globe. Same kind of device, built from scratch [§9.20].
 
 ## 9. Colour
-- **R57 USE.** Black base. Mean brightness 0.14 to 0.25. Near-black pixels at least 60% (ref 63 to 78%). Near-grey pixels at least 85% (ref 86 to 97%) [M, `colour_stats.py` at 2 fps, medium trust].
+- **R57 USE.** Black base. Mean brightness 0.14 to 0.25. Near-black pixels at least 60% (ref 63 to 78%). Near-grey pixels at least 85% (ref 86 to 97%) [M, `skills/minidoc-reference-style/scripts/colour_stats.py` at 2 fps, medium trust].
 - **R58 USE.** Monochrome footage. Colour only on our own product or brand piece. Mean saturation 0.02 to 0.06; vivid pixels 0.3 to 2.2%. Fail above saturation 0.08 or vivid 3% [M ref; J fail margin]. Ex: WHP orange checkout button f91 to f111; ATN red-orange skier f180 to f278 [M].
 - **R59 USE.** Accent hues: red plus orange/yellow first (51 to 74% of vivid pixels), cyan/blue second (25 to 40%). No full-frame grade or tint; the only tint in the refs is the faint red on the WHP dot globe f343 to f410 [M].
 
@@ -150,3 +150,13 @@ Tick each line. Any "no" is a fail unless the rule says optional.
 - [ ] Last 2.5 to 5.7 s: black, "[STUDIO]" centred at about 5% height, on 72 to 81 f, no fade in, about 24 f fade out. (R65 to R67)
 - [ ] No "dhruv", no Whop, no third-party logo or badge anywhere. (R68, R69)
 - [ ] Every asset logged in SOURCES.txt. (R71)
+
+---
+
+## Not checked for this book
+- Playback and sound: Claude did not watch or hear either video. Sound rules rest on level and speech-band measures (§3).
+- Fonts: no font fit was run; Inter is a judged match. Whether Inter is installed here, and the SF Pro licence, were not checked.
+- Whether the repo's box-glitch ban applies to this piece (R52).
+- Whether 16:9 and 15 s are the page's fixed rules or chance: 2 posts only (§8).
+- The study says WHP has 5 white flash events but lists 6 positions (R15). Not re-counted.
+- Defaults picked here, not measured: 15.0 s length (R3), 0 to 1 white flash (R15), 16 to 20 words (R33), saturation and vivid fail margins (R58), "[STUDIO]" mark size at 5% (R65).
