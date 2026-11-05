@@ -1,6 +1,6 @@
 # S7 Build plan: one Metro Media House style video (Masayoshi Son, idea 1)
 
-Status: in progress (started 13:21 IST, hard stop 13:25:30 IST)
+Status: done (13:24 IST). Built from STUDY.md sections 5, 6, 10, IDEAS.md idea 1 and tool checks with ls, grep and head.
 
 Format: landscape 1920x1080, 25 fps, about 80 s, narrated, loud music bed. Organic post. Real interviews and news footage only, no feature-film clips. Voice picked by ear.
 
@@ -50,3 +50,36 @@ Engines: "Linux" = ffmpeg 7/PIL 12 in this container (both present; Inter-Medium
 | 19 | M logo sting | none, not ours | n/a | Dropped. End on kicker plus callback shot. |
 | 20 | Ad tail cards | none needed | n/a | Dropped (organic). |
 
+## 3. Steps in order (video-agent stages and gates)
+
+Stage numbers follow the table in `skills/video-agent/SKILL.md`. Times are rough working hours, not tested.
+
+| # | Stage and gate | What happens | Where | Time |
+|---|---|---|---|---|
+| 1 | Idea (gate: pick topic) | IDEAS.md idea 1 by default. | done | 0 |
+| 2 | Reference study (gate: use, change or drop list) | STUDY.md section 10 stands; defaults applied above. | done | 0 |
+| 3 | Script in locked stages (`story-script-writer`, `goal-alignment-review`) | 230 to 245 words. Superlative photo hook, name held to 8 to 17 s, paradox line, Son's real "$70 billion" soundbite, ChatGPT zoom-out, mirrored kicker written first. Check every figure (OpenAI figure from SoftBank filings; the "borrowed it first" kicker claim is unchecked). | here | 2 to 3 h |
+| 4 | Format intake | Set 1920x1080, 25 fps on purpose (our default is vertical). Organic. | here | 10 min |
+| 5 | Voice, full read, word timings (gate: pick by ear) | `tts.py voices`, 3 or 4 candidate reads with `tts.py say`, user picks. Word timings with `asr_words.py`. | here (needs ELEVENLABS_API_KEY) plus user ears | 1 h |
+| 6 | Music and sound plan (gate: pick by ear) | Loud bed, hits on story turns, SFX list. | user picks, plan here | 30 to 60 min |
+| 7 | Footage map line by line (`word-matched-broll`; gate: hear the gaps) | About 90 to 120 shots at 1.1 to 1.5 cuts a second. `ytdl.py` for interviews and news, `commons_search.py`, `commons_get.py`, `commons_video_get.py` for licensed stills and clips. Hook photo and soundbite clip first. Rights list per clip. | here | 3 to 5 h |
+| 8 | Word-anchored storyboard (gate: approve) | Effect per word from section 2; inverted cuts on sentence turns; cards every 10 to 20 s; 8 to 15 big words. | here | 2 h |
+| 9 | 3-second pilot beside the reference (`edit-loop-guard`; gate: approve the look) | Grid reveal, cut-out with rim, place swap, first captions. Side-by-side crop against PAL and ACK at the same timecodes. Matte comes from the Mac. Also a caption crop test (section 10 item 8). | matte on Mac, rest here | 2 to 3 h |
+| 10 | Full build and render (gate: say go) | Linux: cuts, inverted frames, logo bursts, cards, video wall, marker push, caption overlay (new script). Mac: person mattes, `counterRow`, zoom blur, any AE effects; JSX checked first with `check_jsx.py`, run with `ae_run.py`. Final assembly in one place (Linux ffmpeg or Premiere). | split | 4 to 6 h |
+| 11 | Review notes (`edit-loop-guard`, `broll-scoring`) | Pace check with `skills/minidoc-reference-style/scripts/ref_stats.py` against STUDY.md section 2; mix check with `research/metro-media-house/tools/gap_level.py` (bed 1 to 4 dB under voice in gaps). | here | 1 to 2 h |
+| 12 | Finish (gate: final approval) | Loudness, credits for licensed items, no M sting, kicker plus callback shot. Nothing posted by us. | here | 1 h |
+| 13 | Feed back | Log what worked into the skills. | here | 30 min |
+
+Total: about 17 to 24 working hours. The peg (SoftBank results, 10 Nov 2026) is 5 days away, so the script and footage stages decide whether we land on it.
+
+## 4. Gaps and risks
+
+1. **Per-word caption tool missing** (effects 8 and 9). `style_captions.py` only restyles a saved Premiere project and was measured on 1080x1920. A new script must place each word at a free x position on its word start. A PIL overlay is the fastest route here (Inter installed, word timings from `asr_words.py`). This is the largest build item and every frame depends on it.
+2. **Person matte is Mac only.** `person_mask.js` needs macOS Vision via osascript; `ps_cutout.jsx` needs Photoshop. No Linux matte tool found in the repo. Effects 2, 3, 4 and 14 wait on the Mac.
+3. **No OCR here.** Found `ocr.swift` (macOS) and `ocr.ps1` (Windows) in `premiere-ae-editing/scripts/media/`; no Linux OCR found in sprint time. Checking burned-in text in news clips and our caption positions against the reference is by eye.
+4. **Footage rights.** News and interview clips are third-party; Commons items carry licences via `commons_get.py`, but wire photos and broadcaster clips do not. The hook photo (Son with Jack Ma) and the "$70 billion" soundbite video are both not found yet. If the soundbite is not found, drop it; never fake it.
+5. **Landscape vs our vertical defaults.** Set 1920x1080, 25 fps in every tool call: `screen_push.py` defaults to 1440x1080 at 30 fps; `style_captions.py` numbers are from 1080x1920. Check every block's default size and fps before use.
+6. **Taste conflict.** effects-library README marks `pixel_reveal` (base for effect 1) as "breaks our taste, do not use unless asked", and the inverted-frame cut is close to the glitch family. Settle both at the 3-second pilot gate.
+7. **Wrong tool cited in STUDY.md.** Effect 13 points to `hail_mary_highlight_streak` for the marker; the marker is in `screen_push.py`. STUDY.md not edited here (rule).
+8. **Facts.** OpenAI stake figure has conflicting sources (rated C in IDEAS.md); the kicker's borrowing claim is unchecked; no investment advice. Stargate photo is political if used.
+9. **Unknowns not checked in sprint time:** HyperFrames install state, a thermal-flash tool (effect 6), music tempo (STUDY.md measured loudness, not tempo), ElevenLabs key presence, `ytdl.py` against YouTube bot checks through the proxy.

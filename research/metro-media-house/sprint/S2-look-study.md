@@ -1,6 +1,6 @@
 # S2 Look study: Metro Media House reels (grade, captions, graphics)
 
-Status: in progress (started 13:21 IST, numbers section written 13:23)
+Status: stopped at deadline, missing: by-eye review of ACK, EIN, YC sheets and strips/, graphic counts for those three reels, grain check, more full-res frames
 
 Reels: PAL=DclpjyxhKF6, ACK=DdHKc5GBqT-, EIN=Dee-mp9BJqG (USVC, paid), YC=DfFsUfUx0dZ (paid).
 
@@ -44,3 +44,35 @@ Clean single-line readings (y top to bottom % of height, x span %):
 - Unreliable (bright frame, band 30 to 99.9%): PAL 11.19, 42.66, 75.91; ACK 0.79, 12.37, 75.59; ACK 87.79 found no white text; YC 0.6, 78.57.
 
 Measured result: the caption is white text centred on the frame's horizontal midline, y centre 48 to 50.5% of height, single line, glyph height (white row extent) 2.8 to 4.7% of frame height (about 30 to 50 px on 1078). x span on single short words is 6 to 10% of width; some spans start at 15 to 30% x, which means the caption line is not always centred horizontally or that other white text was in the frame (not resolved by measurement).
+
+## 3. Grade by eye (JUDGED from the PAL sheet and the full-res YC 44.0s frame; other sheets not reviewed in time)
+
+- Soft, slightly hazy image; footage looks like upscaled archival/interview video, not crisp. Mild glow on white caption text (judged, not measured).
+- Visible edge darkening (vignette) on the YC 44.0s frame, left and right edges darker than centre (judged).
+- Blacks near but not fully crushed (fits p2 of 5 to 9). No strong colour cast overall; mixed warm interiors and cool blue/teal stage and HUD shots.
+- Grain: could not judge at sheet scale.
+- White paper card colour, MEASURED with numpy (median of top-left background region, x 3 to 18%, y 8 to 30%): PAL 8.4s: #d6d6d9 (RGB 214,214,217); PAL 69.9s: #ebe8ec (RGB 235,232,236); PAL 74.4s: #f5f2f6 (RGB 245,242,246). Treat as a light warm-grey off-white, not pure #ffffff (check which of these three frames is a true card before copying).
+
+## 4b. Caption look (JUDGED from the PAL sheet and YC 44.0s full-res frame)
+
+- Default caption: small white clean sans (Helvetica or SF-like, medium weight), no box, soft shadow/glow, centred on the frame midline, builds word by word ("So he auctioned" at 44.0s). Full-res glyph height about 3.5% of frame height (matches measured 2.8 to 4.7%).
+- Hero words: same sans, much bigger and bold (about 2 to 3 times), white, sometimes red for a name ("Tony Stark" in PAL 5.1s) or yellow highlight on a number ("$10,000.00" in the PayPal mock). Examples in PAL: Silicon Valley, Billionaire, apologizing, weapons, autonomous drones, real wars, they didn't like.
+- Words are sometimes scattered across the midline at set x positions ("Throwing him out", "One builds the weapons"), which explains the measured x spans starting at 15 to 30%.
+
+## 5. Motion graphics inventory (JUDGED, PAL sheet only, 85 shots; other reels not counted in time)
+
+- Off-white paper card with cut-out photo or framed picture: about 9 shots (#8, #12, #33, #34, #40, #41, #59, #79 to #81, #83, #84).
+- Fake UI mock-up (PayPal payment screen with tick, amount highlighted yellow): 3 shots (#13, #14, #15).
+- Photo collage or multi-panel split (several photos tiled, white panels): about 6 (#1, #4, #11, #33, #34, #50).
+- Logo card on black (Palantir logo, sometimes with radial web graphic): 3 (#48, #49, #60).
+- HUD / tinted thermal or drone footage overlays (teal, cockpit HUD): about 6 (#35 to #37, #62 to #64).
+- Tilted 3D screen stacks / magazine pages: about 3 (#51 to #53).
+- Chess piece metaphor shots: 2 (#43, #44).
+
+## Look spec (numbers to copy)
+
+- Luma: black point p2 about 6 to 9 (of 255), mid p50 about 72 to 82, white point p98 about 175 to 210, almost no clipping (under 0.01% pixels at 250+).
+- Saturation (HSV mean, shot median): about 0.29 to 0.31 for Metro Media House; keep 10 to 20% of shots near-monochrome. EIN-style (USVC) is a mostly black-and-white grade (sat 0.07, 59% mono).
+- Slight warm lean: about 35% warm shots vs 20% cool.
+- Captions: white sans, no box, single line, y centre 48 to 51% of height, glyph height 3 to 4.5% of height, word-by-word build; hero words 2 to 3 times larger, bold, white, key names red, key numbers yellow highlight.
+- Paper card: off-white, see sampled hex above.

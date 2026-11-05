@@ -42,7 +42,7 @@ Defaults I picked: tile-to-shot alignment follows the printed t0 under each tile
 | 30 | 20.00-20.29 | building | office group | archive footage | M | hold |
 | 31 | 20.29-20.62 | building | office, two people | archive footage | M | hold |
 | 32 | 20.62-21.58 | OpenAI and | OpenAI logo on stage screen | logo | M | proof |
-| 33 | 21.58-22.00 | raising | tower, looking up | real footage (stock) | none | symbol |
+| 33 | 21.58-22.00 | raising | tower, looking up (stock) | real footage | none | symbol |
 | 34 | 22.00-22.46 | $122 | boardroom, suits | film/pop culture | M | symbol |
 | 35 | 22.46-22.79 | (none) | woman in office | film/pop culture | M | hold |
 | 36 | 22.79-23.21 | (none) | suited man seated | film/pop culture | L | hold |
@@ -146,12 +146,11 @@ Rows 63 to 96 give t0 and duration as printed on the tile (t1 = t0 + duration). 
 | ad card | 4 | 6.3 |
 | composite/collage | 8 | 5.9 |
 | text card white | 7 | 5.7 |
-| real footage | 5 | 5.1 |
+| real footage | 6 | 5.5 |
 | text card black | 10 | 4.6 |
 | built UI/object | 6 | 2.5 |
 | logo | 3 | 2.1 |
 | symbol/illustration | 1 | 1.3 |
-| real footage (stock) | 1 | 0.4 |
 
 | subject size | shots | seconds |
 |---|---|---|
