@@ -1,6 +1,6 @@
 # The mass reel formula
 
-Built from Rani's 11 reels (measured), VisionKit's reel and hook research (measured on other pages), the Callaway
+Built from Rani's 11 reels (measured), Cutroom's reel and hook research (measured on other pages), the Callaway
 scripting method (practitioner) and our own review rounds. Where they disagree, the Rani data wins for this kind of
 reel (a founder talking head going for mass reach), and the user's verdicts win over everything.
 
@@ -80,7 +80,7 @@ Practitioner list (no view data): 26 hook formulas from Jakeschincariol/instagra
 Demo (real footage only), Numbered With A Favourite. Avoid: Nobody Tells You when the source is public, The Statistic
 without a real number, The Superlative, Insider Leak or Cost Confession without the person's real numbers.
 
-VisionKit's measured page found number hooks beat plain claims (49.5K vs 5.7K median); Rani's data shows the gap and
+Cutroom's measured page found number hooks beat plain claims (49.5K vs 5.7K median); Rani's data shows the gap and
 the rival matter more than the number. Use a number in the hook when it IS the gap ("Rs 500 shoes").
 
 ## 5. Language and delivery

@@ -26,7 +26,7 @@ Open a new Claude Code session and say one of these:
 | Folder | What |
 |---|---|
 | `attention-compound/` | Story videos: idea, script, reference study, word-matched B-roll, review loop (13 skills) |
-| `visionkit/` | Editing craft: Premiere and After Effects, motion, sourcing and rights, social formats, podcast trailers, batch pipelines (9 skills) |
+| `cutroom/` | Editing craft: Premiere and After Effects, motion, sourcing and rights, social formats, podcast trailers, batch pipelines (9 skills), plus 4 real client files |
 
 ## Honest limits
 It isn't fully automatic. Taste and direction still decide, and some renders get sent back and rebuilt. Claude can't watch or hear the result, so a person checks every cut. The tools were tested on macOS. Footage rights aren't cleared by anything here.

@@ -6,13 +6,13 @@ description: Write, judge and fix talking-head reel scripts built for mass reach
 # Mass reel writer
 
 A professional scriptwriter's method for founder and expert reels that need to reach everyone. Built 21 Oct 2026 from
-Rani's 11 reels (word for word, with views), VisionKit's reel research and the Callaway scripting method, and tested
+Rani's 11 reels (word for word, with views), Cutroom's reel research and the Callaway scripting method, and tested
 against our own review rounds.
 
 ## How sources rank
 1. The user's and the client's verdicts.
 2. Rani's measured reels (`references/rani-breakdown.md`).
-3. VisionKit's measured pages (skills `reel-scripts`, `social-video-formats`).
+3. Cutroom's measured pages (skills `reel-scripts`, `social-video-formats`).
 4. Practitioner advice (skill `script-lab`, the Callaway transcripts).
 
 ## The workflow

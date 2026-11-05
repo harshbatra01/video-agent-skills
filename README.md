@@ -7,7 +7,7 @@ Two-minute tour: [`FOR-JACK.md`](FOR-JACK.md).
 | Pack | For |
 |---|---|
 | [`attention-compound/`](attention-compound/) | Narrated mini-docs and story reels in the Attention Compound style: idea, locked script, reference study, word-matched B-roll, review loop |
-| [`visionkit/`](visionkit/) | Editing craft: Premiere Pro and After Effects by script, motion design, sourcing and rights, social formats, batch pipelines, podcast trailers, meme compilations |
+| [`cutroom/`](cutroom/) | Editing craft: Premiere Pro and After Effects by script, motion design, sourcing and rights, social formats, batch pipelines, podcast trailers, meme compilations |
 
 Each pack stands alone, with its own README, skills and installer. Use one or both.
 
@@ -16,7 +16,7 @@ Each pack stands alone, with its own README, skills and installer. Use one or bo
 ./install.sh            # dry run: shows what would be copied to ~/.claude/skills
 ./install.sh --apply    # install both packs
 ```
-Or install one pack from inside its folder: `cd visionkit && ./install.sh --apply`.
+Or install one pack from inside its folder: `cd cutroom && ./install.sh --apply`.
 Existing skills with the same name are never overwritten. Start a new Claude Code session afterwards.
 
 ## Needs

@@ -1,4 +1,4 @@
-# VisionKit
+# Cutroom
 
 Claude Code skills for professional video editing: plan and cut edits, drive Premiere Pro and After Effects by script, design motion, source and clear footage, and run batch production.
 
@@ -20,6 +20,9 @@ Optional: add the house rules in `CLAUDE.md` to your `~/.claude/CLAUDE.md`. Then
 | `production-automation` | Spec-driven batch pipelines, render pipelines, QA gates, scheduled runs |
 | `podcast-trailers` | Podcast intros, trailers and cold opens from long recordings |
 | `meme-compilation-edit` | Narrated meme and tweet compilations in Premiere |
+
+## Client files
+`clients/` holds four real projects (paid-social ads, daily news pages, faceless automated posts, sports music edits), each with status, taste rules, review history and workflow, so Claude can pick any job up cold.
 
 ## Library
 - `library/pipelines/edits-kit/`: script-first beat-synced sports music edits (song map, footage catalog, mattes, plan, build).

@@ -1,6 +1,6 @@
 ---
 name: script-lab
-description: Find, hook, write and review short-form talking-head scripts built for maximum reach (founder and expert reels, 35-60 s). Combines measured reference data (the "Rani" D2C founder reels, VisionKit's reel and hook research) with the Callaway scripting frameworks (expectation vs reality, shock score, 9 hook formats, 4 hook commandments, 7 story structures, 6 emotions). Use when picking a reel topic, writing or rewriting a hook, drafting a script, or reviewing one before it goes to a client.
+description: Find, hook, write and review short-form talking-head scripts built for maximum reach (founder and expert reels, 35-60 s). Combines measured reference data (the "Rani" D2C founder reels, Cutroom's reel and hook research) with the Callaway scripting frameworks (expectation vs reality, shock score, 9 hook formats, 4 hook commandments, 7 story structures, 6 emotions). Use when picking a reel topic, writing or rewriting a hook, drafting a script, or reviewing one before it goes to a client.
 ---
 
 # Script lab
@@ -10,7 +10,7 @@ for any founder or expert reel.
 
 ## Who wins when sources disagree
 1. The user's and the client's verdicts (dated, in the job's DADDY.md). Always.
-2. Measured data: Rani's 11 reels with views, VisionKit's measured pages (`resources.md` lists them).
+2. Measured data: Rani's 11 reels with views, Cutroom's measured pages (`resources.md` lists them).
 3. Practitioner advice without data: the Callaway transcripts. Useful, but he sells a tool and his "works every
    time" claims are not measured. Where he conflicts with 1 or 2, 1 or 2 wins.
 
@@ -48,6 +48,6 @@ for any founder or expert reel.
 | --- | --- |
 | `references/resources.md` | Every resource we use, where it lives, and what each is good for |
 | `references/discovery.md` | Finding broad topics, the audience ladder, the shock score |
-| `references/hooks.md` | All hook rules: Rani, VisionKit, Callaway's 9 formats and 4 commandments, our own |
+| `references/hooks.md` | All hook rules: Rani, Cutroom, Callaway's 9 formats and 4 commandments, our own |
 | `references/scriptwriting.md` | Story structures, the Rani skeleton, the intro and body rules, the value loop, CTAs |
 | `references/review.md` | The review checklist and score used before anything goes to the client |

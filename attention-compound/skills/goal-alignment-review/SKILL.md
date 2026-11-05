@@ -39,7 +39,7 @@ work by default: you are biased toward what you just made, so argue against it f
 | --- | --- |
 | Reach | The hook and topic sit on the widest rung that still fits the lane; frame 0 would stop a stranger |
 | Buyer fit | A big-catalog merchant would care and trust him more after it |
-| Evidence | Each choice traces to an outlier, a demand cluster or a VisionKit rule, named |
+| Evidence | Each choice traces to an outlier, a demand cluster or a Cutroom rule, named |
 | Gap | A real surprise, paradox, cost gap or belief flip, not a familiar tip |
 | Truth | Every number VERIFIED in DADDY.md section 6; nothing he can't say honestly |
 | Checklist | `script_check.py` passes; the manual checklist items are answered |
