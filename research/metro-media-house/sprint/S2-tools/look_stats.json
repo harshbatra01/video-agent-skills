@@ -1,0 +1,470 @@
+{
+ "PAL": {
+  "p2": 6.351799488067627,
+  "p50": 72.76740264892578,
+  "p98": 211.01638793945312,
+  "con": 189.90796230316164,
+  "sat": 0.30503538250923157,
+  "rb": 0.13851165771484375,
+  "clip": 0.006127450980392157,
+  "crush": 0.46875,
+  "warm_share": 34.11764705882353,
+  "cool_share": 23.52941176470588,
+  "mono_share": 12.941176470588237,
+  "clip_frames_share": 5.88235294117647,
+  "crush_frames_share": 27.058823529411764,
+  "n_shots": 85,
+  "fps": 24.0,
+  "n_frames": 1881,
+  "captions": [
+   {
+    "word": " the",
+    "t": 0.6,
+    "y_top": 35.0,
+    "y_bot": 51.9,
+    "y_c": 48.6,
+    "x0": 15.6,
+    "x1": 62.0,
+    "file": "PAL_0.60.png"
+   },
+   {
+    "word": " a",
+    "t": 11.19,
+    "y_top": 30.0,
+    "y_bot": 99.9,
+    "y_c": 71.6,
+    "x0": 0.0,
+    "x1": 99.9,
+    "file": "PAL_11.19.png"
+   },
+   {
+    "word": " and",
+    "t": 21.26,
+    "y_top": 48.8,
+    "y_bot": 75.3,
+    "y_c": 51.3,
+    "x0": 12.7,
+    "x1": 57.0,
+    "file": "PAL_21.26.png"
+   },
+   {
+    "word": " the",
+    "t": 32.96,
+    "y_top": 48.4,
+    "y_bot": 51.9,
+    "y_c": 50.3,
+    "x0": 15.8,
+    "x1": 30.2,
+    "file": "PAL_32.96.png"
+   },
+   {
+    "word": " back",
+    "t": 42.66,
+    "y_top": 30.0,
+    "y_bot": 95.8,
+    "y_c": 57.6,
+    "x0": 4.9,
+    "x1": 87.9,
+    "file": "PAL_42.66.png"
+   },
+   {
+    "word": " enemies",
+    "t": 53.92,
+    "y_top": 70.7,
+    "y_bot": 75.1,
+    "y_c": 72.8,
+    "x0": 41.3,
+    "x1": 68.6,
+    "file": "PAL_53.92.png"
+   },
+   {
+    "word": " quietly",
+    "t": 64.36,
+    "y_top": 48.2,
+    "y_bot": 52.6,
+    "y_c": 50.5,
+    "x0": 45.6,
+    "x1": 54.5,
+    "file": "PAL_64.36.png"
+   },
+   {
+    "word": " you",
+    "t": 75.91,
+    "y_top": 30.0,
+    "y_bot": 99.9,
+    "y_c": 65.7,
+    "x0": 0.0,
+    "x1": 99.9,
+    "file": "PAL_75.91.png"
+   }
+  ],
+  "colour_json": {
+   "label": "DclpjyxhKF6",
+   "frames": 157,
+   "mean_saturation": 0.294,
+   "mean_brightness": 0.456,
+   "colourfulness_median": 29.8,
+   "colourfulness_p90": 44.2,
+   "vivid_pixels_pct": 17.7,
+   "near_black_pct": 21.4,
+   "near_grey_pct": 31.9,
+   "vivid_hue_share_pct": {
+    "red": 31,
+    "orange_yellow": 26,
+    "green": 4,
+    "cyan_blue": 39,
+    "purple_pink": 1
+   }
+  }
+ },
+ "ACK": {
+  "p2": 8.579791984558105,
+  "p50": 81.63560104370117,
+  "p98": 172.7335968017578,
+  "con": 161.48133575439456,
+  "sat": 0.29741719365119934,
+  "rb": 2.1515350341796875,
+  "clip": 0.0,
+  "crush": 1.0692401960784315,
+  "warm_share": 32.0,
+  "cool_share": 26.400000000000002,
+  "mono_share": 11.200000000000001,
+  "clip_frames_share": 4.8,
+  "crush_frames_share": 32.0,
+  "n_shots": 125,
+  "fps": 25.0,
+  "n_frames": 2374,
+  "captions": [
+   {
+    "word": " the",
+    "t": 0.79,
+    "y_top": 48.8,
+    "y_bot": 99.9,
+    "y_c": 86.6,
+    "x0": 0.0,
+    "x1": 57.4,
+    "file": "ACK_0.79.png"
+   },
+   {
+    "word": " made",
+    "t": 12.37,
+    "y_top": 30.0,
+    "y_bot": 99.9,
+    "y_c": 74.4,
+    "x0": 0.0,
+    "x1": 99.9,
+    "file": "ACK_12.37.png"
+   },
+   {
+    "word": " the",
+    "t": 24.42,
+    "y_top": 48.8,
+    "y_bot": 51.6,
+    "y_c": 50.1,
+    "x0": 46.9,
+    "x1": 53.1,
+    "file": "ACK_24.42.png"
+   },
+   {
+    "word": " him",
+    "t": 35.64,
+    "y_top": 49.0,
+    "y_bot": 51.8,
+    "y_c": 50.3,
+    "x0": 45.7,
+    "x1": 54.1,
+    "file": "ACK_35.64.png"
+   },
+   {
+    "word": " walked",
+    "t": 48.27,
+    "y_top": 48.8,
+    "y_bot": 51.6,
+    "y_c": 50.2,
+    "x0": 29.6,
+    "x1": 38.0,
+    "file": "ACK_48.27.png"
+   },
+   {
+    "word": " you.",
+    "t": 62.72,
+    "y_top": 48.1,
+    "y_bot": 59.7,
+    "y_c": 53.7,
+    "x0": 29.7,
+    "x1": 69.6,
+    "file": "ACK_62.72.png"
+   },
+   {
+    "word": " got",
+    "t": 75.59,
+    "y_top": 30.0,
+    "y_bot": 99.2,
+    "y_c": 64.5,
+    "x0": 0.0,
+    "x1": 99.9,
+    "file": "ACK_75.59.png"
+   },
+   {
+    "word": " Neither",
+    "t": 87.79,
+    "y_c": null,
+    "file": "ACK_87.79.png"
+   }
+  ],
+  "colour_json": {
+   "label": "DdHKc5GBqT-",
+   "frames": 190,
+   "mean_saturation": 0.359,
+   "mean_brightness": 0.373,
+   "colourfulness_median": 28.0,
+   "colourfulness_p90": 66.7,
+   "vivid_pixels_pct": 21.6,
+   "near_black_pct": 24.5,
+   "near_grey_pct": 29.9,
+   "vivid_hue_share_pct": {
+    "red": 30,
+    "orange_yellow": 18,
+    "green": 3,
+    "cyan_blue": 48,
+    "purple_pink": 1
+   }
+  }
+ },
+ "EIN": {
+  "p2": 5.540899991989136,
+  "p50": 66.0,
+  "p98": 192.3636016845703,
+  "con": 160.4331353282929,
+  "sat": 0.074440136551857,
+  "rb": -0.046092987060546875,
+  "clip": 0.006127450980392157,
+  "crush": 1.878063725490196,
+  "warm_share": 18.64406779661017,
+  "cool_share": 10.16949152542373,
+  "mono_share": 59.32203389830508,
+  "clip_frames_share": 0.0,
+  "crush_frames_share": 33.05084745762712,
+  "n_shots": 118,
+  "fps": 25.0,
+  "n_frames": 2984,
+  "captions": [
+   {
+    "word": " one",
+    "t": 0.76,
+    "y_top": 30.0,
+    "y_bot": 87.3,
+    "y_c": 49.4,
+    "x0": 22.4,
+    "x1": 73.7,
+    "file": "EIN_0.76.png"
+   },
+   {
+    "word": " didn't.",
+    "t": 19.06,
+    "y_top": 30.0,
+    "y_bot": 85.4,
+    "y_c": 54.9,
+    "x0": 29.9,
+    "x1": 69.9,
+    "file": "EIN_19.06.png"
+   },
+   {
+    "word": " what",
+    "t": 35.79,
+    "y_top": 46.6,
+    "y_bot": 50.0,
+    "y_c": 48.2,
+    "x0": 29.8,
+    "x1": 37.2,
+    "file": "EIN_35.79.png"
+   },
+   {
+    "word": " only",
+    "t": 51.39,
+    "y_top": 53.9,
+    "y_bot": 58.6,
+    "y_c": 56.5,
+    "x0": 40.2,
+    "x1": 65.6,
+    "file": "EIN_51.39.png"
+   },
+   {
+    "word": " stay",
+    "t": 67.74,
+    "y_top": 46.5,
+    "y_bot": 51.2,
+    "y_c": 49.2,
+    "x0": 30.9,
+    "x1": 68.6,
+    "file": "EIN_67.74.png"
+   },
+   {
+    "word": " understanding",
+    "t": 86.02,
+    "y_top": 47.1,
+    "y_bot": 53.1,
+    "y_c": 50.0,
+    "x0": 24.6,
+    "x1": 56.0,
+    "file": "EIN_86.02.png"
+   },
+   {
+    "word": " God",
+    "t": 102.2,
+    "y_top": 47.0,
+    "y_bot": 51.6,
+    "y_c": 49.4,
+    "x0": 27.0,
+    "x1": 32.9,
+    "file": "EIN_102.20.png"
+   },
+   {
+    "word": " send",
+    "t": 118.18,
+    "y_top": 40.6,
+    "y_bot": 57.5,
+    "y_c": 48.9,
+    "x0": 28.5,
+    "x1": 62.3,
+    "file": "EIN_118.18.png"
+   }
+  ],
+  "colour_json": {
+   "label": "Dee-mp9BJqG",
+   "frames": 239,
+   "mean_saturation": 0.173,
+   "mean_brightness": 0.425,
+   "colourfulness_median": 4.4,
+   "colourfulness_p90": 25.9,
+   "vivid_pixels_pct": 6.8,
+   "near_black_pct": 23.9,
+   "near_grey_pct": 67.5,
+   "vivid_hue_share_pct": {
+    "red": 19,
+    "orange_yellow": 42,
+    "green": 2,
+    "cyan_blue": 37,
+    "purple_pink": 0
+   }
+  }
+ },
+ "YC": {
+  "p2": 8.89835223197937,
+  "p50": 80.15340232849121,
+  "p98": 185.8945083618164,
+  "con": 169.54305112838745,
+  "sat": 0.2882820963859558,
+  "rb": 4.017906188964844,
+  "clip": 0.0,
+  "crush": 0.24816176470588236,
+  "warm_share": 39.516129032258064,
+  "cool_share": 12.903225806451612,
+  "mono_share": 19.35483870967742,
+  "clip_frames_share": 8.064516129032258,
+  "crush_frames_share": 26.61290322580645,
+  "n_shots": 124,
+  "fps": 24.0,
+  "n_frames": 1924,
+  "captions": [
+   {
+    "word": " be",
+    "t": 0.6,
+    "y_top": 47.4,
+    "y_bot": 99.9,
+    "y_c": 83.5,
+    "x0": 10.8,
+    "x1": 87.2,
+    "file": "YC_0.60.png"
+   },
+   {
+    "word": " He",
+    "t": 11.19,
+    "y_top": 47.9,
+    "y_bot": 51.3,
+    "y_c": 49.8,
+    "x0": 43.8,
+    "x1": 53.9,
+    "file": "YC_11.19.png"
+   },
+   {
+    "word": " billion,",
+    "t": 23.52,
+    "y_top": 47.4,
+    "y_bot": 51.2,
+    "y_c": 49.7,
+    "x0": 41.5,
+    "x1": 49.0,
+    "file": "YC_23.52.png"
+   },
+   {
+    "word": " the",
+    "t": 33.45,
+    "y_top": 43.9,
+    "y_bot": 49.0,
+    "y_c": 46.9,
+    "x0": 40.0,
+    "x1": 60.8,
+    "file": "YC_33.45.png"
+   },
+   {
+    "word": " auctioned",
+    "t": 44.0,
+    "y_top": 48.1,
+    "y_bot": 52.0,
+    "y_c": 50.4,
+    "x0": 38.9,
+    "x1": 60.7,
+    "file": "YC_44.00.png"
+   },
+   {
+    "word": " Coinbase.",
+    "t": 55.49,
+    "y_top": 73.7,
+    "y_bot": 77.1,
+    "y_c": 75.4,
+    "x0": 45.8,
+    "x1": 49.7,
+    "file": "YC_55.49.png"
+   },
+   {
+    "word": " the",
+    "t": 67.68,
+    "y_top": 47.0,
+    "y_bot": 50.8,
+    "y_c": 49.2,
+    "x0": 37.8,
+    "x1": 53.3,
+    "file": "YC_67.68.png"
+   },
+   {
+    "word": " guide",
+    "t": 78.57,
+    "y_top": 30.0,
+    "y_bot": 99.9,
+    "y_c": 64.0,
+    "x0": 12.3,
+    "x1": 87.2,
+    "file": "YC_78.57.png"
+   }
+  ],
+  "colour_json": {
+   "label": "DfFsUfUx0dZ",
+   "frames": 160,
+   "mean_saturation": 0.249,
+   "mean_brightness": 0.437,
+   "colourfulness_median": 24.3,
+   "colourfulness_p90": 52.4,
+   "vivid_pixels_pct": 14.5,
+   "near_black_pct": 22.1,
+   "near_grey_pct": 45.8,
+   "vivid_hue_share_pct": {
+    "red": 37,
+    "orange_yellow": 29,
+    "green": 5,
+    "cyan_blue": 28,
+    "purple_pink": 1
+   }
+  }
+ }
+}
