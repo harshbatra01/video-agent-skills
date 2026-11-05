@@ -1,5 +1,7 @@
 # Son script, broad draft v0 (6 Nov 2026)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Mentions of "no film clips" below are out of date.
+
 **Status: broad draft, not locked.** Written on the user's request for one broad draft first. `story-script-writer` normally locks one stage at a time; after this draft we lock in order: core question, outline, hook, body, outro, language pass, title.
 
 - **Logline (stranger test):** The man who bought Nvidia before the AI boom sold it twice, the second time crying, to bet his company on OpenAI.

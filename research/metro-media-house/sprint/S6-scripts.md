@@ -1,5 +1,7 @@
 # S6: three full scripts for Metro Media House
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Where this file says "no film clips" or "drop film clips", that no longer applies.
+
 Status: stopped at deadline, missing: scripts 2 (Jensen Huang) and 3 (Traitorous Eight). Script 1 is complete.
 
 Defaults: ideas 1 (Masayoshi Son), 3 (Jensen Huang), 4 (Traitorous Eight). Idea 2 (OpenAI Mafia) skipped: conflict-of-interest flag in IDEAS.md (Claude is made by Anthropic). Organic post, no ad tail. No feature-film clips: real interviews and news footage only. Timings assume 175 words a minute. Captions for every row: every spoken word built on its word start, Inter Medium, cap height about 3.5% of frame, centred at 44 to 52% height, white on dark, black on paper, big words at 3 to 4 times size (STUDY.md section 5).

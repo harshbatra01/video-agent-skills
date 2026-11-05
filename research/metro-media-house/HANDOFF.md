@@ -32,8 +32,8 @@ Reel codes: PAL = DclpjyxhKF6 (Palmer Luckey, organic), ACK = DdHKc5GBqT- (Bill 
 8. Nothing was heard or watched in motion. The voice, music and sound effects are unchecked.
 
 ## Decisions already made by the user
-- Organic post (no ad tail), no feature-film clips (real interviews and news only), voice picked by ear.
+- Organic post (no ad tail), voice picked by ear. Footage: no restrictions (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions).
 - Work sequentially with approval at each step.
 
 ## Where the work stopped
-The user is reviewing the study (Step 1 of 8: study, open decisions, topic, script, sound, storyboard, 3-second test, full build). No topic has been chosen yet. Recommended topic: Masayoshi Son (IDEAS.md idea 1), with the fixes in `sprint/S8-red-team.md`.
+The video job is in `jobs/son-01/` (Masayoshi Son, "he sold Nvidia twice"). Script v3 is locked as text, pending fact and asset checks: `jobs/son-01/script/DRAFT-v3.md`. See `jobs/son-01/HANDOFF.md` and `DADDY.md`.

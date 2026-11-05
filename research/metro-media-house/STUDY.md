@@ -355,7 +355,7 @@ Where it goes: S = script stage (`story-script-writer`), I = idea pick (`idea-fi
 11. **USE: one real soundbite** where someone else owns the key line. Where: S beat 5, E. Rights: see 14.
 12. **USE: printed numbers and logo bursts** for every figure and every list. Where: E, M #11 and #12.
 13. **USE: a loud music bed,** 1 to 4 dB under the voice in gaps, with the voice nearly non-stop at 170 to 185 words a minute. Where: A (`gap_level.py` to check the mix).
-14. **CHANGE: film and pop-culture clips** (Iron Man, The Wolf of Wall Street, likely The Godfather). They are central to the organic style, but their rights are unclear. Where: E footage map. The user must decide the rights rule before the footage map (`edit-loop-guard` loop 4). Fallback: real news and interview footage of the subject, plus a printed comparison line.
+14. **USE: film and pop-culture clips** (Iron Man, The Wolf of Wall Street, likely The Godfather). They are central to the organic style. Where: E footage map. Rights settled (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions).
 15. **CHANGE: the M logo sting.** It is Metro's brand mark. Ending on the kicker plus a callback shot keeps the rhythm without copying the mark. Where: F. If the user wants a sting, we design our own.
 16. **CHANGE: the photo walk-through** (B&W except the named person, white silhouette flash). Use it only when the idea is a group photo, as in YC. Where: M #14, I.
 17. **CHANGE: the ending type.** Build the organic ending by default. Add the 9 to 11 s ad tail only if the user says the post is a paid placement. Where: S, F.
@@ -365,6 +365,6 @@ Where it goes: S = script stage (`story-script-writer`), I = idea pick (`idea-fi
 21. **DROP: anything that copies the page's exact assets:** its M mark, its exact captions or its exact layouts frame for frame. Same look and rhythm, our own footage, type set from scratch and our own designs. Where: all stages.
 22. **OPEN for the user, before scripting:**
     a. Is our video organic or a paid placement? Default: organic.
-    b. Rights rule for film clips and news footage. Default: real interviews and news only, no feature films.
+    b. Rights rule for film clips and news footage. Settled (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions).
     c. Topic: should the next idea come from the gaps in section 8 (a famous network photo plus a paradox)? Default: yes, run `idea-finder` with the section 8 checklist and bring back 3 to 5 candidates.
     d. Voice: we could not hear theirs. Default: pick by ear against the reels.

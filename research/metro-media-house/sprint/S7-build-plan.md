@@ -1,5 +1,7 @@
 # S7 Build plan: one Metro Media House style video (Masayoshi Son, idea 1)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Where this file says "no film clips" or "drop film clips", that no longer applies.
+
 Status: done (13:24 IST). Built from STUDY.md sections 5, 6, 10, IDEAS.md idea 1 and tool checks with ls, grep and head.
 
 Format: landscape 1920x1080, 25 fps, about 80 s, narrated, loud music bed. Organic post. Real interviews and news footage only, no feature-film clips. Voice picked by ear.

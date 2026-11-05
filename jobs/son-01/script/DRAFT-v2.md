@@ -1,5 +1,7 @@
 # Son script, draft v2, with hook options and comparison variants (6 Nov 2026)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Mentions of "no film clips" below are out of date.
+
 **Status: draft, not locked.** It applies the fixes from AUDIT-v1:
 - numbers cut from 14 to 11;
 - famous names in the first sentence;

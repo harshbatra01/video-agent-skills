@@ -1,5 +1,7 @@
 # S5 Rule book: Metro Media House style, buildable without the study
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Where this file says "no film clips" or "drop film clips", that no longer applies.
+
 Status: done
 
 Sources: research/metro-media-house/STUDY.md, numbers.json, SHOT-LOG.md. Reel codes: PAL=DclpjyxhKF6, ACK=DdHKc5GBqT- (organic Metro), YC=DfFsUfUx0dZ (paid on Metro), EIN=Dee-mp9BJqG (USVC, style cousin).

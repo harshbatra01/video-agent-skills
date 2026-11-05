@@ -1,6 +1,6 @@
 # Next-video ideas for the Metro Media House style (5 Nov 2026)
 
-Defaults applied (user, 5 Nov): organic post (no ad tail), real interviews and news footage only (no feature films), voice picked by ear later.
+Defaults applied (user, 5 Nov): organic post (no ad tail), voice picked by ear later. Footage: no restrictions (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions).
 
 ## How this was run
 `skills/idea-finder` flow, steps 1 to 6, by hand:
@@ -26,7 +26,7 @@ Fact grades follow `story-script-writer`: A = read at the primary source, B = re
 **Story in 2 lines:** In 2000, Son was briefly the richest man on Earth, then lost about $70 billion in the crash. Six minutes with Jack Ma turned $20 million into a stake once worth more than $200 billion. Now the same gut has put more than $60 billion into OpenAI, and his own credit rating is flinching.
 - **Hook photo:** Son with Jack Ma. A famous handshake photo is likely, but needs finding. Alternative: the Jan 2025 Stargate announcement photo (Trump, Son, Altman, Ellison). It is stronger as "the most expensive photo", but political.
 - **Hook draft:** "This might be the most expensive handshake in history, and the man on the left is about to find out if he can do it twice."
-- **Comparison slot:** open. "basically the biggest gambler in tech" needs a sharper pop-culture match. No film clips under the defaults.
+- **Comparison slot:** open. "basically the biggest gambler in tech" needs a sharper pop-culture match. Film clips are allowed (user, 6 Nov).
 - **Paradox:** the gut call that made him is the gut call that could break SoftBank.
 - **Beats with numbers:** about $70 billion lost in the crash (B); richest for three days (B); $20 million in Alibaba after a 5 to 6 minute meeting (B); stake above $200 billion at the 2020 peak (B); more than $60 billion into OpenAI for roughly 11 to 13% (C, sources conflict); S&P outlook moved to negative (B); executives asked what happens if OpenAI fails (B, Bloomberg, May 2026).
 - **Real clip:** Son has said "We lost around $70 billion" on record (B). Find the video.

@@ -1,5 +1,7 @@
 # R2 script: The Traitorous Eight (idea 4)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Where this file says "no film clips" or "drop film clips", that no longer applies.
+
 Status: done at hard stop. Organic post, no ad tail, no film clips. Format and beats from S6 script 1; hook rules from S8 (hook 11 words, Intel on screen by 3 s, kicker reuses body facts). Word count of script as read: 232.
 
 ## 1. Script as read, with beats

@@ -90,5 +90,5 @@ render. Details: `references/daddy-file.md`.
 - Disk: renders with grain compress badly (500+ MB clean passes). Check free space before a render; a full disk broke a mix.
 - Audio offsets: put `adelay` in the mix stage, never in the extraction with `-t` (the delay pushed the soundbite past the
   cut-off and it came out silent).
-- Never use the YouTube bot-check workaround; news footage comes from public-domain or CC sources (VOA, NASA, WEF CC BY)
-  or from the user.
+- Never use the YouTube bot-check workaround. Footage rights: any clip may be used, copyrighted or not, including
+  feature films and news (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions); keep SOURCES.txt.

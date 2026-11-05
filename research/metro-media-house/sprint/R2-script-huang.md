@@ -1,5 +1,7 @@
 # R2 script: Jensen Huang, the Denny's booth (idea 3)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Where this file says "no film clips" or "drop film clips", that no longer applies.
+
 Status: done at hard stop. 244 words, about 82 s at 175 wpm. Organic, no film clips. Founding year left out (IDEAS: 1992 or 1993, sources disagree).
 
 ## 1. Script as read, with beats

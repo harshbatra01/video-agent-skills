@@ -25,4 +25,4 @@
 Plain English, short points, exact numbers, no em dashes. Reports must be readable in the app, not only as a text file link.
 
 ## Rights
-Real news and interview clips were allowed by the user on one job, who accepted the risk. That is not a blanket clearance, so ask on each job. Keep a source list. Check the voice plan allows posting: the free ElevenLabs tier was noted as not licensed for it. Famous theme music is likely to get a claim.
+User verdict, 6 Nov 2026, standing for future jobs: any footage may be used, including copyrighted and licensed clips (feature films, news, interviews), without restriction. Do not ask per job. Still keep a source list (SOURCES.txt) so every clip can be found again. Check the voice plan allows posting: the free ElevenLabs tier was noted as not licensed for it. Famous theme music is likely to get a claim.

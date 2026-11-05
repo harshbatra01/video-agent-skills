@@ -15,11 +15,12 @@ The single source of truth for this video. Every addition goes through the revie
 See `../../research/metro-media-house/STUDY.md` section 5 and `sprint/S5-rule-book.md`. Job-specific rules get IDs here (S1...) when the storyboard starts.
 
 ## 4. User verdicts (they win over everything)
-- 5 Nov 2026: organic post, no feature-film clips, voice by ear (defaults accepted).
+- 5 Nov 2026: organic post, voice by ear (defaults accepted).
+- 6 Nov 2026: there is no film-clip rule. Any copyrighted or licensed clip may be used, without restriction, on this and future jobs.
 - 6 Nov 2026: topic is Masayoshi Son. Do deep research first, then one broad draft, following the scripting skills.
 - 6 Nov 2026: work sequentially, with approval at each step.
 - 6 Nov 2026: hook H1 if the Son and Jensen Huang photo exists; otherwise the user's H4: "This man missed out on 150 billion dollars by selling Nvidia, and then did the exact same mistake again" ("did" changed to "made" for usage).
-- 6 Nov 2026: comparison C (James Bond at the poker table) WITH the actual movie footage. This overrides the no-film-clips default for this line only.
+- 6 Nov 2026: comparison C (James Bond at the poker table) WITH the actual movie footage.
 
 ## 5. Script
 Not locked. Current: `script/DRAFT-v3.md` (251 words), text locked pending fact and asset checks. Earlier: v0, v1, v2.
@@ -36,3 +37,4 @@ See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at i
 | D4 | 6 Nov | Tight draft v1: 279 to 248 words; photo hook; open loop; WeWork cut; peg moved to on-screen text | PROPOSED | User asked for a tighter version matching the repo skills and Metro |
 | D5 | 6 Nov | Draft v2: 8 hook options, 3 comparison variants (Buffett, Uncut Gems, Bond), numbers 14 to 11 | PROPOSED | User asked for multiple hooks and both comparison types |
 | D6 | 6 Nov | v3: H1 (fallback user's H4), comparison C with Bond film footage | USER VERDICT | User picks |
+| D7 | 6 Nov | Removed every no-film-clip and licence restriction from job, research and skill files | USER VERDICT | "No problem with copyrighted or any other licensed clips, use everything without any restrictions" |

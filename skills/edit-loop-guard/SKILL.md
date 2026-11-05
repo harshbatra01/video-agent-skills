@@ -49,7 +49,7 @@ The Elon job drifted. Each round asked "does it match the reference and the last
 - Said: "as much videos as there were in reference". The gap never closed: about 17% moving clips in v18 against about 67% in the reference.
 - Meant: real moving footage, and tell me plainly if we cannot get it.
 - Repeated 4 Nov: "most of the time, we used photos as B-rolls", and of Altman's videos, "I want the same". So the target is Altman's share, about 67% moving footage, unless the user changes it.
-- Altman's look includes real interviews, hearings and news hosts. Open-licence sources could not supply these on Elon (7% news footage against 29%). Settle clip rights with the user before the footage map.
+- Altman's look includes real interviews, hearings and news hosts. Open-licence sources could not supply these on Elon (7% news footage against 29%). Clip rights are settled: the user allows any footage, copyrighted or not, including films (6 Nov 2026).
 - Rule: make a footage map before the storyboard. If the share cannot be reached, say so before building and give options. Never fill with stills quietly.
 - Rule: every status report states the moving share until it meets the target or the user waives it.
 - Rule: B-roll must match the word being said. The subject fills at least 50% of the frame, is never cut by the edge (#16, #30), and is never a stand-in face.

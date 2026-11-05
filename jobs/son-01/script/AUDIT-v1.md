@@ -1,5 +1,7 @@
 # Audit of DRAFT-v1 against every script check in the repo (6 Nov 2026)
 
+> Update 6 Nov 2026 (user verdict): there is no film-clip rule and no licence restriction. Any copyrighted clip, including feature films, may be used. Mentions of "no film clips" below are out of date.
+
 Tools run: `story-script-writer/scripts/interest_score.py`, and `mass-reel-writer/scripts/reel_metrics.py` on v1 and on the 3 Metro transcripts (PAL, ACK, YC), so they are compared with the same tool. Checklists scored by hand: the interest score's 12 checks, the mass-reel-writer scorecard, the script-lab review (Callaway, house hook rules K1 to K13, house voice), first-three-seconds, the Metro formula (STUDY.md s7) and the sprint findings (S3, S5, S8).
 
 **Note on fit:** `mass-reel-writer` and `script-lab` were built on 35 to 60 s talking-head founder reels. Their word targets (100 to 170) and list-shape rules do not apply to an 80 s narrated mini-doc. Where they conflict with measured Metro data, Metro wins (they rank measured data above practitioner advice).

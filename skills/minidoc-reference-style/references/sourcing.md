@@ -7,7 +7,7 @@
     at Davos 2026). Transcribe them (`asr_words.py`) and search for a soundbite that fits the story.
   - NASA and SpaceX footage is mostly public domain or CC0.
   - CNBC uploads on Commons under CC BY 3.0 give TV hosts on the NYSE floor (crop out unrelated chyrons).
-- Images: `commons_pool.py` with open licences only (PD, CC0, CC BY). Review every pick on a sheet: searches return
+- Images: `commons_pool.py` (open licences), but any image or clip may be used (user verdict 6 Nov 2026: any copyrighted or licensed clips may be used, including feature films; no restrictions). Review every pick on a sheet: searches return
   Confederate notes for "money", saints for "justice", nude statues, watermarked photos, election ballots.
 - Never: the YouTube PO-token route (works around a bot check), browser cookies, or scraping sites that ban it.
   Ask the user for clips that only exist on YouTube or news sites, or for licensed stock.
