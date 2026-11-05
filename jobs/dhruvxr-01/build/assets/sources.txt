@@ -1,0 +1,33 @@
+# Sources for build/assets (fetched 6 Nov 2026 on the boss's Mac)
+# Licences: Pexels = Pexels License (free, commercial use, no credit needed). Mixkit = Mixkit Free License (free, commercial use).
+# Neither covers trademarks or a person's likeness used to imply endorsement. Check before a paid post.
+# Clips are trimmed to 10 s or less, audio removed, re-encoded H.264 at the source resolution. Times below are in the trimmed file.
+
+notification_stack.mp4  https://www.pexels.com/video/scrolling-through-mobile-phone-853796/  1920x1080 8.0 s. WEAK MATCH: a thumb scrolling an inbox, not a flood of notifications. Nothing better on Pexels or Mixkit.
+sticky_notes.mp4        https://www.pexels.com/video/sticky-notes-on-wall-853759/  1920x1080 8.0 s. Grid of notes on a wall. A person crosses in front at about 4 to 6 s; cleanest at 0 to 3 s.
+tangled_cables.mp4      https://www.pexels.com/video/a-person-is-working-on-a-table-with-a-bunch-of-wires-5090782/  4096x2160 10.0 s. Messy pile of cables, hands sort through it.
+alarm_clock.mp4         https://mixkit.co/free-stock-video/alarm-clock-activated-close-up-on-a-black-background-28883/  3840x2160 10.0 s. Ringing the whole time (hammer moves frame to frame, checked). Clock face is cut by the bottom edge, bells at top.
+whiteboard.mp4          https://www.pexels.com/video/person-wiping-a-whiteboard-853977/  1920x1080 10.0 s. A hand wipes scribbles. Arm moves most at 1 to 3 s; scribbles are clearest at about 7.5 s.
+typing_fast.mp4         https://mixkit.co/free-stock-video/hands-of-a-programmer-typing-on-a-keyboard-41646/  3840x2160 9.1 s. Hands on a lit keyboard. (First pick 41287 was vertical, so replaced.)
+office_lowangle.mp4     https://mixkit.co/free-stock-video/open-office-space-and-staircase-917/  3840x2160 8.0 s. Busy open office. NOT low angle (shot from a staircase above). A person walks past close to camera at about 7 s, best at 7.2 s.
+office_crowd.mp4        https://www.pexels.com/video/sport-fans-cheering-for-their-team-in-unison-3192307/  3840x2160 10.0 s. Fans facing camera, arms up, face paint. Lots of energy. Faces are recognisable.
+crowd_threshold.mp4     https://mixkit.co/free-stock-video/people-walking-in-the-street-in-japan-4437/  1920x1080 10.0 s. Dense street crowd walking toward and past camera, daylight.
+crowd_above.mp4         https://www.pexels.com/video/black-and-white-video-of-people-853889/  1920x1080 10.0 s. Directly top down, people walking on a white plaza. Already black and white.
+slowshutter_crowd.mp4   https://mixkit.co/free-stock-video/travelers-at-the-grand-central-station-4182/  3840x2160 8.4 s. Grand Central main hall, time lapse with motion-blurred people.
+stairwell.mp4           https://www.pexels.com/video/high-angle-view-of-a-circular-staircase-5986347/  1920x1080 9.4 s. Spiral staircase looking straight down. A railing passes in front at 0 to 3 s; clean spiral from 5 s, best at 6 s.
+fisheye.mp4             https://www.pexels.com/video/low-angle-shot-of-a-person-rock-climbing-4481766/  3840x2160 10.0 s. WEAK MATCH: low angle up a rock face under trees, not fisheye, and the climber is small (top centre).
+
+collage_01.jpg  https://www.pexels.com/photo/6803525/  2560x1707  open office, team at desks
+collage_02.jpg  https://www.pexels.com/photo/3184319/  2560x1707  top down, two people on laptops
+collage_03.jpg  https://www.pexels.com/photo/4974912/  2560x1707  hands typing code on a laptop
+collage_04.jpg  https://www.pexels.com/photo/5439478/  2560x1707  team at a whiteboard with sticky notes
+collage_05.jpg  https://www.pexels.com/photo/6147022/  2560x1685  three people around a laptop
+collage_06.jpg  https://www.pexels.com/photo/5473298/  2560x1707  developer at night with monitors
+collage_07.jpg  https://www.pexels.com/photo/3862374/  2560x1708  product moment: laptop with a UI sketch on paper
+collage_08.jpg  https://www.pexels.com/photo/462267/   1999x1333  city at night, bridge and skyline (smaller file)
+collage_09.jpg  https://www.pexels.com/photo/355034/   2560x1707  city at night, skyline and light trails
+
+logo.png, logo.svg, wordmark.png, wordmark.svg  https://static.linear.app/design-assets/Linear-Brand-Assets.zip  (light versions, unchanged). Rules in brand_notes.txt.
+
+NOT INCLUDED
+ui.mp4, ui.png  Not made. Recording the Linear app needs a Linear account and sign-in, which Claude may not create or type. The boss records it (DIRECTION_v1 step 4 already says "You record").

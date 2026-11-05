@@ -1,0 +1,41 @@
+Linear brand notes
+Source: https://linear.app/brand (read 6 Nov 2026)
+Assets zip: https://static.linear.app/design-assets/Linear-Brand-Assets.zip
+
+FILES HERE (renamed from the zip, contents unchanged)
+- logo.png      = logo-light.png (400x400, white #FFFFFF on transparent)
+- logo.svg      = logo-light.svg (fill #fff)
+- wordmark.png  = wordmark-light.png (1600x400, white #FFFFFF on transparent)
+- wordmark.svg  = wordmark-light.svg (fill #fff)
+The PNGs are small (logo 400 px). Scale from the SVGs for anything bigger.
+
+DOMAIN FOR THE VOICE-OVER
+- linear.app (the brand page itself is served from linear.app). Your assumption is right.
+
+NAMING (summarised from the page)
+- "Linear" is one word with a capital L. It names both the company and the app.
+- Do not say "Linear app".
+- Named releases are capitalised as proper nouns, for example "Linear Method".
+
+USAGE RULES (summarised from the page)
+- Give the assets plenty of space. They can be big or small but must not feel cramped or cluttered.
+- The graphics are proprietary. Do not alter the files in any way.
+- Do not show them in a way that implies a relationship, affiliation or endorsement by Linear.
+- Do not use them in your own product, business or service name.
+- Do not combine them with other graphics without written consent from Linear.
+- Wordmark: use it in references to Linear where space allows. It has stronger recognition than the logomark.
+- Logomark: for tight layouts or logo-only grids.
+- Icon (rounded "chip"): for referring to Linear as a company, for example on social media. Not included here.
+
+COLOURS
+- Monochrome use is preferred, with these two accents:
+  - Mercury White: RGB 244, 245, 248, #F4F5F8
+  - Nordic Gray: RGB 35, 35, 38, #222326
+- The primary brand colour, a desaturated blue, is mostly kept for backgrounds. The page gives no hex for it.
+- Note: the light files in the zip are pure #FFFFFF, not Mercury White.
+
+FLAGS FOR THIS SPEC FILM
+- "No combining with other graphics" and "no implied endorsement" both matter for a spec ad.
+  Label the post "spec, not affiliated", and keep the mark unaltered and on its own.
+  Turning the mark black and white is fine, since it is already white.
+  Grain, glow or distortion on the mark would count as altering it.
