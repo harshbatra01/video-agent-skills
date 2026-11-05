@@ -20,7 +20,7 @@ goal-alignment review. Claude can't watch or hear the final video; say so in the
 | C11 | The ending leaves a high note |
 | C12 | As short as it can be |
 
-## B. Rani and VisionKit checks
+## B. Rani and Cutroom checks
 | # | Check |
 | --- | --- |
 | R1 | Widest rung that still fits the lane |

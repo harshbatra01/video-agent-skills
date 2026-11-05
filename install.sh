@@ -4,7 +4,7 @@
 #   ./install.sh --apply   do it
 set -eu
 HERE="$(cd "$(dirname "$0")" && pwd)"
-for pack in attention-compound visionkit; do
+for pack in attention-compound cutroom; do
   echo "== $pack"
   "$HERE/$pack/install.sh" "${1:-}"
 done

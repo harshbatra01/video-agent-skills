@@ -28,7 +28,7 @@ Then, in a new Claude Code session: "Make a video about X. Start with the video-
 `examples/anthropic-ipo/` is one real job: script versions, story library, B-roll plan and decision file (`DADDY.md`).
 
 ## Needs
-Python 3 with Pillow and numpy, ffmpeg, ffprobe, yt-dlp. `idea-finder`'s radar also needs Horizon and last30days (see its `scripts/README.md`). HyperFrames, GSAP skills and `sound` are third-party: install them from their own repos. Some skills point to the companion `visionkit/` skills for Premiere and After Effects work.
+Python 3 with Pillow and numpy, ffmpeg, ffprobe, yt-dlp. `idea-finder`'s radar also needs Horizon and last30days (see its `scripts/README.md`). HyperFrames, GSAP skills and `sound` are third-party: install them from their own repos. Some skills point to the companion `cutroom/` skills for Premiere and After Effects work.
 
 ## Limits
 Built from two real jobs, not a proven hit formula. Tools were tested on macOS only. Claude cannot watch or hear the result.

@@ -30,7 +30,7 @@ Some blocks may have job paths or sample inputs, so read the script before runni
 
 ## References
 - `references/library-verdicts.md`: verdict on vibe-motion, sound, gsap-skills and video-shotcraft moves, with licences. Those repos are not in this pack.
-- `references/effects-catalog.md`: looks by script moment. It points to the companion VisionKit skills in `visionkit/`.
+- `references/effects-catalog.md`: looks by script moment. It points to the companion Cutroom skills in `cutroom/`.
 
 ## Warnings from reading third-party skills
 - `vibe-motion/skills` has no licence and is unmaintained. Learn from it.

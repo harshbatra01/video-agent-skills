@@ -12,7 +12,7 @@ with `~`.
 | Darren Shaw (@darrenshawseo), 2 posts | `research/reference-darrenshaw.md` | The news-to-tip format: "Google just did X, here's how in 3 steps"; why the broad tip beat the local one 13x on likes |
 | YouTube scan, 157 videos | `03-reference-research.md` | Gaps in the SEO niche |
 
-## VisionKit (the companion skills in `visionkit/`)
+## Cutroom (the companion skills in `cutroom/`)
 | Resource | Where | Good for |
 | --- | --- | --- |
 | Story-reel formula (measured page) | `~/.claude/skills/reel-scripts/references/story-reel-formula.md` | Number hooks 49.5K vs plain claims 5.7K; "you" 318K vs 7.5K |

@@ -157,4 +157,4 @@ taste file for the exact context), REF (measured on the Altman reference), UNTES
 1. Read the script and tag each line with a moment number from this file.
 2. For each tag, pick one option, checked against the client file and the kit taste file. Prefer TESTED, then KIT-KEEP.
 3. Show the plan as a table (time, line, effect, tool, why), with one recommendation per spot, before building.
-4. After the review, update the Status column here (dated) and the kit taste notes in `visionkit/skills/motion-design`.
+4. After the review, update the Status column here (dated) and the kit taste notes in `cutroom/skills/motion-design`.

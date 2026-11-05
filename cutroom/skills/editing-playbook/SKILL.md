@@ -142,7 +142,7 @@ Full phrasebook: references/reviews-and-versions.md section 3.
 | Podcast trailers, cold opens, ad reads | podcast-trailers |
 | Meme and tweet compilations | meme-compilation-edit |
 
-Client-specific rules, versions and history belong in each job's own notes. When a review teaches something
+Client-specific rules, versions and history: the client files in `clients/`. When a review teaches something
 general, add a dated line to the matching reference here; when it is a taste verdict, add it to taste-verdicts.md.
 
 Sources: real production jobs, Sept to Oct 2026.

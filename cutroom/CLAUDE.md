@@ -1,6 +1,6 @@
 # House rules for video editing work
 
-Use the VisionKit skills for any editing, Premiere, After Effects, research, scripting or content-format task. Start
+Use the Cutroom skills for any editing, Premiere, After Effects, research, scripting or content-format task. Start
 any edit, cut or review round with **editing-playbook**; **premiere-ae-editing** runs the tools.
 
 - Never destroy work: disable clips instead of deleting them, save a new project or render version (`_v2`, `_v3`)
