@@ -25,3 +25,13 @@
 ## Open after the sprint
 - EIN shot labels 53 to 97, and a tile check of 1 to 52 (S1c), Huang and Traitorous Eight scripts, red team of the Son script, grain check, graphic counts for ACK, EIN and YC.
 - The hook length rule from S8 (10 to 14 words) conflicts with the S6 Son hook (25 words). Settle it before scripting.
+
+## Round 2 (13:26 to 13:29 IST, 6 agents, 2-minute time box)
+| File | Status | One-line finding |
+|---|---|---|
+| `R2-ein-labels-53-97.md` | Stopped, 0 of 45 labelled | Row skeleton only (times and words for shots 53 to 97); the tiles were not opened in time. |
+| `R2-tools/grid_reveal.py` + `R2-grid-reveal.md` + `R2-tools/test/` | Test ran | The opener effect now exists as a script: blurred photo, 9 white #F2F1EF blocks popping into a 3x3 grid in groups of 2 to 3, each fading to sharp over 3 to 4 frames, faint grid lines. Tested at 960x540 on a PIL placeholder (38 frames). The lead checked the contact sheet: the effect is visible. Not yet compared frame by frame with the reference strips; no subject cut-out or background swap. |
+| `R2-tools/caption_words.py` + `R2-caption-tool.md` | See the file's own status at commit time | Prototype of the missing per-word caption placer (Inter Medium, centred at 50%, words spread, black on bright frames). |
+| `R2-script-huang.md` | Started late, see file | Huang script for idea 3; may be a stub at the stop. |
+| `R2-script-traitorous-eight.md` | Started late, see file | Traitorous Eight script for idea 4; may be a stub at the stop. |
+| `R2-son-script-redteam-and-v2.md` | Started late, see file | Red team and v2 of the Son script; may be a stub at the stop. |

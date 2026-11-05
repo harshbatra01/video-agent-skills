@@ -1,0 +1,21 @@
+E| Nvidia was planned in this Denny's booth, then came 30 days from broke.
+T| Most tech legends start in a garage.
+T| This one started at a diner table.
+T| His name's Jensen Huang, and he runs the world's most valuable chip company like it's about to go bankrupt.
+E| Before Nvidia, Huang had worked at Denny's, washing dishes.
+E| Years later, he walked into a Denny's in San Jose and held the first meetings for a new chip company.
+I| He called it Nvidia.
+T| The early years were brutal.
+E| At one point, Nvidia came within 30 days of running out of money.
+T| Thirty days, and the company you know today would not exist.
+T| So you'd think that once it worked, he'd relax.
+T| He did the opposite.
+E| Nvidia grew into the most valuable chip company in history, and Huang kept saying the same line.
+I| He says he has used it for 33 years.
+E| He's said it himself: "We're 30 days from going out of business."
+T| That's the man running the most valuable chip company on the planet, talking like a diner owner behind on rent.
+E| In 2023, Denny's put a plaque on that booth.
+I| On November 17, Nvidia is expected to report its results again.
+I| And every time you ask an AI chatbot a question, there's a good chance it runs on Nvidia chips.
+E| Once, it was 30 days from broke.
+T| Now it's the most valuable chip company in history, and it's still run like it's 30 days from broke.
