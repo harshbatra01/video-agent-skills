@@ -20,7 +20,7 @@ See `../../research/metro-media-house/STUDY.md` section 5 and `sprint/S5-rule-bo
 - 6 Nov 2026: work sequentially, with approval at each step.
 
 ## 5. Script
-Not locked. Broad draft: `script/DRAFT-v0.md`.
+Not locked. Current draft: `script/DRAFT-v1.md` (248 words). Earlier: `script/DRAFT-v0.md`.
 
 ## 6. Facts
 See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at its source and marked here as VERIFIED.
@@ -31,3 +31,4 @@ See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at i
 | D1 | 6 Nov | Angle A "sold Nvidia twice" over "lost $70B" | PROPOSED | "Lost $70B" is covered many times on YouTube; Nvidia is fresher and has 3 real soundbites |
 | D2 | 6 Nov | Hook "owned Nvidia" changed to "bought Nvidia" | DONE | Accuracy: he held 4.9% |
 | D3 | 6 Nov | Kicker "cost him" changed to "missed out on" | DONE | Accuracy: it was a missed gain, not a loss |
+| D4 | 6 Nov | Tight draft v1: 279 to 248 words; photo hook; open loop; WeWork cut; peg moved to on-screen text | PROPOSED | User asked for a tighter version matching the repo skills and Metro |

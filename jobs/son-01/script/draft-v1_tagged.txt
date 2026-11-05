@@ -1,0 +1,22 @@
+# Son draft v1 (tight). (SB) = his own voice from a real clip.
+T| This might be the most expensive photo in AI.
+T| The man next to Jensen Huang sold Nvidia. Twice.
+T| And the second time, he cried doing it.
+I| He's basically the opposite of Warren Buffett.
+T| His name's Masayoshi Son, and the habit that made him a fortune is the same habit that keeps losing him one.
+E| In 2000, he was briefly the richest man on Earth, until the dot-com crash wiped out about 70 billion dollars.
+E| Around the same time, he gave Jack Ma 20 million dollars after a six-minute meeting.
+E| That bet on Alibaba grew past 150 billion.
+E| So in 2017, he went looking for the next one, and put about 4 billion dollars into a gaming chip company called Nvidia.
+E| Then the stock dropped, and in 2019 he sold every share.
+T| But Nvidia kept climbing.
+I| The shares he sold would later be worth about 150 billion dollars.
+E| (SB) The fish that got away was big.
+T| So you'd think he'd never let go again.
+E| Last year, he bought back into Nvidia.
+E| Then he sold every last share, 5.8 billion dollars' worth, to put the money into OpenAI.
+E| (SB) I was crying to sell Nvidia shares.
+I| Today he has 64.6 billion dollars in OpenAI, about an eighth of the company, and part of it is borrowed.
+I| So every time you ask ChatGPT something, you're using his biggest bet.
+T| The first time he sold Nvidia, it was the fish that got away.
+T| This time, he's betting OpenAI is the bigger fish.

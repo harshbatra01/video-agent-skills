@@ -1,0 +1,13 @@
+draft-v1_tagged.txt
+  words                   248
+  sentences               21
+  avg_sentence            11.8
+  longest_sentence        23
+  event_pct               47
+  tension_pct             33
+  info_pct                21
+  longest_info_run        2
+  pct_before_first_event  22
+  hard_word_pct           6.7
+  reading_ease            76
+reference range (4 scripts): event 40-79%, info 4-31%, info run 1-5, sentence 10.7-15.6, ease 68-80
