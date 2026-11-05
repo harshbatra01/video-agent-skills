@@ -1,0 +1,82 @@
+{
+"text": "Ideas. Ownership. Every business. One checkout. This is where the internet gets paid. WAP.com",
+"words": [
+{
+"w": " Ideas.",
+"s": 1.4,
+"e": 2.0
+},
+{
+"w": " Ownership.",
+"s": 4.48,
+"e": 5.58
+},
+{
+"w": " Every",
+"s": 6.56,
+"e": 6.82
+},
+{
+"w": " business.",
+"s": 6.82,
+"e": 7.46
+},
+{
+"w": " One",
+"s": 8.02,
+"e": 8.3
+},
+{
+"w": " checkout.",
+"s": 8.3,
+"e": 8.88
+},
+{
+"w": " This",
+"s": 9.9,
+"e": 10.26
+},
+{
+"w": " is",
+"s": 10.26,
+"e": 10.7
+},
+{
+"w": " where",
+"s": 10.7,
+"e": 10.86
+},
+{
+"w": " the",
+"s": 10.86,
+"e": 11.22
+},
+{
+"w": " internet",
+"s": 11.22,
+"e": 11.52
+},
+{
+"w": " gets",
+"s": 11.52,
+"e": 11.9
+},
+{
+"w": " paid.",
+"s": 11.9,
+"e": 12.48
+},
+{
+"w": " WAP",
+"s": 14.28,
+"e": 14.5
+},
+{
+"w": ".com",
+"s": 14.5,
+"e": 15.3
+}
+],
+"duration": 16.4906875,
+"language": "en"
+}
