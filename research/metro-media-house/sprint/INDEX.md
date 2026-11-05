@@ -6,7 +6,7 @@
 |---|---|---|
 | `S1a-shot-labels-PAL-ACK.md` | Done (PAL 73/73, ACK 162/162) | Mid-size subjects (20 to 50% of frame height) get the most screen time (PAL 41%, ACK 44%). PAL is mostly built composites (28% of time); ACK is mostly real footage (archive, interview, film: 58%). |
 | `S1b-shot-labels-YC-EIN.md` | Stopped at deadline (YC 123/123, EIN 0/97) | YC is mostly archive footage (52 of 123 shots), held together by the group photo, which flashes in colour and then turns desaturated with each new person picked out (shots 1-5, 12, 41-42, 54-55, 82-83). |
-| `S1c-shot-labels-EIN.md` | Late start, see its status line | EIN labels from shot 1, as many as fit before 13:25:50. |
+| `S1c-shot-labels-EIN.md` | Stopped at deadline (EIN 48/97) | EIN shots 1 to 48 labelled by splitting the grouped SHOT-LOG reading by word timing; tiles not checked shot by shot. Shots 49 to 97 unlabelled. |
 | `S2-look-study.md` + `S2-sheets/` + `S2-tools/` | Stopped at deadline (ACK, EIN, YC graphics only skimmed; no grain check) | PAL, ACK and YC share one dark, low-key grade: black point p2 6 to 9, mid p50 66 to 82, white point p98 173 to 211, almost no clipping, saturation about 0.29 to 0.31, slight warm lean. Captions are white, centred at 48 to 51% height, 3 to 4.5% tall. Paper cards are off-white, about #ebe8ec to #f5f2f6. |
 | `S3-page-study.md` | Done | The two most-liked reels (PAL 51,224, ACK 41,062) are organic, each about one famous living man with a "basically [movie hero]" hook and a short lowercase caption. The two weakest are USVC-paid, with "most important photo" hooks and long captions. A hypothesis, since 4 reels change together. Nothing found on who runs the page. |
 | `S4-web-research.md` | Done | Nothing found on who runs Metro Media House or who makes the USVC reels. The technique sources are real (Card Wipe grid reveal, Invert effect, paper cut-out tutorials). All comment-to-DM numbers are vendor claims. 31 URLs, weak ones marked. |
@@ -23,5 +23,5 @@
 4. IDEAS.md idea 1: the Son kicker "This time, he borrowed it first" rests on an unchecked claim. Use S8's rewrite or check it first (S8).
 
 ## Open after the sprint
-- EIN shot labels (see S1c), Huang and Traitorous Eight scripts, red team of the Son script, grain check, graphic counts for ACK, EIN and YC.
+- EIN shot labels 49 to 97 (S1c), Huang and Traitorous Eight scripts, red team of the Son script, grain check, graphic counts for ACK, EIN and YC.
 - The hook length rule from S8 (10 to 14 words) conflicts with the S6 Son hook (25 words). Settle it before scripting.
