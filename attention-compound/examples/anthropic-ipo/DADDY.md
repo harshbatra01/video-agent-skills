@@ -19,7 +19,6 @@ Same as minidoc-01 DADDY section 2, plus its story rules: number in the hook, pl
 - 3 Nov 2026: angle is the brakes. Keep all angle context in one place before the script.
 
 - 4 Nov 2026: the Elon video did not work when posted. User's main reason: too many effects and sound effects in the first seconds, so it felt very fast and hard to grasp. It was a stress test. This video optimises for virality, read from the user's "parallelity", so do not repeat that opening.
-- 4 Nov 2026: Elon video result, from the user: under 500 views. No watch time, skip rate or follower count on file yet.
 - 4 Nov 2026: format is landscape only, like the Sam Altman video, posted on Instagram. Replaces 1080x1920. Exact ratio open: Altman is 4:3 (960x720). Default 4:3 at 1440x1080, 30 fps.
 - 4 Nov 2026: voice: "choose any voice" for now, revisit after hearing it. Working read is Adam on Eleven v4 Turbo.
 

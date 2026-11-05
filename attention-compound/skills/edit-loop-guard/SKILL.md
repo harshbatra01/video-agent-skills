@@ -1,6 +1,6 @@
 ---
 name: edit-loop-guard
-description: Stops the iteration loops from the Elon video (18 versions in 5 days, under 500 views). Holds what the user actually meant by each important note, and the rule that stops each loop. Use it on any narrated video edit: before planning or storyboarding, before building, whenever the user gives edit notes or timecodes, whenever an effect, sound, graphic or B-roll is added or changed, and before showing any version. Pair with editing-playbook and the job's DADDY.md.
+description: Stops the iteration loops from the Elon video (18 versions in 5 days). Holds what the user actually meant by each important note, and the rule that stops each loop. Use it on any narrated video edit: before planning or storyboarding, before building, whenever the user gives edit notes or timecodes, whenever an effect, sound, graphic or B-roll is added or changed, and before showing any version. Pair with editing-playbook and the job's DADDY.md.
 ---
 
 # Edit loop guard
@@ -12,7 +12,7 @@ The intents below are Claude's reading of the user's words. The user can overrul
 ## The one intent
 The user asked for a video with "an equal opportunity for going viral" (#1) and loved the reference for its "impact and psychology of retention" (#15). Copying the reference was the method, not the goal.
 
-The Elon job drifted. Each round asked "does it match the reference and the last note?" and no round asked "will a stranger stay?" It ended at 18 versions and under 500 views. The user's main reason: too many effects and sounds in the first seconds, hard to grasp.
+The Elon job drifted. Each round asked "does it match the reference and the last note?" and no round asked "will a stranger stay?" It ended at 18 versions. The user's main reason: too many effects and sounds in the first seconds, hard to grasp.
 
 **Test for every decision: does a first-time viewer understand this and want the next second?** If matching the reference hurts that, say so.
 

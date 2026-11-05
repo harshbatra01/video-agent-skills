@@ -5,7 +5,7 @@ description: The start point for making a narrated mini-doc or story video from 
 
 # Video agent
 
-Built from 2 jobs: the Elon video (18 versions, under 500 views) and the Anthropic IPO video (v4, no verdict or posted result yet). So this is what we learned, not a proven hit formula.
+Built from 2 jobs: the Elon video (18 versions) and the Anthropic IPO video (v4, no verdict or posted result yet). So this is what we learned, not a proven hit formula.
 
 **The test for every decision: does a first-time viewer understand this and want the next second?** Copying a reference is the method, not the goal.
 

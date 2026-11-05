@@ -12,7 +12,6 @@ Claude reads frames and numbers. It cannot watch motion or hear. These are 4 ref
 - Our Elon video had 17 shots in its first 5 s, inside the references' 7 to 19.
 - Altman's first 5 s stays on one subject. Elon's moved through about 5.
 - The user's rule: keep changing the visuals, not the context.
-- Our Elon video got under 500 views. No watch data is on file, so this is a likely cause, not a proven one.
 
 ## Numbers
 | | Altman | AC Elon | AC Max | Asym birthday | Our Elon v18 |
