@@ -1,0 +1,17 @@
+{
+ "note": "Outcome sample pages (14 Oct 2026). PLACEHOLDER page identity until the user names the pages. accent = Outcome Signal Green #1AFF57, accent2 = the house red. Forked from vc-news (music pages untouched).",
+ "default_account": "yourpage",
+ "accent": "#1AFF57",
+ "accent2": "#FF3B30",
+ "logo": null,
+ "accounts": {
+  "yourpage": {
+   "display_name": "Your Page",
+   "handle": "@yourpage",
+   "wordmark": "YOUR PAGE",
+   "avatar": "assets/accounts/yourpage.png",
+   "verified": false,
+   "tweet_style": "dark"
+  }
+ }
+}

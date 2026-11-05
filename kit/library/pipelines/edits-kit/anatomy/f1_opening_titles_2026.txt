@@ -1,0 +1,10 @@
+f1_opening_titles_2026: 81.0s 1920x816 25.00fps | 109 BPM | drop 1.0s (+5.1 dB)
+shots 45 | median 1.64s | min 0.12s | max 12.88s
+cuts/s per 2s: 0.0 0.5 0.5 0.0 0.5 0.5 1.0 0.5 1.0 2.0 1.0 2.0 0.5 0.5 0.5 0.0 1.5 0.5 0.5 1.0 0.0 0.5 1.0 0.5 0.5 0.5 0.5 0.5 0.0 1.0 0.5 1.5 0.0 0.0 0.5 0.0 0.0 0.0 0.0 0.0 0.0
+flashes per 2s: 1 1 0 0 0 1 0 0 0 1 1 3 0 1 0 0 0 0 1 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0  (total 13)
+motion per 2s: 0.5 0.6 0.3 0.0 0.1 0.1 0.3 0.1 1.0 0.4 0.9 0.3 1.8 0.1 1.2 0.8 1.9 0.1 0.8 0.5 0.0 0.6 1.2 0.6 0.2 0.5 0.0 1.0 0.2 0.1 0.8 2.8 2.4 0.4 0.1 0.2 0.0 0.0 0.2 0.0 0.0
+breaths: []
+B&W: [] | black frames at: [70.36]
+motifs: []
+on kick/snare: cuts {'n': 44, 'on_hit_pct': 77.3, 'chance_pct': 36.1, 'median_offset_frames': -0.3} | flashes {'n': 13, 'on_hit_pct': 76.9, 'chance_pct': 36.1, 'median_offset_frames': -0.3}
+on 8th-note grid: cuts {'n': 44, 'on_hit_pct': 47.7, 'chance_pct': 43.5, 'median_offset_frames': -0.05} | flashes {'n': 13, 'on_hit_pct': 69.2, 'chance_pct': 43.5, 'median_offset_frames': 0.3}

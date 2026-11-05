@@ -1,0 +1,6026 @@
+[
+ {
+  "name": "AEK Athens",
+  "short": "AEK",
+  "code": "AEK",
+  "code_espn": "AEK",
+  "primary": "#FFFF00",
+  "secondary": "#000000",
+  "on_dark": "#FFFF00",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FFFF00"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN yellow and black agree with the Wikipedia kit (socks #FFE200, shorts #000000)",
+  "country": "gr",
+  "league": "Super League Greece",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "AEK Athens FC",
+   "AEK Athens F.C.",
+   "AEK",
+   "AEK Athens"
+  ],
+  "espn_id": "887"
+ },
+ {
+  "name": "AS Roma",
+  "short": "Roma",
+  "code": "ROM",
+  "code_espn": "ROMA",
+  "primary": "#F0BC42",
+  "secondary": "#8E1F2F",
+  "on_dark": "#F0BC42",
+  "colours": [
+   {
+    "name": "Giallo Roma",
+    "hex": "#F0BC42"
+   },
+   {
+    "name": "Rosso Roma",
+    "hex": "#8E1F2F"
+   },
+   {
+    "name": "Gray",
+    "hex": "#CACACC"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/a-s-roma-color-codes/",
+  "colour_confidence": "high",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Roma",
+   "A.S. Roma"
+  ],
+  "espn_id": "104"
+ },
+ {
+  "name": "Arsenal",
+  "short": "Arsenal",
+  "code": "ARS",
+  "code_espn": "ARS",
+  "primary": "#EF0107",
+  "secondary": "#063672",
+  "on_dark": "#F11F25",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#EF0107"
+   },
+   {
+    "name": "Dark Red",
+    "hex": "#DB0007"
+   },
+   {
+    "name": "Blue",
+    "hex": "#063672"
+   },
+   {
+    "name": "Gold",
+    "hex": "#9C824A"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/arsenal-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UCL",
+   "EPL"
+  ],
+  "aliases": [
+   "Arsenal FC",
+   "Arsenal F.C.",
+   "The Gunners"
+  ],
+  "espn_id": "359"
+ },
+ {
+  "name": "Aston Villa",
+  "short": "Villa",
+  "code": "AVL",
+  "code_espn": "AVL",
+  "primary": "#670E36",
+  "secondary": "#95BFE5",
+  "on_dark": "#A46E86",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#95BFE5"
+   },
+   {
+    "name": "Claret",
+    "hex": "#670E36"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FEE505"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/aston-villa-fc-color-codes/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Blue first; the club is claret and blue",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UCL",
+   "EPL"
+  ],
+  "aliases": [
+   "Aston Villa FC",
+   "Villa",
+   "Aston Villa F.C."
+  ],
+  "espn_id": "362"
+ },
+ {
+  "name": "Atletico Madrid",
+  "short": "Atletico",
+  "code": "ATM",
+  "code_espn": "ATM",
+  "primary": "#CB3524",
+  "secondary": "#FFFFFF",
+  "on_dark": "#D14D3E",
+  "colours": [
+   {
+    "name": "Navy Blue",
+    "hex": "#272E61"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Red",
+    "hex": "#CB3524"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/atletico-madrid-colors/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Navy Blue first; red and white stripes are the shirt",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Atlético Madrid",
+   "Atletico de Madrid",
+   "Atlético de Madrid",
+   "Club Atletico de Madrid",
+   "Atleti",
+   "Atlético",
+   "Atletico"
+  ],
+  "espn_id": "1068"
+ },
+ {
+  "name": "FC Barcelona",
+  "short": "Barcelona",
+  "code": "BAR",
+  "code_espn": "BAR",
+  "primary": "#004D98",
+  "secondary": "#A50044",
+  "on_dark": "#477FB5",
+  "colours": [
+   {
+    "name": "Gold",
+    "hex": "#EDBB00"
+   },
+   {
+    "name": "Blue",
+    "hex": "#004D98"
+   },
+   {
+    "name": "Burgundy",
+    "hex": "#A50044"
+   },
+   {
+    "name": "Red",
+    "hex": "#DB0030"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFED02"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/barcelona-fc-colors/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Gold first (crest colours); Blue and Burgundy are the club colours (blaugrana)",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Barcelona",
+   "Barca",
+   "Barça",
+   "FCB"
+  ],
+  "espn_id": "83"
+ },
+ {
+  "name": "FC Bayern Munich",
+  "short": "Bayern",
+  "code": "BAY",
+  "code_espn": "MUN",
+  "primary": "#DC052D",
+  "secondary": "#0066B2",
+  "on_dark": "#E33757",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#0066B2"
+   },
+   {
+    "name": "Red",
+    "hex": "#DC052D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/bayern-munich-fc-colors/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Blue first; red is the shirt colour",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Bayern Munich",
+   "Bayern Munchen",
+   "Bayern München",
+   "FC Bayern Munchen",
+   "FC Bayern München",
+   "Bayern",
+   "FC Bayern Munich"
+  ],
+  "espn_id": "132"
+ },
+ {
+  "name": "FK Bodo/Glimt",
+  "short": "Bodo/Glimt",
+  "code": "BOD",
+  "code_espn": "BODO",
+  "primary": "#FCEE33",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FCEE33",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FCEE33"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN yellow matches the all-yellow Wikipedia kit (#FFDD00); white secondary is ESPN only (crest is yellow and black)",
+  "country": "no",
+  "league": "Eliteserien",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Bodo/Glimt",
+   "Bodø/Glimt",
+   "FK Bodø/Glimt",
+   "Glimt",
+   "FK Bodo/Glimt"
+  ],
+  "espn_id": "2980"
+ },
+ {
+  "name": "Borussia Dortmund",
+  "short": "Dortmund",
+  "code": "BVB",
+  "code_espn": "DOR",
+  "primary": "#FDE100",
+  "secondary": "#000000",
+  "on_dark": "#FDE100",
+  "colours": [
+   {
+    "name": "Yellow",
+    "hex": "#FDE100"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/borussia-dortmund-color-codes/",
+  "colour_confidence": "high",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Dortmund",
+   "BVB",
+   "BVB 09"
+  ],
+  "espn_id": "124"
+ },
+ {
+  "name": "Club Brugge",
+  "short": "Club Brugge",
+  "code": "BRU",
+  "code_espn": "BRU",
+  "primary": "#0078BF",
+  "secondary": "#000000",
+  "on_dark": "#1483C4",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#0078BF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Gold",
+    "hex": "#D59F0F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/club-brugge-color-codes/",
+  "colour_confidence": "high",
+  "country": "be",
+  "league": "Belgian Pro League",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Club Brugge KV",
+   "Brugge"
+  ],
+  "espn_id": "570"
+ },
+ {
+  "name": "Como",
+  "short": "Como",
+  "code": "COM",
+  "code_espn": "COMO",
+  "primary": "#215AAE",
+  "secondary": "#FFFFFF",
+  "on_dark": "#4D7BBE",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#215AAE"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams ; https://en.wikipedia.org/wiki/Como_1907",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN #4169E1 looks like a placeholder blue; kit blue used",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Como 1907",
+   "Como FC",
+   "Como"
+  ],
+  "espn_id": "2572"
+ },
+ {
+  "name": "FC Porto",
+  "short": "Porto",
+  "code": "FCP",
+  "code_espn": "FCP",
+  "primary": "#00428C",
+  "secondary": "#FFFFFF",
+  "on_dark": "#527EB1",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#00428C"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Red",
+    "hex": "#D60019"
+   },
+   {
+    "name": "Green",
+    "hex": "#009634"
+   },
+   {
+    "name": "Gold",
+    "hex": "#E9B245"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/porto-colors/",
+  "colour_confidence": "high",
+  "country": "pt",
+  "league": "Primeira Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Porto",
+   "F.C. Porto"
+  ],
+  "espn_id": "437"
+ },
+ {
+  "name": "Fenerbahce",
+  "short": "Fenerbahce",
+  "code": "FEN",
+  "code_espn": "FEN",
+  "primary": "#FFED00",
+  "secondary": "#00417F",
+  "on_dark": "#FFED00",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E3001E"
+   },
+   {
+    "name": "Blue",
+    "hex": "#00417F"
+   },
+   {
+    "name": "Green",
+    "hex": "#2EAA47"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFED00"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com (Fenerbahce Basketball page, same club brand)",
+  "colour_source_url": "https://teamcolorcodes.com/fenerbahce-basketball-color-codes/",
+  "colour_confidence": "medium",
+  "colour_note": "No football page on TCC. Used the Fenerbahce Basketball page (same club brand): Yellow and Blue. ESPN has yellow and white",
+  "country": "tr",
+  "league": "Super Lig",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Fenerbahçe",
+   "Fenerbahce SK",
+   "Fenerbahçe SK",
+   "Fener",
+   "Fenerbahce",
+   "Fenerbahçe S.K.",
+   "Fenerbahce S.K."
+  ],
+  "espn_id": "436"
+ },
+ {
+  "name": "Feyenoord",
+  "short": "Feyenoord",
+  "code": "FEY",
+  "code_espn": "FEY",
+  "primary": "#FF0000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FF0000",
+  "colours": [
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Red",
+    "hex": "#FF0000"
+   },
+   {
+    "name": "Gray",
+    "hex": "#B0A072"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/feyenoord-color-codes/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists White, Black, Red; red and white are the shirt colours",
+  "country": "nl",
+  "league": "Eredivisie",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Feyenoord Rotterdam",
+   "Feyenoord"
+  ],
+  "espn_id": "142"
+ },
+ {
+  "name": "Galatasaray",
+  "short": "Galatasaray",
+  "code": "GAL",
+  "code_espn": "GAL",
+  "primary": "#A90432",
+  "secondary": "#FDB912",
+  "on_dark": "#C55474",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#A90432"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FDB912"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/galatasaray-colors/",
+  "colour_confidence": "high",
+  "country": "tr",
+  "league": "Super Lig",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Galatasaray SK",
+   "Gala",
+   "Galatasaray S.K."
+  ],
+  "espn_id": "432"
+ },
+ {
+  "name": "Inter Milan",
+  "short": "Inter",
+  "code": "INT",
+  "code_espn": "INT",
+  "primary": "#000000",
+  "secondary": "#010E80",
+  "on_dark": "#7178B8",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Blue",
+    "hex": "#010E80"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/inter-milan-color-codes/",
+  "colour_confidence": "high",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Internazionale",
+   "FC Internazionale Milano",
+   "Inter",
+   "Internazionale Milano"
+  ],
+  "espn_id": "110"
+ },
+ {
+  "name": "LASK Linz",
+  "short": "LASK",
+  "code": "LAS",
+  "code_espn": "LAS",
+  "primary": "#FFFFFF",
+  "secondary": "#000000",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN white and black; the Wikipedia kit shows white with yellow sleeves, so treat as approximate",
+  "country": "at",
+  "league": "Austrian Bundesliga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "LASK",
+   "LASK Linz"
+  ],
+  "espn_id": "4411"
+ },
+ {
+  "name": "RC Lens",
+  "short": "Lens",
+  "code": "LEN",
+  "code_espn": "RCL",
+  "primary": "#EC1C24",
+  "secondary": "#FFF200",
+  "on_dark": "#ED252D",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#EC1C24"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFF200"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/rc-lens-color-codes/",
+  "colour_confidence": "high",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Lens",
+   "Racing Club de Lens",
+   "RC Lens"
+  ],
+  "espn_id": "175"
+ },
+ {
+  "name": "LOSC Lille",
+  "short": "Lille",
+  "code": "LIL",
+  "code_espn": "LILL",
+  "primary": "#E01E13",
+  "secondary": "#24216A",
+  "on_dark": "#E4392F",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E01E13"
+   },
+   {
+    "name": "Blue",
+    "hex": "#24216A"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/lille-osc-color-codes/",
+  "colour_confidence": "high",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Lille",
+   "Lille OSC",
+   "LOSC",
+   "LOSC Lille"
+  ],
+  "espn_id": "166"
+ },
+ {
+  "name": "Liverpool",
+  "short": "Liverpool",
+  "code": "LIV",
+  "code_espn": "LIV",
+  "primary": "#C8102E",
+  "secondary": "#00B2A9",
+  "on_dark": "#D54960",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Green",
+    "hex": "#00B2A9"
+   },
+   {
+    "name": "Gold",
+    "hex": "#F6EB61"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/liverpool-fc-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UCL",
+   "EPL"
+  ],
+  "aliases": [
+   "Liverpool FC",
+   "Liverpool F.C.",
+   "LFC"
+  ],
+  "espn_id": "364"
+ },
+ {
+  "name": "Manchester City",
+  "short": "Man City",
+  "code": "MCI",
+  "code_espn": "MNC",
+  "primary": "#6CABDD",
+  "secondary": "#1C2C5B",
+  "on_dark": "#6CABDD",
+  "colours": [
+   {
+    "name": "Sky Blue",
+    "hex": "#6CABDD"
+   },
+   {
+    "name": "Blue",
+    "hex": "#1C2C5B"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFC659"
+   },
+   {
+    "name": "Dark Gold",
+    "hex": "#D4A12A"
+   },
+   {
+    "name": "Red",
+    "hex": "#EC3325"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/manchester-city-fc-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UCL",
+   "EPL"
+  ],
+  "aliases": [
+   "Man City",
+   "Manchester City FC",
+   "Man. City",
+   "MCFC",
+   "Manchester City F.C."
+  ],
+  "espn_id": "382"
+ },
+ {
+  "name": "Manchester United",
+  "short": "Man United",
+  "code": "MUN",
+  "code_espn": "MAN",
+  "primary": "#DA291C",
+  "secondary": "#FBE122",
+  "on_dark": "#DE4337",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DA291C"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FBE122"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/manchester-united-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UCL",
+   "EPL"
+  ],
+  "aliases": [
+   "Man United",
+   "Man Utd",
+   "Manchester United FC",
+   "Man. United",
+   "MUFC",
+   "Manchester United F.C."
+  ],
+  "espn_id": "360"
+ },
+ {
+  "name": "Napoli",
+  "short": "Napoli",
+  "code": "NAP",
+  "code_espn": "NAP",
+  "primary": "#003C82",
+  "secondary": "#12A0D7",
+  "on_dark": "#5C82AF",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#003C82"
+   },
+   {
+    "name": "Light Blue",
+    "hex": "#12A0D7"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/napoli-color-codes/",
+  "colour_confidence": "high",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "SSC Napoli"
+  ],
+  "espn_id": "114"
+ },
+ {
+  "name": "PSV Eindhoven",
+  "short": "PSV",
+  "code": "PSV",
+  "code_espn": "PSV",
+  "primary": "#F00000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#F11414",
+  "colours": [
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Red",
+    "hex": "#F00000"
+   },
+   {
+    "name": "Gold",
+    "hex": "#A8862D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/psv-color-codes/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists White, Black, Red; red and white are the shirt colours",
+  "country": "nl",
+  "league": "Eredivisie",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "PSV"
+  ],
+  "espn_id": "148"
+ },
+ {
+  "name": "Paris Saint-Germain",
+  "short": "PSG",
+  "code": "PSG",
+  "code_espn": "PSG",
+  "primary": "#004170",
+  "secondary": "#FFFFFF",
+  "on_dark": "#527E9E",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#004170"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Red",
+    "hex": "#DA291C"
+   },
+   {
+    "name": "Gold",
+    "hex": "#CEAB5D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/paris-saint-germain-colors/",
+  "colour_confidence": "high",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Paris Saint Germain",
+   "Paris SG",
+   "Paris Saint-Germain FC",
+   "PSG"
+  ],
+  "espn_id": "160"
+ },
+ {
+  "name": "RB Leipzig",
+  "short": "Leipzig",
+  "code": "RBL",
+  "code_espn": "RBL",
+  "primary": "#DD013F",
+  "secondary": "#0C2043",
+  "on_dark": "#E43465",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DD013F"
+   },
+   {
+    "name": "Dark Blue",
+    "hex": "#0C2043"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/leipzig-colors/",
+  "colour_confidence": "high",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Leipzig",
+   "RasenBallsport Leipzig"
+  ],
+  "espn_id": "11420"
+ },
+ {
+  "name": "Real Betis",
+  "short": "Betis",
+  "code": "BET",
+  "code_espn": "BET",
+  "primary": "#0BB363",
+  "secondary": "#E7A614",
+  "on_dark": "#0BB363",
+  "colours": [
+   {
+    "name": "Green",
+    "hex": "#0BB363"
+   },
+   {
+    "name": "Gold",
+    "hex": "#E7A614"
+   },
+   {
+    "name": "Red",
+    "hex": "#D62550"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/real-betis-color-codes/",
+  "colour_confidence": "high",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Betis",
+   "Real Betis Balompie",
+   "Real Betis Balompié"
+  ],
+  "espn_id": "244"
+ },
+ {
+  "name": "Real Madrid",
+  "short": "Real Madrid",
+  "code": "RMA",
+  "code_espn": "RMA",
+  "primary": "#FEBE10",
+  "secondary": "#00529F",
+  "on_dark": "#FEBE10",
+  "colours": [
+   {
+    "name": "Gold",
+    "hex": "#FEBE10"
+   },
+   {
+    "name": "Blue",
+    "hex": "#00529F"
+   },
+   {
+    "name": "Red",
+    "hex": "#EE324E"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/real-madrid-c-f-colors/",
+  "colour_confidence": "high",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Real Madrid CF",
+   "Madrid"
+  ],
+  "espn_id": "86"
+ },
+ {
+  "name": "Sabah FK",
+  "short": "Sabah",
+  "code": "SAB",
+  "code_espn": "SAB",
+  "primary": "#000000",
+  "secondary": "#FF1493",
+  "on_dark": "#FF1493",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#000000"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FF1493"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN black and deep pink; Wikipedia kit is all black; no better source found",
+  "country": "az",
+  "league": "Azerbaijan Premier League",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Sabah Baku",
+   "Sabah",
+   "Sabah FC"
+  ],
+  "espn_id": "21922"
+ },
+ {
+  "name": "FC Shakhtar Donetsk",
+  "short": "Shakhtar",
+  "code": "SHA",
+  "code_espn": "SHK",
+  "primary": "#F0612C",
+  "secondary": "#FFFFFF",
+  "on_dark": "#F0612C",
+  "colours": [
+   {
+    "name": "Orange",
+    "hex": "#F0612C"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/shakhtar-donetsk-color-codes/",
+  "colour_confidence": "high",
+  "country": "ua",
+  "league": "Ukrainian Premier League",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Shakhtar Donetsk",
+   "Shakhtar",
+   "FC Shakhtar Donetsk"
+  ],
+  "espn_id": "493"
+ },
+ {
+  "name": "SK Slavia Praha",
+  "short": "Slavia",
+  "code": "SLA",
+  "code_espn": "SLP",
+  "primary": "#DC1F26",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E03A40",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#DC1F26"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams ; https://en.wikipedia.org/wiki/SK_Slavia_Prague",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary light blue #81C0FF is wrong; red and white",
+  "country": "cz",
+  "league": "Czech First League",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Slavia Prague",
+   "SK Slavia Prague",
+   "Slavia Praha",
+   "Slavia",
+   "SK Slavia Praha"
+  ],
+  "espn_id": "494"
+ },
+ {
+  "name": "Slovan Bratislava",
+  "short": "Slovan",
+  "code": "SLO",
+  "code_espn": "SLB",
+  "primary": "#81C0FF",
+  "secondary": "#000060",
+  "on_dark": "#81C0FF",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#81C0FF"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000060"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams ; https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary #1A1A1A replaced by the kit navy; sky blue and navy",
+  "country": "sk",
+  "league": "Slovak Super Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Slovan Bratislava",
+   "ŠK Slovan Bratislava",
+   "SK Slovan Bratislava",
+   "S Bratislava",
+   "Slovan"
+  ],
+  "espn_id": "521"
+ },
+ {
+  "name": "Sporting CP",
+  "short": "Sporting",
+  "code": "SCP",
+  "code_espn": "SCP",
+  "primary": "#008057",
+  "secondary": "#F3C242",
+  "on_dark": "#148A64",
+  "colours": [
+   {
+    "name": "Green",
+    "hex": "#008057"
+   },
+   {
+    "name": "Gold",
+    "hex": "#F3C242"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/sporting-cp-color-codes/",
+  "colour_confidence": "high",
+  "country": "pt",
+  "league": "Primeira Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Sporting Lisbon",
+   "Sporting"
+  ],
+  "espn_id": "2250"
+ },
+ {
+  "name": "VfB Stuttgart",
+  "short": "Stuttgart",
+  "code": "STU",
+  "code_espn": "VFB",
+  "primary": "#E32219",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E5342B",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E32219"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFED00"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/vfb-stuttgart-color-codes/",
+  "colour_confidence": "high",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Stuttgart"
+  ],
+  "espn_id": "134"
+ },
+ {
+  "name": "Viking FK",
+  "short": "Viking",
+  "code": "VIK",
+  "code_espn": "VIK",
+  "primary": "#000080",
+  "secondary": "#FFFFFF",
+  "on_dark": "#7A7ABD",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#000080"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN navy and white; Wikipedia kit colours are from 2021 so not used",
+  "country": "no",
+  "league": "Eliteserien",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Viking",
+   "Viking Stavanger"
+  ],
+  "espn_id": "510"
+ },
+ {
+  "name": "Villarreal CF",
+  "short": "Villarreal",
+  "code": "VIL",
+  "code_espn": "VIL",
+  "primary": "#005187",
+  "secondary": "#FFE667",
+  "on_dark": "#4782A9",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#005187"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFE667"
+   },
+   {
+    "name": "Red",
+    "hex": "#E70005"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/villarreal-cf-colors/",
+  "colour_confidence": "high",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UCL"
+  ],
+  "aliases": [
+   "Villarreal"
+  ],
+  "espn_id": "102"
+ },
+ {
+  "name": "AC Milan",
+  "short": "Milan",
+  "code": "MIL",
+  "code_espn": "MIL",
+  "primary": "#FB090B",
+  "secondary": "#000000",
+  "on_dark": "#FB090B",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#FB090B"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/a-c-milan-color-codes/",
+  "colour_confidence": "high",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Milan",
+   "A.C. Milan"
+  ],
+  "espn_id": "103"
+ },
+ {
+  "name": "AFC Bournemouth",
+  "short": "Bournemouth",
+  "code": "BOU",
+  "code_espn": "BOU",
+  "primary": "#DA291C",
+  "secondary": "#000000",
+  "on_dark": "#DE4337",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DA291C"
+   },
+   {
+    "name": "Dark Red",
+    "hex": "#B50E12"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Light Gold",
+    "hex": "#EFDBB2"
+   },
+   {
+    "name": "Dark Gold",
+    "hex": "#A89968"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/afc-bournemouth-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UEL",
+   "EPL"
+  ],
+  "aliases": [
+   "Bournemouth AFC",
+   "Bournemouth",
+   "The Cherries"
+  ],
+  "espn_id": "349"
+ },
+ {
+  "name": "AZ Alkmaar",
+  "short": "AZ",
+  "code": "AZA",
+  "code_espn": "AZ",
+  "primary": "#DB0021",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E43D56",
+  "colours": [
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#1A171B"
+   },
+   {
+    "name": "Red",
+    "hex": "#DB0021"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/az-alkmaar-color-codes/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists White, Black, Red; red and white are the shirt colours",
+  "country": "nl",
+  "league": "Eredivisie",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "AZ"
+  ],
+  "espn_id": "140"
+ },
+ {
+  "name": "RSC Anderlecht",
+  "short": "Anderlecht",
+  "code": "AND",
+  "code_espn": "AND",
+  "primary": "#695196",
+  "secondary": "#FAFAFC",
+  "on_dark": "#8774AB",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#695196"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FAFAFC"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN purple and white agree with the Wikipedia kit (#5C2195)",
+  "country": "be",
+  "league": "Belgian Pro League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Anderlecht",
+   "R.S.C. Anderlecht"
+  ],
+  "espn_id": "441"
+ },
+ {
+  "name": "Ararat-Armenia",
+  "short": "Ararat",
+  "code": "ARA",
+  "code_espn": "ARA",
+  "primary": "#000000",
+  "secondary": "#C60000",
+  "on_dark": "#D64747",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#000000"
+   },
+   {
+    "name": "secondary",
+    "hex": "#C60000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN black and red; Wikipedia kit shows white; no better source found",
+  "country": "am",
+  "league": "Armenian Premier League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "FC Ararat-Armenia",
+   "Ararat Armenia",
+   "Ararat"
+  ],
+  "espn_id": "20024"
+ },
+ {
+  "name": "Bayer Leverkusen",
+  "short": "Leverkusen",
+  "code": "LEV",
+  "code_espn": "B04",
+  "primary": "#E32221",
+  "secondary": "#000000",
+  "on_dark": "#E53433",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E32221"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F3E500"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/bayer-04-leverkusen-color-codes/",
+  "colour_confidence": "high",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Bayer 04 Leverkusen",
+   "Leverkusen"
+  ],
+  "espn_id": "131"
+ },
+ {
+  "name": "Benfica",
+  "short": "Benfica",
+  "code": "BEN",
+  "code_espn": "SLB",
+  "primary": "#E83030",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E83030",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E83030"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Green",
+    "hex": "#12814B"
+   },
+   {
+    "name": "Blue",
+    "hex": "#1074BC"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFD432"
+   },
+   {
+    "name": "Gray",
+    "hex": "#B5B5B5"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/benfica-color-codes/",
+  "colour_confidence": "high",
+  "country": "pt",
+  "league": "Primeira Liga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "SL Benfica",
+   "S.L. Benfica"
+  ],
+  "espn_id": "1929"
+ },
+ {
+  "name": "Besiktas JK",
+  "short": "Besiktas",
+  "code": "BES",
+  "code_espn": "BES",
+  "primary": "#000000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Red",
+    "hex": "#E00505"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/besiktas-jk-color-codes/",
+  "colour_confidence": "high",
+  "country": "tr",
+  "league": "Super Lig",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Besiktas",
+   "Beşiktaş",
+   "Beşiktaş JK",
+   "Besiktas JK",
+   "Beşiktaş J.K.",
+   "Besiktas J.K."
+  ],
+  "espn_id": "1895"
+ },
+ {
+  "name": "Celta Vigo",
+  "short": "Celta",
+  "code": "CLV",
+  "code_espn": "CEL",
+  "primary": "#8AC3EE",
+  "secondary": "#E5254E",
+  "on_dark": "#8AC3EE",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#8AC3EE"
+   },
+   {
+    "name": "Red",
+    "hex": "#E5254E"
+   },
+   {
+    "name": "Gold",
+    "hex": "#B19221"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/rc-celta-de-vigo-color-codes/",
+  "colour_confidence": "high",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "RC Celta",
+   "RC Celta de Vigo",
+   "Celta de Vigo",
+   "Celta"
+  ],
+  "espn_id": "85"
+ },
+ {
+  "name": "Celtic FC",
+  "short": "Celtic",
+  "code": "CEL",
+  "code_espn": "CEL",
+  "primary": "#018749",
+  "secondary": "#FFFFFF",
+  "on_dark": "#0B8C50",
+  "colours": [
+   {
+    "name": "Green",
+    "hex": "#018749"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/celtic-f-c-colors/",
+  "colour_confidence": "high",
+  "country": "gb-sct",
+  "league": "Scottish Premiership",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Celtic",
+   "Celtic F.C.",
+   "Celtic FC"
+  ],
+  "espn_id": "256"
+ },
+ {
+  "name": "Crystal Palace",
+  "short": "Palace",
+  "code": "CRY",
+  "code_espn": "CRY",
+  "primary": "#1B458F",
+  "secondary": "#C4122E",
+  "on_dark": "#6481B3",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#1B458F"
+   },
+   {
+    "name": "Gray",
+    "hex": "#A7A5A6"
+   },
+   {
+    "name": "Red",
+    "hex": "#C4122E"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/crystal-palace-fc-colors/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Blue, Gray, Red; red and blue are the club colours",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UEL",
+   "EPL"
+  ],
+  "aliases": [
+   "Crystal Palace FC",
+   "C Palace",
+   "Palace",
+   "Crystal Palace F.C."
+  ],
+  "espn_id": "384"
+ },
+ {
+  "name": "Dinamo Zagreb",
+  "short": "Dinamo Zagreb",
+  "code": "DZG",
+  "code_espn": "DZG",
+  "primary": "#0000BB",
+  "secondary": "#CCFF00",
+  "on_dark": "#7070D9",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#0000BB"
+   },
+   {
+    "name": "secondary",
+    "hex": "#CCFF00"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN blue; the lime secondary (#CCFF00) is ESPN only and probably an alternate-kit colour",
+  "country": "hr",
+  "league": "Croatian HNL",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "GNK Dinamo Zagreb",
+   "Dinamo"
+  ],
+  "espn_id": "597"
+ },
+ {
+  "name": "Ferencvaros",
+  "short": "Ferencvaros",
+  "code": "FER",
+  "code_espn": "FER",
+  "primary": "#239B56",
+  "secondary": "#FFFFFF",
+  "on_dark": "#239B56",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#239B56"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary black replaced by white; green and white",
+  "country": "hu",
+  "league": "Hungarian NB I",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Ferencváros",
+   "Ferencvarosi TC",
+   "Ferencvárosi TC",
+   "FTC"
+  ],
+  "espn_id": "622"
+ },
+ {
+  "name": "Hapoel Be'er Sheva",
+  "short": "Hapoel Be'er Sheva",
+  "code": "HBS",
+  "code_espn": "HBE",
+  "primary": "#FD0000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FD0000",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FD0000"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Hapoel_Be'er_Sheva_F.C.",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN has two reds; white secondary from the kit",
+  "country": "il",
+  "league": "Israeli Premier League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Hapoel Be'er",
+   "Hapoel Beer Sheva",
+   "Hapoel Be'er Sheva FC",
+   "Hapoel Be'er Sheva F.C."
+  ],
+  "espn_id": "13083"
+ },
+ {
+  "name": "Jagiellonia Bialystok",
+  "short": "Jagiellonia",
+  "code": "JAG",
+  "code_espn": "JAG",
+  "primary": "#FFED00",
+  "secondary": "#D81921",
+  "on_dark": "#FFED00",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FFED00"
+   },
+   {
+    "name": "secondary",
+    "hex": "#D81921"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN yellow and red agree with the Wikipedia kit",
+  "country": "pl",
+  "league": "Ekstraklasa",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Jagiellonia Białystok",
+   "Jagiellonia",
+   "Jagiellonia "
+  ],
+  "espn_id": "11505"
+ },
+ {
+  "name": "Juventus",
+  "short": "Juventus",
+  "code": "JUV",
+  "code_espn": "JUV",
+  "primary": "#000000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/juventus-color-codes/",
+  "colour_confidence": "high",
+  "country": "it",
+  "league": "Serie A",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Juventus FC",
+   "Juve"
+  ],
+  "espn_id": "111"
+ },
+ {
+  "name": "Lech Poznan",
+  "short": "Lech Poznan",
+  "code": "LEC",
+  "code_espn": "LECH",
+  "primary": "#004B92",
+  "secondary": "#FFFFFF",
+  "on_dark": "#477DB1",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#004B92"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN blue and white agree with the Wikipedia kit",
+  "country": "pl",
+  "league": "Ekstraklasa",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Lech Poznań",
+   "KKS Lech Poznan",
+   "Lech"
+  ],
+  "espn_id": "2990"
+ },
+ {
+  "name": "Levski Sofia",
+  "short": "Levski",
+  "code": "LVS",
+  "code_espn": "LEV",
+  "primary": "#6182CF",
+  "secondary": "#FCFCFC",
+  "on_dark": "#6182CF",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#6182CF"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FCFCFC"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN blue and white agree with the Wikipedia kit",
+  "country": "bg",
+  "league": "Bulgarian First League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "PFC Levski Sofia",
+   "Levski"
+  ],
+  "espn_id": "490"
+ },
+ {
+  "name": "Lillestrom",
+  "short": "Lillestrom",
+  "code": "LSK",
+  "code_espn": "LSK",
+  "primary": "#E8E337",
+  "secondary": "#000000",
+  "on_dark": "#E8E337",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#E8E337"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Lillestr%C3%B8m_SK",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary red replaced by kit black; yellow and black",
+  "country": "no",
+  "league": "Eliteserien",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Lillestrøm",
+   "Lillestrøm SK",
+   "Lillestrom SK"
+  ],
+  "espn_id": "987"
+ },
+ {
+  "name": "Olympique Lyonnais",
+  "short": "Lyon",
+  "code": "LYO",
+  "code_espn": "LYON",
+  "primary": "#DA0812",
+  "secondary": "#14387F",
+  "on_dark": "#E13941",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DA0812"
+   },
+   {
+    "name": "Blue",
+    "hex": "#14387F"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Gold",
+    "hex": "#D29D46"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/lyon-colors/",
+  "colour_confidence": "high",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Lyon",
+   "OL",
+   "Olympique Lyon"
+  ],
+  "espn_id": "167"
+ },
+ {
+  "name": "Olympique de Marseille",
+  "short": "Marseille",
+  "code": "MAR",
+  "code_espn": "OLM",
+  "primary": "#2FAEE0",
+  "secondary": "#FFFFFF",
+  "on_dark": "#2FAEE0",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#2FAEE0"
+   },
+   {
+    "name": "Gold",
+    "hex": "#BEA064"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/olympique-de-marseille-color-codes/",
+  "colour_confidence": "high",
+  "colour_note": "TCC lists Blue, Gold, White; white is the shirt colour",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Marseille",
+   "OM"
+  ],
+  "espn_id": "176"
+ },
+ {
+  "name": "NEC Nijmegen",
+  "short": "NEC",
+  "code": "NEC",
+  "code_espn": "NEC",
+  "primary": "#EF2F24",
+  "secondary": "#000000",
+  "on_dark": "#EF2F24",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#EF2F24"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/NEC_Nijmegen",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary light blue replaced by kit black",
+  "country": "nl",
+  "league": "Eredivisie",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "NEC"
+  ],
+  "espn_id": "147"
+ },
+ {
+  "name": "NK Celje",
+  "short": "Celje",
+  "code": "CEJ",
+  "code_espn": "NKC",
+  "primary": "#000099",
+  "secondary": "#FF6600",
+  "on_dark": "#7A7ACA",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#000099"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FF6600"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "low",
+  "colour_note": "ESPN dark blue and orange; Wikipedia kit shows light blue sleeves and navy shorts; no better source found",
+  "country": "si",
+  "league": "Slovenian PrvaLiga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Celje"
+  ],
+  "espn_id": "3362"
+ },
+ {
+  "name": "OFI Crete",
+  "short": "OFI",
+  "code": "OFI",
+  "code_espn": "OFI",
+  "primary": "#FFFFFF",
+  "secondary": "#000000",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN white and black agree with the Wikipedia kit shorts",
+  "country": "gr",
+  "league": "Super League Greece",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "OFI",
+   "OFI Crete FC",
+   "OFI Crete F.C."
+  ],
+  "espn_id": "1010"
+ },
+ {
+  "name": "Olympiacos",
+  "short": "Olympiacos",
+  "code": "OLY",
+  "code_espn": "OLY",
+  "primary": "#D0061F",
+  "secondary": "#FFFFFF",
+  "on_dark": "#DB4255",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#D0061F"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com (Olympiacos B.C. page, same club brand)",
+  "colour_source_url": "https://teamcolorcodes.com/olympiacos-b-c-color-codes/",
+  "colour_confidence": "medium",
+  "colour_note": "No football page on TCC. Used the Olympiacos B.C. page (same club brand): Red and White. ESPN secondary blue is wrong",
+  "country": "gr",
+  "league": "Super League Greece",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Olympiacos FC",
+   "Olympiakos",
+   "Olympiacos F.C."
+  ],
+  "espn_id": "435"
+ },
+ {
+  "name": "Omonia Nicosia",
+  "short": "Omonia",
+  "code": "OMO",
+  "code_espn": "OMON",
+  "primary": "#025719",
+  "secondary": "#FFFFFF",
+  "on_dark": "#498659",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#025719"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN green and white agree with the Wikipedia kit",
+  "country": "cy",
+  "league": "Cypriot First Division",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "AC Omonia",
+   "Omonia"
+  ],
+  "espn_id": "617"
+ },
+ {
+  "name": "Red Bull Salzburg",
+  "short": "Salzburg",
+  "code": "SAL",
+  "code_espn": "SLZ",
+  "primary": "#DF003C",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E53363",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DF003C"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFD300"
+   },
+   {
+    "name": "Navy",
+    "hex": "#071C3A"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/fc-red-bull-salzburg-color-codes/",
+  "colour_confidence": "high",
+  "country": "at",
+  "league": "Austrian Bundesliga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "RB Salzburg",
+   "FC Red Bull Salzburg",
+   "Salzburg",
+   "Red Bull Salzburg"
+  ],
+  "espn_id": "2790"
+ },
+ {
+  "name": "Real Sociedad",
+  "short": "Real Sociedad",
+  "code": "RSO",
+  "code_espn": "RSO",
+  "primary": "#FFFFFF",
+  "secondary": "#0067B1",
+  "on_dark": "#297FBD",
+  "colours": [
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Blue",
+    "hex": "#0067B1"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#E4B630"
+   },
+   {
+    "name": "Gold",
+    "hex": "#D87722"
+   },
+   {
+    "name": "Red",
+    "hex": "#E1061F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/real-sociedad-colors/",
+  "colour_confidence": "high",
+  "country": "es",
+  "league": "La Liga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "La Real"
+  ],
+  "espn_id": "89"
+ },
+ {
+  "name": "SK Sturm Graz",
+  "short": "Sturm Graz",
+  "code": "STG",
+  "code_espn": "STG",
+  "primary": "#FFFFFF",
+  "secondary": "#000000",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN white and black agree with the Wikipedia kit (black)",
+  "country": "at",
+  "league": "Austrian Bundesliga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Sturm Graz",
+   "Sturm"
+  ],
+  "espn_id": "3746"
+ },
+ {
+  "name": "Sparta Prague",
+  "short": "Sparta",
+  "code": "SPA",
+  "code_espn": "SPP",
+  "primary": "#791B29",
+  "secondary": "#FFFFFF",
+  "on_dark": "#A96D76",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#791B29"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN claret and white agree with the Wikipedia kit (#8A1014)",
+  "country": "cz",
+  "league": "Czech First League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "AC Sparta Prague",
+   "Sparta Praha",
+   "Sparta"
+  ],
+  "espn_id": "433"
+ },
+ {
+  "name": "Stade Rennais",
+  "short": "Rennes",
+  "code": "REN",
+  "code_espn": "REN",
+  "primary": "#EF2F24",
+  "secondary": "#000000",
+  "on_dark": "#EF2F24",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#EF2F24"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary white replaced by kit black; red and black",
+  "country": "fr",
+  "league": "Ligue 1",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Rennes",
+   "Stade Rennais FC",
+   "Stade Rennes"
+  ],
+  "espn_id": "169"
+ },
+ {
+  "name": "Sunderland",
+  "short": "Sunderland",
+  "code": "SUN",
+  "code_espn": "SUN",
+  "primary": "#EB172B",
+  "secondary": "#000000",
+  "on_dark": "#ED2A3C",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#EB172B"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary pink #FFB6C1 is wrong; kit black used (the home shirt is red and white stripes)",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "UEL",
+   "EPL"
+  ],
+  "aliases": [
+   "Sunderland AFC",
+   "Sunderland A.F.C."
+  ],
+  "espn_id": "366"
+ },
+ {
+  "name": "TSG Hoffenheim",
+  "short": "Hoffenheim",
+  "code": "HOF",
+  "code_espn": "TSG",
+  "primary": "#1961B5",
+  "secondary": "#FFFFFF",
+  "on_dark": "#4781C4",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#1961B5"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/tsg-1899-hoffenheim-color-codes/",
+  "colour_confidence": "high",
+  "country": "de",
+  "league": "Bundesliga",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "TSG 1899 Hoffenheim",
+   "Hoffenheim",
+   "TSG Hoffenheim"
+  ],
+  "espn_id": "7911"
+ },
+ {
+  "name": "SCU Torreense",
+  "short": "Torreense",
+  "code": "TOR",
+  "code_espn": "TOR",
+  "primary": "#950025",
+  "secondary": "#293D87",
+  "on_dark": "#BB5C73",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#950025"
+   },
+   {
+    "name": "secondary",
+    "hex": "#293D87"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN red and blue agree with the Wikipedia kit (#AA0000, #003B6F)",
+  "country": "pt",
+  "league": "Liga Portugal 2",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Torreense",
+   "S.C.U. Torreense",
+   "SCU Torreense"
+  ],
+  "espn_id": "21615"
+ },
+ {
+  "name": "Union Saint-Gilloise",
+  "short": "Union SG",
+  "code": "USG",
+  "code_espn": "USG",
+  "primary": "#FCEE33",
+  "secondary": "#000055",
+  "on_dark": "#FCEE33",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#FCEE33"
+   },
+   {
+    "name": "secondary",
+    "hex": "#000055"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary white replaced by kit navy; yellow and navy",
+  "country": "be",
+  "league": "Belgian Pro League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Union St.-Gilloise",
+   "Royale Union Saint-Gilloise",
+   "Union SG",
+   "Union Saint Gilloise",
+   "Union Saint-Gilloise"
+  ],
+  "espn_id": "5807"
+ },
+ {
+  "name": "Viktoria Plzen",
+  "short": "Plzen",
+  "code": "PLZ",
+  "code_espn": "PLZ",
+  "primary": "#0000DD",
+  "secondary": "#FF0000",
+  "on_dark": "#7070EC",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#0000DD"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FF0000"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/teams ; https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary black replaced by kit red; red and blue club",
+  "country": "cz",
+  "league": "Czech First League",
+  "competitions": [
+   "UEL"
+  ],
+  "aliases": [
+   "Viktoria Plzeň",
+   "FC Viktoria Plzen",
+   "FC Viktoria Plzeň",
+   "Plzen"
+  ],
+  "espn_id": "11706"
+ },
+ {
+  "name": "Brentford",
+  "short": "Brentford",
+  "code": "BRE",
+  "code_espn": "BRE",
+  "primary": "#F42727",
+  "secondary": "#FFFFFF",
+  "on_dark": "#F42727",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#F42727"
+   },
+   {
+    "name": "secondary",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams ; https://en.wikipedia.org/wiki/Brentford_F.C.",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN secondary navy replaced by white; red and white stripes",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Brentford FC",
+   "Brentford F.C."
+  ],
+  "espn_id": "337"
+ },
+ {
+  "name": "Brighton & Hove Albion",
+  "short": "Brighton",
+  "code": "BHA",
+  "code_espn": "BHA",
+  "primary": "#0057B8",
+  "secondary": "#FFCD00",
+  "on_dark": "#3D7FC9",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#0057B8"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFCD00"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/brighton-hove-albion-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Brighton",
+   "Brighton and Hove Albion",
+   "Brighton & Hove Albion FC",
+   "Brighton & Hove Albion F.C."
+  ],
+  "espn_id": "331"
+ },
+ {
+  "name": "Chelsea",
+  "short": "Chelsea",
+  "code": "CHE",
+  "code_espn": "CHE",
+  "primary": "#034694",
+  "secondary": "#EE242C",
+  "on_dark": "#5481B6",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#034694"
+   },
+   {
+    "name": "Red",
+    "hex": "#EE242C"
+   },
+   {
+    "name": "Gold",
+    "hex": "#DBA111"
+   },
+   {
+    "name": "Light Blue",
+    "hex": "#6A7AB5"
+   },
+   {
+    "name": "Gray",
+    "hex": "#D1D3D4"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/chelsea-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Chelsea FC",
+   "Chelsea F.C."
+  ],
+  "espn_id": "363"
+ },
+ {
+  "name": "Coventry City",
+  "short": "Coventry",
+  "code": "COV",
+  "code_espn": "COV",
+  "primary": "#059DD9",
+  "secondary": "#FFFFFF",
+  "on_dark": "#059DD9",
+  "colours": [
+   {
+    "name": "Sky Blue",
+    "hex": "#059DD9"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/coventry-city-f-c-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Coventry",
+   "Coventry City FC",
+   "Coventry City F.C."
+  ],
+  "espn_id": "388"
+ },
+ {
+  "name": "Everton",
+  "short": "Everton",
+  "code": "EVE",
+  "code_espn": "EVE",
+  "primary": "#003399",
+  "secondary": "#FFFFFF",
+  "on_dark": "#5C7CBE",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#003399"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/everton-fc-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Everton FC",
+   "Everton F.C."
+  ],
+  "espn_id": "368"
+ },
+ {
+  "name": "Fulham",
+  "short": "Fulham",
+  "code": "FUL",
+  "code_espn": "FUL",
+  "primary": "#000000",
+  "secondary": "#CC0000",
+  "on_dark": "#DA4747",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Red",
+    "hex": "#CC0000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/fulham-fc-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Fulham FC",
+   "Fulham F.C."
+  ],
+  "espn_id": "370"
+ },
+ {
+  "name": "Hull City",
+  "short": "Hull",
+  "code": "HUL",
+  "code_espn": "HUL",
+  "primary": "#000000",
+  "secondary": "#F18A01",
+  "on_dark": "#F18A01",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Blue",
+    "hex": "#F18A01"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/hull-city-a-f-c-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Hull",
+   "Hull City AFC",
+   "Hull City A.F.C."
+  ],
+  "espn_id": "306"
+ },
+ {
+  "name": "Ipswich Town",
+  "short": "Ipswich",
+  "code": "IPS",
+  "code_espn": "IPS",
+  "primary": "#0333A0",
+  "secondary": "#F5F2DC",
+  "on_dark": "#5E7CC2",
+  "colours": [
+   {
+    "name": "primary",
+    "hex": "#0333A0"
+   },
+   {
+    "name": "secondary",
+    "hex": "#F5F2DC"
+   }
+  ],
+  "colour_source": "ESPN API team colour fields; changed value(s) from the Wikipedia 2026-27 home kit",
+  "colour_source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams ; https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+  "colour_confidence": "medium",
+  "colour_note": "ESPN #0000FA is a raw blue; kit blue used",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Ipswich",
+   "Ipswich Town FC",
+   "Ipswich Town F.C."
+  ],
+  "espn_id": "373"
+ },
+ {
+  "name": "Leeds United",
+  "short": "Leeds",
+  "code": "LEE",
+  "code_espn": "LEE",
+  "primary": "#FFCD00",
+  "secondary": "#1D428A",
+  "on_dark": "#FFCD00",
+  "colours": [
+   {
+    "name": "Yellow",
+    "hex": "#FFCD00"
+   },
+   {
+    "name": "Blue",
+    "hex": "#1D428A"
+   },
+   {
+    "name": "100th Anniversary Gold",
+    "hex": "#AC944D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/leeds-united-football-club-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Leeds",
+   "Leeds United FC",
+   "Leeds United F.C."
+  ],
+  "espn_id": "357"
+ },
+ {
+  "name": "Newcastle United",
+  "short": "Newcastle",
+  "code": "NEW",
+  "code_espn": "NEW",
+  "primary": "#241F20",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#241F20"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Blue",
+    "hex": "#41B6E6"
+   },
+   {
+    "name": "Gold",
+    "hex": "#F1BE48"
+   },
+   {
+    "name": "Gray",
+    "hex": "#BBBCBC"
+   },
+   {
+    "name": "Red",
+    "hex": "#F9423A"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/newcastle-united-fc-colors/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Newcastle",
+   "Newcastle United FC",
+   "Newcastle Utd",
+   "Newcastle United F.C."
+  ],
+  "espn_id": "361"
+ },
+ {
+  "name": "Nottingham Forest",
+  "short": "Forest",
+  "code": "NFO",
+  "code_espn": "NFO",
+  "primary": "#DD0000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#E53D3D",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#DD0000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/nottingham-forest-f-c-color-codes/",
+  "colour_confidence": "high",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Nottm Forest",
+   "Nott'm Forest",
+   "Nottingham Forest FC",
+   "Forest",
+   "Nottingham Forest F.C."
+  ],
+  "espn_id": "393"
+ },
+ {
+  "name": "Tottenham Hotspur",
+  "short": "Spurs",
+  "code": "TOT",
+  "code_espn": "TOT",
+  "primary": "#132257",
+  "secondary": "#FFFFFF",
+  "on_dark": "#717A9A",
+  "colours": [
+   {
+    "name": "Navy Blue",
+    "hex": "#132257"
+   },
+   {
+    "name": "White (ESPN)",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com (primary), ESPN API (secondary)",
+  "colour_source_url": "https://teamcolorcodes.com/tottenham-hotspur-colors/",
+  "colour_confidence": "medium",
+  "colour_note": "TCC lists navy only; white secondary from the ESPN colour field (Spurs wear white shirts)",
+  "country": "gb-eng",
+  "league": "Premier League",
+  "competitions": [
+   "EPL"
+  ],
+  "aliases": [
+   "Tottenham",
+   "Spurs",
+   "Tottenham Hotspur FC",
+   "THFC",
+   "Tottenham Hotspur F.C."
+  ],
+  "espn_id": "367"
+ },
+ {
+  "name": "Arizona Cardinals",
+  "short": "Cardinals",
+  "code": "ARI",
+  "code_espn": "ARI",
+  "primary": "#97233F",
+  "secondary": "#000000",
+  "on_dark": "#B46175",
+  "colours": [
+   {
+    "name": "RED",
+    "hex": "#97233F"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "YELLOW",
+    "hex": "#FFB612"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/arizona-cardinals-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Cardinals"
+  ],
+  "espn_id": "22"
+ },
+ {
+  "name": "Atlanta Falcons",
+  "short": "Falcons",
+  "code": "ATL",
+  "code_espn": "ATL",
+  "primary": "#A71930",
+  "secondary": "#000000",
+  "on_dark": "#C0596A",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#A71930"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Silver",
+    "hex": "#A5ACAF"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/atlanta-falcons-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Falcons"
+  ],
+  "espn_id": "1"
+ },
+ {
+  "name": "Baltimore Ravens",
+  "short": "Ravens",
+  "code": "BAL",
+  "code_espn": "BAL",
+  "primary": "#241773",
+  "secondary": "#000000",
+  "on_dark": "#7C74AB",
+  "colours": [
+   {
+    "name": "Purple",
+    "hex": "#241773"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Metallic Gold",
+    "hex": "#9E7C0C"
+   },
+   {
+    "name": "Red",
+    "hex": "#C60C30"
+   },
+   {
+    "name": "Purple",
+    "hex": "#24135F"
+   },
+   {
+    "name": "Metallic Gold",
+    "hex": "#AD8900"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/baltimore-ravens-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Ravens"
+  ],
+  "espn_id": "33"
+ },
+ {
+  "name": "Buffalo Bills",
+  "short": "Bills",
+  "code": "BUF",
+  "code_espn": "BUF",
+  "primary": "#00338D",
+  "secondary": "#C60C30",
+  "on_dark": "#5C7CB6",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#00338D"
+   },
+   {
+    "name": "Red",
+    "hex": "#C60C30"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/buffalo-bills-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Bills"
+  ],
+  "espn_id": "2"
+ },
+ {
+  "name": "Carolina Panthers",
+  "short": "Panthers",
+  "code": "CAR",
+  "code_espn": "CAR",
+  "primary": "#0085CA",
+  "secondary": "#101820",
+  "on_dark": "#0085CA",
+  "colours": [
+   {
+    "name": "Carolina Blue",
+    "hex": "#0085CA"
+   },
+   {
+    "name": "Black",
+    "hex": "#101820"
+   },
+   {
+    "name": "Silver",
+    "hex": "#BFC0BF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/carolina-panthers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Panthers"
+  ],
+  "espn_id": "29"
+ },
+ {
+  "name": "Chicago Bears",
+  "short": "Bears",
+  "code": "CHI",
+  "code_espn": "CHI",
+  "primary": "#0B162A",
+  "secondary": "#C83803",
+  "on_dark": "#767D88",
+  "colours": [
+   {
+    "name": "Dark Navy",
+    "hex": "#0B162A"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#C83803"
+   },
+   {
+    "name": "Navy",
+    "hex": "#041C2C"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#FA4616"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/chicago-bears-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Bears"
+  ],
+  "espn_id": "3"
+ },
+ {
+  "name": "Cincinnati Bengals",
+  "short": "Bengals",
+  "code": "CIN",
+  "code_espn": "CIN",
+  "primary": "#FB4F14",
+  "secondary": "#000000",
+  "on_dark": "#FB4F14",
+  "colours": [
+   {
+    "name": "Orange",
+    "hex": "#FB4F14"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/cincinnati-bengals-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Bengals"
+  ],
+  "espn_id": "4"
+ },
+ {
+  "name": "Cleveland Browns",
+  "short": "Browns",
+  "code": "CLE",
+  "code_espn": "CLE",
+  "primary": "#311D00",
+  "secondary": "#FF3C00",
+  "on_dark": "#8C8070",
+  "colours": [
+   {
+    "name": "Dark Brown",
+    "hex": "#311D00"
+   },
+   {
+    "name": "Orange",
+    "hex": "#FF3C00"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Brown",
+    "hex": "#342624"
+   },
+   {
+    "name": "Orange",
+    "hex": "#EC5614"
+   },
+   {
+    "name": "Gray",
+    "hex": "#7C7E7C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/cleveland-browns-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Browns"
+  ],
+  "espn_id": "5"
+ },
+ {
+  "name": "Dallas Cowboys",
+  "short": "Cowboys",
+  "code": "DAL",
+  "code_espn": "DAL",
+  "primary": "#003594",
+  "secondary": "#041E42",
+  "on_dark": "#5C7EBB",
+  "colours": [
+   {
+    "name": "Royal Blue",
+    "hex": "#003594"
+   },
+   {
+    "name": "Blue",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Silver",
+    "hex": "#869397"
+   },
+   {
+    "name": "Silver-Green",
+    "hex": "#7F9695"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/dallas-cowboys-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Cowboys"
+  ],
+  "espn_id": "6"
+ },
+ {
+  "name": "Denver Broncos",
+  "short": "Broncos",
+  "code": "DEN",
+  "code_espn": "DEN",
+  "primary": "#FB4F14",
+  "secondary": "#002244",
+  "on_dark": "#FB4F14",
+  "colours": [
+   {
+    "name": "Broncos Orange",
+    "hex": "#FB4F14"
+   },
+   {
+    "name": "Broncos Navy",
+    "hex": "#002244"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#FA4616"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#001489"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/denver-broncos-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Broncos"
+  ],
+  "espn_id": "7"
+ },
+ {
+  "name": "Detroit Lions",
+  "short": "Lions",
+  "code": "DET",
+  "code_espn": "DET",
+  "primary": "#0076B6",
+  "secondary": "#B0B7BC",
+  "on_dark": "#1481BC",
+  "colours": [
+   {
+    "name": "Honolulu Blue",
+    "hex": "#0076B6"
+   },
+   {
+    "name": "Silver",
+    "hex": "#B0B7BC"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/detroit-lions-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Lions"
+  ],
+  "espn_id": "8"
+ },
+ {
+  "name": "Green Bay Packers",
+  "short": "Packers",
+  "code": "GNB",
+  "code_espn": "GB",
+  "primary": "#203731",
+  "secondary": "#FFB612",
+  "on_dark": "#707F7B",
+  "colours": [
+   {
+    "name": "Dark Green",
+    "hex": "#203731"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFB612"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/green-bay-packers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Packers"
+  ],
+  "espn_id": "9"
+ },
+ {
+  "name": "Houston Texans",
+  "short": "Texans",
+  "code": "HOU",
+  "code_espn": "HOU",
+  "primary": "#03202F",
+  "secondary": "#A71930",
+  "on_dark": "#72828B",
+  "colours": [
+   {
+    "name": "Deep Steel Blue",
+    "hex": "#03202F"
+   },
+   {
+    "name": "Battle Red",
+    "hex": "#A71930"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/houston-texans-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Texans"
+  ],
+  "espn_id": "34"
+ },
+ {
+  "name": "Indianapolis Colts",
+  "short": "Colts",
+  "code": "IND",
+  "code_espn": "IND",
+  "primary": "#002C5F",
+  "secondary": "#A2AAAD",
+  "on_dark": "#66809F",
+  "colours": [
+   {
+    "name": "Speed Blue",
+    "hex": "#002C5F"
+   },
+   {
+    "name": "Gray",
+    "hex": "#A2AAAD"
+   },
+   {
+    "name": "Blue",
+    "hex": "#003087"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/indianapolis-colts-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Colts"
+  ],
+  "espn_id": "11"
+ },
+ {
+  "name": "Jacksonville Jaguars",
+  "short": "Jaguars",
+  "code": "JAX",
+  "code_espn": "JAX",
+  "primary": "#101820",
+  "secondary": "#D7A22A",
+  "on_dark": "#797E82",
+  "colours": [
+   {
+    "name": "Black",
+    "hex": "#101820"
+   },
+   {
+    "name": "Gold",
+    "hex": "#D7A22A"
+   },
+   {
+    "name": "Dark Gold",
+    "hex": "#9F792C"
+   },
+   {
+    "name": "Teal",
+    "hex": "#006778"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Aqua",
+    "hex": "#00677F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/jacksonville-jaguars-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Jaguars"
+  ],
+  "espn_id": "30"
+ },
+ {
+  "name": "Kansas City Chiefs",
+  "short": "Chiefs",
+  "code": "KAN",
+  "code_espn": "KC",
+  "primary": "#E31837",
+  "secondary": "#FFB81C",
+  "on_dark": "#E6344F",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E31837"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFB81C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/kansas-city-chiefs-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Chiefs"
+  ],
+  "espn_id": "12"
+ },
+ {
+  "name": "Las Vegas Raiders",
+  "short": "Raiders",
+  "code": "LVR",
+  "code_espn": "LV",
+  "primary": "#000000",
+  "secondary": "#A5ACAF",
+  "on_dark": "#A5ACAF",
+  "colours": [
+   {
+    "name": "Raiders Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Raiders Silver",
+    "hex": "#A5ACAF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/oakland-raiders-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Raiders"
+  ],
+  "espn_id": "13"
+ },
+ {
+  "name": "Los Angeles Chargers",
+  "short": "Chargers",
+  "code": "LAC",
+  "code_espn": "LAC",
+  "primary": "#0080C6",
+  "secondary": "#FFC20E",
+  "on_dark": "#0080C6",
+  "colours": [
+   {
+    "name": "Powder Blue",
+    "hex": "#0080C6"
+   },
+   {
+    "name": "Sunshine Gold",
+    "hex": "#FFC20E"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/los-angeles-chargers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Chargers",
+   "LA Chargers"
+  ],
+  "espn_id": "24"
+ },
+ {
+  "name": "Los Angeles Rams",
+  "short": "Rams",
+  "code": "LAR",
+  "code_espn": "LAR",
+  "primary": "#003594",
+  "secondary": "#FFA300",
+  "on_dark": "#5C7EBB",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#003594"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFA300"
+   },
+   {
+    "name": "Dark Gold",
+    "hex": "#FF8200"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFD100"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Millennium Blue",
+    "hex": "#002244"
+   },
+   {
+    "name": "New Century Gold",
+    "hex": "#866D4B"
+   },
+   {
+    "name": "Royal BLUE",
+    "hex": "#002D72"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFCD00"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/los-angeles-rams-team-colors/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Rams",
+   "LA Rams"
+  ],
+  "espn_id": "14"
+ },
+ {
+  "name": "Miami Dolphins",
+  "short": "Dolphins",
+  "code": "MIA",
+  "code_espn": "MIA",
+  "primary": "#008E97",
+  "secondary": "#FC4C02",
+  "on_dark": "#008E97",
+  "colours": [
+   {
+    "name": "Aqua",
+    "hex": "#008E97"
+   },
+   {
+    "name": "Orange",
+    "hex": "#FC4C02"
+   },
+   {
+    "name": "Blue",
+    "hex": "#005778"
+   },
+   {
+    "name": "Orange",
+    "hex": "#F58220"
+   },
+   {
+    "name": "Aqua",
+    "hex": "#005F61"
+   },
+   {
+    "name": "Orange",
+    "hex": "#FA4616"
+   },
+   {
+    "name": "Blue",
+    "hex": "#041E42"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/miami-dolphins-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Dolphins"
+  ],
+  "espn_id": "15"
+ },
+ {
+  "name": "Minnesota Vikings",
+  "short": "Vikings",
+  "code": "MIN",
+  "code_espn": "MIN",
+  "primary": "#4F2683",
+  "secondary": "#FFC62F",
+  "on_dark": "#8E74B0",
+  "colours": [
+   {
+    "name": "Purple",
+    "hex": "#4F2683"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFC62F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/minnesota-vikings-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Vikings"
+  ],
+  "espn_id": "16"
+ },
+ {
+  "name": "New England Patriots",
+  "short": "Patriots",
+  "code": "NWE",
+  "code_espn": "NE",
+  "primary": "#002244",
+  "secondary": "#C60C30",
+  "on_dark": "#708396",
+  "colours": [
+   {
+    "name": "Nautical Blue",
+    "hex": "#002244"
+   },
+   {
+    "name": "Red",
+    "hex": "#C60C30"
+   },
+   {
+    "name": "New Century Silver",
+    "hex": "#B0B7BC"
+   },
+   {
+    "name": "Blue",
+    "hex": "#012169"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Blue",
+    "hex": "#04328C"
+   },
+   {
+    "name": "Red",
+    "hex": "#CC122C"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Brown",
+    "hex": "#4C2E34"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-england-patriots-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Patriots",
+   "Pats"
+  ],
+  "espn_id": "17"
+ },
+ {
+  "name": "New Orleans Saints",
+  "short": "Saints",
+  "code": "NOR",
+  "code_espn": "NO",
+  "primary": "#D3BC8D",
+  "secondary": "#101820",
+  "on_dark": "#D3BC8D",
+  "colours": [
+   {
+    "name": "OLD GOLD",
+    "hex": "#D3BC8D"
+   },
+   {
+    "name": "Black",
+    "hex": "#101820"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-orleans-saints-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Saints"
+  ],
+  "espn_id": "18"
+ },
+ {
+  "name": "New York Giants",
+  "short": "Giants",
+  "code": "NYG",
+  "code_espn": "NYG",
+  "primary": "#0B2265",
+  "secondary": "#A71930",
+  "on_dark": "#6D7AA3",
+  "colours": [
+   {
+    "name": "Dark Blue",
+    "hex": "#0B2265"
+   },
+   {
+    "name": "Red",
+    "hex": "#A71930"
+   },
+   {
+    "name": "Gray",
+    "hex": "#A5ACAF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-york-giants-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Giants",
+   "NY Giants"
+  ],
+  "espn_id": "19"
+ },
+ {
+  "name": "New York Jets",
+  "short": "Jets",
+  "code": "NYJ",
+  "code_espn": "NYJ",
+  "primary": "#125740",
+  "secondary": "#000000",
+  "on_dark": "#548675",
+  "colours": [
+   {
+    "name": "Gotham Green",
+    "hex": "#125740"
+   },
+   {
+    "name": "Stealth Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Spotlight White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Hunter Green",
+    "hex": "#003F2D"
+   },
+   {
+    "name": "Green",
+    "hex": "#046A38"
+   },
+   {
+    "name": "Black",
+    "hex": "#27251F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-york-jets-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Jets",
+   "NY Jets"
+  ],
+  "espn_id": "20"
+ },
+ {
+  "name": "Philadelphia Eagles",
+  "short": "Eagles",
+  "code": "PHI",
+  "code_espn": "PHI",
+  "primary": "#004C54",
+  "secondary": "#A5ACAF",
+  "on_dark": "#52858B",
+  "colours": [
+   {
+    "name": "Midnight Green",
+    "hex": "#004C54"
+   },
+   {
+    "name": "Silver (Jersey)",
+    "hex": "#A5ACAF"
+   },
+   {
+    "name": "Silver (Helmet)",
+    "hex": "#ACC0C6"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "Charcoal",
+    "hex": "#565A5C"
+   },
+   {
+    "name": "Green",
+    "hex": "#046A38"
+   },
+   {
+    "name": "Silver (Metallic)",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Gray (Facemask)",
+    "hex": "#91999F"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFCD00"
+   },
+   {
+    "name": "Brown",
+    "hex": "#A1561C"
+   },
+   {
+    "name": "Black",
+    "hex": "#27251F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/philadelphia-eagles-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Eagles",
+   "Iggles"
+  ],
+  "espn_id": "21"
+ },
+ {
+  "name": "Pittsburgh Steelers",
+  "short": "Steelers",
+  "code": "PIT",
+  "code_espn": "PIT",
+  "primary": "#FFB612",
+  "secondary": "#101820",
+  "on_dark": "#FFB612",
+  "colours": [
+   {
+    "name": "Steelers Gold",
+    "hex": "#FFB612"
+   },
+   {
+    "name": "Black",
+    "hex": "#101820"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#003087"
+   },
+   {
+    "name": "RED",
+    "hex": "#C60C30"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#A5ACAF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/pittsburgh-steelers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Steelers"
+  ],
+  "espn_id": "23"
+ },
+ {
+  "name": "San Francisco 49ers",
+  "short": "49ers",
+  "code": "SFO",
+  "code_espn": "SF",
+  "primary": "#AA0000",
+  "secondary": "#B3995D",
+  "on_dark": "#C95C5C",
+  "colours": [
+   {
+    "name": "49ERS Red",
+    "hex": "#AA0000"
+   },
+   {
+    "name": "GOLD",
+    "hex": "#B3995D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/san-francisco-49ers-team-colors/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "49ers",
+   "San Francisco Forty Niners",
+   "Niners"
+  ],
+  "espn_id": "25"
+ },
+ {
+  "name": "Seattle Seahawks",
+  "short": "Seahawks",
+  "code": "SEA",
+  "code_espn": "SEA",
+  "primary": "#002244",
+  "secondary": "#69BE28",
+  "on_dark": "#708396",
+  "colours": [
+   {
+    "name": "College Navy",
+    "hex": "#002244"
+   },
+   {
+    "name": "Action Green",
+    "hex": "#69BE28"
+   },
+   {
+    "name": "Wolf Gray",
+    "hex": "#A5ACAF"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#003087"
+   },
+   {
+    "name": "GREEN",
+    "hex": "#046A38"
+   },
+   {
+    "name": "Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Grey",
+    "hex": "#B2B4B2"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/seattle-seahawks-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Seahawks"
+  ],
+  "espn_id": "26"
+ },
+ {
+  "name": "Tampa Bay Buccaneers",
+  "short": "Buccaneers",
+  "code": "TAM",
+  "code_espn": "TB",
+  "primary": "#D50A0A",
+  "secondary": "#FF7900",
+  "on_dark": "#DF4545",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#D50A0A"
+   },
+   {
+    "name": "BAY ORANGE",
+    "hex": "#FF7900"
+   },
+   {
+    "name": "Black",
+    "hex": "#0A0A08"
+   },
+   {
+    "name": "Grey",
+    "hex": "#B1BABF"
+   },
+   {
+    "name": "Pewter",
+    "hex": "#34302B"
+   },
+   {
+    "name": "Red",
+    "hex": "#A6192E"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#FC4C02"
+   },
+   {
+    "name": "Pewter",
+    "hex": "#696158"
+   },
+   {
+    "name": "Orange",
+    "hex": "#FF8200"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/tampa-bay-buccaneers-team-colors/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Buccaneers",
+   "Bucs"
+  ],
+  "espn_id": "27"
+ },
+ {
+  "name": "Tennessee Titans",
+  "short": "Titans",
+  "code": "TEN",
+  "code_espn": "TEN",
+  "primary": "#0C2340",
+  "secondary": "#4B92DB",
+  "on_dark": "#6D7B8C",
+  "colours": [
+   {
+    "name": "Titans Navy",
+    "hex": "#0C2340"
+   },
+   {
+    "name": "Titans Blue",
+    "hex": "#4B92DB"
+   },
+   {
+    "name": "Titans Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Titans Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Wolf Grey",
+    "hex": "#A2AAAD"
+   },
+   {
+    "name": "Steel Grey",
+    "hex": "#54585A"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/tennessee-titans-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Titans"
+  ],
+  "espn_id": "10"
+ },
+ {
+  "name": "Washington Commanders",
+  "short": "Commanders",
+  "code": "WAS",
+  "code_espn": "WSH",
+  "primary": "#5A1414",
+  "secondary": "#FFB612",
+  "on_dark": "#9C7272",
+  "colours": [
+   {
+    "name": "Burgundy",
+    "hex": "#5A1414"
+   },
+   {
+    "name": "Gold",
+    "hex": "#FFB612"
+   },
+   {
+    "name": "Burgundy",
+    "hex": "#773141"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/washington-redskins-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NFL",
+  "competitions": [
+   "NFL"
+  ],
+  "aliases": [
+   "Commanders",
+   "Washington"
+  ],
+  "espn_id": "28"
+ },
+ {
+  "name": "Atlanta Hawks",
+  "short": "Hawks",
+  "code": "ATL",
+  "code_espn": "ATL",
+  "primary": "#C8102E",
+  "secondary": "#FDB927",
+  "on_dark": "#D54960",
+  "colours": [
+   {
+    "name": "Torch Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Legacy Yellow",
+    "hex": "#FDB927"
+   },
+   {
+    "name": "Infinity Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Granite Gray",
+    "hex": "#9EA2A2"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "Hawks Red",
+    "hex": "#E03A3E"
+   },
+   {
+    "name": "VOLT GREEN",
+    "hex": "#C1D32F"
+   },
+   {
+    "name": "Hawks Charcoal",
+    "hex": "#26282A"
+   },
+   {
+    "name": "Hawks Yellow",
+    "hex": "#FFCD00"
+   },
+   {
+    "name": "Hawks Gold",
+    "hex": "#87674F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/atlanta-hawks-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Hawks"
+  ],
+  "espn_id": "1"
+ },
+ {
+  "name": "Boston Celtics",
+  "short": "Celtics",
+  "code": "BOS",
+  "code_espn": "BOS",
+  "primary": "#007A33",
+  "secondary": "#BA9653",
+  "on_dark": "#298F54",
+  "colours": [
+   {
+    "name": "CELTICS GREEN",
+    "hex": "#007A33"
+   },
+   {
+    "name": "CELTICS GOLD",
+    "hex": "#BA9653"
+   },
+   {
+    "name": "CELTICS BROWN",
+    "hex": "#963821"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "CELTICS BLACK",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/boston-celtics-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Celtics"
+  ],
+  "espn_id": "2"
+ },
+ {
+  "name": "Brooklyn Nets",
+  "short": "Nets",
+  "code": "BKN",
+  "code_espn": "BKN",
+  "primary": "#000000",
+  "secondary": "#FFFFFF",
+  "on_dark": "#FFFFFF",
+  "colours": [
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "WHITE",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "NAVY BLUE",
+    "hex": "#002A60"
+   },
+   {
+    "name": "RED",
+    "hex": "#CD1041"
+   },
+   {
+    "name": "GRAY",
+    "hex": "#777D84"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#C6CFD4"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/brooklyn-nets-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Nets"
+  ],
+  "espn_id": "17"
+ },
+ {
+  "name": "Charlotte Hornets",
+  "short": "Hornets",
+  "code": "CHA",
+  "code_espn": "CHA",
+  "primary": "#1D1160",
+  "secondary": "#00788C",
+  "on_dark": "#807AA6",
+  "colours": [
+   {
+    "name": "HORNETS PURPLE",
+    "hex": "#1D1160"
+   },
+   {
+    "name": "TEAL",
+    "hex": "#00788C"
+   },
+   {
+    "name": "GRAY",
+    "hex": "#A1A1A4"
+   },
+   {
+    "name": "Teal",
+    "hex": "#00778B"
+   },
+   {
+    "name": "Purple",
+    "hex": "#280071"
+   },
+   {
+    "name": "Red/Orange",
+    "hex": "#F9423A"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/charlotte-hornets-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Hornets"
+  ],
+  "espn_id": "30"
+ },
+ {
+  "name": "Chicago Bulls",
+  "short": "Bulls",
+  "code": "CHI",
+  "code_espn": "CHI",
+  "primary": "#CE1141",
+  "secondary": "#000000",
+  "on_dark": "#D84167",
+  "colours": [
+   {
+    "name": "BULLS RED",
+    "hex": "#CE1141"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/chicago-bulls-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Bulls"
+  ],
+  "espn_id": "4"
+ },
+ {
+  "name": "Cleveland Cavaliers",
+  "short": "Cavaliers",
+  "code": "CLE",
+  "code_espn": "CLE",
+  "primary": "#860038",
+  "secondary": "#041E42",
+  "on_dark": "#B66688",
+  "colours": [
+   {
+    "name": "Cavaliers Wine",
+    "hex": "#860038"
+   },
+   {
+    "name": "Cavaliers Navy",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Cavaliers Gold",
+    "hex": "#FDBB30"
+   },
+   {
+    "name": "Cavaliers Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#E35205"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#5C88DA"
+   },
+   {
+    "name": "Black",
+    "hex": "#27251F"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#DC3B34"
+   },
+   {
+    "name": "NAVY BLUE",
+    "hex": "#04225C"
+   },
+   {
+    "name": "WHITE",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/cleveland-cavaliers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Cavaliers",
+   "Cavs"
+  ],
+  "espn_id": "5"
+ },
+ {
+  "name": "Dallas Mavericks",
+  "short": "Mavericks",
+  "code": "DAL",
+  "code_espn": "DAL",
+  "primary": "#00538C",
+  "secondary": "#B8C4CA",
+  "on_dark": "#4783AC",
+  "colours": [
+   {
+    "name": "Royal Blue",
+    "hex": "#00538C"
+   },
+   {
+    "name": "Navy Blue",
+    "hex": "#002B5E"
+   },
+   {
+    "name": "Silver",
+    "hex": "#B8C4CA"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "Blue",
+    "hex": "#002855"
+   },
+   {
+    "name": "Green",
+    "hex": "#00843D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/dallas-mavericks-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Mavericks"
+  ],
+  "espn_id": "6"
+ },
+ {
+  "name": "Denver Nuggets",
+  "short": "Nuggets",
+  "code": "DEN",
+  "code_espn": "DEN",
+  "primary": "#0E2240",
+  "secondary": "#FEC524",
+  "on_dark": "#788394",
+  "colours": [
+   {
+    "name": "Midnight Blue",
+    "hex": "#0E2240"
+   },
+   {
+    "name": "Sunshine Yellow",
+    "hex": "#FEC524"
+   },
+   {
+    "name": "Flatirons Red",
+    "hex": "#8B2131"
+   },
+   {
+    "name": "Skyline Blue",
+    "hex": "#1D428A"
+   },
+   {
+    "name": "Navy Blue",
+    "hex": "#00285E"
+   },
+   {
+    "name": "Powder Blue",
+    "hex": "#418FDE"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FDB927"
+   },
+   {
+    "name": "Navy Blue",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Red",
+    "hex": "#9D2235"
+   },
+   {
+    "name": "Gold",
+    "hex": "#8B6F4E"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/denver-nuggets-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Nuggets"
+  ],
+  "espn_id": "7"
+ },
+ {
+  "name": "Detroit Pistons",
+  "short": "Pistons",
+  "code": "DET",
+  "code_espn": "DET",
+  "primary": "#C8102E",
+  "secondary": "#1D42BA",
+  "on_dark": "#D54960",
+  "colours": [
+   {
+    "name": "RED",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Royal",
+    "hex": "#1D42BA"
+   },
+   {
+    "name": "Gray",
+    "hex": "#BEC0C2"
+   },
+   {
+    "name": "Navy",
+    "hex": "#002D62"
+   },
+   {
+    "name": "RED",
+    "hex": "#ED174C"
+   },
+   {
+    "name": "Royal",
+    "hex": "#006BB6"
+   },
+   {
+    "name": "RED",
+    "hex": "#D50032"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#003DA5"
+   },
+   {
+    "name": "Blue",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Red",
+    "hex": "#9D2235"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFA300"
+   },
+   {
+    "name": "Green",
+    "hex": "#006272"
+   },
+   {
+    "name": "Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/detroit-pistons-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Pistons"
+  ],
+  "espn_id": "8"
+ },
+ {
+  "name": "Golden State Warriors",
+  "short": "Warriors",
+  "code": "GSW",
+  "code_espn": "GS",
+  "primary": "#1D428A",
+  "secondary": "#FFC72C",
+  "on_dark": "#657EAF",
+  "colours": [
+   {
+    "name": "WARRIORS BLUE",
+    "hex": "#1D428A"
+   },
+   {
+    "name": "GOLDEN YELLOW",
+    "hex": "#FFC72C"
+   },
+   {
+    "name": "WARRIORS ROYAL BLUE",
+    "hex": "#006BB6"
+   },
+   {
+    "name": "GOLDEN YELLOW",
+    "hex": "#FDB927"
+   },
+   {
+    "name": "Slate",
+    "hex": "#26282A"
+   },
+   {
+    "name": "Blue",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Red",
+    "hex": "#BE3A34"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFA300"
+   },
+   {
+    "name": "Light Blue",
+    "hex": "#00A9E0"
+   },
+   {
+    "name": "Warriors Blue",
+    "hex": "#002F6C"
+   },
+   {
+    "name": "Warriors Yellow",
+    "hex": "#FFCD00"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/golden-state-warriors-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Warriors",
+   "Golden State",
+   "GSW"
+  ],
+  "espn_id": "9"
+ },
+ {
+  "name": "Houston Rockets",
+  "short": "Rockets",
+  "code": "HOU",
+  "code_espn": "HOU",
+  "primary": "#CE1141",
+  "secondary": "#000000",
+  "on_dark": "#D84167",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#CE1141"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Silver",
+    "hex": "#C4CED4"
+   },
+   {
+    "name": "Blue",
+    "hex": "#041E42"
+   },
+   {
+    "name": "Metallic Blue",
+    "hex": "#2C7AA1"
+   },
+   {
+    "name": "Red",
+    "hex": "#BA0C2F"
+   },
+   {
+    "name": "Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFC72C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/houston-rockets-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Rockets"
+  ],
+  "espn_id": "10"
+ },
+ {
+  "name": "Indiana Pacers",
+  "short": "Pacers",
+  "code": "IND",
+  "code_espn": "IND",
+  "primary": "#002D62",
+  "secondary": "#FDBB30",
+  "on_dark": "#6681A1",
+  "colours": [
+   {
+    "name": "PACERS BLUE",
+    "hex": "#002D62"
+   },
+   {
+    "name": "YELLOW",
+    "hex": "#FDBB30"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#BEC0C2"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/indiana-pacers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Pacers"
+  ],
+  "espn_id": "11"
+ },
+ {
+  "name": "LA Clippers",
+  "short": "Clippers",
+  "code": "LAC",
+  "code_espn": "LAC",
+  "primary": "#C8102E",
+  "secondary": "#1D428A",
+  "on_dark": "#D54960",
+  "colours": [
+   {
+    "name": "RED",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#1D428A"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#BEC0C2"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/los-angeles-clippers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Clippers",
+   "Los Angeles Clippers"
+  ],
+  "espn_id": "12"
+ },
+ {
+  "name": "Los Angeles Lakers",
+  "short": "Lakers",
+  "code": "LAL",
+  "code_espn": "LAL",
+  "primary": "#552583",
+  "secondary": "#FDB927",
+  "on_dark": "#9273B0",
+  "colours": [
+   {
+    "name": "LAKERS PURPLE",
+    "hex": "#552583"
+   },
+   {
+    "name": "GOLD",
+    "hex": "#FDB927"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/los-angeles-lakers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Lakers",
+   "LA Lakers"
+  ],
+  "espn_id": "13"
+ },
+ {
+  "name": "Memphis Grizzlies",
+  "short": "Grizzlies",
+  "code": "MEM",
+  "code_espn": "MEM",
+  "primary": "#5D76A9",
+  "secondary": "#12173F",
+  "on_dark": "#637BAC",
+  "colours": [
+   {
+    "name": "BLUE",
+    "hex": "#5D76A9"
+   },
+   {
+    "name": "Navy",
+    "hex": "#12173F"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F5B112"
+   },
+   {
+    "name": "Gray",
+    "hex": "#707271"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#6189B9"
+   },
+   {
+    "name": "Navy",
+    "hex": "#00285E"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FDB927"
+   },
+   {
+    "name": "SMOKE BLUE",
+    "hex": "#BED4E9"
+   },
+   {
+    "name": "TEAL",
+    "hex": "#00B2A9"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#E43C40"
+   },
+   {
+    "name": "BROWN",
+    "hex": "#BC7844"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#040204"
+   },
+   {
+    "name": "WHITE",
+    "hex": "#FFFFFF"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/memphis-grizzlies-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Grizzlies"
+  ],
+  "espn_id": "29"
+ },
+ {
+  "name": "Miami Heat",
+  "short": "Heat",
+  "code": "MIA",
+  "code_espn": "MIA",
+  "primary": "#98002E",
+  "secondary": "#F9A01B",
+  "on_dark": "#BD5C79",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#98002E"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F9A01B"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "Blue",
+    "hex": "#41B6E6"
+   },
+   {
+    "name": "Fuschia",
+    "hex": "#DB3EB1"
+   },
+   {
+    "name": "WHITE",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "HEAT RED",
+    "hex": "#BA0C2F"
+   },
+   {
+    "name": "HEAT YELLOW",
+    "hex": "#FEDD00"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/miami-heat-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Heat"
+  ],
+  "espn_id": "14"
+ },
+ {
+  "name": "Milwaukee Bucks",
+  "short": "Bucks",
+  "code": "MIL",
+  "code_espn": "MIL",
+  "primary": "#00471B",
+  "secondary": "#EEE1C6",
+  "on_dark": "#5C896D",
+  "colours": [
+   {
+    "name": "GOOD LAND GREEN",
+    "hex": "#00471B"
+   },
+   {
+    "name": "CREAM CITY CREAM",
+    "hex": "#EEE1C6"
+   },
+   {
+    "name": "GREAT LAKES BLUE",
+    "hex": "#0077C0"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Red",
+    "hex": "#AC1A2F"
+   },
+   {
+    "name": "HUNTER GREEN",
+    "hex": "#274E37"
+   },
+   {
+    "name": "Gray",
+    "hex": "#95999D"
+   },
+   {
+    "name": "WHITE",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "PURPLE",
+    "hex": "#702F8A"
+   },
+   {
+    "name": "HUNTER GREEN",
+    "hex": "#2C5234"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Green",
+    "hex": "#009429"
+   },
+   {
+    "name": "Brown",
+    "hex": "#F7A500"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/milwaukee-bucks-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Bucks"
+  ],
+  "espn_id": "15"
+ },
+ {
+  "name": "Minnesota Timberwolves",
+  "short": "Timberwolves",
+  "code": "MIN",
+  "code_espn": "MIN",
+  "primary": "#0C2340",
+  "secondary": "#236192",
+  "on_dark": "#6D7B8C",
+  "colours": [
+   {
+    "name": "MIDNIGHT BLUE",
+    "hex": "#0C2340"
+   },
+   {
+    "name": "LAKE BLUE",
+    "hex": "#236192"
+   },
+   {
+    "name": "MOONLIGHT GREY",
+    "hex": "#9EA2A2"
+   },
+   {
+    "name": "AURORA GREEN",
+    "hex": "#78BE20"
+   },
+   {
+    "name": "Dark Purple",
+    "hex": "#221C35"
+   },
+   {
+    "name": "Purple",
+    "hex": "#981D97"
+   },
+   {
+    "name": "White",
+    "hex": "#FFFFFF"
+   },
+   {
+    "name": "GREEN",
+    "hex": "#00843D"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FFD700"
+   },
+   {
+    "name": "Red",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#24429C"
+   },
+   {
+    "name": "GREEN",
+    "hex": "#1CA64C"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#848A8C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/minnesota-timberwolves-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Timberwolves",
+   "Wolves",
+   "T-Wolves"
+  ],
+  "espn_id": "16"
+ },
+ {
+  "name": "New Orleans Pelicans",
+  "short": "Pelicans",
+  "code": "NOP",
+  "code_espn": "NO",
+  "primary": "#0C2340",
+  "secondary": "#C8102E",
+  "on_dark": "#6D7B8C",
+  "colours": [
+   {
+    "name": "PELICANS NAVY",
+    "hex": "#0C2340"
+   },
+   {
+    "name": "Pelicans RED",
+    "hex": "#C8102E"
+   },
+   {
+    "name": "Pelicans GOLD",
+    "hex": "#85714D"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-orleans-pelicans-team-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Pelicans"
+  ],
+  "espn_id": "3"
+ },
+ {
+  "name": "New York Knicks",
+  "short": "Knicks",
+  "code": "NYK",
+  "code_espn": "NY",
+  "primary": "#006BB6",
+  "secondary": "#F58426",
+  "on_dark": "#2983C2",
+  "colours": [
+   {
+    "name": "Knicks Blue",
+    "hex": "#006BB6"
+   },
+   {
+    "name": "Knicks Orange",
+    "hex": "#F58426"
+   },
+   {
+    "name": "Knicks Silver",
+    "hex": "#BEC0C2"
+   },
+   {
+    "name": "Knicks Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Knicks Blue",
+    "hex": "#0072CE"
+   },
+   {
+    "name": "Knicks Orange",
+    "hex": "#FE5000"
+   },
+   {
+    "name": "Knicks Silver",
+    "hex": "#8A8D8F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/new-york-knicks-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Knicks",
+   "NY Knicks"
+  ],
+  "espn_id": "18"
+ },
+ {
+  "name": "Oklahoma City Thunder",
+  "short": "Thunder",
+  "code": "OKC",
+  "code_espn": "OKC",
+  "primary": "#007AC1",
+  "secondary": "#EF3B24",
+  "on_dark": "#0A7FC3",
+  "colours": [
+   {
+    "name": "THUNDER BLUE",
+    "hex": "#007AC1"
+   },
+   {
+    "name": "Sunset",
+    "hex": "#EF3B24"
+   },
+   {
+    "name": "Blue",
+    "hex": "#002D62"
+   },
+   {
+    "name": "YELLOW",
+    "hex": "#FDBB30"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/oklahoma-city-thunder-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Thunder",
+   "OKC Thunder",
+   "OKC"
+  ],
+  "espn_id": "25"
+ },
+ {
+  "name": "Orlando Magic",
+  "short": "Magic",
+  "code": "ORL",
+  "code_espn": "ORL",
+  "primary": "#0077C0",
+  "secondary": "#C4CED4",
+  "on_dark": "#1482C5",
+  "colours": [
+   {
+    "name": "MAGIC BLUE",
+    "hex": "#0077C0"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#C4CED4"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/orlando-magic-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Magic"
+  ],
+  "espn_id": "19"
+ },
+ {
+  "name": "Philadelphia 76ers",
+  "short": "76ers",
+  "code": "PHI",
+  "code_espn": "PHI",
+  "primary": "#006BB6",
+  "secondary": "#ED174C",
+  "on_dark": "#2983C2",
+  "colours": [
+   {
+    "name": "Blue",
+    "hex": "#006BB6"
+   },
+   {
+    "name": "Red",
+    "hex": "#ED174C"
+   },
+   {
+    "name": "Navy",
+    "hex": "#002B5C"
+   },
+   {
+    "name": "Silver",
+    "hex": "#C4CED4"
+   },
+   {
+    "name": "Red",
+    "hex": "#D50032"
+   },
+   {
+    "name": "GOLD",
+    "hex": "#BB9754"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#040204"
+   },
+   {
+    "name": "Blue",
+    "hex": "#002F6C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/philadelphia-76ers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "76ers",
+   "Sixers",
+   "Philadelphia Sixers"
+  ],
+  "espn_id": "20"
+ },
+ {
+  "name": "Phoenix Suns",
+  "short": "Suns",
+  "code": "PHX",
+  "code_espn": "PHX",
+  "primary": "#1D1160",
+  "secondary": "#E56020",
+  "on_dark": "#807AA6",
+  "colours": [
+   {
+    "name": "Purple",
+    "hex": "#1D1160"
+   },
+   {
+    "name": "Orange",
+    "hex": "#E56020"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Gray",
+    "hex": "#63727A"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#F9AD1B"
+   },
+   {
+    "name": "Dark Orange",
+    "hex": "#B95915"
+   },
+   {
+    "name": "Light Gray",
+    "hex": "#BEC0C2"
+   },
+   {
+    "name": "Yellow",
+    "hex": "#FF6900"
+   },
+   {
+    "name": "Orange",
+    "hex": "#FE5000"
+   },
+   {
+    "name": "Red",
+    "hex": "#EF3340"
+   },
+   {
+    "name": "Purple",
+    "hex": "#5F259F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/phoenix-suns-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Suns"
+  ],
+  "espn_id": "21"
+ },
+ {
+  "name": "Portland Trail Blazers",
+  "short": "Blazers",
+  "code": "POR",
+  "code_espn": "POR",
+  "primary": "#E03A3E",
+  "secondary": "#000000",
+  "on_dark": "#E03A3E",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#E03A3E"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/portland-trailblazers-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Trail Blazers",
+   "Blazers"
+  ],
+  "espn_id": "22"
+ },
+ {
+  "name": "Sacramento Kings",
+  "short": "Kings",
+  "code": "SAC",
+  "code_espn": "SAC",
+  "primary": "#5A2D81",
+  "secondary": "#63727A",
+  "on_dark": "#8F70A9",
+  "colours": [
+   {
+    "name": "Purple",
+    "hex": "#5A2D81"
+   },
+   {
+    "name": "Gray",
+    "hex": "#63727A"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "KINGS PURPLE",
+    "hex": "#542E91"
+   },
+   {
+    "name": "Kings Grey",
+    "hex": "#C4CED4"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/sacramento-kings-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Kings"
+  ],
+  "espn_id": "23"
+ },
+ {
+  "name": "San Antonio Spurs",
+  "short": "Spurs",
+  "code": "SAS",
+  "code_espn": "SA",
+  "primary": "#C4CED4",
+  "secondary": "#000000",
+  "on_dark": "#C4CED4",
+  "colours": [
+   {
+    "name": "SILVER",
+    "hex": "#C4CED4"
+   },
+   {
+    "name": "BLACK",
+    "hex": "#000000"
+   },
+   {
+    "name": "Silver",
+    "hex": "#8A8D8F"
+   },
+   {
+    "name": "Fuschia",
+    "hex": "#EF426F"
+   },
+   {
+    "name": "Blue",
+    "hex": "#00B2A9"
+   },
+   {
+    "name": "ORANGE",
+    "hex": "#FF8200"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/san-antonio-spurs-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Spurs"
+  ],
+  "espn_id": "24"
+ },
+ {
+  "name": "Toronto Raptors",
+  "short": "Raptors",
+  "code": "TOR",
+  "code_espn": "TOR",
+  "primary": "#CE1141",
+  "secondary": "#000000",
+  "on_dark": "#D84167",
+  "colours": [
+   {
+    "name": "Red",
+    "hex": "#CE1141"
+   },
+   {
+    "name": "Black",
+    "hex": "#000000"
+   },
+   {
+    "name": "Silver",
+    "hex": "#A1A1A4"
+   },
+   {
+    "name": "Gold",
+    "hex": "#B4975A"
+   },
+   {
+    "name": "PURPLE",
+    "hex": "#753BBD"
+   },
+   {
+    "name": "RED",
+    "hex": "#BA0C2F"
+   },
+   {
+    "name": "Silver (Metallic)",
+    "hex": "#8A8D8F"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/toronto-raptors-color-codes/",
+  "colour_confidence": "high",
+  "country": "ca",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Raptors"
+  ],
+  "espn_id": "28"
+ },
+ {
+  "name": "Utah Jazz",
+  "short": "Jazz",
+  "code": "UTA",
+  "code_espn": "UTAH",
+  "primary": "#002B5C",
+  "secondary": "#00471B",
+  "on_dark": "#66809D",
+  "colours": [
+   {
+    "name": "NAVY",
+    "hex": "#002B5C"
+   },
+   {
+    "name": "GREEN",
+    "hex": "#00471B"
+   },
+   {
+    "name": "YELLOW",
+    "hex": "#F9A01B"
+   },
+   {
+    "name": "NAVY BLUE",
+    "hex": "#00275D"
+   },
+   {
+    "name": "PURPLE",
+    "hex": "#3E2680"
+   },
+   {
+    "name": "BLUE",
+    "hex": "#6CAEDF"
+   },
+   {
+    "name": "Purple",
+    "hex": "#753BBD"
+   },
+   {
+    "name": "Light Blue",
+    "hex": "#00A9E0"
+   },
+   {
+    "name": "Green",
+    "hex": "#006272"
+   },
+   {
+    "name": "Copper",
+    "hex": "#954E4C"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/utah-jazz-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Jazz"
+  ],
+  "espn_id": "26"
+ },
+ {
+  "name": "Washington Wizards",
+  "short": "Wizards",
+  "code": "WAS",
+  "code_espn": "WSH",
+  "primary": "#002B5C",
+  "secondary": "#E31837",
+  "on_dark": "#66809D",
+  "colours": [
+   {
+    "name": "Navy Blue",
+    "hex": "#002B5C"
+   },
+   {
+    "name": "RED",
+    "hex": "#E31837"
+   },
+   {
+    "name": "SILVER",
+    "hex": "#C4CED4"
+   }
+  ],
+  "colour_source": "teamcolorcodes.com",
+  "colour_source_url": "https://teamcolorcodes.com/washington-wizards-color-codes/",
+  "colour_confidence": "high",
+  "country": "us",
+  "league": "NBA",
+  "competitions": [
+   "NBA"
+  ],
+  "aliases": [
+   "Wizards"
+  ],
+  "espn_id": "27"
+ }
+]

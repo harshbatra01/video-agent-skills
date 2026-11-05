@@ -1,0 +1,159 @@
+{
+ "generated": "2026-10-13",
+ "package": "simple-icons",
+ "version_resolved_from_@13": "13.21.0",
+ "licence": "CC0 1.0 (the SVG files). The logos themselves are trademarks of their owners.",
+ "licence_file": "LICENSE-simple-icons-CC0.txt",
+ "note": "Icons are single-colour (no fill set, so they take the CSS fill / currentColor). brand_hex is the official brand colour from the simple-icons data file.",
+ "missing": [
+  {
+   "slug": "hyperliquid",
+   "why": "not in simple-icons at version 13.21.0 or in the latest release (404 on both; the data files only have Hyper, Hyperskill, HyperX). Outcome serves its own HYPE token art at cdn.outcome.xyz/assets/tokens/hype.webp and /assets/pills/hype.svg (not downloaded: third-party token logo)."
+  }
+ ],
+ "icons": [
+  {
+   "slug": "bitcoin",
+   "file": "bitcoin.svg",
+   "title": "Bitcoin",
+   "brand_hex": "#F7931A",
+   "brand_source": "https://bitcoin.org",
+   "bytes": 908,
+   "sha256": "9c1547b0246bd3e83b4ade35132279ab12d0388ae3f9f436dc6a3a9e29e68e9b",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/bitcoin.svg"
+  },
+  {
+   "slug": "ethereum",
+   "file": "ethereum.svg",
+   "title": "Ethereum",
+   "brand_hex": "#3C3C3D",
+   "brand_source": "https://ethereum.org/en/assets/",
+   "bytes": 228,
+   "sha256": "0ba6a9ca2c62e9a0c7f61b3053a9065cd8b48f1f35cd782edd1f7e49b1d729c2",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/ethereum.svg"
+  },
+  {
+   "slug": "solana",
+   "file": "solana.svg",
+   "title": "Solana",
+   "brand_hex": "#9945FF",
+   "brand_source": "https://solana.com/branding",
+   "bytes": 1231,
+   "sha256": "35472f0ee6e700a48c5c19c975dfe89242d987c415ec969ed5b0b6a3a487c301",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/solana.svg"
+  },
+  {
+   "slug": "anthropic",
+   "file": "anthropic.svg",
+   "title": "Anthropic",
+   "brand_hex": "#191919",
+   "brand_source": "https://www.anthropic.com",
+   "bytes": 281,
+   "sha256": "1cc599f6ebce2016dc388cf84e54a52c6b13487655c7e243554d654c7bce1882",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/anthropic.svg"
+  },
+  {
+   "slug": "openai",
+   "file": "openai.svg",
+   "title": "OpenAI",
+   "brand_hex": "#412991",
+   "brand_source": "https://openai.com/brand",
+   "bytes": 1570,
+   "sha256": "2b4a04ddc2395b20d168694d3850ce2050a702c4a0cdeb4d8b31b9a970481a8c",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/openai.svg"
+  },
+  {
+   "slug": "spacex",
+   "file": "spacex.svg",
+   "title": "SpaceX",
+   "brand_hex": "#000000",
+   "brand_source": "https://www.spacex.com",
+   "bytes": 323,
+   "sha256": "b62123e05102ff4faa0a900d385c5312426f397a72ed9b6e4018821d9c18ac9a",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/spacex.svg"
+  },
+  {
+   "slug": "nvidia",
+   "file": "nvidia.svg",
+   "title": "NVIDIA",
+   "brand_hex": "#76B900",
+   "brand_source": "https://www.nvidia.com/en-us",
+   "bytes": 881,
+   "sha256": "b0e4cfc12712c840d4d630c9a717200fbd09aeeadbd3faeac13bda2e2ed050b0",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/nvidia.svg"
+  },
+  {
+   "slug": "tiktok",
+   "file": "tiktok.svg",
+   "title": "TikTok",
+   "brand_hex": "#000000",
+   "brand_source": "https://tiktok.com",
+   "bytes": 707,
+   "sha256": "6f54ac8d325faacea8935bdc44cbed60206a6b408641799e5fea1cba7c1a0af7",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/tiktok.svg"
+  },
+  {
+   "slug": "instagram",
+   "file": "instagram.svg",
+   "title": "Instagram",
+   "brand_hex": "#FF0069",
+   "brand_source": "https://about.meta.com/brand/resources/instagram",
+   "bytes": 2101,
+   "sha256": "f53af2d1fc5292ba1433b5c1faf50005ce6a997fa302d1816989929f379a59dc",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/instagram.svg"
+  },
+  {
+   "slug": "youtube",
+   "file": "youtube.svg",
+   "title": "YouTube",
+   "brand_hex": "#FF0000",
+   "brand_source": "https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors",
+   "bytes": 459,
+   "sha256": "5038808acbbc4e6edda16cbeb1cc6dec80e4e4ee4e227e039c41229fa222aa8c",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/youtube.svg"
+  },
+  {
+   "slug": "x",
+   "file": "x.svg",
+   "title": "X",
+   "brand_hex": "#000000",
+   "brand_source": "https://x.com",
+   "bytes": 252,
+   "sha256": "be03adbfce4a46c4e42eae5ee7b5e676b59627fa25e15a317e453bb18153ff5f",
+   "viewBox": "0 0 24 24",
+   "paths": 1,
+   "single_colour": true,
+   "url": "https://cdn.jsdelivr.net/npm/simple-icons@13/icons/x.svg"
+  }
+ ]
+}

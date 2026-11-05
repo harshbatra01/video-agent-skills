@@ -1,0 +1,10 @@
+pilot_v1: 28.6s 1080x1920 30.00fps | 138 BPM | drop 14.73s (+6.8 dB)
+shots 40 | median 0.83s | min 0.10s | max 1.60s
+cuts/s per 2s: 1.5 1.0 1.5 1.0 1.0 1.0 2.0 1.5 1.5 2.5 2.5 0.5 1.0 1.0 0.0
+flashes per 2s: 2 1 2 1 1 0 2 1 1 2 1 2 1 2 0  (total 19)
+motion per 2s: 2.0 0.4 0.7 1.2 0.6 1.1 1.2 0.8 1.1 0.3 2.3 0.6 0.4 0.7 0.0
+breaths: [[5.37, 5.63], [9.7, 9.87], [13.9, 14.47]]
+B&W: [[5.2, 5.9], [9.47, 13.03], [19.23, 19.93]] | black frames at: [5.3, 19.63]
+motifs: []
+on kick/snare: cuts {'n': 39, 'on_hit_pct': 30.8, 'chance_pct': 27.1, 'median_offset_frames': -0.15} | flashes {'n': 19, 'on_hit_pct': 52.6, 'chance_pct': 27.1, 'median_offset_frames': -0.18}
+on 8th-note grid: cuts {'n': 39, 'on_hit_pct': 48.7, 'chance_pct': 46.0, 'median_offset_frames': -0.2} | flashes {'n': 19, 'on_hit_pct': 57.9, 'chance_pct': 46.0, 'median_offset_frames': -0.1}

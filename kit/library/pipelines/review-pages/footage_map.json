@@ -1,0 +1,67 @@
+{
+ "videos": {
+  "q4sEUftpSko": "World Cross Country 1998, Marrakech (age 24)",
+  "y5XnD2-rjXU": "BBC documentary on Paula (career story)",
+  "ozIeKjwadRI": "Chasing Stars (2025 life: travel, events, family)",
+  "K6ZLs8IrY6o": "Chasing Stars trailer",
+  "pz_dP408IEE": "Training feature, 2001 (TWS)",
+  "DLLSKmpMKe4": "London Marathon 2003 world record",
+  "UDEMZTB5I54": "London Marathon world record coverage (clock, press, fans)",
+  "9qUUAIHqRVE": "European Champs Munich 2002",
+  "qPJYc-_3aXk": "New York Marathon 2007 (comeback after baby)",
+  "wRw754RYPDM": "World Champs Helsinki 2005 marathon gold",
+  "7DqgBD26d-E": "Athens 2004 Olympic marathon",
+  "n6IkUp1CJis": "Career montage (incl. Budapest 1998, Ostend 2001 XC win)",
+  "lq3XOzWhD2w": "Commonwealth Games 2002 5000m",
+  "_RcBoqatAVw": "London Marathon 2015 farewell",
+  "Dp7hVf8OeQ8": "Road race / Beijing 2008",
+  "mS3XNTv59zc": "Boston Marathon 2025",
+  "7uIolf6ZZOE": "English Schools cross country (teen Paula)",
+  "f5FQx6-uMuM": "New York Marathon 2004 (age 30), TV recording, low res"
+ },
+ "ads": [
+  {"ad": "Secret weapon", "rows": [
+   ["0.0", "In 1998 my season was a write off", "1998 World XC: Paula front-running in the mud", "q4sEUftpSko", [165, 330, 540], "Her actual 1998 season"],
+   ["1.5", "pull out of the Commonwealth Games... post viral fatigue", "Budapest 1998: Paula fading on the track", "y5XnD2-rjXU", [390], "Same moment in the montage at n6IkUp1CJis 0:52"],
+   ["3.0", "(B-roll of her ill)", "Athens 2004 roadside distress, 1 to 2 shots max", "7DqgBD26d-E", [72, 100], "Not 1998. Use as mood only, very short"],
+   ["12.0", "Two weeks later I was able to resume training", "Training runs, incl. snow training", "pz_dP408IEE", [70, 100, 130], "Also BBC doc y5XnD2-rjXU 3:30 (snow) and 13:00"],
+   ["13.5", "Three months later I won the European Cross Country", "XC win: Ostend 2001 World XC (stand-in)", "n6IkUp1CJis", [72, 90], "No 1998 Euro XC footage found. Ostend is her World XC win"],
+   ["15.5", "Even today it's a vital part of my daily routine", "Paula today: running, travel", "ozIeKjwadRI", [780, 820], "Bridges back to the pouch shots"]
+  ]},
+  {"ad": "I held the record", "rows": [
+   ["0.0", "I held the marathon world record for 17 years", "Finish clock 2:15:25, arms up", "UDEMZTB5I54", [192], "Also DLLSKmpMKe4 1:36"],
+   ["1.8", "The marathon asks a lot of your body", "Tight racing close-ups", "DLLSKmpMKe4", [0, 10], "Munich 2002 at 9qUUAIHqRVE 3:10 too"],
+   ["3.5", "You spend months training and preparing", "Training runs", "pz_dP408IEE", [70, 100]],
+   ["14.5", "It's the best time to refuel", "Refuel and recovery today", "ozIeKjwadRI", [870, 990], "14:30 refuel, 16:30 pool recovery"]
+  ]},
+  {"ad": "People are always surprised", "rows": [
+   ["1.5", "...rather than running gear", "Paula in running gear, racing", "DLLSKmpMKe4", [0, 10], "Or Helsinki wRw754RYPDM 1:02, Comm 2002 lq3XOzWhD2w 3:40"],
+   ["3.5", "90% of the time", "Quick 3-shot run montage", "lq3XOzWhD2w", [220, 260, 290], "LME 2015 _RcBoqatAVw 0:20 for the last shot"],
+   ["8.0", "lots of traveling", "Travel and events today", "ozIeKjwadRI", [630, 720, 810], "Boston 2025 mS3XNTv59zc too"],
+   ["11.6", "meeting some really interesting people", "Press conference, fans, panels", "UDEMZTB5I54", [60, 124], "Chasing Stars 23:30 to 25:30, BBC doc 24:00 and 30:30, trailer K6ZLs8IrY6o 1:08"],
+   ["19.0", "since I was 24", "1998 World XC (age 24)", "q4sEUftpSko", [165]]
+  ]},
+  {"ad": "Ran professionally", "rows": [
+   ["0.0", "I ran professionally for over 20 years", "Fast 8-shot career montage, 0.3s each", "7uIolf6ZZOE", [0], "Then pz_dP408IEE, lq3XOzWhD2w, DLLSKmpMKe4, wRw754RYPDM, qPJYc-_3aXk 2:24, Dp7hVf8OeQ8 2:56, _RcBoqatAVw"],
+   ["2.5", "in 2003 set a world record", "Finish clock 2:15:25", "UDEMZTB5I54", [192], "Pair with a recreated headline"],
+   ["4.5", "which stood for 16 years", "Kosgei 2019 headline (recreated)", null, null, "See headlines list"],
+   ["6.0", "I saw countless athletes", "Start-line packs", "7DqgBD26d-E", [24], "Munich pack 9qUUAIHqRVE"],
+   ["23.0", "and my entire family too", "Paula with her family", "ozIeKjwadRI", [240, 260], "Trailer K6ZLs8IrY6o 0:40"]
+  ]},
+  {"ad": "3 questions", "rows": [
+   ["0.0", "I'm Paula Radcliffe", "0.8s hook: WR clock 2:15:25", "UDEMZTB5I54", [192], "Fast flash, then back to her"],
+   ["39.0", "for almost 30 years", "1998 then 2025 flash", "q4sEUftpSko", [165], "Then Chasing Stars ozIeKjwadRI 13:00"]
+  ]},
+  {"ad": "3 things to check", "rows": [
+   ["37.0", "helping you work at 100%", "Paula racing flat out, 2003", "DLLSKmpMKe4", [0, 10], "Big '100%' type behind her"],
+   ["42.1", "taking it for almost 30 years", "Keep the drinking shot, add a 1998 to 2025 year ticker", "q4sEUftpSko", [165], "Optional 0.3s archive flashes before the drink"],
+   ["44.3", "the most out of my daily life", "Paula today", "ozIeKjwadRI", [780]]
+  ]},
+  {"ad": "I'm 52 now", "rows": [
+   ["0.0", "I'm 52 now", "Paula today, Boston 2025", "mS3XNTv59zc", [0], "Or Chasing Stars 13:00 Tokyo"],
+   ["1.5", "...than it was at 30", "NYC 2004 win at 30: flag celebration", "f5FQx6-uMuM", [870, 570], "14:30 flag, 9:30 to 10:30 sprint finish. Low res: use the VHS look"],
+   ["3.5", "a bad week takes a lot longer to shake off", "Exhausted after the line", "f5FQx6-uMuM", [840], "14:00 bent over after NYC"],
+   ["15.0", "since I was 24", "1998 World XC", "q4sEUftpSko", [165]]
+  ]}
+ ]
+}

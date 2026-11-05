@@ -1,0 +1,10 @@
+dna_a_max_verstappen_x: 32.7s 1280x720 23.98fps | 138 BPM | drop 6.09s (+7.7 dB)
+shots 35 | median 0.79s | min 0.17s | max 3.75s
+cuts/s per 2s: 0.5 1.0 0.0 0.5 2.0 2.0 0.5 1.0 1.5 2.0 1.5 1.5 1.5 0.0 0.5 1.0 0.0
+flashes per 2s: 0 0 1 0 0 0 0 1 1 1 1 0 1 0 1 0 0  (total 7)
+motion per 2s: 1.5 1.4 0.0 0.1 1.0 0.7 0.8 0.5 0.6 1.1 0.5 0.8 2.4 0.8 0.1 0.3 0.0
+breaths: [[5.59, 5.88], [13.85, 14.14]]
+B&W: [] | black frames at: [4.17, 9.01, 31.66]
+motifs: [[13.97, 17.31, 20.69]]
+on kick/snare: cuts {'n': 34, 'on_hit_pct': 32.4, 'chance_pct': 30.9, 'median_offset_frames': -0.19} | flashes {'n': 7, 'on_hit_pct': 14.3, 'chance_pct': 30.9, 'median_offset_frames': -1.29}
+on 8th-note grid: cuts {'n': 34, 'on_hit_pct': 61.8, 'chance_pct': 57.3, 'median_offset_frames': -0.14} | flashes {'n': 7, 'on_hit_pct': 42.9, 'chance_pct': 57.3, 'median_offset_frames': -0.31}

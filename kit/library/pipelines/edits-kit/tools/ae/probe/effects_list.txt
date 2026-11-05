@@ -1,0 +1,446 @@
+Cinema 4D	Cineware	CINEMA 4D Effect
+3D Channel	Cryptomatte	Cryptomatte
+3D Channel	EXtractoR	EXtractoR
+3D Channel	IDentifier	IDentifier
+Simulation	CC Ball Action	CC Ball Action
+Distort	CC Bender	CC Bender
+Distort	CC Bend It	CC Bend It
+Distort	CC Blobbylize	CC Blobbylize
+Stylize	CC Block Load	CS BlockLoad
+Simulation	CC Bubbles	CC Bubbles
+Stylize	CC Burn Film	CC Burn Film
+Color Correction	CC Color Neutralizer	CS Color Neutralizer
+Color Correction	CC Color Offset	CC Color Offset
+Channel	CC Composite	CS Composite
+_Obsolete	CC Composite (obsolete)	CC Composite
+Blur & Sharpen	CC Cross Blur	CS CrossBlur
+Perspective	CC Cylinder	CC Cylinder
+Simulation	CC Drizzle	CC Drizzle
+Perspective	CC Environment	CC Environment
+Distort	CC Flo Motion	CC Flo Motion
+Time	CC Force Motion Blur	CC Force Motion Blur
+Stylize	CC Glass	CC Glass
+Transition	CC Glass Wipe	CC Glass Wipe
+Generate	CC Glue Gun	CC Glue Gun
+Distort	CC Griddler	CC Griddler
+Transition	CC Grid Wipe	CC Grid Wipe
+Simulation	CC Hair	CC Hair
+Stylize	CC HexTile	CS HexTile
+Transition	CC Image Wipe	CC Image Wipe
+Transition	CC Jaws	CC Jaws
+Stylize	CC Kaleida	CC Kaleida
+Color Correction	CC Kernel	CS Kernel
+Distort	CC Lens	CC Lens
+Generate	CC Light Burst 2.5	CC Light Burst 2.5
+Generate	CC Light Rays	CC Light Rays
+Generate	CC Light Sweep	CC Light Sweep
+Transition	CC Light Wipe	CC Light Wipe
+Transition	CC Line Sweep	CS LineSweep
+Simulation	CC Mr. Mercury	CC Mr. Mercury
+Stylize	CC Mr. Smoothie	CC Mr. Smoothie
+Utility	CC Overbrights	CC Overbrights
+Distort	CC Page Turn	CC Page Turn
+_Obsolete	CC PS Classic (obsolete)	CC PS Classic
+Simulation	CC Particle Systems II	CC Particle Systems II
+_Obsolete	CC PS LE Classic (obsolete)	CC PS LE Classic
+Simulation	CC Pixel Polly	CC Pixel Polly
+Stylize	CC Plastic	CC Plastic
+Distort	CC Power Pin	CC Power Pin
+Simulation	CC Particle World	CC Particle World
+Blur & Sharpen	CC Radial Blur	CC Radial Blur
+Blur & Sharpen	CC Radial Fast Blur	CC Radial Fast Blur
+Transition	CC Radial ScaleWipe	CC Radial ScaleWipe
+_Obsolete	CC Rain (obsolete)	CC Rain
+Simulation	CC Rainfall	CSRainfall
+Stylize	CC RepeTile	CC RepeTile
+Distort	CC Ripple Pulse	CC Ripple Pulse
+Transition	CC Scale Wipe	CC Scale Wipe
+Simulation	CC Scatterize	CC Scatterize
+Keying	CC Simple Wire Removal	CC Simple Wire Removal
+Distort	CC Slant	CC Slant
+Distort	CC Smear	CC Smear
+_Obsolete	CC Snow (obsolete)	CC Snow
+Simulation	CC Snowfall	CSSnowfall
+Perspective	CC Sphere	CC Sphere
+Distort	CC Split	CC Split
+Distort	CC Split 2	CC Split 2
+Perspective	CC Spotlight	CC Spotlight
+Simulation	CC Star Burst	CC Star Burst
+Generate	CC Threads	CS Threads
+Stylize	CC Threshold	CC Threshold
+Stylize	CC Threshold RGB	CC Threshold RGB
+Distort	CC Tiler	CC Tiler
+_Obsolete	CC Time Blend	CC Time Blend
+_Obsolete	CC Time Blend FX	CC Time Blend FX
+Color Correction	CC Toner	CC Toner
+Transition	CC Twister	CC Twister
+Blur & Sharpen	CC Vector Blur	CC Vector Blur
+Stylize	CC Vignette	CS Vignette
+Transition	CC WarpoMatic	CC WarpoMatic
+Time	CC Wide Time	CC Wide Time
+Keying	Keylight (1.2)	Keylight 906
+Obsolete	mocha shape	ISL MochaShapeImporter
+Boris FX Mocha	Mocha AE	mochaAECC
+Perspective	3D Camera Tracker	ADBE 3D Tracker
+Perspective	3D Glasses	ADBE 3D Glasses2
+_Obsolete	3D Glasses (Obsolete)	ADBE 3D Glasses
+Noise & Grain	Add Grain	VISINF Grain Implant
+_Obsolete	Alpha Levels	ADBE Alpha Levels2
+_Obsolete	Alpha Levels	ADBE Alpha Levels3
+Utility	Apply Color LUT	ADBE Apply Color LUT2
+_Obsolete	Apply Color LUT	ADBE Apply Color LUT
+Channel	Arithmetic	ADBE Arithmetic
+Generate	Audio Spectrum	ADBE AudSpect
+Generate	Audio Waveform	ADBE AudWave
+Audio	Bass & Treble	ADBE Aud BT
+Audio	Compressor	ADBE Aud Compressor
+Audio	Delay	ADBE Aud Delay
+Audio	Distortion	ADBE Aud Distortion
+Audio	Flange & Chorus	ADBE Aud_Flange
+Audio	Gate	ADBE Aud Gate
+Audio	High-Low Pass	ADBE Aud HiLo
+Audio	Stereo Mixer	ADBE Aud Stereo Mixer
+Audio	Modulator	ADBE Aud Modulator
+Audio	Parametric EQ	ADBE Param EQ
+Audio	Reverb	ADBE Aud Reverb
+Audio	Backwards	ADBE Aud Reverse
+Audio	Tone	ADBE Aud Tone
+Color Correction	Auto Color	ADBE AutoColor
+Color Correction	Auto Contrast	ADBE AutoContrast
+Color Correction	Auto Levels	ADBE AutoLevels
+3D Channel	3D Channel Extract	ADBE AUX CHANNEL EXTRACT
+_Obsolete	Brightness & Contrast	ADBE Brightness & Contrast
+Obsolete	Basic 3D	ADBE Basic 3D
+Obsolete	Basic Text	ADBE Basic Text2
+Generate	Beam	ADBE Laser
+Perspective	Bevel Alpha	ADBE Bevel Alpha
+Perspective	Bevel Edges	ADBE Bevel Edges
+Distort	Bezier Warp	ADBE BEZMESH
+Blur & Sharpen	Bilateral Blur	ADBE Bilateral
+Channel	Blend	ADBE Blend
+Transition	Block Dissolve	ADBE Block Dissolve
+Blur & Sharpen	Fast Box Blur	ADBE Box Blur2
+_Obsolete	Box Blur	ADBE Box Blur
+Color Correction	Broadcast Colors	ADBE Broadcast Colors
+Stylize	Brush Strokes	ADBE Brush Strokes
+Distort	Bulge	ADBE Bulge
+Channel	Calculations	ADBE Calculations
+Distort	Warp	ADBE WRPMESH
+Simulation	Card Dance	APC CardDanceCam
+Transition	Card Wipe	APC CardWipeCam
+Stylize	Cartoon	ADBE Cartoonify
+Simulation	Caustics	APC Caustics
+Generate	Cell Pattern	ADBE Cell Pattern
+Color Correction	Change to Color	ADBE Change To Color
+Color Correction	Change Color	ADBE Change Color
+Channel	Channel Combiner	ADBE Channel Combiner
+Blur & Sharpen	Channel Blur	ADBE Channel Blur
+Color Correction	Channel Mixer	ADBE CHANNEL MIXER
+Generate	Checkerboard	ADBE Checkerboard
+_Obsolete	Cineon Converter	ADBE Cineon Converter
+Utility	Cineon Converter	ADBE Cineon Converter2
+Generate	Circle	ADBE Circle
+Color Correction	Color Link	ADBE Color Link
+_Obsolete	Color Balance	ADBE Color Balance
+Color Correction	Color Balance	ADBE Color Balance 2
+Keying	Color Difference Key	ADBE Color Difference Key
+Stylize	Color Emboss	ADBE Color Emboss
+Color Correction	Color Balance (HLS)	ADBE Color Balance (HLS)
+Obsolete	Color Key	ADBE Color Key
+Keying	Color Range	ADBE Color Range
+Color Correction	Colorama	APC Colorama
+Generate	4-Color Gradient	ADBE 4ColorGradient
+Channel	Compound Arithmetic	ADBE Compound Arithmetic
+Blur & Sharpen	Compound Blur	ADBE Compound Blur
+Distort	Corner Pin	ADBE Corner Pin
+Noise & Grain	Curl Noise	ADBE Curl Noise
+Color Correction	Curves	ADBE CurvesCustom
+Blur & Sharpen	Camera-Shake Deblur	ADBE CameraShakeDeblur
+Color Correction	Color Stabilizer	ADBE Deflicker
+3D Channel	Depth of Field	ADBE DEPTH FIELD
+3D Channel	Depth Matte	ADBE DEPTH MATTE
+Keying	Difference Matte	ADBE Difference Matte2
+Time	Time Difference	ADBE Difference
+Blur & Sharpen	Directional Blur	ADBE Motion Blur
+Distort	Displacement Map	ADBE Displacement Map
+Perspective	Drop Shadow	ADBE Drop Shadow
+Noise & Grain	Dust & Scratches	ADBE Dust & Scratches
+Time	Echo	ADBE Echo
+Generate	Ellipse	ADBE ELLIPSE
+Stylize	Emboss	ADBE Emboss
+Color Correction	Equalize	ADBE Equalize
+Utility	HDR Compander	ADBE Compander
+Color Correction	Exposure	ADBE Exposure2
+_Obsolete	Exposure	ADBE Exposure
+Expression Controls	Checkbox Control	ADBE Checkbox Control
+Expression Controls	Slider Control	ADBE Slider Control
+Expression Controls	Layer Control	ADBE Layer Control
+Expression Controls	Color Control	ADBE Color Control
+Expression Controls	3D Point Control	ADBE Point3D Control
+Expression Controls	Point Control	ADBE Point Control
+Expression Controls	Angle Control	ADBE Angle Control
+Expression Controls	Dropdown Menu Control	ADBE Dropdown Control
+Keying	Extract	ADBE Extract
+Generate	Eyedropper Fill	ADBE Eyedropper Fill
+_Obsolete	Fast Blur (Legacy)	ADBE Fast Blur
+Obsolete	Reduce Interlace Flicker	ADBE Reduce Interlace Flicker
+Generate	Fill	ADBE Fill
+Stylize	Find Edges	ADBE Find Edges
+Simulation	Foam	APC Foam
+3D Channel	Fog 3D	ADBE FOG_3D
+Generate	Fractal	ADBE Fractal
+Noise & Grain	Fractal Noise	ADBE Fractal Noise
+Obsolete	Gaussian Blur (Legacy)	ADBE Gaussian Blur
+Blur & Sharpen	Gaussian Blur	ADBE Gaussian Blur 2
+Stylize	Glow	ADBE Glo2
+Color Correction	Gamma/Pedestal/Gain	ADBE Gamma/Pedestal/Gain2
+Transition	Gradient Wipe	ADBE Gradient Wipe
+Generate	Grid	ADBE Grid
+Utility	Grow Bounds	ADBE GROW BOUNDS
+Color Correction	Hue/Saturation	ADBE HUE SATURATION
+3D Channel	ID Matte	ADBE ID MATTE
+Keying	Inner/Outer Key	ADBE ATG Extract
+Channel	Invert	ADBE Invert
+Transition	Iris Wipe	ADBE IRIS_WIPE
+Keying	Key Cleaner	ADBE KeyCleaner
+Color Correction	Leave Color	ADBE Leave Color
+Generate	Lens Flare	ADBE Lens Flare
+_Obsolete	Levels	ADBE Easy Levels
+Color Correction	Levels	ADBE Easy Levels2
+Color Correction	Levels (Individual Controls)	ADBE Pro Levels2
+_Obsolete	Levels (Individual Controls)	ADBE Pro Levels
+Obsolete	Lightning	ADBE Lightning
+Generate	Advanced Lightning	ADBE Lightning 2
+Keying	Linear Color Key	ADBE Linear Color Key2
+Transition	Linear Wipe	ADBE Linear Wipe
+Distort	Liquify	ADBE LIQUIFY
+Obsolete	Luma Key	ADBE Luma Key
+Color Correction	Lumetri Color	ADBE Lumetri
+Distort	Magnify	ADBE Magnify
+Noise & Grain	Match Grain	VISINF Grain Duplication
+Matte	Matte Choker	ADBE Matte Choker
+Noise & Grain	Median (Legacy)	ADBE Median
+Channel	Minimax	ADBE Minimax
+Distort	Mirror	ADBE Mirror
+Stylize	Mosaic	ADBE Mosaic
+Distort	Mesh Warp	ADBE MESH WARP
+Noise & Grain	Noise	ADBE Noise2
+_Obsolete	Noise	ADBE Noise
+Noise & Grain	Noise Alpha	ADBE Noise Alpha2
+_Obsolete	Noise Alpha	ADBE Noise Alpha
+_Obsolete	Noise HLS	ADBE Noise HLS
+Noise & Grain	Noise HLS	ADBE Noise HLS2
+Noise & Grain	Noise HLS Auto	ADBE Noise HLS Auto2
+_Obsolete	Noise HLS Auto	ADBE Noise HLS Auto
+Text	Numbers	ADBE Numbers2
+Color Correction	OCIO CDL Transform	ADBE OCIO CDL Transform
+Color Correction	OCIO Color Space Transform	ADBE OCIO Color Space Transform
+Color Correction	OCIO Display Transform	ADBE OCIO Display Transform
+Color Correction	OCIO File Transform	ADBE OCIO FILE Transform
+Color Correction	OCIO Look Transform	ADBE OCIO Look Transform
+Distort	Offset	ADBE Offset
+Distort	Optics Compensation	ADBE Optics Compensation
+Color Correction	Photo Filter	ADBE PhotoFilterPS
+Color Correction	Selective Color	ADBE SelectiveColor
+Color Correction	Vibrance	ADBE Vibrance
+Color Correction	Brightness & Contrast	ADBE Brightness & Contrast 2
+Noise & Grain	Median	ADBE PS Median
+Color Correction	Black & White	ADBE Black&White
+_Obsolete	Photoshop Bevel And Emboss	ADBE PSL Bevel Emboss
+_Obsolete	Photoshop Drop Shadow	ADBE PSL Drop Shadow
+_Obsolete	Photoshop Inner Glow	ADBE PSL Inner Glow
+_Obsolete	Photoshop Inner Shadow	ADBE PSL Inner Shadow
+_Obsolete	Photoshop Outer Glow	ADBE PSL Outer Glow
+_Obsolete	Photoshop Solid Fill	ADBE PSL Solid Fill
+Color Correction	PS Arbitrary Map	ADBE PS Arbitrary Map
+Generate	Paint Bucket	ADBE Paint Bucket
+Simulation	Particle Playground	ADBE Playgnd
+Obsolete	Path Text	ADBE Path Text
+_Obsolete	Photo Filter	ADBE Photo Filter
+Distort	Polar Coordinates	ADBE Polar Coordinates
+Stylize	Posterize	ADBE Posterize
+Time	Posterize Time	ADBE Posterize Time
+Utility	Color Profile Converter	ADBE ProfileToProfile
+Utility	HDR Highlight Compression	ADBE HDR ToneMap
+Perspective	Radial Shadow	ADBE Radial Shadow
+Blur & Sharpen	Radial Blur	ADBE Radial Blur
+Transition	Radial Wipe	ADBE Radial Wipe
+Generate	Radio Waves	APC Radio Waves
+Generate	Gradient Ramp	ADBE Ramp
+Noise & Grain	Remove Grain	VISINF Grain Removal
+Distort	Reshape	ADBE RESHAPE
+Distort	Ripple	ADBE Ripple
+Time	Pixel Motion Blur	ADBE OFMotionBlur
+Distort	Rolling Shutter Repair	ADBE Rolling Shutter
+Time	Timewarp	ADBE Timewarp
+Stylize	Roughen Edges	ADBE Roughen Edges
+Stylize	Scatter	ADBE Scatter
+Generate	Scribble	ADBE Scribble Fill
+Channel	Set Channels	ADBE Set Channels
+Channel	Set Matte	ADBE Set Matte3
+_Obsolete	Set Matte	ADBE Set Matte2
+Color Correction	Shadow/Highlight	ADBE ShadowHighlight
+Blur & Sharpen	Camera Lens Blur	ADBE Camera Lens Blur
+Blur & Sharpen	Sharpen	ADBE Sharpen
+Simulation	Shatter	APC Shatter
+Channel	Shift Channels	ADBE Shift Channels
+Matte	Simple Choker	ADBE Simple Choker
+Blur & Sharpen	Smart Blur	ADBE Smart Blur
+Distort	Smear	ADBE SCHMEAR
+Channel	Solid Composite	ADBE Solid Composite
+Distort	Spherize	ADBE Spherize
+Obsolete	Spill Suppressor	ADBE Spill Suppressor
+Keying	Advanced Spill Suppressor	ADBE Spill2
+Distort	Warp Stabilizer	ADBE SubspaceStabilizer
+Stylize	Strobe Light	ADBE Strobe
+Generate	Stroke	ADBE Stroke
+Stylize	Texturize	ADBE Texturize
+_Obsolete	Three-Way Color Corrector	ADBE Three-Way Color Corrector
+_Obsolete	Threshold	ADBE Threshold
+Stylize	Threshold	ADBE Threshold2
+Stylize	Motion Tile	ADBE Tile
+Time	Time Displacement	ADBE Time Displacement
+Text	Timecode	ADBE Timecode
+Color Correction	Tint	ADBE Tint
+_Obsolete	Transform	ADBE Geometry
+Distort	Transform	ADBE Geometry2
+Color Correction	Tritone	ADBE Tritone
+Distort	Turbulent Displace	ADBE Turbulent Displace
+Noise & Grain	Turbulent Noise	ADBE AIF Perlin Noise 3D
+Distort	Twirl (Legacy)	ADBE Twirl
+Keying	Unmult	ADBE Unmult
+Channel	Remove Color Matting	ADBE Remove Color Matting
+Blur & Sharpen	Unsharp Mask	ADBE Unsharp Mask2
+_Obsolete	Unsharp Mask	ADBE Unsharp Mask
+Distort	Detail-preserving Upscale	ADBE Upscale
+Immersive Video	VR Chromatic Aberrations	Mettle SkyBox Chromatic Aberrat
+Immersive Video	VR Color Gradients	Mettle SkyBox Color Gradients
+Immersive Video	VR Converter	Mettle SkyBox Converter
+Immersive Video	VR De-Noise	Mettle SkyBox Denoise
+Immersive Video	VR Digital Glitch	Mettle SkyBox Digital Glitch
+Immersive Video	VR Fractal Noise	Mettle SkyBox Fractal Noise
+Immersive Video	VR Blur	Mettle SkyBox Blur
+Immersive Video	VR Glow	Mettle SkyBox Glow
+Immersive Video	VR Plane to Sphere	Mettle SkyBox Project 2D
+Immersive Video	VR Rotate Sphere	Mettle SkyBox Rotate Sphere
+Immersive Video	VR Sharpen	Mettle SkyBox Sharpen
+Immersive Video	VR Sphere To Plane	Mettle SkyBox Viewer
+Generate	Vegas	APC Vegas
+Transition	Venetian Blinds	ADBE Venetian Blinds
+Color Correction	Video Limiter	ADBE DigitalVideoLimiter
+Simulation	Wave World	APC Wave World
+Distort	Wave Warp	ADBE Wave Warp
+Generate	Write-on	ADBE Write-on
+_Obsolete	Roto Brush & Refine Edge	ADBE Samurai
+_Obsolete	Paint	ADBE Paint
+_Obsolete	Puppet	ADBE FreePin3
+Matte	Refine Hard Matte	ADBE RefineRBMatte
+_Obsolete	Refine Matte	ADBE RefineMatte
+Matte	Refine Soft Matte	ADBE RefineMatte2
+	Color Swirl	ADBE Color Swirl
+	Getting Jiggy	ADBE Getting Jiggy
+	Separate XYZ Position	ADBE Separate XYZ Position
+	Separate XYZ Scale	ADBE Separate XYZ Scale
+	Inset Video - framed	ADBE CM InsetVideoFramed
+	Inset Video - torn edges	ADBE CM InsetVideoTorn
+	Mood Lighting - amorphous	ADBE CM MoodLightAmorph
+	Mood Lighting - digital	ADBE CM MoodLightDigital
+	Mood Lighting - streaks	ADBE CM MoodLightStreaks
+	Cracked Tiles	ADBE CM CrackedTiles
+	Light Leaks - layer markers	ADBE CM LightLeaksMarkers
+	Light Leaks - random	ADBE CM LightLeaksRandom
+	Opacity Flash - layer markers	ADBE CM OpacityFlashMarkers
+	Opacity Flash - random	ADBE CM OpacityFlashRandom
+	Crop Edges	ADBE CM CropEdges
+	Autoscroll - horizontal	ADBE CM AutoscrollHorizontal
+	Autoscroll - vertical	ADBE CM AutoscrollVertical
+	Drift Over Time	ADBE CM Throw
+	Fade In+Out - frames	ADBE CM FadeInOutFrames
+	Fade In+Out - msec	ADBE CM FadeInOutmsec
+	Rotate Over Time	ADBE CM Spin
+	Scale Bounce - layer markers	ADBE CM ScaleBounceMarkers
+	Scale Bounce - random	ADBE CM ScaleBounceRandom
+	Wiggle - gelatin	ADBE CM WiggleGelatin
+	Wiggle - position	ADBE CM WigglePosition
+	Wiggle - rotation	ADBE CM WiggleRotation
+	Wiggle - scale	ADBE CM WiggleScale
+	Wiggle - shear	ADBE CM WiggleShear
+	Wigglerama	ADBE CM Wigglerama
+	Dissolve - unmelt	ADBE CM DissolveUnmelt
+	Zoom - 2D spin	ADBE CM Zoom2DSpin
+	Zoom - 3D tumble	ADBE CM Zoom3DTumble
+	Zoom - wobble	ADBE CM ZoomWobble
+	Zoom - bubble	ADBE CM ZoomBubble
+	Zoom - spiral	ADBE CM ZoomSpiral
+	Slide - variable	ADBE CM SlideVariable
+	Fly to Inset	ADBE CM FlyToInset
+	Corner Reveal	ADBE CM CornerReveal
+	Grid Wipe	ADBE CM GridWipe
+	Transition Master Control	ADBE CM TransComplete
+	Stretch Master Control	ADBE CM TransStretch
+	Dissolve Master Control	ADBE CM TransDissolve
+	Fade Master Control	ADBE CM TransFade
+	Mask Fade Controls	ADBE CM TransFadeMask
+	Wipe Master Control	ADBE CM TransWipe
+	Wipe Master Controls	ADBE CM TransWipeFeath
+	Card Wipe Master Control	ADBE CM TransCard
+	Slide Master Control	ADBE CM TransSlide
+	Stretch Master Control(corner)	ADBE CM TransCorner
+	Stretch Master Control (edge)	ADBE CM TransDirection
+	Iris Wipe Master Controls	ADBE CM TransIris
+	Radial Wipe Master Controls	ADBE CM TransRadial
+	Jiggle	ADBE DE Jiggle
+	Jiggle At Marker	ADBE DE Jiggle At Marker
+	Jiggle On Beat	ADBE DE Jiggle On Beat
+	Jiggle Random	ADBE DE Jiggle Random
+	Pulse	ADBE DE Pulse
+	Pulse At Marker	ADBE DE Pulse At Marker
+	Pulse On Beat	ADBE DE Pulse On Beat
+	Pulse Random	ADBE DE Pulse Random
+	Bounce	ADBE DE Bounce
+	Bounce At Marker	ADBE DE Bounce At Marker
+	Bounce On Beat	ADBE DE Bounce On Beat
+	Bounce Random	ADBE DE Bounce Random
+	Opacity Pulse	ADBE DE Opacity Pulse
+	Opacity Pulse At Marker	ADBE DE Opacity Pulse At Marker
+	Opacity Pulse On Beat	ADBE DE Opacity Pulse On Beat
+	Opacity Pulse Random	ADBE DE Opacity Pulse Random
+	Oscillate	ADBE DE Oscillate
+	Oscillate At Marker	ADBE DE Oscillate At Marker
+	Oscillate On Beat	ADBE DE Oscillate On Beat
+	Oscillate Random	ADBE DE Oscillate Random
+	Pendulum	ADBE DE Pendulum
+	Pendulum At Marker	ADBE DE Pendulum At Marker
+	Pendulum On Beat	ADBE DE Pendulum On Beat
+	Pendulum Random	ADBE DE Pendulum Random
+	Swarm	ADBE DE Swarm
+	Follow	ADBE DE Follow
+	Orbit	ADBE DE Orbit
+	Orbit 3D	ADBE DE Orbit 3D
+	Random Motion 1D	ADBE DE Random Motion 1D
+	Random Motion	ADBE DE Random Motion
+	Random Rotation	ADBE DE Random Rotation
+	Random Rotation 3D	ADBE DE Random Rotation 3D
+	Random Opacity	ADBE DE Random Opacity
+	Random Scale	ADBE DE Random Scale
+	Random Fill Color	ADBE DE Random Fill Color
+	Z Spring	ADBE DE Z Spring
+	Z Spring At Marker	ADBE DE Z Spring At Marker
+	Wobble Bounce	ADBE DE Wobble Bounce
+	Wobble Bounce At Marker	ADBE DE Wobble Bounce At Marker
+	Wobble Bounce On Beat	ADBE DE Wobble Bounce On Beat
+	Wobble Bounce Random	ADBE DE Wobble Bounce Random
+	Animated Shape Control	ADBE CM Animated Shape Control
+	Chaser Control	ADBE CM Animated Shape 2
+	Animated Shape Control	ADBE CM Animated Shape 3
+	Sample Image	ADBE Sample Image
+	Stereo 3D Controls	ADBE Stereo 3D Controls
+	Face Track Points	Pseudo/ADBE Animal Head66
+	Face Measurements	Pseudo/ADBE Animal Head14
+	Trace Path	Pseudo/ADBE Trace Path
+	Pattern Template	Pseudo/ADBE Pattern Template
+	Counter Controls	Pseudo/ADBE Counter Controls
+	Currency Controls	Pseudo/ADBE Currency Controls
+	Percentage Controls	Pseudo/ADBE Percentage Controls
+	Timer Controls	Pseudo/ADBE Timer Controls
+	2D Text Box	Pseudo/ADBE 2D Text Box

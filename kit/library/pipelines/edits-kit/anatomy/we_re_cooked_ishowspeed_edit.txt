@@ -1,0 +1,10 @@
+we_re_cooked_ishowspeed_edit: 28.9s 1080x1200 60.00fps | 100 BPM | drop 5.0s (+6.0 dB)
+shots 7 | median 2.00s | min 0.05s | max 18.03s
+cuts/s per 2s: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0
+flashes per 2s: 0 0 0 0 0 2 0 0 0 1 1 2 0 0 0  (total 6)
+motion per 2s: 0.0 0.3 0.2 0.0 0.0 0.3 0.1 0.1 0.4 0.4 0.6 0.6 0.1 0.5 0.0
+breaths: []
+B&W: [[10.9, 11.62], [13.57, 14.33]] | black frames at: [11.67, 11.72, 26.9]
+motifs: []
+on kick/snare: cuts {'n': 6, 'on_hit_pct': 83.3, 'chance_pct': 13.4, 'median_offset_frames': 0.3} | flashes {'n': 6, 'on_hit_pct': 66.7, 'chance_pct': 13.4, 'median_offset_frames': 0.69}
+on 8th-note grid: cuts {'n': 6, 'on_hit_pct': 50.0, 'chance_pct': 16.7, 'median_offset_frames': 0.58} | flashes {'n': 6, 'on_hit_pct': 66.7, 'chance_pct': 16.7, 'median_offset_frames': 0.7}

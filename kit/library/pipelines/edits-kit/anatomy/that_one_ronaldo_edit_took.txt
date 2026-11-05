@@ -1,0 +1,10 @@
+that_one_ronaldo_edit_took: 71.0s 1280x720 60.00fps | 128 BPM | drop 3.73s (+3.8 dB)
+shots 88 | median 0.47s | min 0.05s | max 8.43s
+cuts/s per 2s: 0.0 0.0 0.5 1.0 2.0 1.0 3.5 1.5 4.5 1.5 1.5 0.0 0.0 0.0 0.5 1.5 1.0 4.0 1.5 0.0 0.0 0.0 0.5 0.0 0.0 0.5 1.5 1.5 2.5 1.0 6.5 1.5 1.5 1.0 0.0 0.0
+flashes per 2s: 0 0 1 0 1 1 1 1 2 1 0 0 0 0 0 2 0 4 1 0 0 0 0 0 0 0 0 1 1 0 3 1 1 0 0 0  (total 22)
+motion per 2s: 0.0 0.0 0.0 0.1 0.1 0.0 0.3 0.2 0.2 0.3 0.1 0.0 0.0 0.0 0.0 0.2 0.1 0.4 0.2 0.0 0.0 0.0 0.1 0.0 0.0 0.1 0.1 0.1 0.3 0.1 0.2 0.2 0.4 0.2 0.0 0.0
+breaths: []
+B&W: [] | black frames at: [21.28, 45.42, 47.02, 66.57]
+motifs: [[7.45, 51.83], [7.92, 52.25], [11.15, 55.48], [11.62, 55.95], [12.98, 57.32], [13.47, 57.78, 60.22]]
+on kick/snare: cuts {'n': 87, 'on_hit_pct': 6.9, 'chance_pct': 14.0, 'median_offset_frames': 0.43} | flashes {'n': 22, 'on_hit_pct': 13.6, 'chance_pct': 14.0, 'median_offset_frames': 0.98}
+on 8th-note grid: cuts {'n': 87, 'on_hit_pct': 25.3, 'chance_pct': 21.3, 'median_offset_frames': 0.27} | flashes {'n': 22, 'on_hit_pct': 27.3, 'chance_pct': 21.3, 'median_offset_frames': 0.31}

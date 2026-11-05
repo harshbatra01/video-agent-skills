@@ -1,0 +1,10 @@
+love_me_x_neymar: 89.4s 1280x720 30.00fps | 154 BPM | drop 3.23s (+13.1 dB)
+shots 47 | median 1.03s | min 0.10s | max 21.80s
+cuts/s per 2s: 7.0 3.5 0.0 0.5 0.5 0.0 0.0 0.0 0.5 0.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.5 0.0 1.0 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.0 0.5 1.0 0.0 0.5 0.5 0.0 0.5 1.0 0.0 1.0 0.0 0.0 0.0
+flashes per 2s: 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0  (total 8)
+motion per 2s: 0.0 1.0 0.6 0.2 0.2 0.0 0.0 0.0 0.2 0.5 0.2 0.1 0.0 0.0 0.1 0.0 0.0 0.0 0.0 0.0 0.3 0.0 0.8 0.6 0.2 0.2 0.1 0.0 0.1 0.1 0.1 0.1 0.2 0.1 0.0 0.2 0.2 0.0 0.1 1.1 0.3 0.4 0.1 0.0 0.0
+breaths: [[18.73, 19.17], [42.93, 43.43]]
+B&W: [] | black frames at: [2.8, 85.7]
+motifs: [[0.0, 2.2], [18.97, 44.27]]
+on kick/snare: cuts {'n': 46, 'on_hit_pct': 26.1, 'chance_pct': 25.5, 'median_offset_frames': 0.06} | flashes {'n': 8, 'on_hit_pct': 25.0, 'chance_pct': 25.5, 'median_offset_frames': 0.34}
+on 8th-note grid: cuts {'n': 46, 'on_hit_pct': 50.0, 'chance_pct': 51.5, 'median_offset_frames': 0.21} | flashes {'n': 8, 'on_hit_pct': 50.0, 'chance_pct': 51.5, 'median_offset_frames': -0.46}

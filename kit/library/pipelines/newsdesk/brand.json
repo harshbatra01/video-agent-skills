@@ -1,0 +1,13 @@
+{
+  "note": "Accounts from Jaden's pfp list (7 Oct 2026). Football pages @stillbenched / @payedxi are not news accounts. Display names, accents and the pfp-to-handle match are assumptions: change here. verified=false: no blue tick on our tweet cards.",
+  "default_account": "beatswitchfm",
+  "accent": "#FFD60A",
+  "accent2": "#FF3B30",
+  "logo": null,
+  "accounts": {
+    "beatswitchfm": {"display_name": "BeatSwitch", "handle": "@beatswitchfm", "wordmark": "BEATSWITCH",
+                     "avatar": "assets/accounts/beatswitchfm.png", "verified": false, "tweet_style": "light"},
+    "zonegbp": {"display_name": "Zone GBP", "handle": "@zonegbp", "wordmark": "ZONE GBP",
+                "avatar": "assets/accounts/zonegbp.png", "verified": false, "tweet_style": "dark"}
+  }
+}

@@ -1,0 +1,277 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+/*FONTS*/
+:root{--bg:#0B0C0F;--panel:#14161B;--line:#262A33;--text:#F4F5F7;--muted:#8B919C;--lime:#D4FF3A;--pink:#FF2E88;--cyan:#22E1FF;--gold:#FFC83D;--draw:#5B616D;
+  --display:'OCDisplay','Anton',Impact,sans-serif;--text-font:'OCText','Inter','Segoe UI',Arial,sans-serif;--box:'OCBox','Proxima Nova Semibold','Proxima Nova',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000;overflow:hidden}
+#stage{position:relative;overflow:hidden;color:var(--text);font-family:var(--text-font);background:var(--bg)}
+.abs{position:absolute}
+.disp{font-family:var(--display);text-transform:uppercase;line-height:.92}
+.lime{color:var(--lime)} .pink{color:var(--pink)} .cyan{color:var(--cyan)} .gold{color:var(--gold)} .muted{color:var(--muted)}
+.box{display:inline;background:#fff;color:#000;font-family:var(--box);font-weight:600;padding:.08em .32em;border-radius:.2em;box-decoration-break:clone;-webkit-box-decoration-break:clone;line-height:1.5}
+.chip{flex:none;display:flex;align-items:center;justify-content:center;border-radius:22%;font-family:var(--display);letter-spacing:.02em;box-shadow:inset 0 0 0 3px rgba(255,255,255,.14)}
+.word{display:inline-block;will-change:transform}
+.num{font-variant-numeric:tabular-nums}
+.pill{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:10px 26px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+</style>
+<!--GSAP-->
+</head>
+<body><div id="stage"></div>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+let S={}, TL=null, TICKS=[], CLIP=null, DUR=0;
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function mk(s){return esc(s).replace(/\*([^*]+)\*/g,'<span class="lime">$1</span>').replace(/\^([^^]+)\^/g,'<span class="pink">$1</span>').replace(/~([^~]+)~/g,'<span class="cyan">$1</span>').replace(/_([^_]+)_/g,'<span class="gold">$1</span>')}
+function pct(p){if(p==null)return '?';const v=p*100;if(v>0&&v<0.5)return '<1%';return Math.round(v)+'%'}
+function hashColor(s){let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return `hsl(${h%360} 60% 45%)`}
+function lum(hex){const m=/^#?([0-9a-f]{6})$/i.exec(hex||'');if(!m)return .4;const n=parseInt(m[1],16);return (.2126*(n>>16)+.7152*(n>>8&255)+.0722*(n&255))/255}
+function shade(hex,k){const m=/^#?([0-9a-f]{6})$/i.exec(hex||'');if(!m)return hex||'#333';const n=parseInt(m[1],16);return `rgb(${Math.round((n>>16)*k)},${Math.round((n>>8&255)*k)},${Math.round((n&255)*k)})`}
+function cols(t){const c1=(t&&t.c1)||hashColor(t&&t.name);let c2=(t&&t.c2)||'#fff';if(Math.abs(lum(c1)-lum(c2))<.25)c2=lum(c1)>.55?'#000':'#fff';return [c1,c2]}
+function chip(t,size){const [c1,c2]=cols(t);const code=((t&&t.code)||((t&&(t.short||t.name))||'?').replace(/[^A-Za-z0-9]/g,'').slice(0,3)).toUpperCase();
+  return `<div class="chip" style="width:${size}px;height:${size}px;background:${c1};color:${c2};font-size:${size*.42}px">${esc(code)}</div>`}
+function tall(){return S.h/S.w>1.6}
+function words(text,cls){ // word-by-word spans that keep *lime* ^pink^ ~cyan~ _gold_ highlights across words
+  const C={'*':'lime','^':'pink','~':'cyan','_':'gold'};let on=null;
+  return String(text).split(' ').map(w=>{let c=on;let t=w;
+    if(!on&&C[t[0]]){on=t[0];c=on;t=t.slice(1)}
+    if(on&&t.endsWith(on)){t=t.slice(0,-1);c=on;on=null}
+    return `<span class="word ${cls||''}${c?' '+C[c]:''}">${esc(t)}</span>`}).join(' ')}
+function handle(){const b=S.brand||{};return `<div class="abs" style="left:${tall()?64:48}px;top:${tall()?150:44}px;display:flex;align-items:center;gap:12px;font-weight:800;font-size:28px;text-shadow:0 2px 12px rgba(0,0,0,.6)"><div style="width:48px;height:48px;border-radius:50%;background:var(--lime);color:#000;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-size:26px">${esc((b.name||'?').slice(0,1))}</div>${esc(b.handle||'')}</div>`}
+function source(txt){return `<div class="abs" style="left:0;right:0;bottom:${tall()?300:30}px;text-align:center;font-size:24px;color:rgba(255,255,255,.75);font-weight:700;text-shadow:0 2px 8px rgba(0,0,0,.7)">${esc(txt||('Chances from Outcome.xyz market prices'+(S.stamp?' · '+S.stamp:'')))}</div>`}
+function bgGlow(c){return `<div class="abs" style="inset:0;background:radial-gradient(90% 60% at 80% 0%,${c||'rgba(212,255,58,.18)'},transparent 70%),radial-gradient(70% 50% at 0% 100%,rgba(255,46,136,.12),transparent 70%),#0B0C0F"></div>`}
+function counter(el,from,to,fmt){const o={v:from};return {o,tween:(tl,at,d)=>tl.to(o,{v:to,duration:d,ease:'power2.out'},at),draw:()=>{el.textContent=fmt?fmt(o.v):pct(o.v)}}}
+function clipLayer(){if(!S.clip)return '';return `<img id="clip" class="abs" style="inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 50%">`}
+
+const F={};
+/* ---- Call it in 3 seconds: question, countdown, reveal ---- */
+F.timed=d=>{const T=tall();const sides=d.sides;const n=sides.length;
+  const bars=sides.map((s,i)=>`<div class="sd" style="display:flex;align-items:center;gap:20px">${s.team?chip(s.team,T?110:96):`<div style="width:${T?110:96}px"></div>`}
+     <div style="flex:1;display:flex;flex-direction:column;gap:8px"><div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:${T?44:40}px;font-weight:900">${esc(s.label)}</span><span class="disp num sv" style="font-size:${T?96:84}px;color:${i===d.best?'var(--lime)':'#fff'}">0%</span></div>
+     <div style="height:26px;border-radius:13px;background:#1C1F26;overflow:hidden"><div class="sb" style="height:100%;width:0;border-radius:13px;background:${i===d.best?'var(--lime)':(s.color||'#5B616D')}"></div></div></div></div>`).join('');
+  const html=`${bgGlow()}${handle()}
+   <div class="abs" id="q" style="left:60px;right:60px;top:${T?330:150}px;display:flex;flex-direction:column;gap:30px">
+     <div><span class="pill" id="kick" style="background:var(--lime);color:#000;font-size:30px">${esc(d.kicker||'Call it')}</span></div>
+     <div class="disp" style="font-size:${T?132:112}px">${words(d.question)}</div></div>
+   <div class="abs" id="cd" style="left:50%;top:${T?1010:760}px;width:300px;height:300px;margin-left:-150px;margin-top:-150px">
+     <svg width="300" height="300" style="position:absolute;inset:0"><circle cx="150" cy="150" r="130" fill="none" stroke="#1C1F26" stroke-width="18"/><circle id="ring" cx="150" cy="150" r="130" fill="none" stroke="var(--lime)" stroke-width="18" stroke-linecap="round" transform="rotate(-90 150 150)" stroke-dasharray="817" stroke-dashoffset="0"/></svg>
+     <div id="cdn" class="disp num" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:170px">3</div></div>
+   <div class="abs" id="flash" style="inset:0;background:#fff;opacity:0"></div>
+   <div class="abs" id="ans" style="left:60px;right:${T?130:60}px;top:${T?700:520}px;display:flex;flex-direction:column;gap:${T?40:30}px;opacity:0">
+     <div class="disp" style="font-size:${T?100:86}px">The money <span class="lime">says</span></div>${bars}
+     <div style="font-size:34px;font-weight:800;margin-top:10px"><span class="box">${esc(d.ask||'Did you get it right? 👇')}</span></div></div>
+   ${source()}`;
+  return {html,dur:9,build:tl=>{
+    tl.from('#kick',{scale:.4,opacity:0,duration:.35,ease:'back.out(2.5)'},0.05);
+    tl.from('#q .word',{y:60,opacity:0,duration:.32,stagger:.09,ease:'power3.out'},0.15);
+    tl.from('#cd',{scale:0,opacity:0,duration:.4,ease:'back.out(2)'},1.4);
+    ['3','2','1'].forEach((k,i)=>{tl.call(()=>{$('#cdn').textContent=k},null,1.5+i);tl.fromTo('#cdn',{scale:1.5},{scale:1,duration:.35,ease:'power3.out'},1.5+i)});
+    tl.to('#ring',{attr:{'stroke-dashoffset':817},duration:3,ease:'none'},1.5);
+    tl.to('#q',{y:-60,opacity:0,duration:.25},4.4).to('#cd',{scale:.2,opacity:0,duration:.25},4.45);
+    tl.to('#flash',{opacity:.85,duration:.06},4.5).to('#flash',{opacity:0,duration:.3},4.56);
+    tl.to('#ans',{opacity:1,duration:.2},4.55).from('#ans > *',{y:40,opacity:0,duration:.35,stagger:.1,ease:'power3.out'},4.6);
+    const ws=$$('.sb'),vs=$$('.sv');sides.forEach((s,i)=>{tl.to(ws[i],{width:(s.p*100)+'%',duration:1.1,ease:'power2.out'},4.9+i*.12);const c=counter(vs[i],0,s.p);c.tween(tl,4.9+i*.12,1.1);TICKS.push(c.draw)});
+    tl.fromTo('.sd:nth-child('+(d.best+2)+')',{scale:1},{scale:1.04,duration:.25,yoyo:true,repeat:1,ease:'power1.inOut'},6.1);
+  }}};
+
+/* ---- Spin the wheel (the client's UGC format, faceless) ---- */
+F.wheel=d=>{const T=tall();const seg=d.segments;const n=seg.length;const R=T?380:330;const cx=S.w/2,cy=T?1020:760;
+  let paths='',labels='';seg.forEach((s,i)=>{const a0=i/n*2*Math.PI-Math.PI/2,a1=(i+1)/n*2*Math.PI-Math.PI/2;const x0=Math.cos(a0)*R,y0=Math.sin(a0)*R,x1=Math.cos(a1)*R,y1=Math.sin(a1)*R;
+    const [c1,c2]=cols(s.team||{name:s.label,c1:s.color});paths+=`<path d="M0 0 L${x0} ${y0} A${R} ${R} 0 0 1 ${x1} ${y1} Z" fill="${c1}" stroke="#0B0C0F" stroke-width="8"/>`;
+    const am=(a0+a1)/2;let rot=am*180/Math.PI+90;const lx=Math.cos(am)*R*.6,ly=Math.sin(am)*R*.6;if(ly>0)rot+=180;
+    labels+=`<text x="${lx}" y="${ly}" fill="${c2}" font-family="Anton,Impact" font-size="${T?64:56}" text-anchor="middle" dominant-baseline="middle" transform="rotate(${rot} ${lx} ${ly})">${esc(s.label.toUpperCase())}</text>`});
+  const land=d.land;const target=-(land+.5)/n*360;const spins=5*360+target+360;
+  const bars=(d.money||[]).map((s,i)=>`<div class="mrow" style="display:flex;align-items:center;gap:18px">${s.team?chip(s.team,84):''}<div style="flex:1;font-size:40px;font-weight:900">${esc(s.label)}</div><div class="disp num mv" style="font-size:84px;color:${i===d.moneyBest?'var(--lime)':'#fff'}">0%</div></div>`).join('');
+  const html=`${bgGlow('rgba(34,225,255,.16)')}${handle()}
+   <div class="abs" id="ttl" style="left:60px;right:60px;top:${T?290:120}px"><div><span class="pill" style="background:var(--cyan);color:#000;font-size:28px">Day ${esc(d.day||1)}</span></div>
+     <div class="disp" style="font-size:${T?96:82}px;margin-top:20px">${words(d.title)}</div></div>
+   <div class="abs" id="wh" style="left:${cx}px;top:${cy}px;width:0;height:0"><svg id="wsvg" width="${2*R+20}" height="${2*R+20}" viewBox="${-R-10} ${-R-10} ${2*R+20} ${2*R+20}" style="position:absolute;left:${-R-10}px;top:${-R-10}px"><g id="wg">${paths}${labels}</g><circle r="${R*.16}" fill="#0B0C0F" stroke="#fff" stroke-width="6"/></svg>
+     <svg width="80" height="90" style="position:absolute;left:-40px;top:${-R-60}px" id="ptr"><path d="M40 86 L8 10 L72 10 Z" fill="#fff" stroke="#0B0C0F" stroke-width="5"/></svg></div>
+   <div class="abs" id="stamp" style="left:0;right:0;top:${T?1480:1130}px;text-align:center;opacity:0"><span class="disp" style="font-size:${T?92:78}px;background:#fff;color:#0B0C0F;padding:6px 28px;border-radius:16px">The wheel says: ${esc(seg[land].label)}</span></div>
+   <div class="abs" id="money" style="left:60px;right:${T?130:60}px;top:${T?560:380}px;display:flex;flex-direction:column;gap:26px;opacity:0;background:rgba(11,12,15,.93);border:2px solid var(--line);border-radius:30px;padding:34px">
+     <div class="disp" style="font-size:${T?84:72}px">But the money <span class="lime">says</span></div>${bars}
+     <div style="font-size:32px;font-weight:800;color:#C9CDD4">${esc(d.outro||'Wheel or money? Results tomorrow.')}</div></div>
+   ${source()}`;
+  return {html,dur:11,build:tl=>{
+    tl.from('#ttl .pill',{scale:.3,opacity:0,duration:.35,ease:'back.out(2.5)'},0.05).from('#ttl .word',{y:50,opacity:0,stagger:.08,duration:.3},0.15);
+    tl.from('#wh',{scale:0,duration:.5,ease:'back.out(1.6)'},0.4);
+    tl.to('#wg',{rotation:spins,svgOrigin:'0 0',duration:4.2,ease:'power4.out'},1.0);
+    tl.to('#ptr',{rotation:-18,transformOrigin:'50% 10%',duration:.08,yoyo:true,repeat:25,ease:'sine.inOut'},1.0);
+    tl.to('#stamp',{opacity:1,duration:.01},5.3).from('#stamp span',{scale:2.2,rotation:-8,duration:.35,ease:'back.out(2)'},5.3);
+    tl.to(['#wh','#ttl'],{opacity:.15,duration:.4},7.0).to('#stamp',{opacity:0,duration:.3},7.0).to('#money',{opacity:1,duration:.3},7.1).from('#money .mrow',{x:-60,opacity:0,stagger:.12,duration:.35},7.2);
+    $$('.mv').forEach((el,i)=>{const c=counter(el,0,d.money[i].p);c.tween(tl,7.3+i*.12,1.0);TICKS.push(c.draw)});
+  }}};
+
+/* ---- App demo over REAL outcome.xyz screens ---- */
+F.demo=d=>{const T=tall();const fw=T?820:700,fh=T?1460:1110;const fx=(S.w-fw)/2,fy=T?300:150;const sc=fw/390;
+  const scr=d.screens.map((s,i)=>`<img id="scr${i}" src="${s.img}" class="abs" style="left:0;top:0;width:${fw}px;opacity:${i?0:1}">`).join('');
+  const boxes=d.steps.map((s,i)=>`<div class="abs stp" id="stp${i}" style="left:40px;right:40px;top:${T?150:40}px;text-align:center;opacity:0;font-size:${T?56:50}px">${s.lines.map(l=>`<span class="box">${esc(l)}</span>`).join('<br>')}</div>`).join('');
+  const html=`${bgGlow()}
+   <div class="abs" id="phone" style="left:${fx}px;top:${fy}px;width:${fw}px;height:${fh}px;border-radius:56px;overflow:hidden;border:4px solid #2A2E36;box-shadow:0 40px 120px rgba(0,0,0,.7);background:#0B0C0F"><div id="screen" class="abs" style="left:0;top:0;width:${fw}px">${scr}</div>
+     <div class="abs" id="tap" style="width:110px;height:110px;margin:-55px 0 0 -55px;border-radius:50%;border:8px solid #fff;opacity:0"></div>
+     <div class="abs" id="ring" style="border:8px solid #7CFFB2;border-radius:30px;opacity:0"></div></div>
+   ${boxes}`;
+  return {html,dur:d.dur||12,build:tl=>{
+    tl.from('#phone',{y:200,opacity:0,duration:.6,ease:'power3.out'},0);
+    (d.steps||[]).forEach((s,i)=>{tl.to('#stp'+i,{opacity:1,duration:.01},s.at).from('#stp'+i+' .box',{scale:.6,opacity:0,duration:.3,ease:'back.out(2)'},s.at);if(i<d.steps.length-1)tl.to('#stp'+i,{opacity:0,duration:.2},d.steps[i+1].at-.15)});
+    (d.moves||[]).forEach(m=>{
+      if(m.show!=null){d.screens.forEach((_,i)=>tl.to('#scr'+i,{opacity:i===m.show?1:0,duration:.35},m.at))}
+      if(m.scroll!=null)tl.to('#screen',{y:-m.scroll*sc,duration:m.d||1,ease:'power2.inOut'},m.at);
+      if(m.tap){tl.set('#tap',{left:m.tap[0]*sc,top:m.tap[1]*sc-(m.scrollNow||0)*sc,opacity:1,scale:.4},m.at).to('#tap',{scale:1.4,opacity:0,duration:.5,ease:'power2.out'},m.at)}
+      if(m.ring){tl.set('#ring',{left:(m.ring[0]-8)*sc,top:(m.ring[1]-8-(m.scrollNow||0))*sc,width:(m.ring[2]+16)*sc,height:(m.ring[3]+16)*sc,opacity:0,scale:1.3},m.at).to('#ring',{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},m.at)}
+      if(m.ringOff)tl.to('#ring',{opacity:0,duration:.2},m.at);
+      if(m.zoom)tl.to('#phone',{scale:m.zoom,transformOrigin:m.origin||'50% 70%',duration:m.d||.8,ease:'power2.inOut'},m.at);
+    });
+  }}};
+
+/* ---- Footage + live chance banner (the clip format, with the REAL price line) ---- */
+F.clipbanner=d=>{const T=tall();const W=S.w-120,H=150;const pts=d.series;const t0=pts[0][0],t1=pts[pts.length-1][0];
+  const X=t=>(t-t0)/((t1-t0)||1)*W,Y=p=>H-p*H;const path=pts.map((p,i)=>(i?'L':'M')+X(p[0]).toFixed(1)+' '+Y(p[1]).toFixed(1)).join(' ');
+  const html=`${clipLayer()}<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 55%,rgba(0,0,0,.75) 100%)"></div>${handle()}
+   <div class="abs" id="ttl" style="left:60px;right:60px;top:${T?240:110}px"><div class="disp" style="font-size:${T?92:80}px;text-shadow:0 6px 24px rgba(0,0,0,.6)">${words(d.title)}</div></div>
+   <div class="abs" id="ban" style="left:40px;right:40px;bottom:${T?360:70}px;background:rgba(11,12,15,.92);border:2px solid #2A2E36;border-radius:28px;padding:22px 26px;display:flex;flex-direction:column;gap:12px">
+     <div style="display:flex;align-items:center;gap:16px">${chip(d.team,74)}<div style="flex:1"><div style="font-size:30px;font-weight:900">${esc(d.label)}</div><div style="font-size:22px;color:var(--muted);font-weight:700">chance on Outcome, live</div></div>
+       <div style="display:flex;flex-direction:column;align-items:flex-end"><div id="bp" class="disp num" style="font-size:96px;color:var(--lime)">${pct(pts[0][1])}</div><div id="bd" class="num" style="font-size:30px;font-weight:900;opacity:0"></div></div></div>
+     <svg width="${W-12}" height="${H}" viewBox="0 0 ${W} ${H}"><defs><clipPath id="rv"><rect id="rvr" x="0" y="0" width="0" height="${H}"/></clipPath></defs>
+       <line x1="0" x2="${W}" y1="${Y(.5)}" y2="${Y(.5)}" stroke="rgba(255,255,255,.12)" stroke-width="2" stroke-dasharray="6 8"/>
+       <path d="${path}" fill="none" stroke="var(--lime)" stroke-width="7" stroke-linejoin="round" clip-path="url(#rv)"/><circle id="hd" r="12" fill="var(--lime)"/></svg>
+     <div style="display:flex;justify-content:space-between;font-size:22px;color:var(--muted);font-weight:700"><span>${esc(d.left||'')}</span><span>Outcome.xyz</span><span>${esc(d.right||'')}</span></div></div>
+   <div class="abs" id="flash" style="inset:0;background:#fff;opacity:0"></div>`;
+  return {html,dur:d.dur,build:tl=>{
+    tl.from('#ttl .word',{y:50,opacity:0,stagger:.07,duration:.3},0.1).from('#ban',{y:300,opacity:0,duration:.5,ease:'power3.out'},0.3);
+    const o={x:0};tl.to(o,{x:1,duration:d.dur-.8,ease:'none'},0.5);
+    TICKS.push(()=>{const t=t0+(t1-t0)*o.x;let p=pts[0][1];for(let j=1;j<pts.length;j++){if(pts[j][0]>=t){const a=pts[j-1],b=pts[j];p=a[1]+(b[1]-a[1])*((t-a[0])/((b[0]-a[0])||1));break}p=pts[j][1]}
+      $('#rvr').setAttribute('width',X(t)+2);$('#hd').setAttribute('cx',X(t));$('#hd').setAttribute('cy',Y(p));$('#bp').textContent=pct(p)});
+    if(d.event){tl.to('#flash',{opacity:.7,duration:.05},d.event.at).to('#flash',{opacity:0,duration:.35},d.event.at+.05);
+      tl.set('#bd',{textContent:d.event.badge||'',color:d.event.up?'var(--lime)':'var(--pink)'},d.event.at).to('#bd',{opacity:1,duration:.2},d.event.at).fromTo('#bp',{scale:1.35},{scale:1,duration:.5,ease:'back.out(2)'},d.event.at);
+      tl.to('#clip',{scale:1.12,duration:.25,yoyo:true,repeat:1,ease:'power2.out'},d.event.at)}
+  }}};
+
+/* ---- Hot take over footage, then the receipt ---- */
+F.hottake=d=>{const T=tall();
+  const rows=d.receipt.rows.map((r,i)=>`<div class="rr" style="display:flex;align-items:center;gap:18px">${r.team?chip(r.team,88):''}<div style="flex:1;display:flex;flex-direction:column;gap:8px"><div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:42px;font-weight:900">${esc(r.label)}</span><span class="disp num rv" style="font-size:90px;color:${i===0?'var(--lime)':'#fff'}">0%</span></div><div style="height:22px;border-radius:11px;background:#1C1F26;overflow:hidden"><div class="rb" style="height:100%;width:0;background:${i===0?'var(--lime)':'#8B919C'};border-radius:11px"></div></div></div></div>`).join('');
+  const html=`${clipLayer()}<div class="abs" id="dim" style="inset:0;background:rgba(0,0,0,.25)"></div>${handle()}
+   <div class="abs" id="take" style="left:50px;right:50px;top:${T?520:300}px;text-align:center">${d.lines.map((l,i)=>`<div class="disp tl" style="font-size:${T?130:112}px;text-shadow:0 8px 30px rgba(0,0,0,.7);margin-bottom:6px">${words(l)}</div>`).join('')}</div>
+   <div class="abs" id="flash" style="inset:0;background:#fff;opacity:0"></div>
+   <div class="abs" id="rcpt" style="left:50px;right:${T?120:50}px;top:${T?520:300}px;background:rgba(11,12,15,.95);border:2px solid #2A2E36;border-radius:32px;padding:38px;display:flex;flex-direction:column;gap:26px;opacity:0">
+     <div style="display:flex;align-items:center;gap:14px"><span class="pill" style="background:var(--lime);color:#000;font-size:26px">${esc(d.receipt.kicker||'Receipt')}</span></div>
+     <div class="disp" style="font-size:${T?84:74}px">${mk(d.receipt.title)}</div>${rows}
+     <div style="font-size:30px;font-weight:800;color:#C9CDD4">${mk(d.receipt.note||'')}</div></div>
+   ${source()}`;
+  return {html,dur:d.dur||9,build:tl=>{
+    const lines=$$('#take .tl');lines.forEach((ln,i)=>tl.from(ln.querySelectorAll('.word'),{scale:1.8,opacity:0,stagger:.12,duration:.22,ease:'power3.out'},0.2+i*.8));
+    const cut=d.cut||3.2;
+    tl.to('#flash',{opacity:.9,duration:.05},cut).to('#flash',{opacity:0,duration:.35},cut+.05).set('#take',{opacity:0},cut+.03).to('#dim',{background:'rgba(0,0,0,.65)',duration:.3},cut);
+    tl.to('#rcpt',{opacity:1,duration:.05},cut+.05).from('#rcpt',{y:120,duration:.45,ease:'power3.out'},cut+.05).from('#rcpt .rr',{x:-60,opacity:0,stagger:.12,duration:.35},cut+.3);
+    $$('.rb').forEach((b,i)=>tl.to(b,{width:(d.receipt.rows[i].p/d.receipt.max*100)+'%',duration:1,ease:'power2.out'},cut+.45+i*.12));
+    $$('.rv').forEach((el,i)=>{const c=counter(el,0,d.receipt.rows[i].p);c.tween(tl,cut+.45+i*.12,1);TICKS.push(c.draw)});
+  }}};
+
+/* ---- P&L card edit (client format): the card drops in over event footage ---- */
+F.pnl_edit=d=>{const T=tall();const W=Math.min(S.w-140,860);
+  const rows=(d.rows||[]).map((r,i)=>`<div class="pr" style="display:flex;justify-content:space-between;align-items:center;border-radius:18px;padding:18px 26px;font-size:34px;font-weight:800;background:${i===d.rows.length-1?'#0B0C0F':'#D4FF3A'};color:${i===d.rows.length-1?'#D4FF3A':'#0B0C0F'}"><span>${esc(r[0])}</span><span class="num">${esc(r[1])}</span></div>`).join('');
+  const html=`${clipLayer()}<div class="abs" id="dim" style="inset:0;background:rgba(0,0,0,.2)"></div>
+   <div class="abs" id="card" style="left:${(S.w-W)/2}px;top:${T?380:150}px;width:${W}px;background:#F4F5F7;color:#0B0C0F;border-radius:40px;padding:40px 42px;box-shadow:0 40px 120px rgba(0,0,0,.6)">
+     <div style="display:flex;align-items:center;gap:12px;font-size:30px;font-weight:700">You predicted <span style="background:#0B0C0F;color:#D4FF3A;border-radius:999px;padding:5px 16px;font-weight:900;font-size:26px">${esc(d.side)}</span></div>
+     <div class="disp" style="font-size:${d.title.length>30?72:88}px;margin:18px 0 8px">${esc(d.title)}</div>
+     <div class="disp" style="font-size:58px;color:#55606E">${esc(d.entry)} <span style="color:#0B0C0F">&#8594; $1.00</span></div>
+     <div style="display:flex;flex-direction:column;gap:12px;margin-top:26px">${rows}</div>
+     <div style="display:flex;align-items:center;gap:16px;margin-top:28px;font-size:28px;font-weight:900"><img src="${S.assets}logos/outcome/icon.svg" style="height:40px"><span>Outcome</span><span style="opacity:.3">|</span><span>${esc((d.username||'').toUpperCase())}</span><span style="margin-left:auto;font-size:22px;color:#55606E">${esc(d.date||'')}</span></div></div>
+   <div class="abs" id="flash" style="inset:0;background:#fff;opacity:0"></div>
+   <div class="abs" id="cta" style="left:40px;right:40px;bottom:${T?330:60}px;text-align:center;font-size:${T?48:44}px;opacity:0"><span class="box">${esc(d.cta||'Trade with zero fees on Outcome.xyz')}</span></div>`;
+  return {html,dur:d.dur||8,build:tl=>{
+    const at=d.cardAt||1.2;
+    tl.fromTo('#clip',{scale:1.0},{scale:1.08,duration:d.dur||8,ease:'none'},0);
+    tl.to('#flash',{opacity:.9,duration:.04},at).to('#flash',{opacity:0,duration:.3},at+.04).to('#dim',{background:'rgba(0,0,0,.45)',duration:.3},at);
+    tl.from('#card',{y:-900,rotation:-8,duration:.55,ease:'back.out(1.4)'},at);
+    tl.from('#card .pr',{x:80,opacity:0,stagger:.15,duration:.3,ease:'power3.out'},at+.5);
+    tl.fromTo('#card .pr:last-child',{scale:1},{scale:1.05,duration:.25,yoyo:true,repeat:1},at+1.4);
+    tl.to('#cta',{opacity:1,duration:.01},at+2).from('#cta .box',{y:40,opacity:0,duration:.35},at+2);
+  }}};
+
+/* ---- Live tape: the real app filmed live, with story boxes and the result ---- */
+F.livetape=d=>{const T=tall();
+  const boxes=d.steps.map((s,i)=>`<div class="abs stp" id="lt${i}" style="left:40px;right:40px;top:${T?150:40}px;text-align:center;opacity:0;font-size:${T?54:48}px">${s.lines.map(l=>`<span class="box">${mk(l)}</span>`).join('<br>')}</div>`).join('');
+  const html=`${clipLayer()}<div class="abs" id="vig" style="inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 22%)"></div>
+   <div class="abs" style="left:0;right:0;top:0;height:10px;background:rgba(255,255,255,.12)"><div id="prog" style="height:100%;width:0;background:var(--lime)"></div></div>
+   ${boxes}
+   <div class="abs" id="flash" style="inset:0;background:#fff;opacity:0"></div>
+   <div class="abs" id="res" style="left:0;right:0;top:${T?560:380}px;text-align:center;opacity:0"><span class="disp" style="font-size:${T?170:150}px;padding:10px 40px;border-radius:24px;background:${d.result==='UP'?'var(--lime)':'var(--pink)'};color:${d.result==='UP'?'#0B0C0F':'#fff'};box-shadow:0 20px 60px rgba(0,0,0,.5)">${esc(d.result||'')}</span></div>
+   <div class="abs" id="endc" style="inset:0;background:rgba(11,12,15,.94);display:flex;flex-direction:column;justify-content:center;gap:36px;padding:0 70px;opacity:0">
+     <div class="disp" style="font-size:${T?110:96}px">${mk(d.endTitle||'')}</div>
+     <div style="font-size:${T?44:40}px;font-weight:800;color:#C9CDD4">${mk(d.endSub||'')}</div>
+     <div style="font-size:${T?44:40}px"><span class="box">${esc(d.cta||'Call the next 15 minutes on Outcome.xyz')}</span></div></div>
+   ${handle()}`;
+  return {html,dur:d.dur,build:tl=>{
+    tl.to('#prog',{width:'100%',duration:d.dur,ease:'none'},0);
+    d.steps.forEach((s,i)=>{tl.to('#lt'+i,{opacity:1,duration:.01},s.at).from('#lt'+i+' .box',{scale:.6,opacity:0,duration:.3,ease:'back.out(2)'},s.at);if(i<d.steps.length-1)tl.to('#lt'+i,{opacity:0,duration:.2},d.steps[i+1].at-.15)});
+    if(d.resultAt!=null){tl.to('#flash',{opacity:.85,duration:.05},d.resultAt).to('#flash',{opacity:0,duration:.35},d.resultAt+.05);
+      tl.to('#res',{opacity:1,duration:.01},d.resultAt).from('#res span',{scale:2.4,rotation:-6,duration:.4,ease:'back.out(2)'},d.resultAt);
+      tl.to('#clip',{scale:1.08,duration:1.2,ease:'power2.out'},d.resultAt)}
+    if(d.endAt!=null){tl.to('#endc',{opacity:1,duration:.35},d.endAt).from('#endc > *',{y:40,opacity:0,stagger:.12,duration:.35},d.endAt+.1)}
+  }}};
+
+/* ---- Out of 100: what a % means, as 100 dots ---- */
+F.outof100=d=>{const T=tall();const G=d.groups;const cell=T?66:52,gap=T?10:8;const gw=10*cell+9*gap;const gy=T?540:300;
+  let dots='';let k=0;G.forEach((g,gi)=>{for(let j=0;j<g.n;j++){const r=Math.floor(k/10),c=k%10;dots+=`<circle class="dt g${gi}" cx="${c*(cell+gap)+cell/2}" cy="${r*(cell+gap)+cell/2}" r="${cell/2}" fill="${g.color}"/>`;k++}});
+  const legend=G.map((g,gi)=>`<div class="lg" style="display:flex;align-items:center;gap:14px"><i style="width:34px;height:34px;border-radius:50%;background:${g.color};display:inline-block"></i><span class="disp num lgv" style="font-size:${T?72:56}px;color:${g.color==='#3A3F4A'?'#C9CDD4':g.color}">0</span><span style="font-size:${T?36:32}px;font-weight:800">${esc(g.label)}</span></div>`).join('');
+  const html=`${bgGlow()}${handle()}
+   <div class="abs" id="tt" style="left:60px;right:60px;top:${T?260:100}px"><div class="disp" style="font-size:${T?100:84}px">${words(d.title)}</div></div>
+   <div class="abs" id="grid" style="left:${(S.w-gw)/2}px;top:${gy}px"><svg width="${gw}" height="${gw}">${dots}</svg></div>
+   <div class="abs" id="leg" style="left:60px;right:60px;top:${gy+gw+36}px;display:flex;flex-wrap:wrap;gap:10px 30px">${legend}</div>
+   <div class="abs" id="foot" style="left:60px;right:60px;top:${gy+gw+(T?200:150)}px;font-size:${T?40:34}px;opacity:0"><span class="box">${esc(d.foot||'')}</span></div>
+   ${source()}`;
+  return {html,dur:9,build:tl=>{
+    tl.from('#tt .word',{y:50,opacity:0,stagger:.07,duration:.3},0.1);
+    tl.from('.dt',{scale:0,transformOrigin:'50% 50%',opacity:0,duration:.25,stagger:.022,ease:'back.out(2)'},1.0);
+    tl.from('#leg .lg',{y:30,opacity:0,stagger:.15,duration:.3},1.2);
+    $$('.lgv').forEach((el,i)=>{const o={v:0};const start=1.0+G.slice(0,i).reduce((a,g)=>a+g.n,0)*.022;tl.to(o,{v:G[i].n,duration:Math.max(.3,G[i].n*.022),ease:'none'},start);TICKS.push(()=>{el.textContent=Math.round(o.v)})});
+    G.forEach((g,gi)=>{if(g.pulse)tl.fromTo('.g'+gi,{scale:1},{scale:1.18,transformOrigin:'50% 50%',duration:.25,yoyo:true,repeat:1,stagger:.004},4.0)});
+    tl.to('#foot',{opacity:1,duration:.01},4.6).from('#foot .box',{y:30,opacity:0,duration:.35},4.6);
+  }}};
+
+/* ---- AI vs the Crowd: a chat asks an AI, then the money answers ---- */
+F.aichat=d=>{const T=tall();const top=T?300:130;
+  const rows=d.money.map((s,i)=>`<div class="mr" style="display:flex;align-items:center;gap:16px">${s.team?chip(s.team,74):'<div style="width:74px"></div>'}<div style="flex:1;font-size:36px;font-weight:900">${esc(s.label)}</div><div class="disp num mv" style="font-size:76px;color:${i===d.moneyBest?'var(--lime)':'#fff'}">0%</div></div>`).join('');
+  const html=`${bgGlow('rgba(34,225,255,.14)')}${handle()}
+   <div class="abs" id="hdr" style="left:60px;right:60px;top:${top}px;display:flex;align-items:center;justify-content:space-between"><span class="pill" style="background:var(--cyan);color:#000;font-size:28px">AI vs the money · Day ${esc(d.day||1)}</span><span class="disp" style="font-size:44px">${esc(d.score||'')}</span></div>
+   <div class="abs" id="chat" style="left:60px;right:60px;top:${top+110}px;display:flex;flex-direction:column;gap:26px">
+     <div id="ub" style="align-self:flex-end;max-width:80%;background:#2B6BFF;color:#fff;border-radius:34px 34px 8px 34px;padding:26px 32px;font-size:${T?44:40}px;font-weight:600;line-height:1.25"><span id="ut"></span></div>
+     <div id="ab" style="align-self:flex-start;max-width:86%;background:#1C1F26;border:2px solid #2A2E36;border-radius:34px 34px 34px 8px;padding:26px 32px;font-size:${T?44:40}px;font-weight:600;line-height:1.3;opacity:0">
+       <div style="font-size:24px;color:var(--cyan);font-weight:900;letter-spacing:.1em;margin-bottom:8px">AI</div><span id="at"></span><span id="dots" class="muted">...</span></div></div>
+   <div class="abs" id="mon" style="left:60px;right:${T?120:60}px;top:${T?1080:780}px;background:rgba(11,12,15,.94);border:2px solid #2A2E36;border-radius:30px;padding:30px;display:flex;flex-direction:column;gap:18px;opacity:0">
+     <div class="disp" style="font-size:${T?76:66}px">The money <span class="lime">says</span></div>${rows}</div>
+   <div class="abs" id="verd" style="left:0;right:0;top:${T?1610:1240}px;text-align:center;opacity:0"><span class="disp" style="font-size:${T?84:70}px;background:${d.agree?'var(--lime)':'var(--pink)'};color:${d.agree?'#000':'#fff'};padding:6px 30px;border-radius:16px">${esc(d.verdict)}</span></div>`;
+  return {html,dur:13,build:tl=>{
+    tl.from('#hdr',{y:-30,opacity:0,duration:.35},0);
+    const q=d.question,a=d.answer;const o1={n:0},o2={n:0};
+    tl.from('#ub',{scale:.6,opacity:0,transformOrigin:'100% 100%',duration:.3,ease:'back.out(2)'},0.2);
+    tl.to(o1,{n:q.length,duration:Math.min(2.2,q.length*.045),ease:'none'},0.3);
+    tl.to('#ab',{opacity:1,duration:.2},2.8).from('#ab',{scale:.7,transformOrigin:'0% 100%',duration:.3,ease:'back.out(2)'},2.8);
+    tl.to('#dots',{opacity:0,duration:.01},3.6);
+    tl.to(o2,{n:a.length,duration:Math.min(2.6,a.length*.04),ease:'none'},3.6);
+    TICKS.push(()=>{$('#ut').textContent=q.slice(0,Math.round(o1.n));$('#at').innerHTML=mk(a.slice(0,Math.round(o2.n)))});
+    tl.to('#mon',{opacity:1,duration:.3},7.0).from('#mon .mr',{x:-50,opacity:0,stagger:.12,duration:.3},7.1);
+    $$('.mv').forEach((el,i)=>{const c=counter(el,0,d.money[i].p);c.tween(tl,7.2+i*.1,1);TICKS.push(c.draw)});
+    tl.to('#verd',{opacity:1,duration:.01},9.0).from('#verd span',{scale:2,rotation:-6,duration:.35,ease:'back.out(2)'},9.0);
+  }}};
+
+/* ---- entry points ---- */
+window.show=async function(spec){S=spec;const st=$('#stage');st.style.width=S.w+'px';st.style.height=S.h+'px';
+  if(TL){TL.kill()};TICKS=[];CLIP=null;
+  const f=F[spec.fmt];if(!f)throw new Error('unknown motion format '+spec.fmt);
+  const r=f(spec);st.innerHTML=r.html;DUR=r.dur||8;
+  if(spec.clip){CLIP={dir:spec.clip.dir,fps:spec.clip.fps||30,n:spec.clip.n,offset:spec.clip.offset||0,speed:spec.clip.speed||1}}
+  await Promise.all([...st.querySelectorAll('img')].filter(i=>i.id!=='clip').map(i=>i.complete?1:new Promise(ok=>{i.onload=i.onerror=ok})));
+  await document.fonts.ready;
+  TL=gsap.timeline({paused:true});r.build&&r.build(TL);
+  await window.renderAt(0);return {dur:DUR}};
+window.renderAt=async function(t){
+  if(CLIP){const im=$('#clip');const k=clamp(Math.floor((CLIP.offset+t*CLIP.speed)*CLIP.fps),0,CLIP.n-1);const src=CLIP.dir+String(k+1).padStart(5,'0')+'.jpg';
+    if(im.dataset.k!==String(k)){im.src=src;im.dataset.k=String(k);try{await im.decode()}catch(e){}}}
+  if(TL)TL.seek(Math.min(t,TL.duration()),false);TICKS.forEach(f=>f(t));return true};
+</script>
+<!--MORE-->
+<script>window.__ready=true;</script></body></html>

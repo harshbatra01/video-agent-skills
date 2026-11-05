@@ -1,0 +1,138 @@
+{
+ "name": "2026-10-13",
+ "note": "Daily set (Tue 13 Oct, scan 15:53 IST, UK 10:23), UK first, no Digga. GIGGS: Capital XTRA (12 Oct): 'Chronicles of...' new live series, first night 'Chronicles of Giggs' at OVO Arena Wembley on 16 Dec 2026, tickets Fri 16 Oct 10am, lineup Giggs, The Lox, Heartless Crew, Saxon Sound, Beenie Man; also Rolling Stone UK, Clash, Stereoboard. Clip: GALA Festival's own upload of Giggs live at GALA'26, Peckham Rye Park. RUSS vs A2: AllHipHop (12 Oct): Unhinged Promotions (HSTikkyTokky) put Russ Millions in the main event of its 7 Nov show in Kilkenny, opponent '?', 'ANY RAPPER ANY INFLUENCER'; A2 Anti's IG story: 'I heard @russmillions needs a fight and I need someone to punch up so link me let's do it'. 'Body' with Tion Wayne = first drill UK #1 (2021). Faces checked against their official music video thumbnails. DRAKE: Billboard (Hot 100 dated 17 Oct): 'Solar Eclipse' debuts #5, Drake's record-extending 91st top 10 since 'Best I Ever Had' (2009), Toliver's first top 10 as lead; interpolates 'Choosin' Texas' (record 24 weeks at #1). Official Singles Chart (9 to 15 Oct): Solar Eclipse #22, Choosin' Texas #5. KREPT: Link Up (Sunday Times 100 2026 dinner, Refuse To Quit clip); Travel Weekly 9 Jun 2026: Party Hard Travel #35 on this year's Sunday Times 100, CEO Nathan Cable; BusinessCloud/BM Magazine: Nala's Baby #10 in 2025, GBP 5.5m sales; Guap Aug 2024: Rashford and Sancho invested (after AJ, Jourdan Dunn, Yung Filly); Capital XTRA: started 2020 for daughter's eczema. Skipped: Nines Church Road clip (thirst trap, reach risk), Bandokay prison videos (GBMC edit, unverifiable), Foreign Mulli saga (prison violence + Digga), EastEnders AI covers (AI), Fakemink x Skepta Friday (only Kurrco, no artist post yet), Diddy hospital (3 days old).",
+ "posts": [
+  {
+   "id": "z1_giggs_wembley",
+   "account": "zonegbp",
+   "fmt": "uk",
+   "label": "LIVE",
+   "when": "Tue 17:00 to 19:00",
+   "headline": "GIGGS IS BRINGING *THE LOX* AND *BEENIE MAN* TO WEMBLEY 🏟️",
+   "sub": "'Chronicles of Giggs', OVO Arena, 16 December",
+   "clip": {
+    "path": "in/1013/giggs_gala.mp4",
+    "in": 7.0,
+    "dur": 16,
+    "fill": "blur"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "caption": "Giggs is bringing The Lox and Beenie Man to OVO Arena Wembley on 16 December 🏟️ 'Chronicles of Giggs' is one night on the music that shaped him, with Heartless Crew and Saxon Sound on the bill too. Tickets Friday 10am. Who else should he bring out?\n🎥: GALA Festival\n#Giggs #TheLox"
+  },
+  {
+   "id": "z2_russ_a2",
+   "account": "zonegbp",
+   "fmt": "vs",
+   "theme": "beef",
+   "when": "Tue 18:00 to 20:00",
+   "photos": [
+    {
+     "src": "in/1013/th_v_Cr_454t_k.jpg",
+     "focus": "57% 30%",
+     "name": "A2 ANTI"
+    },
+    {
+     "src": "in/1013/th_xBJHMzFcAsI.jpg",
+     "focus": "55% 30%",
+     "name": "RUSS MILLIONS"
+    }
+   ],
+   "headline": "RUSS MILLIONS ASKED FOR ANY RAPPER. *A2 ANTI* SAID 'LINK ME' 🥊",
+   "sub": "Unhinged's 7 November show, Kilkenny",
+   "slides": [
+    {
+     "photo": "in/1013/a2u_3.jpg",
+     "focus": "center 22%",
+     "headline": "RUSS HEADLINES UNHINGED'S *7 NOVEMBER* SHOW. HIS OPPONENT: *'ANY RAPPER, ANY INFLUENCER'*"
+    },
+    {
+     "photo": "in/1013/a2u_1.jpg",
+     "focus": "center 25%",
+     "headline": "CENTRAL CEE'S RIGHT-HAND MAN REPLIED: *'I NEED SOMEONE TO PUNCH UP SO LINK ME'*"
+    },
+    {
+     "photo": "in/1013/th_6-vARDkvEiw.jpg",
+     "focus": "50% 30%",
+     "headline": "'PUNCH UP': RUSS HAS A UK #1. *'BODY'* WITH TION WAYNE WAS THE FIRST DRILL #1 EVER"
+    },
+    {
+     "fmt": "vs",
+     "photos": [
+      {
+       "src": "in/1013/a2_1.jpg",
+       "focus": "78% 22%",
+       "name": "A2 ANTI"
+      },
+      {
+       "src": "in/1013/a2_2.jpg",
+       "focus": "center 22%",
+       "name": "RUSS MILLIONS"
+      }
+     ],
+     "headline": "NO OPPONENT CONFIRMED YET. *WHO ARE YOU BACKING?*"
+    }
+   ],
+   "story": true,
+   "poll": "RUSS / A2",
+   "pin": "Russ has a UK #1, A2 has Central Cee in his corner. Who takes it? 🥊",
+   "caption": "Russ Millions asked for any rapper or influencer for Unhinged's 7 November show in Kilkenny 🥊 Central Cee's right-hand man A2 Anti replied: 'I need someone to punch up so link me, let's do it.' Who are you backing if it happens?\n#RussMillions #A2Anti"
+  },
+  {
+   "id": "b1_drake_91",
+   "account": "beatswitchfm",
+   "fmt": "uk",
+   "theme": "charts",
+   "logo": "billboard",
+   "when": "Tue 17:00 to 18:00",
+   "headline": "DRAKE NOW HAS 91 US TOP 10S, *THE MOST IN HISTORY* 🏆",
+   "sub": "'Solar Eclipse' with Don Toliver debuted at #5",
+   "clip": {
+    "path": "in/1013/drake_yt.mp4",
+    "in": 102,
+    "dur": 15,
+    "fill": "blur"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "caption": "Drake's 91st Billboard Hot 100 top 10, 17 years after his first, 'Best I Ever Had' 🏆 'Solar Eclipse' with Don Toliver debuted at #5. Over here it's #22, while 'Choosin' Texas', the Ella Langley song it's built on, sits at #5. Will anyone ever catch him?\n#Drake #DonToliver"
+  },
+  {
+   "id": "b2_krept_st100",
+   "account": "beatswitchfm",
+   "fmt": "uk",
+   "theme": "money",
+   "label": "BUSINESS",
+   "when": "Tue 18:00 to 19:00",
+   "headline": "KREPT'S FIRST FRIEND FROM UNI IS ON THE *SUNDAY TIMES 100* TOO 🎓",
+   "sub": "Reunited at the 2026 Sunday Times 100 dinner",
+   "photo": "in/1013/krept_f20.jpg",
+   "focus": "center 22%",
+   "slides": [
+    {
+     "photo": "in/1013/krept_f28.jpg",
+     "focus": "center 20%",
+     "headline": "NATHAN CABLE CO-FOUNDED *PARTY HARD TRAVEL*. IT'S #35 ON THIS YEAR'S LIST"
+    },
+    {
+     "photo": "in/1013/nala_f15.jpg",
+     "focus": "48% 35%",
+     "headline": "KREPT'S BABY SKINCARE BRAND *NALA'S BABY* WAS #10 LAST YEAR, WITH £5.5M IN SALES"
+    },
+    {
+     "photo": "in/1013/nala_f40.jpg",
+     "focus": "32% 30%",
+     "headline": "IT STARTED IN THEIR KITCHEN IN 2020 FOR THEIR DAUGHTER'S ECZEMA. *RASHFORD* AND *SANCHO* HAVE SINCE INVESTED"
+    },
+    {
+     "photo": "in/1013/krept_f70.jpg",
+     "focus": "center 20%",
+     "headline": "FROM UNI TO THE SUNDAY TIMES 100. *BETTER BUSINESSMAN OR RAPPER?*"
+    }
+   ],
+   "caption": "The first friend Krept made at uni is on the Sunday Times 100 too 🎓 Nathan Cable's Party Hard Travel is #35 this year, and Krept's Nala's Baby was #10 last year with £5.5m in sales. Better businessman or rapper?\n🎥: Refuse To Quit\n#Krept #NalasBaby"
+  }
+ ]
+}

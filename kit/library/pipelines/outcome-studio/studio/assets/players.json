@@ -1,0 +1,612 @@
+[
+ {
+  "name": "Jude Bellingham",
+  "ascii": "Jude Bellingham",
+  "short": "Bellingham",
+  "short_ascii": "Bellingham",
+  "nationality": "gb-eng",
+  "nationality_name": "England",
+  "club": "Real Madrid",
+  "club_team": "Real Madrid",
+  "club_2025_26": "Real Madrid",
+  "position": "Midfielder",
+  "position_detail": "Attacking midfielder, central midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Jude Bellingham",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Jude_Bellingham",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "Pau Cubarsí",
+  "ascii": "Pau Cubarsi",
+  "short": "Cubarsí",
+  "short_ascii": "Cubarsi",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Barcelona",
+  "club_team": "FC Barcelona",
+  "club_2025_26": "Barcelona",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Pau_Cubars%C3%AD"
+  ]
+ },
+ {
+  "name": "Marc Cucurella",
+  "ascii": "Marc Cucurella",
+  "short": "Cucurella",
+  "short_ascii": "Cucurella",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Real Madrid",
+  "club_team": "Real Madrid",
+  "club_2025_26": "Chelsea",
+  "position": "Defender",
+  "position_detail": "Left-back, left wing-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Marc_Cucurella"
+  ],
+  "note": "Wikipedia nominee table lists Real Madrid; his infobox shows Chelsea 2022-2026 and Real Madrid from 2026, so Chelsea is given for 2025-26"
+ },
+ {
+  "name": "Ousmane Dembélé",
+  "ascii": "Ousmane Dembele",
+  "short": "Dembélé",
+  "short_ascii": "Dembele",
+  "nationality": "fr",
+  "nationality_name": "France",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Forward",
+  "position_detail": "Forward, right winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Ousmane Dembele",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Ousmane_Demb%C3%A9l%C3%A9",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "Luis Díaz",
+  "ascii": "Luis Diaz",
+  "short": "Luis Díaz",
+  "short_ascii": "Luis Diaz",
+  "nationality": "co",
+  "nationality_name": "Colombia",
+  "club": "Bayern Munich",
+  "club_team": "FC Bayern Munich",
+  "club_2025_26": "Bayern Munich",
+  "position": "Forward",
+  "position_detail": "Left winger, left midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Luis_D%C3%ADaz_(footballer,_born_1997)"
+  ]
+ },
+ {
+  "name": "Bruno Fernandes",
+  "ascii": "Bruno Fernandes",
+  "short": "Bruno Fernandes",
+  "short_ascii": "Bruno Fernandes",
+  "nationality": "pt",
+  "nationality_name": "Portugal",
+  "club": "Manchester United",
+  "club_team": "Manchester United",
+  "club_2025_26": "Manchester United",
+  "position": "Midfielder",
+  "position_detail": "Attacking midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Bruno_Fernandes"
+  ]
+ },
+ {
+  "name": "Gabriel Magalhães",
+  "ascii": "Gabriel Magalhaes",
+  "short": "Gabriel",
+  "short_ascii": "Gabriel",
+  "nationality": "br",
+  "nationality_name": "Brazil",
+  "club": "Arsenal",
+  "club_team": "Arsenal",
+  "club_2025_26": "Arsenal",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Gabriel_Magalh%C3%A3es"
+  ]
+ },
+ {
+  "name": "Erling Haaland",
+  "ascii": "Erling Haaland",
+  "short": "Haaland",
+  "short_ascii": "Haaland",
+  "nationality": "no",
+  "nationality_name": "Norway",
+  "club": "Manchester City",
+  "club_team": "Manchester City",
+  "club_2025_26": "Manchester City",
+  "position": "Forward",
+  "position_detail": "Striker",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Erling Haaland",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Erling_Haaland",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "Achraf Hakimi",
+  "ascii": "Achraf Hakimi",
+  "short": "Hakimi",
+  "short_ascii": "Hakimi",
+  "nationality": "ma",
+  "nationality_name": "Morocco",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Defender",
+  "position_detail": "Right-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Achraf_Hakimi"
+  ]
+ },
+ {
+  "name": "Harry Kane",
+  "ascii": "Harry Kane",
+  "short": "Kane",
+  "short_ascii": "Kane",
+  "nationality": "gb-eng",
+  "nationality_name": "England",
+  "club": "Bayern Munich",
+  "club_team": "FC Bayern Munich",
+  "club_2025_26": "Bayern Munich",
+  "position": "Forward",
+  "position_detail": "Striker",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Harry Kane",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Harry_Kane",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "Khvicha Kvaratskhelia",
+  "ascii": "Khvicha Kvaratskhelia",
+  "short": "Kvaratskhelia",
+  "short_ascii": "Kvaratskhelia",
+  "nationality": "ge",
+  "nationality_name": "Georgia",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Forward",
+  "position_detail": "Left winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Khvicha_Kvaratskhelia"
+  ]
+ },
+ {
+  "name": "Sadio Mané",
+  "ascii": "Sadio Mane",
+  "short": "Mané",
+  "short_ascii": "Mane",
+  "nationality": "sn",
+  "nationality_name": "Senegal",
+  "club": "Al-Nassr",
+  "club_team": null,
+  "club_2025_26": "Al-Nassr",
+  "position": "Forward",
+  "position_detail": "Winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9"
+  ]
+ },
+ {
+  "name": "Marquinhos",
+  "ascii": "Marquinhos",
+  "short": "Marquinhos",
+  "short_ascii": "Marquinhos",
+  "nationality": "br",
+  "nationality_name": "Brazil",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Marquinhos"
+  ]
+ },
+ {
+  "name": "Lautaro Martínez",
+  "ascii": "Lautaro Martinez",
+  "short": "Lautaro",
+  "short_ascii": "Lautaro",
+  "nationality": "ar",
+  "nationality_name": "Argentina",
+  "club": "Inter Milan",
+  "club_team": "Inter Milan",
+  "club_2025_26": "Inter Milan",
+  "position": "Forward",
+  "position_detail": "Striker",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Lautaro_Mart%C3%ADnez"
+  ]
+ },
+ {
+  "name": "Kylian Mbappé",
+  "ascii": "Kylian Mbappe",
+  "short": "Mbappé",
+  "short_ascii": "Mbappe",
+  "nationality": "fr",
+  "nationality_name": "France",
+  "club": "Real Madrid",
+  "club_team": "Real Madrid",
+  "club_2025_26": "Real Madrid",
+  "position": "Forward",
+  "position_detail": "Forward",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Kylian Mbappe",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "Nuno Mendes",
+  "ascii": "Nuno Mendes",
+  "short": "Nuno Mendes",
+  "short_ascii": "Nuno Mendes",
+  "nationality": "pt",
+  "nationality_name": "Portugal",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Defender",
+  "position_detail": "Left-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Nuno_Mendes_(footballer,_born_2002)"
+  ]
+ },
+ {
+  "name": "Lionel Messi",
+  "ascii": "Lionel Messi",
+  "short": "Messi",
+  "short_ascii": "Messi",
+  "nationality": "ar",
+  "nationality_name": "Argentina",
+  "club": "Inter Miami",
+  "club_team": null,
+  "club_2025_26": "Inter Miami",
+  "position": "Forward",
+  "position_detail": "Forward",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Lionel Messi",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Lionel_Messi",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ },
+ {
+  "name": "João Neves",
+  "ascii": "Joao Neves",
+  "short": "João Neves",
+  "short_ascii": "Joao Neves",
+  "nationality": "pt",
+  "nationality_name": "Portugal",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Midfielder",
+  "position_detail": "Midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Jo%C3%A3o_Neves"
+  ]
+ },
+ {
+  "name": "Michael Olise",
+  "ascii": "Michael Olise",
+  "short": "Olise",
+  "short_ascii": "Olise",
+  "nationality": "fr",
+  "nationality_name": "France",
+  "club": "Bayern Munich",
+  "club_team": "FC Bayern Munich",
+  "club_2025_26": "Bayern Munich",
+  "position": "Forward",
+  "position_detail": null,
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Michael_Olise"
+  ]
+ },
+ {
+  "name": "Willian Pacho",
+  "ascii": "Willian Pacho",
+  "short": "Pacho",
+  "short_ascii": "Pacho",
+  "nationality": "ec",
+  "nationality_name": "Ecuador",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Willian_Pacho"
+  ]
+ },
+ {
+  "name": "Julián Quiñones",
+  "ascii": "Julian Quinones",
+  "short": "Quiñones",
+  "short_ascii": "Quinones",
+  "nationality": "mx",
+  "nationality_name": "Mexico",
+  "club": "Al-Qadsiah",
+  "club_team": null,
+  "club_2025_26": "Al-Qadsiah",
+  "position": "Forward",
+  "position_detail": "Forward, winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Juli%C3%A1n_Qui%C3%B1ones"
+  ]
+ },
+ {
+  "name": "Declan Rice",
+  "ascii": "Declan Rice",
+  "short": "Rice",
+  "short_ascii": "Rice",
+  "nationality": "gb-eng",
+  "nationality_name": "England",
+  "club": "Arsenal",
+  "club_team": "Arsenal",
+  "club_2025_26": "Arsenal",
+  "position": "Midfielder",
+  "position_detail": "Midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Declan_Rice"
+  ]
+ },
+ {
+  "name": "Rodri",
+  "ascii": "Rodri",
+  "short": "Rodri",
+  "short_ascii": "Rodri",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Barcelona",
+  "club_team": "FC Barcelona",
+  "club_2025_26": "Manchester City",
+  "position": "Midfielder",
+  "position_detail": "Defensive midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Rodri"
+  ],
+  "note": "Moved in summer 2026 (infobox career line): club_2025_26 is the club he played for in the season the award covers"
+ },
+ {
+  "name": "Fabián Ruiz",
+  "ascii": "Fabian Ruiz",
+  "short": "Fabián Ruiz",
+  "short_ascii": "Fabian Ruiz",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Midfielder",
+  "position_detail": "Central midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Ruiz"
+  ]
+ },
+ {
+  "name": "William Saliba",
+  "ascii": "William Saliba",
+  "short": "Saliba",
+  "short_ascii": "Saliba",
+  "nationality": "fr",
+  "nationality_name": "France",
+  "club": "Arsenal",
+  "club_team": "Arsenal",
+  "club_2025_26": "Arsenal",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/William_Saliba"
+  ]
+ },
+ {
+  "name": "Ferran Torres",
+  "ascii": "Ferran Torres",
+  "short": "Ferran Torres",
+  "short_ascii": "Ferran Torres",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Barcelona",
+  "position": "Forward",
+  "position_detail": "Forward",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Ferran_Torres"
+  ],
+  "note": "Moved in summer 2026 (infobox career line): club_2025_26 is the club he played for in the season the award covers"
+ },
+ {
+  "name": "Dayot Upamecano",
+  "ascii": "Dayot Upamecano",
+  "short": "Upamecano",
+  "short_ascii": "Upamecano",
+  "nationality": "fr",
+  "nationality_name": "France",
+  "club": "Bayern Munich",
+  "club_team": "FC Bayern Munich",
+  "club_2025_26": "Bayern Munich",
+  "position": "Defender",
+  "position_detail": "Centre-back",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Dayot_Upamecano"
+  ]
+ },
+ {
+  "name": "Vinícius Júnior",
+  "ascii": "Vinicius Junior",
+  "short": "Vinícius Jr",
+  "short_ascii": "Vinicius Jr",
+  "nationality": "br",
+  "nationality_name": "Brazil",
+  "club": "Real Madrid",
+  "club_team": "Real Madrid",
+  "club_2025_26": "Real Madrid",
+  "position": "Forward",
+  "position_detail": "Forward, left winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior"
+  ]
+ },
+ {
+  "name": "Vitinha",
+  "ascii": "Vitinha",
+  "short": "Vitinha",
+  "short_ascii": "Vitinha",
+  "nationality": "pt",
+  "nationality_name": "Portugal",
+  "club": "Paris Saint-Germain",
+  "club_team": "Paris Saint-Germain",
+  "club_2025_26": "Paris Saint-Germain",
+  "position": "Midfielder",
+  "position_detail": "Central midfielder",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": null,
+  "on_outcome_ballon_dor_market": false,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Vitinha"
+  ]
+ },
+ {
+  "name": "Lamine Yamal",
+  "ascii": "Lamine Yamal",
+  "short": "Yamal",
+  "short_ascii": "Yamal",
+  "nationality": "es",
+  "nationality_name": "Spain",
+  "club": "Barcelona",
+  "club_team": "FC Barcelona",
+  "club_2025_26": "Barcelona",
+  "position": "Forward",
+  "position_detail": "Winger",
+  "ballon_dor_2026_nominee": true,
+  "outcome_name": "Lamine Yamal",
+  "on_outcome_ballon_dor_market": true,
+  "sources": [
+   "https://en.wikipedia.org/wiki/2026_Ballon_d%27Or",
+   "https://en.wikipedia.org/wiki/Lamine_Yamal",
+   "studio/data/archive/meta/20261013-1028.json (Outcome Ballon d'Or market, question 391)"
+  ]
+ }
+]

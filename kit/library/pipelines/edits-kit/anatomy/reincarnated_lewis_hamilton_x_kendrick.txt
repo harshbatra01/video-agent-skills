@@ -1,0 +1,10 @@
+reincarnated_lewis_hamilton_x_kendrick: 20.6s 1280x720 23.98fps | 102 BPM | drop 3.42s (+9.2 dB)
+shots 24 | median 0.75s | min 0.21s | max 1.96s
+cuts/s per 2s: 1.0 1.0 1.5 1.0 2.0 1.0 1.0 1.0 1.0 1.0 0.0
+flashes per 2s: 0 0 0 1 2 1 0 1 0 1 0  (total 6)
+motion per 2s: 0.5 0.3 0.5 0.1 1.5 0.3 0.4 0.2 0.4 1.0 0.7
+breaths: []
+B&W: [[8.09, 8.63], [10.97, 11.51]] | black frames at: [20.35]
+motifs: []
+on kick/snare: cuts {'n': 23, 'on_hit_pct': 65.2, 'chance_pct': 36.1, 'median_offset_frames': 0.71} | flashes {'n': 6, 'on_hit_pct': 50.0, 'chance_pct': 36.1, 'median_offset_frames': 0.23}
+on 8th-note grid: cuts {'n': 23, 'on_hit_pct': 30.4, 'chance_pct': 42.6, 'median_offset_frames': 0.37} | flashes {'n': 6, 'on_hit_pct': 0.0, 'chance_pct': 42.6, 'median_offset_frames': 0}

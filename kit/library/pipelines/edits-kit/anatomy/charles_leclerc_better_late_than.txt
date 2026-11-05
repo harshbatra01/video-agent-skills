@@ -1,0 +1,10 @@
+charles_leclerc_better_late_than: 40.5s 1280x720 23.98fps | 154 BPM | drop 3.88s (+4.9 dB)
+shots 68 | median 0.50s | min 0.13s | max 1.92s
+cuts/s per 2s: 1.5 1.5 1.5 1.0 0.5 1.5 3.0 1.5 1.5 2.0 2.0 1.0 3.5 0.5 1.0 2.5 3.5 1.5 1.5 1.0 0.0
+flashes per 2s: 0 0 0 0 0 0 0 0 2 0 2 0 0 1 0 1 1 1 0 1 0  (total 9)
+motion per 2s: 1.5 0.7 2.4 0.3 0.1 1.4 2.7 0.4 1.8 0.9 0.5 0.5 4.4 1.2 2.7 2.8 3.9 2.1 1.7 0.4 0.7
+breaths: []
+B&W: [] | black frames at: [11.59, 12.26, 13.22, 23.98, 24.52, 38.37]
+motifs: [[8.63, 22.9]]
+on kick/snare: cuts {'n': 67, 'on_hit_pct': 38.8, 'chance_pct': 32.3, 'median_offset_frames': -0.04} | flashes {'n': 9, 'on_hit_pct': 33.3, 'chance_pct': 32.3, 'median_offset_frames': 0.28}
+on 8th-note grid: cuts {'n': 67, 'on_hit_pct': 68.7, 'chance_pct': 64.4, 'median_offset_frames': -0.16} | flashes {'n': 9, 'on_hit_pct': 88.9, 'chance_pct': 64.4, 'median_offset_frames': -0.04}

@@ -1,0 +1,10 @@
+his_eyes_were_like_mine: 19.3s 720x720 60.00fps | 114 BPM | drop 4.53s (+10.2 dB)
+shots 8 | median 1.02s | min 0.58s | max 8.27s
+cuts/s per 2s: 0.0 0.0 1.0 0.5 1.5 0.5 0.0 0.0 0.0 0.0
+flashes per 2s: 0 0 0 1 2 2 1 2 2 0  (total 10)
+motion per 2s: 0.0 0.1 0.1 0.0 0.8 0.1 0.2 0.4 0.1 0.0
+breaths: [[8.17, 8.33], [16.15, 16.32]]
+B&W: [[16.83, 19.3]] | black frames at: [16.93, 18.02, 18.18]
+motifs: []
+on kick/snare: cuts {'n': 7, 'on_hit_pct': 28.6, 'chance_pct': 13.4, 'median_offset_frames': -0.85} | flashes {'n': 10, 'on_hit_pct': 10.0, 'chance_pct': 13.4, 'median_offset_frames': -0.2}
+on 8th-note grid: cuts {'n': 7, 'on_hit_pct': 28.6, 'chance_pct': 18.9, 'median_offset_frames': -1.18} | flashes {'n': 10, 'on_hit_pct': 0.0, 'chance_pct': 18.9, 'median_offset_frames': 0}

@@ -1,0 +1,416 @@
+{
+ "whoosh_short": {
+  "file": "whoosh_short.wav",
+  "source": "Freesound 60013 'Whoosh' by qubodup (HQ preview of the CC0 original), https://freesound.org/people/qubodup/sounds/60013/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.07,
+  "dur_s": 0.426,
+  "kind": "peak",
+  "desc": "fast short whoosh, about 0.4 s"
+ },
+ "whoosh_long": {
+  "file": "whoosh_long.wav",
+  "source": "Freesound 683096 'Woosh' by florianreichelt (HQ preview of the CC0 original), https://freesound.org/people/florianreichelt/sounds/683096/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.852,
+  "dur_s": 1.569,
+  "kind": "peak",
+  "desc": "smooth medium-long woosh, swells to a pass-by at the middle"
+ },
+ "whoosh_big": {
+  "file": "whoosh_big.wav",
+  "source": "Freesound 237980 'Very Big Whoosh' by Paul368 (HQ preview of the CC0 original), https://freesound.org/people/Paul368/sounds/237980/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.611,
+  "dur_s": 2.96,
+  "kind": "peak",
+  "desc": "big heavy whoosh with a tail, for big reveals"
+ },
+ "swish_fast": {
+  "file": "swish_fast.wav",
+  "source": "Freesound 346373 'Throwing / Whip Effect' by denao270 (HQ preview of the CC0 original), https://freesound.org/people/denao270/sounds/346373/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.113,
+  "dur_s": 0.294,
+  "kind": "peak",
+  "desc": "very quick whip swish, for snap cuts and text slams"
+ },
+ "riser_1s": {
+  "file": "riser_1s.wav",
+  "source": "Freesound 561207 'Riser' by Rizzard (HQ preview of the CC0 original), https://freesound.org/people/Rizzard/sounds/561207/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.968,
+  "dur_s": 1.0,
+  "kind": "peak",
+  "desc": "one second riser (last second of riser_2s), climax at the end"
+ },
+ "riser_2s": {
+  "file": "riser_2s.wav",
+  "source": "Freesound 561207 'Riser' by Rizzard (HQ preview of the CC0 original), https://freesound.org/people/Rizzard/sounds/561207/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 1.719,
+  "dur_s": 1.751,
+  "kind": "peak",
+  "desc": "two second riser, climax at the end"
+ },
+ "riser_3s": {
+  "file": "riser_3s.wav",
+  "source": "Freesound 683667 'dark riser buildup' by CogFireStudios (HQ preview of the CC0 original), https://freesound.org/people/CogFireStudios/sounds/683667/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 3.164,
+  "dur_s": 3.249,
+  "kind": "peak",
+  "desc": "dark build-up riser, about 3.2 s, climax at the end"
+ },
+ "hit_deep": {
+  "file": "hit_deep.wav",
+  "source": "Freesound 529139 '[Ambient Hits] Ambient Hit' by waveplaySFX (HQ preview of the CC0 original), https://freesound.org/people/waveplaySFX/sounds/529139/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 3.453,
+  "kind": "onset",
+  "desc": "deep cinematic hit with a long ambient tail"
+ },
+ "hit_boom": {
+  "file": "hit_boom.wav",
+  "source": "Freesound 201571 'JM_FX_Boom 01a.wav' by Julien_Matthey (HQ preview of the CC0 original), https://freesound.org/people/Julien_Matthey/sounds/201571/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.007,
+  "dur_s": 3.207,
+  "kind": "onset",
+  "desc": "boom hit, punchy with decay"
+ },
+ "hit_light": {
+  "file": "hit_light.wav",
+  "source": "Kenney Impact Sounds pack, impactPunch_medium_000.ogg, https://kenney.nl/assets/impact-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.015,
+  "dur_s": 0.312,
+  "kind": "onset",
+  "desc": "light punchy hit for small text or number pops"
+ },
+ "sub_drop": {
+  "file": "sub_drop.wav",
+  "source": "Freesound 428073 'Sub Drop Smooth.wav' by newagesoup (HQ preview of the CC0 original), https://freesound.org/people/newagesoup/sounds/428073/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.101,
+  "dur_s": 3.598,
+  "kind": "onset",
+  "desc": "smooth sub drop, deep low sweep"
+ },
+ "tick_a": {
+  "file": "tick_a.wav",
+  "source": "Freesound 450509 'ClockTickSound_01.wav' by abyeditsound (HQ preview of the CC0 original), https://freesound.org/people/abyeditsound/sounds/450509/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.034,
+  "dur_s": 0.199,
+  "kind": "onset",
+  "desc": "single clock tick (brighter)"
+ },
+ "tock_a": {
+  "file": "tock_a.wav",
+  "source": "Freesound 450509 'ClockTickSound_01.wav' by abyeditsound (HQ preview of the CC0 original), https://freesound.org/people/abyeditsound/sounds/450509/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.047,
+  "dur_s": 0.2,
+  "kind": "onset",
+  "desc": "single clock tock (darker)"
+ },
+ "clock_ticking": {
+  "file": "clock_ticking.wav",
+  "source": "Freesound 450509 'ClockTickSound_01.wav' by abyeditsound (HQ preview of the CC0 original), https://freesound.org/people/abyeditsound/sounds/450509/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.112,
+  "dur_s": 7.917,
+  "kind": "first",
+  "desc": "clock ticking once per second, about 8 s"
+ },
+ "pop_a": {
+  "file": "pop_a.wav",
+  "source": "Freesound 202230 'Pop sound' by deraj (HQ preview of the CC0 original), https://freesound.org/people/deraj/sounds/202230/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.001,
+  "dur_s": 0.258,
+  "kind": "onset",
+  "desc": "round mouth-style pop"
+ },
+ "pop_b": {
+  "file": "pop_b.wav",
+  "source": "Freesound 537061 'Message Pop Sound' by ImAFoley (HQ preview of the CC0 original), https://freesound.org/people/ImAFoley/sounds/537061/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.048,
+  "kind": "onset",
+  "desc": "tiny message pop"
+ },
+ "click_ui": {
+  "file": "click_ui.wav",
+  "source": "Kenney Interface Sounds pack, click_001.ogg, https://kenney.nl/assets/interface-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.067,
+  "kind": "onset",
+  "desc": "clean UI click"
+ },
+ "click_soft": {
+  "file": "click_soft.wav",
+  "source": "Kenney UI Audio pack, click1.ogg, https://kenney.nl/assets/ui-audio",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.01,
+  "dur_s": 0.091,
+  "kind": "onset",
+  "desc": "soft UI click"
+ },
+ "toggle": {
+  "file": "toggle.wav",
+  "source": "Kenney Interface Sounds pack, toggle_001.ogg, https://kenney.nl/assets/interface-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.113,
+  "kind": "onset",
+  "desc": "UI toggle"
+ },
+ "ding": {
+  "file": "ding.wav",
+  "source": "Freesound 611113 'bell ding 1.wav' by 5ro4 (HQ preview of the CC0 original), https://freesound.org/people/5ro4/sounds/611113/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.011,
+  "dur_s": 1.507,
+  "kind": "onset",
+  "desc": "bell ding with ring-out"
+ },
+ "ding_correct": {
+  "file": "ding_correct.wav",
+  "source": "Freesound 335908 'Correct.mp3' by LittleRainySeasons (HQ preview of the CC0 original), https://freesound.org/people/LittleRainySeasons/sounds/335908/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.001,
+  "dur_s": 0.836,
+  "kind": "onset",
+  "desc": "bright correct-answer ding"
+ },
+ "confirm": {
+  "file": "confirm.wav",
+  "source": "Kenney Interface Sounds pack, confirmation_001.ogg, https://kenney.nl/assets/interface-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.29,
+  "kind": "onset",
+  "desc": "short UI confirmation"
+ },
+ "buzz_wrong": {
+  "file": "buzz_wrong.wav",
+  "source": "Freesound 331912 'Wrong Buzzer' by KevinVG207 (HQ preview of the CC0 original), https://freesound.org/people/KevinVG207/sounds/331912/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.494,
+  "kind": "onset",
+  "desc": "short wrong-answer buzzer"
+ },
+ "buzzer_long": {
+  "file": "buzzer_long.wav",
+  "source": "Freesound 54047 'buzzer.wav' by guitarguy1985 (HQ preview of the CC0 original), https://freesound.org/people/guitarguy1985/sounds/54047/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 1.92,
+  "kind": "onset",
+  "desc": "long game-show style buzzer, about 2 s"
+ },
+ "error_soft": {
+  "file": "error_soft.wav",
+  "source": "Kenney Interface Sounds pack, error_006.ogg, https://kenney.nl/assets/interface-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.063,
+  "dur_s": 0.252,
+  "kind": "onset",
+  "desc": "soft UI error"
+ },
+ "stamp": {
+  "file": "stamp.wav",
+  "source": "Freesound 362624 'Stamp' by kermite607 (HQ preview of the CC0 original), https://freesound.org/people/kermite607/sounds/362624/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.046,
+  "dur_s": 0.544,
+  "kind": "onset",
+  "desc": "rubber stamp down"
+ },
+ "thud": {
+  "file": "thud.wav",
+  "source": "Freesound 683031 'Thump.mp3' by mpuffenbarger (HQ preview of the CC0 original), https://freesound.org/people/mpuffenbarger/sounds/683031/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.009,
+  "dur_s": 0.527,
+  "kind": "onset",
+  "desc": "dull thump"
+ },
+ "glitch": {
+  "file": "glitch.wav",
+  "source": "Freesound 332711 'Glitch' by AmicaSys (HQ preview of the CC0 original), https://freesound.org/people/AmicaSys/sounds/332711/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.047,
+  "dur_s": 2.0,
+  "kind": "onset",
+  "desc": "digital glitch burst, about 2 s"
+ },
+ "glitch_short": {
+  "file": "glitch_short.wav",
+  "source": "Kenney Interface Sounds pack, glitch_002.ogg, https://kenney.nl/assets/interface-sounds",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 0.027,
+  "kind": "onset",
+  "desc": "tiny glitch tick"
+ },
+ "crowd_roar": {
+  "file": "crowd_roar.wav",
+  "source": "Freesound 528799 '19 Football Crowd - Reaction To Goal.flac' by D.jones (HQ preview of the CC0 original), https://freesound.org/people/D.jones/sounds/528799/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 2.627,
+  "dur_s": 14.5,
+  "kind": "first",
+  "desc": "football stadium crowd erupting after a goal, about 14 s"
+ },
+ "crowd_goal": {
+  "file": "crowd_goal.wav",
+  "source": "Freesound 113698 'goalloop.wav' by huubjeroen (HQ preview of the CC0 original), https://freesound.org/people/huubjeroen/sounds/113698/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 5.161,
+  "kind": "bed",
+  "desc": "goal cheer loop, about 5 s"
+ },
+ "crowd_bed": {
+  "file": "crowd_bed.wav",
+  "source": "Freesound 206003 'Norwegian football match/soccer game ambience.WAV' by habbis92 (HQ preview of the CC0 original), https://freesound.org/people/habbis92/sounds/206003/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 60.0,
+  "kind": "bed",
+  "desc": "football stadium crowd ambience bed (Viking v Sarpsborg, Stavanger), 60 s"
+ },
+ "crowd_gasp": {
+  "file": "crowd_gasp.wav",
+  "source": "Freesound 264376 'small crowd gasp shock surprise' by HowardV (HQ preview of the CC0 original), https://freesound.org/people/HowardV/sounds/264376/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.103,
+  "dur_s": 8.578,
+  "kind": "first",
+  "desc": "small crowd gasp of surprise, then murmur"
+ },
+ "whistle": {
+  "file": "whistle.wav",
+  "source": "Freesound 218318 'Referee whistle blow, gymnasium.wav' by SpliceSound (HQ preview of the CC0 original), https://freesound.org/people/SpliceSound/sounds/218318/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.041,
+  "dur_s": 2.438,
+  "kind": "onset",
+  "desc": "referee whistle blow with room tail"
+ },
+ "whistle_short": {
+  "file": "whistle_short.wav",
+  "source": "Freesound 538422 'Referee whistle sound.wav' by Rosa-Orenes256 (HQ preview of the CC0 original), https://freesound.org/people/Rosa-Orenes256/sounds/538422/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.003,
+  "dur_s": 0.51,
+  "kind": "onset",
+  "desc": "short referee whistle"
+ },
+ "thunder": {
+  "file": "thunder.wav",
+  "source": "Freesound 399656 'sfx_thunder blast.wav' by bajko (HQ preview of the CC0 original), https://freesound.org/people/bajko/sounds/399656/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.294,
+  "dur_s": 13.723,
+  "kind": "onset",
+  "desc": "thunder blast with long rumble"
+ },
+ "rain_bed": {
+  "file": "rain_bed.wav",
+  "source": "Freesound 200273 'Rain light 2 (rural)' by jmbphilmes (HQ preview of the CC0 original), https://freesound.org/people/jmbphilmes/sounds/200273/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 60.0,
+  "kind": "bed",
+  "desc": "light steady rain bed, 60 s"
+ },
+ "wind": {
+  "file": "wind.wav",
+  "source": "Freesound 117136 'Wind__Artic__Cold.wav' by cobratronik (HQ preview of the CC0 original), https://freesound.org/people/cobratronik/sounds/117136/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 58.824,
+  "kind": "bed",
+  "desc": "cold wind bed, about 59 s"
+ },
+ "shutter": {
+  "file": "shutter.wav",
+  "source": "Freesound 170229 'Camera Shutter' by roachpowder (HQ preview of the CC0 original), https://freesound.org/people/roachpowder/sounds/170229/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.092,
+  "dur_s": 0.283,
+  "kind": "onset",
+  "desc": "camera shutter"
+ },
+ "typing": {
+  "file": "typing.wav",
+  "source": "Freesound 331656 'Keyboard Typing' by Trollarch2 (HQ preview of the CC0 original), https://freesound.org/people/Trollarch2/sounds/331656/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.0,
+  "dur_s": 15.529,
+  "kind": "bed",
+  "desc": "keyboard typing, about 15 s"
+ },
+ "notification": {
+  "file": "notification.wav",
+  "source": "Freesound 235911 'Notification Sound' by yfjesse (HQ preview of the CC0 original), https://freesound.org/people/yfjesse/sounds/235911/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.054,
+  "dur_s": 0.488,
+  "kind": "onset",
+  "desc": "phone style notification"
+ },
+ "heartbeat": {
+  "file": "heartbeat.wav",
+  "source": "Freesound 273150 'Heart Beating' by michorvath (HQ preview of the CC0 original), https://freesound.org/people/michorvath/sounds/273150/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.02,
+  "dur_s": 11.475,
+  "kind": "first",
+  "desc": "heartbeat, about 12 s"
+ },
+ "beep": {
+  "file": "beep.wav",
+  "source": "Freesound 391650 'beep.wav' by jeckkech (HQ preview of the CC0 original), https://freesound.org/people/jeckkech/sounds/391650/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.016,
+  "dur_s": 0.202,
+  "kind": "onset",
+  "desc": "single short beep"
+ },
+ "ball_kick": {
+  "file": "ball_kick.wav",
+  "source": "Freesound 555042 'Soccer Ball Kick' by bittermelonheart (HQ preview of the CC0 original), https://freesound.org/people/bittermelonheart/sounds/555042/",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.042,
+  "dur_s": 0.713,
+  "kind": "onset",
+  "desc": "football kick"
+ },
+ "odds_up": {
+  "file": "odds_up.wav",
+  "source": "Kenney Digital Audio pack, highUp.ogg, https://kenney.nl/assets/digital-audio",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.003,
+  "dur_s": 0.394,
+  "kind": "first",
+  "desc": "rising synth blip, for a number or odds going up"
+ },
+ "odds_down": {
+  "file": "odds_down.wav",
+  "source": "Kenney Digital Audio pack, lowDown.ogg, https://kenney.nl/assets/digital-audio",
+  "licence": "CC0 1.0 Universal (public domain dedication), https://creativecommons.org/publicdomain/zero/1.0/",
+  "hit_offset_s": 0.001,
+  "dur_s": 0.618,
+  "kind": "first",
+  "desc": "falling synth blip, for a number or odds going down"
+ }
+}

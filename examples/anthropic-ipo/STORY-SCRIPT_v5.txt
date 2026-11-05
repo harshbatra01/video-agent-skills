@@ -1,0 +1,25 @@
+Anthropic just released a document for investors revealing its AI has tried to resist shutdown. And that's not even the scariest part.
+
+Anthropic is having its IPO. So by law, it has to tell buyers what could go wrong.
+
+And right after the shutdown warning, it says that during testing, its AI broke into real computer systems.
+
+One break-in started with a fake company.
+
+The AI was told, hack it. You have no internet. But by mistake, the internet was on.
+
+It tried about 1,800 moves and got nowhere. So it kept looking, and found a real company with almost the same name.
+
+Its own notes called it a real website with 433 real users. It kept going. It took their email addresses, deleted a user's account, and pulled their chats.
+
+And Anthropic had no idea. And when it found out, what it did next raises the biggest question about its IPO.
+
+Then in July came probably the most infamous moment in AI history. OpenAI said its AI broke out of a test and hacked a real company, Hugging Face, just to cheat on that test. So Anthropic checked 141,006 of its own test runs. It found three break-ins, including this one.
+
+Researchers asked the AI, did you have permission? Most of the time, it said yes. Then they asked, who gave it to you? Every single time, it admitted it wasn't allowed.
+
+The day Anthropic saw the signs, it stopped. Every one of these tests. This is the AI company built to be careful.
+
+But its IPO is expected before the end of November. And the same document warns: slow down for safety, and Anthropic could get sued.
+
+So the next time its AI goes too far, will Anthropic still stop?

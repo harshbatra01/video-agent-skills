@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "stats": [["20.6 s", "length"], ["618", "frames at 30 fps"], ["138", "BPM, half-time feel"], ["4.10 s", "beat drop"],
+              ["19", "shots after the drop"], ["0.7 s", "average shot"], ["65%", "cuts on a kick or snare"], ["58%", "screen lost to letterbox"]],
+    "well": [
+      "1-frame strobes on the player (white silhouette on, off, on): rare in average edits and reads as real effort.",
+      "Inverse strobe at 9.9 s: the background flashes white while the player stays.",
+      "The song's own music video is the build, and its GASS logo slams in before the drop: the edit sells the song.",
+      "Every flash and dip sits on a kick or snare; small speed changes (0.86x to 1.27x) land moves on beats.",
+      "One texture pass over the whole edit (wave-warp ripple, grain, cool crushed blacks) gives it a look."
+    ],
+    "gaps": [
+      "No velocity: no speed ramps, smooth slow-mo, freeze frames or stutters.",
+      "No zoom punches or shakes on hits after the drop.",
+      "No captions, lyric text or player-name type; only the music video's logo.",
+      "16:9 letterbox wastes 58% of the vertical screen and the black bars carry nothing.",
+      "One colour look all the way: no colour pop, B&W switch or grade change on the drop.",
+      "Roto stops at flat silhouettes: no outlines, text behind the player, clones or trails.",
+      "No overlays (light leaks, sparks, lightning), no RGB split or glow on hits.",
+      "The first second is an ordinary dribble, small in frame: a weak hook.",
+      "The last 3.2 s (16% of the edit) is a near-static black card."
+    ],
+    "inventory": [
+      ["Silhouette strobe", "1-frame copy of the clip on the track above, mask around the player, VR Glow, Opacity blend mode, placed on 2-3 frames with 1-frame gaps", "0.03, 0.93, 1.73, 9.43 s"],
+      ["Inverse strobe", "same masked copy with the mask inverted, so the background goes white and the player stays", "9.90 s"],
+      ["Dip to white", "built-in Impact Dip To White, 4 frames, plus single white frames", "4.07, 7.30, 7.70, 8.23, 9.10, 10.30, 13.67 s"],
+      ["Light-bar wipe", "3-frame graphic (Noise + Shape) with Crop keyframes sliding across the cut", "5.57, 12.30 s"],
+      ["Mirror-edge zoom / spin", "Transform + 4x Mirror + Transform stack inside a nest", "16.30 s, end card"],
+      ["Whip and zoom blur", "music video shots with directional and radial blur", "2.6-3.2 s, 17.0 s"],
+      ["Logo slam", "the music video's GASS logo dropping in with vertical motion blur and a shake", "3.53 s"],
+      ["Photo hit", "'MBAPPE 10' back photo with a tint flash and push-in, 0.33 s", "3.23 s"],
+      ["Texture pass", "Black Video with VR Digital Glitch, Wave Warp, Lumetri and Noise over the whole main section", "3.2-17 s"],
+      ["Speed tweaks", "clip speed 0.86x to 1.27x so moves land on beats", "4.90, 6.80, 13.30 s"],
+      ["Portal frame", "a music video frame (black hole on white) as a 1-frame bridge into the tunnel shot", "16.97 s"],
+      ["End card", "Spotify logo, song and artist text, 600-keyframe shake preset that settles in 4 frames", "17.37-20.6 s"]
+    ],
+    "versions": [
+      ["gass mbappe.mp4 (v1), v3", "music video whip-blur shots, white flash, MBAPPE 10 photo with push-in, GASS logo slam, white flash, drop"],
+      ["v2", "v1 with a tiny change at 4.13-4.27 s"],
+      ["v4", "keeps the music video whips; a wide goal shot and a light-bar wipe replace the photo and logo"],
+      ["v5, v 5, v2_1", "no music video: France dribble, dip to white, slow zoom on a wide shot, light-bar wipe, tighter drop framing"],
+      ["FINAL_1, FINAL_2, v5 gass mbappe", "v5 plus a 1-frame glitch insert of another clip on the kick at 3.80 s"],
+      ["gass mbappe final (21 Sep)", "back to the v1 build with a feathered flash edge, steadier logo and a light-bar wipe into the drop"]
+    ],
+    "others": [
+      ["messi edit (Confidence)", "1080x1350, 60 fps", "17 cuts / 34 s", "2.0 s", "2 of 17", "clean gameplay cuts, slow-mo close-up push with a white flash, no end card"],
+      ["home knucks (Home, acoustic)", "1920x1080, 25 fps", "21 cuts / 55 s", "2.6 s", "16 of 21", "music video opening with a small lyric subtitle, PSG Mbappe clips, Spotify card"],
+      ["basketball v2 (4 Raws)", "1080x1920 letterbox, 30 fps", "27 cuts / 33 s", "1.2 s", "17 of 27", "LeBron clips, 4-frame light-bar wipes, a B&W section, white flashes, small Spotify card"],
+      ["Military v3 (Time Flies)", "1080x1920 letterbox, 24 fps", "22 cuts / 19 s", "0.85 s", "17 of 22", "jets, half the frames B&W, grey dips, a music video text frame, explosion flash, Spotify card"]
+    ]
+  },
+  "have": ["beat-cut", "micro-cut", "white-flash", "strobe", "roto-cutout", "mirror-edge-transition", "spin-transition", "shake",
+           "radial-zoom-blur", "motion-blur", "whip-pan", "wave-warp", "glitch", "grain", "cc-grade", "song-card", "outro-card",
+           "build-to-drop", "slow-intro"]
+}

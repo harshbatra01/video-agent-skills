@@ -1,0 +1,253 @@
+UK RAP YOUTUBE-FIRST PLATFORMS: per-page records (all live checks done 7 Oct 2026 unless stated)
+
+Lead checklist results are inside each block, marked CONFIRMED / WRONG / UNVERIFIED.
+
+1. GRM DAILY
+- What it is: the UK's biggest rap and grime YouTube platform. It also runs a daily news feed on X and Instagram.
+- UK base: CONFIRMED. GRM DAILY LTD, company 09827949, active, 124 City Road, London EC1V 2NX (https://find-and-update.company-information.service.gov.uk/company/09827949).
+- X @GRMDAILY https://x.com/GRMDAILY: 397,343 followers (api.fxtwitter.com, 7 Oct 2026, lead). Active, last post 7 Oct 13:43 UTC.
+- Instagram @grmdaily https://www.instagram.com/grmdaily/: 2.1M followers, following 1,340 (instagram.com, 7 Oct 2026). Active.
+- TikTok @grmdaily: 1.2M followers, 34.5M likes (r.jina.ai, 7 Oct 2026, lead). Video activity UNVERIFIED.
+- YouTube @GRMDaily: 6.73M subscribers, about 15K videos (lead). Active.
+- Handle set: https://linktr.ee/grmdaily lists @grmdaily on TikTok, Instagram, X, Facebook and YouTube. It also links Ditto streaming pages for Daily Duppy and Invite Only freestyles.
+- Posting frequency:
+  - X: about 2 to 3 original posts a day (16 originals from 1 to 7 Oct, plus 4 self-replies that carry youtu.be links).
+  - Instagram: about 3 to 4 a day (9 non-pinned posts from 4 to 6 Oct; pinned reels are dated 9, 17 and 23 Sep).
+  - YouTube: about 1 upload a day (30 uploads in about a month).
+- Content mix:
+  - X: news captions with photo plus video on 8 of the 16 originals. Topics include Skepta confirming the album 'The Fork and Knife' for 6 Nov, Stormzy's Ivors honour and Bliss passing 6M streams.
+  - X also carries football (Arteta's new deal, 7 Oct), premiere posts, "N years ago" throwbacks, birthdays, and clips from the "How We Made It" series (Ep 7 with Fraser T Smith).
+  - YouTube: mostly music videos, plus Daily Duppy (including a "GRM x Yard" version), INVITE ONLY [FREESTYLE], documentaries ("C-Biz: Trapped In Paradise", 237K views), interviews (Giggs) and branded content ("Ball Out 3x3 with JD & Jordan Brand").
+- Originates or aggregates: it originates its own premieres and series. Its news posts mostly re-report announcements from artists, clubs and the BBC in GRM's own wording. Exclusives: UNVERIFIED.
+- Speed: no press evidence found, because the search budget ran out. Two same-story samples from this week:
+  - Eman Kellam gifting Andrew Garfield a Jim Legxacy vinyl: GRM posted on X at 5 Oct 11:22 UTC, Link Up TV at 6 Oct 16:51 UTC. GRM was about 29 hours ahead.
+  - Headie One's 'Talkin My Language' video: GRM at 5 Oct 18:00 UTC, Link Up TV at 6 Oct 14:01 UTC. GRM was about 20 hours ahead.
+  - Posts timed at exactly 08:00:00, 08:00:01 and 18:00:02 UTC suggest scheduled posting. This is an inference.
+- Signature formats:
+  - X news post: a 2 to 3 sentence caption (emoji hook, the facts, tagged handles) with photo and video in one post. The image layout is UNVERIFIED.
+  - The same caption goes to Instagram as a single graphic. Alt text: "graphic of heart, magazine, poster and text" (hamdi x D Double E, 6 Oct). Text position and colours UNVERIFIED.
+  - Premiere post: a video clip with "Watch the full video now on GRM Daily." On X it gets a self-reply with the YouTube link. On Instagram it is a Collab reel with the artist and "Link in bio 🔗".
+  - Series reel cover: alt text "poster, magazine and text" quoting the on-image words 'GRM JOE JAMES DOES THINGS DIFFERENTLY'. Invite Only's slot is "Thursday. 5pm."
+  - Throwback: a video with a question call to action, e.g. "10 years of @tweet_mist 'Ain't The Same'... Who remembers when this dropped? 👀"
+  - Quote openers: some captions start with a lyric or interview quote (Stormzy, 2 Oct; Headie One, 5 Oct).
+  - Text-only Instagram posts (alt "image of text", 4 to 6 Oct). The profile grid labels them carousels, but the one I opened was a single image, so the format is UNVERIFIED.
+- Examples:
+  - https://x.com/GRMDAILY/status/2107829187385897108 (Arteta, photo, 7 Oct 2026)
+  - https://x.com/GRMDAILY/status/2106000158919889185 (Skepta album, 2 Oct)
+  - https://x.com/GRMDAILY/status/2107154848772735277 (RA 'Running' premiere; its self-reply is /status/2107154851239260493)
+  - https://www.instagram.com/p/DeJ82zwisbF/ (6 Oct graphic)
+  - https://www.instagram.com/reel/DdEvyWoRtSU/ (9 Sep Invite Only cover, 6.8K likes)
+- Ownership:
+  - The only person with significant control is one individual (named in Companies House): 75% or more of shares and votes, notified 16 Oct 2016, not ceased.
+  - Filings run to 24 Jul 2026 (micro accounts to 31 Oct 2025; confirmation statement of 8 Mar 2026 "with no updates"). No change of control has been filed.
+  - Wikipedia lists the founders as Matt 'Sketchy' Thorne, Pierre Godson-Amamoo and Koby 'Posty' Hagan. Whether that person is Posty is UNVERIFIED.
+  - 2025 to 2026 press on any acquisition or restructure: UNVERIFIED (no searches left).
+  - Lead: a Companies House search for "GRM DAILY" also returns BLACK & YELLOW NETWORK LIMITED (14347637, incorporated 9 Sep 2022, same mass-registration address). Any link to GRM is UNVERIFIED.
+- Red flags:
+  - No impersonators found.
+  - Off-genre football news.
+  - Branded content.
+  - Violence at past GRM events: a shooting at the 2010 anniversary event and a stabbing at the 2018 Rated Awards (https://en.wikipedia.org/wiki/GRM_Daily).
+  - Paid placements: UNVERIFIED.
+
+2. LINK UP TV
+- What it is: a London rap and grime YouTube platform (since 2008). Its social feeds are now broad "MUSIC | CULTURE | LIFESTYLE" clip feeds.
+- UK base: CONFIRMED. X location "London, UK". Wikipedia gives Waterfront Studios, 1 Dock Road, London, owned by Rashid Kasirye and Enea Tanku (https://en.wikipedia.org/wiki/Link_Up_TV).
+- X @linkuptv: 251,952 followers, 160,046 tweets, joined 13 Jun 2009, blue check (api.fxtwitter.com, 7 Oct 2026). Active.
+- Instagram @linkuptv: 1.2M followers (instagram.com, 7 Oct 2026). Active.
+- TikTok @linkuptvofficial (linked from their YouTube About page): 53.2K followers, 1.5M likes (r.jina.ai, 7 Oct 2026).
+- YouTube @linkuptv: 2.26M subscribers, 13,890 videos, 2.549B views, joined 6 Jun 2008 (r.jina.ai, 7 Oct 2026).
+- Posting frequency:
+  - X: about 3 a day (20 posts from 1 to 7 Oct, 7 of them retweets).
+  - Instagram: about 4 to 5 a day (9 posts on 6 and 7 Oct, including Collabs with @getbuiltfrom and @griminalgram).
+  - YouTube: about 1 a week (30 uploads in about 6 months, 1.5K to 32K views each).
+- Content mix:
+  - Social: reposted viral and culture clips (a Letitia Wright interview, Lil Baby on 'BAND4BAND', a DIY house renovation, Figure robots, a PlayStation 9 ad) and archive footage (young Giggs, Peckham, 1992).
+  - Also memes, music drops (Headie One), debate prompts, boxing (Fury v AJ) and Black History Month posts.
+  - YouTube: HB Freestyle Season 7, music videos, event coverage and a "STILL LOADING (Trailer)".
+- Originates or aggregates: mostly aggregates, with "♻️ @source" credits (e.g. @darienrencher, @90sbabyshow). It originates its YouTube series.
+- Speed: no evidence found. It was 20 to 30 hours behind GRM on the two shared stories above.
+- Signature formats:
+  - Clip with caption: an emoji hook ("Real 🙏", "Love this 🦾🏀"), a 1 to 2 sentence story, then a ♻️ credit.
+  - Twitter-screenshot meme (alt "Twitter screenshot of ... text"). Layout UNVERIFIED.
+  - Archive clip: "Taking it back to 1992- Peckham 📍🇬🇧" plus a who's-who caption.
+  - Debate prompt: "What's your take- Skepta's best grime song⁉️🥇"
+  - The profile grid labels posts as carousels, but the ones I opened were single-slide. The media arrangement is UNVERIFIED.
+- Examples:
+  - https://x.com/linkuptv/status/2107039208296595792 (5 Oct, Giggs archive clip)
+  - https://www.instagram.com/p/DeMT_vrghkX/ (7 Oct, Lil Baby clip)
+  - https://www.instagram.com/p/DeKNb9DAj4T/ (6 Oct, meme)
+- Lead checklist:
+  - YouTube @linkuptv with 2.26M subscribers and 13K videos: CONFIRMED (13,890).
+  - Upload cadence roughly weekly: CONFIRMED.
+- Red flags:
+  - TikTok @linkuptv belongs to someone else (nickname "😎", 0 followers).
+  - The TikTok is small for a brand this size.
+  - YouTube views are low against 2.26M subscribers.
+  - The feed drifts off-genre.
+
+3. MIXTAPE MADNESS
+- What it is: a London UK rap platform founded in Sep 2010 and the home of Next Up?.
+- UK base: CONFIRMED. X location "London, UK". Wikipedia also records a Caroline International distribution deal on 1 Apr 2019 (https://en.wikipedia.org/wiki/Mixtape_Madness).
+- X @MixtapeMadness: 46,560 followers, 68,547 tweets, joined 16 May 2010, blue check (api.fxtwitter.com, 7 Oct 2026). Slow: last post 20 Sep 2026.
+- Instagram @mixtapemadness: 628K followers (instagram.com, 7 Oct 2026). Active.
+- TikTok @mixtapemadness: 499.4K followers, 23.1M likes (r.jina.ai, 7 Oct 2026).
+- YouTube @MixtapeMadnessOfficial: 1.84M subscribers, 9,063 videos, 1.97B views (r.jina.ai, 7 Oct 2026).
+- Posting frequency:
+  - X: about 1 a week (17 posts from 15 Jun to 20 Sep).
+  - Instagram: about 1 to 2 a day (9 posts from 1 to 6 Oct; 3 of them are Collabs with @redbullgmt).
+  - YouTube: about 2 a week.
+- Content mix:
+  - X: "dropped N years ago" anniversaries, news (the Netflix Top Boy spin-offs, Central Cee brand deals, a Nemzzz x Travis Scott tease), football crossover (Dave on Arsenal; Central Cee and Reece James after England reached the World Cup semi-final) and Next Up? promos.
+  - Instagram: single-image news posts, carousels, and Red Bull League of Lyrics battle clips.
+  - YouTube: Next Up? S6 (S6.E26 was 5 days ago), music videos, Plugged In, Studio with FumeZ and Music House.
+- Originates or aggregates: it aggregates news with one-line captions and originates its shows.
+- Speed: no evidence found. It posted the Eman Kellam story on Instagram on 6 Oct, a day after GRM.
+- Signature formats:
+  - Anniversary post: "🗓️: Kay-O and Unknown T's "9er Ting" dropped 8 years ago 🔥🥷" over a video.
+  - Instagram single image (alt "image of magazine and text") with a one-line caption. Layout UNVERIFIED.
+  - Show promo: "🚨Out Now🚨" or "🔔Out Thursday🔔", plus "📺 Watch it exclusively on our YouTube channel" and a self-reply with the link.
+  - League of Lyrics battle clips posted as Collabs by @redbullgmt.
+- Examples:
+  - https://x.com/MixtapeMadness/status/2092673522086674619 (Top Boy spin-offs, 26 Aug 2026)
+  - https://www.instagram.com/p/DeHKmoYFLs_/ (Skepta x Dom Dolla, 5 Oct)
+  - https://www.instagram.com/reel/DeKPXw9MCnd/ (League of Lyrics, 6 Oct)
+- Lead checklist:
+  - 1.84M subscribers: CONFIRMED.
+  - Next Up: CONFIRMED (titled "Next Up?").
+  - Plugged In: CONFIRMED ("#RR Jooka savage X Foreign Mulli - Plugged In w/ Fumez The Engineer | Mixtape Madness", 568K views, about 2 months ago).
+  - Mad About Bars: named in the channel description but not among the latest 30 uploads. UNVERIFIED as a current series.
+  - The Cold Room: not among the latest 30 uploads. UNVERIFIED.
+  - Plugged In history: debut on Link Up TV on 29 Mar 2020 CONFIRMED; the later move to Pressplay CONFIRMED (Wikipedia, no dates given); now on Mixtape Madness CONFIRMED for 2026 (https://en.wikipedia.org/wiki/Fumez_the_Engineer).
+  - Fumez's X is @FumezEngineer: CONFIRMED.
+- Red flags:
+  - X is near-idle compared with the 628K Instagram.
+  - Heavy Red Bull branded partnership.
+  - Sloppy copy ("Coco Cola").
+
+4. P110
+- What it is: a YouTube-first platform for North, Midlands and Scottish rap. It has no news feed.
+- UK base: CONFIRMED. X location "Birmingham, England". The YouTube description says "hub showcasing the best talent from the North and Midlands".
+- X @p110media: 19,677 followers, 15,603 tweets, joined 17 Apr 2011. Dormant since 13 Nov 2025.
+- Instagram @p110music: 170K followers (instagram.com, 7 Oct 2026), bio "Submissions@p110.co.uk". About 1 reel a day.
+- TikTok @p110media: 22.5K followers, 251.1K likes, bio "IG: P110music YouTube: P110music" (r.jina.ai, 7 Oct 2026).
+- YouTube @P110Music: 597K subscribers, 4.9K videos (r.jina.ai, 7 Oct 2026). About 1 upload a day, with premieres scheduled for 8, 9 and 10 Oct at 11:00.
+- Content mix:
+  - Its own premieres only: #1TAKE, Hoods Hottest, Scene Smasher and music videos.
+  - Instagram teasers and artist hype posts.
+- Originates or aggregates: originates its own content only, no news. Speed: not applicable, no evidence.
+- Signature formats:
+  - Titles follow "<Artist> - #1TAKE | P110", "- Hoods Hottest | P110", "- Scene Smasher | P110" or "[Music Video] | P110". Scottish artists get a flag emoji.
+  - Instagram teaser: "@handsworth.s21 'WINNING 2.0' OUT ON THURSDAY! 💥💥" (alt "image of text"). Layout UNVERIFIED.
+- Examples:
+  - https://www.instagram.com/reel/DeKRX0PPBbX/ (6 Oct teaser)
+  - https://www.instagram.com/reel/DeH4DSGP3Mm/ (5 Oct, M1llionz hype)
+  - https://x.com/p110media/status/1989053276944294294 (last X post)
+- Lead checklist: 596K subscribers and 4.9K videos: CONFIRMED (597K today).
+- Red flags:
+  - Instagram @p110media is not theirs (121 followers, 0 following).
+  - TikTok @p110music is not theirs (18 followers).
+  - The YouTube About page links instagram.com/p110.co.uk, which would not load. UNVERIFIED, possibly an old handle.
+
+5. BL@CKBOX
+- What it is: a freestyle platform (Blackout Sessions) describing itself as "The People's Channel || Home of the Up & Coming". It has no news feed.
+- UK base: implied only. A 2024 video description says "travelling around the country checking in different cities". The city is UNVERIFIED.
+- YouTube @blackboxhub: 221K subscribers, 2.7K videos (r.jina.ai, 7 Oct 2026). About 4 to 5 uploads a week; the Sarge premiere was 7 Oct.
+- TikTok @blackboxhub: 106.8K followers, 1.2M likes. Bio: "BLACKOUT SESSIONS OUT NOW DM TO BOOK YOUR FREESTYLE".
+- Instagram @we_r_blackbox (listed on YouTube): 1,700 followers. Bio: "Please follow this insta, while we are in the process of getting our other insta back". About 1 post a day, mostly Collab posts led by the artist. The old Instagram @blackboxhub would not load: UNVERIFIED.
+- X: YouTube lists @BlackBoxHUB, but api.fxtwitter.com returns 404.
+- Signature formats: titles follow "<Artist> - Blackout Sessions | BL@CKBOX". Instagram alt text reads "lighting, microphone and text". Visuals UNVERIFIED.
+- Examples:
+  - https://www.youtube.com/@blackboxhub/videos
+  - https://www.youtube.com/watch?v=eTM84SV0nsw (#CheckIn, Aug 2024)
+  - Recent post URLs were not captured: UNVERIFIED.
+- Lead checklist:
+  - 221K subscribers: CONFIRMED.
+  - X @blackboxhub: unusable CONFIRMED, but it returns HTTP 404 (not found or suspended), not a blank profile.
+- Red flags:
+  - Lost its main Instagram.
+  - X is dead.
+  - Freestyles are booked by DM. Whether they are paid is UNVERIFIED.
+
+6. PRESSPLAY
+- What it is: a UK drill and rap music-video and freestyle channel founded by Danny Olkhovski (NME, 16 Jul 2020: https://www.nme.com/features/pressplay-the-first-drill-compilation-skengdo-am-danny-olkhovski-2709122). It has no news feed.
+- UK base: the YouTube description says "U.K based". The city is UNVERIFIED.
+- YouTube @PressplayMedia: 1.85M subscribers, 3.5K videos (r.jina.ai, 7 Oct 2026). About 5 uploads a week.
+- Instagram @itspressplayuk ("Pressplay Media"): 241K followers (instagram.com, 7 Oct 2026). The bio lists a UK mobile number for "Uploads". About 1 Collab reel a day, posted by the artist or director.
+- X: none verified.
+- TikTok: @itspressplayuk is named "Pressplay Media" but has 35 followers and 0 likes. The official TikTok is UNVERIFIED.
+- Signature formats:
+  - Titles follow "<Artist> - <Title> (Music Video) | Pressplay" or "<Artist> - Lightwork Freestyle", with crew hashtags (#Runitup, #HBNS, #1500).
+  - Instagram Collab reels captioned "OUT NOW ON YOUTUBE‼️".
+- Examples:
+  - https://www.instagram.com/reel/DeFPc_QsIvi/ (Ozeee, 4 Oct)
+  - https://www.instagram.com/reel/DeHwcrAsnSN/ (5 Oct)
+- Lead checklist:
+  - X @ItsPressplayUk: WRONG. It returns 404; that name exists only on Instagram and TikTok.
+  - 1.85M subscribers and 3.5K videos: CONFIRMED.
+  - "Uploads about every 12 hours": WRONG. The sample was 10 uploads in about 14 days.
+  - Lightwork Freestyle: CONFIRMED.
+- Red flags:
+  - X lookalikes that are not theirs: @PressPlayMedia (7 followers, says "Not affiliated with any similarly-named individuals or brands"), @PressPlay_Media (Lagos), @pressplay ("Maeta Updates", created 31 Jul 2026) and @ItsPressplay (US company "Press Play, Inc."). @PressplayUK returns 404.
+  - The X link on their YouTube page is a goo.gl shortlink that would not resolve.
+  - The TikTok with their name and almost no followers could be an impersonator.
+  - Police had Skengdo x AM's 'Macaroni' removed (NME).
+
+7. SBTV
+- What it is: Jamal Edwards' platform, founded 2006. The brand is alive in 2026 for its 20th-anniversary show, but publishing is dormant. It is not a news source.
+- UK base: CONFIRMED. X location "London"; YouTube location United Kingdom.
+- YouTube @sbtv ("SBTV: Music"): 1.28M subscribers, 4,723 videos (r.jina.ai, 7 Oct 2026). Latest upload is "Wretch 32 & Avelino | F64 | SBTV", 10 months ago (about Dec 2025).
+- X @SBTVonline: 205,576 followers. No activity from 3 Jan 2024 to 12 Jul 2026. Last original post 21 Jul 2026, last retweet 11 Aug 2026.
+- Instagram @sbtvonline: 224K followers. A burst of posts in July 2026, then a single post on 1 Oct.
+- TikTok: the @sbtvonline account linked from YouTube says "Couldn't find this account". TikTok @sbtv has 4,881 followers; ownership UNVERIFIED.
+- SBTV20 show: The O2 London, Wednesday 11 Nov 2026, run by Ernest Promotions UK in support of the Jamal Edwards Self Belief Trust (https://www.sbtv20.co.uk). Lineup from the Instagram poster's alt text includes Wiley, Chip, Headie One, Tinie Tempah, Roll Deep, Kenny Allstar and others.
+- Signature series: F64, A64 and Warm Up Sessions.
+- Examples:
+  - https://x.com/SBTVonline/status/2079664793686798814 (21 Jul 2026)
+  - https://x.com/SBTVonline/status/1717439980610428933 (Devlin x Ed Sheeran, 2023, 363K views)
+- Lead checklist:
+  - Dormant, last upload about Dec 2025: CONFIRMED.
+  - X is @SBTVonline: CONFIRMED.
+  - @SBTV returns 404: CONFIRMED.
+- Ownership after 2022: UNVERIFIED.
+- Red flags:
+  - YouTube @SBTVonline is an unrelated 2008 channel (46 subscribers).
+  - The TikTok link is dead.
+
+8. JDZMEDIA
+- What it is: a grime and rap talent-discovery channel (Spitfire, BeRaw, Rewired, U18 series).
+- UK base: the YouTube About page says United Kingdom (website jdzmedia.co.uk). The content leans Birmingham, but the city is UNVERIFIED.
+- YouTube @JDZmediaHD: 537K subscribers, 2,152 videos (r.jina.ai, 7 Oct 2026). Near-dormant: the latest upload was 2 months ago and the ones before it are a year or more old.
+- X @JDZmedia: 26,436 followers. Dormant since 4 May 2024.
+- Instagram @jdzmedia: 44.4K followers, verified. About 1 to 2 posts a week; latest 23 Sep 2026.
+- TikTok @jdz_media: 20.4K followers, 132.2K likes.
+- Content mix:
+  - Instagram meme posts quoting on-image text ("THAT NOSE Trappy's pen is ruthless", "HOW YOU COME NO HE DIDN'T") and sport crossover graphics. Text position UNVERIFIED.
+  - In 2024 its X mixed news items with its own promos.
+- Examples:
+  - https://x.com/JDZmedia/status/1781400862570459595 (Drake responds to Kendrick, Apr 2024)
+  - https://x.com/JDZmedia/status/1786742728505675953 (last post)
+- Red flags:
+  - Dormant on X and YouTube.
+  - TikTok @jdzmedia is a separate inactive account (41 followers, "Not active on this app").
+
+9. OTHER PLATFORMS
+- Hardest Bars:
+  - Instagram @hardestbars: 263K followers (instagram.com, 7 Oct 2026), about 2 to 3 reels a day, memes and Twitter-screenshot style posts (e.g. https://www.instagram.com/reel/DeEgPBYNslp/).
+  - X @HardestbarsUK: 1,353 followers, 19,196 tweets. Activity UNVERIFIED because its timeline returned 404.
+  - TikTok @hardestbars is not theirs ("Anything&Everything", 8 followers). YouTube @HardestBars returns 404.
+  - Lead checklist: X @HardestbarsUK CONFIRMED. HB Freestyle publishing through Link Up TV CONFIRMED (Season 7, latest 12 days ago). "Own YouTube dead a year" UNVERIFIED.
+- Fumez the Engineer:
+  - X @FumezEngineer: 32,591 followers. Instagram @fumeztheengineer: 435K, latest non-pinned post 4 Sep 2026. TikTok @fumeztheengineer: 961.1K followers, 13.1M likes (all 7 Oct 2026).
+  - Not a news feed.
+- Daily Duppy: a GRM series only (ThaFirst; Timar "GRM x Yard"). X @DailyDuppy returns 404: CONFIRMED.
+- Mad About Bars: no standalone account found. UNVERIFIED.
+- Red Bull GMT (Instagram @redbullgmt): co-posts "Red Bull League of Lyrics" battles with Mixtape Madness. Follower count UNVERIFIED.
+
+CAVEATS
+- The shared WebSearch budget ran out partway through, and then WebFetch hit a spend limit. As a result:
+  - I have no TikTok example videos.
+  - There was no 2025 to 2026 press search, so GRM's ownership and every brand's speed reputation are unchecked.
+  - Recent post URLs are missing for BL@CKBOX, SBTV and JDZ, and Pressplay has Instagram examples only, no YouTube video links.
+- The fxtwitter timeline lookup returned 404 for "JDZmedia" but worked for "jdzmedia". Retrying lowercase may fix HardestbarsUK and FumezEngineer.
+- Instagram's profile grid labels did not match the posts when opened: posts marked as carousels opened as single images. Treat those labels as unreliable.

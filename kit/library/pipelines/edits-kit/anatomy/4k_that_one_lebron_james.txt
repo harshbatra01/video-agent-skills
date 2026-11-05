@@ -1,0 +1,10 @@
+4k_that_one_lebron_james: 60.2s 1280x720 60.00fps | 150 BPM | drop 16.35s (+7.6 dB)
+shots 5 | median 11.27s | min 0.05s | max 30.60s
+cuts/s per 2s: 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.5 0.0 0.0 0.0 0.0 1.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+flashes per 2s: 1 1 0 0 0 0 0 0 1 0 1 0 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0  (total 8)
+motion per 2s: 0.0 0.2 0.0 0.0 0.0 0.1 0.0 0.0 0.2 0.0 0.0 0.2 0.2 0.5 0.2 0.1 0.2 0.3 0.2 0.2 1.1 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+breaths: [[27.1, 27.45], [36.6, 36.77], [48.98, 49.45], [52.12, 52.63]]
+B&W: [[0.33, 1.27], [19.65, 20.15], [36.83, 38.85], [44.8, 45.85]] | black frames at: [41.95, 41.98, 49.52]
+motifs: []
+on kick/snare: cuts {'n': 4, 'on_hit_pct': 25.0, 'chance_pct': 14.0, 'median_offset_frames': 0.48} | flashes {'n': 8, 'on_hit_pct': 12.5, 'chance_pct': 14.0, 'median_offset_frames': 0.62}
+on 8th-note grid: cuts {'n': 4, 'on_hit_pct': 25.0, 'chance_pct': 25.0, 'median_offset_frames': 0.0} | flashes {'n': 8, 'on_hit_pct': 25.0, 'chance_pct': 25.0, 'median_offset_frames': 0.0}

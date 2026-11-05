@@ -1,0 +1,10 @@
+4k_steph_curry_edit_runaway: 49.6s 1280x720 60.00fps | 150 BPM | drop 6.05s (+15.7 dB)
+shots 23 | median 1.55s | min 0.73s | max 9.33s
+cuts/s per 2s: 0.0 0.5 0.0 0.5 0.5 0.5 0.0 0.5 0.0 0.0 0.0 0.5 0.5 0.5 0.5 0.5 1.0 0.5 0.5 0.5 1.0 0.5 0.5 1.0 0.5
+flashes per 2s: 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 1  (total 6)
+motion per 2s: 0.0 0.0 0.0 0.1 0.1 0.0 0.0 0.1 0.0 0.0 0.0 0.0 0.1 0.1 0.0 0.1 0.1 0.1 0.0 0.1 0.1 0.0 0.1 0.1 0.0
+breaths: [[48.58, 49.07]]
+B&W: [[48.37, 49.58]] | black frames at: []
+motifs: []
+on kick/snare: cuts {'n': 22, 'on_hit_pct': 27.3, 'chance_pct': 14.4, 'median_offset_frames': 0.73} | flashes {'n': 6, 'on_hit_pct': 33.3, 'chance_pct': 14.4, 'median_offset_frames': 0.73}
+on 8th-note grid: cuts {'n': 22, 'on_hit_pct': 31.8, 'chance_pct': 24.9, 'median_offset_frames': 0.3} | flashes {'n': 6, 'on_hit_pct': 0.0, 'chance_pct': 24.9, 'median_offset_frames': 0}

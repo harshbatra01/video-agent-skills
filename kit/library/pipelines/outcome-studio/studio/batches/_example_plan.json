@@ -1,0 +1,113 @@
+{
+ "date": "2026-10-13",
+ "page": "@yourpage",
+ "made": "2026-10-13 10:44 UTC",
+ "_how": "Edit freely: drop posts, set captions, add facts for pick posts ({\"Team name\": {\"facts\": [\"...\", \"...\"], \"source\": \"ESPN\"}}), then: python ocs.py build batches/2026-10-13.json",
+ "posts": [
+  {
+   "id": "matchday_ucl_20261013",
+   "recipe": "matchday",
+   "args": {
+    "comp": "UEFA Champions League",
+    "day": "20261013"
+   }
+  },
+  {
+   "id": "pick_Q422",
+   "recipe": "pick",
+   "args": {
+    "match": "Q422"
+   },
+   "facts": {}
+  },
+  {
+   "id": "swing_ballondor",
+   "recipe": "swing",
+   "args": {
+    "market": "Ballon d'Or",
+    "names": [
+     "Harry Kane",
+     "Lamine Yamal"
+    ],
+    "days": 9
+   }
+  },
+  {
+   "id": "quiz",
+   "recipe": "quiz",
+   "args": {
+    "part": 1,
+    "items": [
+     {
+      "q": "Arsenal win the Premier League",
+      "market": "Premier League",
+      "outcome": "Arsenal",
+      "team": "Arsenal",
+      "context": "2026/27 season"
+     },
+     {
+      "q": "Harry Kane wins the Ballon d'Or",
+      "market": "Ballon d'Or",
+      "outcome": "Harry Kane"
+     },
+     {
+      "q": "Barcelona win the Champions League",
+      "market": "Champions League winner",
+      "outcome": "Barcelona",
+      "team": "Barcelona"
+     },
+     {
+      "q": "The Fed raises rates in October",
+      "market": {
+       "kind": "fed",
+       "q": "Q289"
+      },
+      "outcome": "Hike"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fed_hike",
+   "recipe": "breaking",
+   "args": {
+    "market": {
+     "kind": "fed",
+     "q": "Q289"
+    },
+    "outcome": "Hike",
+    "headline": "Traders give the Fed {a} *{p}* chance of a ^rate hike^ this month",
+    "note": "Decision due 28 Oct. Not financial advice."
+   }
+  },
+  {
+   "id": "ipo_ladder",
+   "recipe": "ladder_ipo",
+   "args": {
+    "company": "Anthropic"
+   }
+  },
+  {
+   "id": "btc_ladder",
+   "recipe": "ladder_touch",
+   "args": {
+    "asset": "BTC"
+   }
+  },
+  {
+   "id": "epl_tags",
+   "recipe": "pricetags",
+   "args": {
+    "market": "Premier League winner",
+    "sub": "Premier League 2026/27 winner"
+   }
+  },
+  {
+   "id": "cheapest",
+   "recipe": "cheapest",
+   "args": {
+    "n": 6
+   }
+  }
+ ]
+}

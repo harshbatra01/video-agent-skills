@@ -1,0 +1,10 @@
+this_saka_edit_should_be: 32.7s 1920x1080 60.00fps | 70 BPM | drop 27.7s (+12.5 dB)
+shots 27 | median 0.80s | min 0.05s | max 5.13s
+cuts/s per 2s: 0.0 0.0 1.0 0.0 0.5 0.5 1.0 1.5 2.0 1.5 1.0 1.5 2.0 0.5 0.0 0.0 0.0
+flashes per 2s: 0 0 1 0 0 0 0 2 2 3 3 2 2 1 0 0 0  (total 16)
+motion per 2s: 0.0 0.0 1.0 0.0 0.0 0.0 0.1 0.4 0.7 1.7 1.5 0.9 1.0 1.9 0.0 0.0 0.0
+breaths: [[26.7, 27.57], [32.08, 32.58]]
+B&W: [[19.57, 20.85]] | black frames at: [13.6, 20.62, 27.57]
+motifs: [[9.78, 12.9]]
+on kick/snare: cuts {'n': 26, 'on_hit_pct': 46.2, 'chance_pct': 13.6, 'median_offset_frames': 0.27} | flashes {'n': 16, 'on_hit_pct': 62.5, 'chance_pct': 13.6, 'median_offset_frames': 0.23}
+on 8th-note grid: cuts {'n': 26, 'on_hit_pct': 38.5, 'chance_pct': 11.7, 'median_offset_frames': -0.6} | flashes {'n': 16, 'on_hit_pct': 31.2, 'chance_pct': 11.7, 'median_offset_frames': -0.68}

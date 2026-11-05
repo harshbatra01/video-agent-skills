@@ -1,0 +1,552 @@
+{
+  "generated": "2026-10-13",
+  "licence": "SIL Open Font License 1.1 (each family folder holds its OFL.txt)",
+  "source": "github.com/google/fonts (ofl/<family>), raw files from raw.githubusercontent.com",
+  "families": [
+    {
+      "folder": "inter",
+      "display_name": "Inter",
+      "licence_file": "inter/OFL.txt",
+      "files": [
+        {
+          "file": "inter/Inter-Variable.ttf",
+          "upstream_file": "Inter[opsz,wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 876576,
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 2048,
+          "glyphs": 2933,
+          "variable_axes": [
+            {
+              "tag": "opsz",
+              "min": 14.0,
+              "default": 14.0,
+              "max": 32.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "named_instances": 9,
+          "family_name_nameID1": "Inter",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Regular",
+          "full_name_nameID4": "Inter Regular",
+          "postscript_name_nameID6": "Inter-Regular",
+          "version_nameID5": "Version 4.001;git-66647c0bb",
+          "copyright_nameID0": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)",
+          "designer_nameID9": "Rasmus Andersson",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "licence_url_nameID14": "https://openfontlicense.org",
+          "css_family": "Inter",
+          "opentype_features_of_interest": {
+            "tnum": true,
+            "pnum": true,
+            "lnum": false,
+            "onum": false,
+            "zero": true,
+            "case": true,
+            "ss01": true,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            1292,
+            833,
+            1249,
+            1265,
+            1323,
+            1215,
+            1270,
+            1159,
+            1267,
+            1270
+          ],
+          "digits_equal_width_by_default": false,
+          "css": {
+            "font-family": "Inter",
+            "font-weight": "100 900",
+            "font-style": "normal",
+            "src_relative_to_assets_fonts": "inter/Inter-Variable.ttf",
+            "font_face": "@font-face{font-family:'Inter';src:url('inter/Inter-Variable.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:block;}",
+            "usage": "body, labels, big bold numbers. Digits are proportional by default: add font-variant-numeric: tabular-nums (feature tnum, present) for equal-width digits"
+          }
+        },
+        {
+          "file": "inter/Inter-Italic-Variable.ttf",
+          "upstream_file": "Inter-Italic[opsz,wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz%2Cwght%5D.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 906596,
+          "sha256": "acd98e64795781b2058f07b18475e0ecee2a0fe2b42a49e2f9e37d0d6bf66ce6",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 2048,
+          "glyphs": 2897,
+          "variable_axes": [
+            {
+              "tag": "opsz",
+              "min": 14.0,
+              "default": 14.0,
+              "max": 32.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "named_instances": 9,
+          "family_name_nameID1": "Inter",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Italic",
+          "full_name_nameID4": "Inter Italic",
+          "postscript_name_nameID6": "Inter-Italic",
+          "version_nameID5": "Version 4.001;git-66647c0bb",
+          "copyright_nameID0": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)",
+          "designer_nameID9": "Rasmus Andersson",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+          "licence_url_nameID14": "https://openfontlicense.org",
+          "css_family": "Inter",
+          "opentype_features_of_interest": {
+            "tnum": true,
+            "pnum": true,
+            "lnum": false,
+            "onum": false,
+            "zero": true,
+            "case": true,
+            "ss01": true,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            1291,
+            834,
+            1249,
+            1264,
+            1325,
+            1213,
+            1267,
+            1161,
+            1264,
+            1268
+          ],
+          "digits_equal_width_by_default": false,
+          "css": {
+            "font-family": "Inter",
+            "font-weight": "100 900",
+            "font-style": "italic",
+            "src_relative_to_assets_fonts": "inter/Inter-Italic-Variable.ttf",
+            "font_face": "@font-face{font-family:'Inter';src:url('inter/Inter-Italic-Variable.ttf') format('truetype');font-weight:100 900;font-style:italic;font-display:block;}",
+            "usage": "italic companion, rarely needed. Use tabular-nums for numbers"
+          }
+        }
+      ],
+      "licence_status": 200,
+      "licence_bytes": 4377,
+      "licence_head": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+      "licence": "SIL Open Font License 1.1",
+      "licence_copyright_line": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/inter"
+    },
+    {
+      "folder": "anton",
+      "display_name": "Anton",
+      "licence_file": "anton/OFL.txt",
+      "files": [
+        {
+          "file": "anton/Anton-Regular.ttf",
+          "upstream_file": "Anton-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 170812,
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 2048,
+          "glyphs": 1373,
+          "family_name_nameID1": "Anton",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Regular",
+          "full_name_nameID4": "Anton Regular",
+          "postscript_name_nameID6": "Anton-Regular",
+          "version_nameID5": "Version 2.116; ttfautohint (v1.8.3)",
+          "copyright_nameID0": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+          "designer_nameID9": "Vernon Adams",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+          "licence_url_nameID14": "https://scripts.sil.org/OFL",
+          "css_family": "Anton",
+          "opentype_features_of_interest": {
+            "tnum": false,
+            "pnum": false,
+            "lnum": false,
+            "onum": false,
+            "zero": true,
+            "case": true,
+            "ss01": false,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            1012,
+            677,
+            1012,
+            1012,
+            1012,
+            1012,
+            1012,
+            1012,
+            1012,
+            1012
+          ],
+          "digits_equal_width_by_default": false,
+          "css": {
+            "font-family": "Anton",
+            "font-weight": "400",
+            "font-style": "normal",
+            "src_relative_to_assets_fonts": "anton/Anton-Regular.ttf",
+            "font_face": "@font-face{font-family:'Anton';src:url('anton/Anton-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}",
+            "usage": "headline poster type, single weight. Digits are NOT equal width (the 1 is narrow, no tnum feature): do not use for numbers that change or line up in columns"
+          }
+        }
+      ],
+      "licence_status": 200,
+      "licence_bytes": 4484,
+      "licence_head": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+      "licence": "SIL Open Font License 1.1",
+      "licence_copyright_line": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/anton"
+    },
+    {
+      "folder": "bebasneue",
+      "display_name": "Bebas Neue",
+      "licence_file": "bebasneue/OFL.txt",
+      "files": [
+        {
+          "file": "bebasneue/BebasNeue-Regular.ttf",
+          "upstream_file": "BebasNeue-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 61400,
+          "sha256": "08e4623805102d819f58601e46e345648846075e363b2ceb23313c2d1c83ec73",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 1000,
+          "glyphs": 508,
+          "family_name_nameID1": "Bebas Neue",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Regular",
+          "full_name_nameID4": "Bebas Neue Regular",
+          "postscript_name_nameID6": "BebasNeue-Regular",
+          "version_nameID5": "Version 2.000",
+          "copyright_nameID0": "Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)",
+          "designer_nameID9": "Ryoichi Tsunekawa",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+          "licence_url_nameID14": "http://scripts.sil.org/OFL",
+          "css_family": "Bebas Neue",
+          "opentype_features_of_interest": {
+            "tnum": true,
+            "pnum": true,
+            "lnum": false,
+            "onum": false,
+            "zero": false,
+            "case": false,
+            "ss01": false,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400,
+            400
+          ],
+          "digits_equal_width_by_default": true,
+          "css": {
+            "font-family": "Bebas Neue",
+            "font-weight": "400",
+            "font-style": "normal",
+            "src_relative_to_assets_fonts": "bebasneue/BebasNeue-Regular.ttf",
+            "font_face": "@font-face{font-family:'Bebas Neue';src:url('bebasneue/BebasNeue-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}",
+            "usage": "condensed caps for labels and headings, single weight. Digits are equal width by default"
+          }
+        }
+      ],
+      "licence_status": 200,
+      "licence_bytes": 4337,
+      "licence_head": "Copyright © 2010 by Dharma Type.",
+      "licence": "SIL Open Font License 1.1",
+      "licence_copyright_line": "Copyright © 2010 by Dharma Type.",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/bebasneue"
+    },
+    {
+      "folder": "archivoblack",
+      "display_name": "Archivo Black",
+      "licence_file": "archivoblack/OFL.txt",
+      "files": [
+        {
+          "file": "archivoblack/ArchivoBlack-Regular.ttf",
+          "upstream_file": "ArchivoBlack-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 90988,
+          "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 1000,
+          "glyphs": 426,
+          "family_name_nameID1": "Archivo Black",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Regular",
+          "full_name_nameID4": "Archivo Black Regular",
+          "postscript_name_nameID6": "ArchivoBlack-Regular",
+          "version_nameID5": "Version 1.006",
+          "copyright_nameID0": "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)",
+          "designer_nameID9": "Hector Gatti",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+          "licence_url_nameID14": "http://scripts.sil.org/OFL",
+          "css_family": "Archivo Black",
+          "opentype_features_of_interest": {
+            "tnum": false,
+            "pnum": false,
+            "lnum": false,
+            "onum": false,
+            "zero": false,
+            "case": false,
+            "ss01": false,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            667,
+            667,
+            667,
+            667,
+            667,
+            667,
+            667,
+            667,
+            667,
+            667
+          ],
+          "digits_equal_width_by_default": true,
+          "css": {
+            "font-family": "Archivo Black",
+            "font-weight": "400",
+            "font-style": "normal",
+            "src_relative_to_assets_fonts": "archivoblack/ArchivoBlack-Regular.ttf",
+            "font_face": "@font-face{font-family:'Archivo Black';src:url('archivoblack/ArchivoBlack-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}",
+            "usage": "heavy wide display type, single weight. Digits are equal width by default"
+          }
+        }
+      ],
+      "licence_status": 200,
+      "licence_bytes": 4492,
+      "licence_head": "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)",
+      "licence": "SIL Open Font License 1.1",
+      "licence_copyright_line": "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/archivoblack"
+    },
+    {
+      "folder": "jetbrainsmono",
+      "display_name": "JetBrains Mono",
+      "licence_file": "jetbrainsmono/OFL.txt",
+      "files": [
+        {
+          "file": "jetbrainsmono/JetBrainsMono-Variable.ttf",
+          "upstream_file": "JetBrainsMono[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 187208,
+          "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 1000,
+          "glyphs": 1179,
+          "variable_axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          ],
+          "named_instances": 7,
+          "family_name_nameID1": "JetBrains Mono",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Regular",
+          "full_name_nameID4": "JetBrains Mono Regular",
+          "postscript_name_nameID6": "JetBrainsMono-Regular",
+          "version_nameID5": "Version 2.211",
+          "copyright_nameID0": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+          "designer_nameID9": "Philipp Nurullin, Konstantin Bulenkov",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+          "licence_url_nameID14": "https://scripts.sil.org/OFL",
+          "css_family": "JetBrains Mono",
+          "opentype_features_of_interest": {
+            "tnum": false,
+            "pnum": false,
+            "lnum": false,
+            "onum": false,
+            "zero": true,
+            "case": true,
+            "ss01": false,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600
+          ],
+          "digits_equal_width_by_default": true,
+          "css": {
+            "font-family": "JetBrains Mono",
+            "font-weight": "100 800",
+            "font-style": "normal",
+            "src_relative_to_assets_fonts": "jetbrainsmono/JetBrainsMono-Variable.ttf",
+            "font_face": "@font-face{font-family:'JetBrains Mono';src:url('jetbrainsmono/JetBrainsMono-Variable.ttf') format('truetype');font-weight:100 800;font-style:normal;font-display:block;}",
+            "usage": "numbers, odds, prices, tickers (monospaced: every digit is the same width)"
+          }
+        },
+        {
+          "file": "jetbrainsmono/JetBrainsMono-Italic-Variable.ttf",
+          "upstream_file": "JetBrainsMono-Italic[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono-Italic%5Bwght%5D.ttf",
+          "http_status": 200,
+          "content_type": "application/octet-stream",
+          "bytes": 191556,
+          "sha256": "85ae2a5cd3f56baf1ce1c21a851322c58e3d8fbe8e8ad4a4d090a820dd7fe558",
+          "valid_font": true,
+          "magic": "00010000",
+          "kind": "TrueType (TTF)",
+          "os2_weight_class": 400,
+          "os2_width_class": 5,
+          "os2_fsType": 0,
+          "units_per_em": 1000,
+          "glyphs": 1179,
+          "variable_axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          ],
+          "named_instances": 7,
+          "family_name_nameID1": "JetBrains Mono",
+          "typographic_family_nameID16": null,
+          "subfamily_nameID2": "Italic",
+          "full_name_nameID4": "JetBrains Mono Italic",
+          "postscript_name_nameID6": "JetBrainsMono-Italic",
+          "version_nameID5": "Version 2.211",
+          "copyright_nameID0": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+          "designer_nameID9": "Philipp Nurullin, Konstantin Bulenkov",
+          "licence_text_nameID13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+          "licence_url_nameID14": "https://scripts.sil.org/OFL",
+          "css_family": "JetBrains Mono",
+          "opentype_features_of_interest": {
+            "tnum": false,
+            "pnum": false,
+            "lnum": false,
+            "onum": false,
+            "zero": true,
+            "case": true,
+            "ss01": false,
+            "frac": true
+          },
+          "digit_advance_widths_0_to_9": [
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600,
+            600
+          ],
+          "digits_equal_width_by_default": true,
+          "css": {
+            "font-family": "JetBrains Mono",
+            "font-weight": "100 800",
+            "font-style": "italic",
+            "src_relative_to_assets_fonts": "jetbrainsmono/JetBrainsMono-Italic-Variable.ttf",
+            "font_face": "@font-face{font-family:'JetBrains Mono';src:url('jetbrainsmono/JetBrainsMono-Italic-Variable.ttf') format('truetype');font-weight:100 800;font-style:italic;font-display:block;}",
+            "usage": "italic companion, rarely needed"
+          }
+        }
+      ],
+      "licence_status": 200,
+      "licence_bytes": 4399,
+      "licence_head": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+      "licence": "SIL Open Font License 1.1",
+      "licence_copyright_line": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/jetbrainsmono"
+    }
+  ],
+  "notes": [
+    "All files are plain TrueType (magic 00010000) and were verified after download: sizes match the GitHub listing and the family name was read from the name table inside each file.",
+    "OFL allows use, embedding and rendering into videos and images, including commercial work. The fonts may not be sold on their own, and the licence text must travel with any redistributed copy of the font files (it is in each family folder).",
+    "Inter and JetBrains Mono are variable fonts: use font-weight ranges, not separate files. Inter also has an optical size axis (opsz 14 to 32).",
+    "Browser name to use in CSS: Inter, Anton, Bebas Neue, Archivo Black, JetBrains Mono."
+  ],
+  "number_fonts_summary": {
+    "equal_width_digits_by_default": [
+      "JetBrains Mono",
+      "Bebas Neue",
+      "Archivo Black"
+    ],
+    "equal_width_digits_with_tnum": [
+      "Inter"
+    ],
+    "not_for_changing_numbers": [
+      "Anton (the digit 1 is narrower, no tnum)"
+    ]
+  }
+}

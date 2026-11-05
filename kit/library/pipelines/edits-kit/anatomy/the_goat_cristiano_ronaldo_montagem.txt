@@ -1,0 +1,10 @@
+the_goat_cristiano_ronaldo_montagem: 32.7s 1280x720 60.00fps | 97 BPM | drop 4.8s (+6.4 dB)
+shots 29 | median 0.60s | min 0.05s | max 4.92s
+cuts/s per 2s: 0.0 0.0 1.0 0.0 1.0 2.5 0.5 1.5 0.5 0.5 2.5 0.5 2.0 0.0 1.5 0.0 0.0
+flashes per 2s: 0 0 1 0 0 2 1 2 0 1 2 1 2 0 1 0 0  (total 13)
+motion per 2s: 0.1 0.2 0.3 0.0 0.6 1.2 0.6 0.6 0.4 0.7 1.0 0.6 0.6 0.4 0.4 0.0 0.6
+breaths: []
+B&W: [] | black frames at: [4.97, 9.87, 9.95, 11.73, 12.33, 13.53, 15.42, 17.65, 19.68, 19.78]
+motifs: [[10.45, 20.28], [11.13, 20.97], [11.83, 21.67], [12.33, 22.17], [14.78, 24.62], [15.47, 25.3]]
+on kick/snare: cuts {'n': 28, 'on_hit_pct': 10.7, 'chance_pct': 14.4, 'median_offset_frames': 0.58} | flashes {'n': 13, 'on_hit_pct': 0.0, 'chance_pct': 14.4, 'median_offset_frames': 0}
+on 8th-note grid: cuts {'n': 28, 'on_hit_pct': 28.6, 'chance_pct': 15.9, 'median_offset_frames': 0.61} | flashes {'n': 13, 'on_hit_pct': 30.8, 'chance_pct': 15.9, 'median_offset_frames': -0.18}

@@ -1,0 +1,10 @@
+8k_this_ja_edit_should: 69.8s 1280x720 60.00fps | 160 BPM | drop 48.72s (+22.5 dB)
+shots 37 | median 1.45s | min 0.05s | max 8.23s
+cuts/s per 2s: 0.0 0.5 0.0 1.5 0.5 1.5 0.0 0.0 0.5 0.0 0.0 0.5 1.5 0.0 0.0 0.0 0.5 0.5 1.0 1.0 0.5 0.0 0.0 0.5 0.5 0.0 0.5 1.5 0.0 2.0 0.5 0.5 2.0 0.0 0.0
+flashes per 2s: 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 1 0 1 2 0 1 0 0  (total 10)
+motion per 2s: 0.0 0.0 0.1 0.1 0.0 0.0 0.0 0.0 0.1 0.1 0.0 0.0 0.1 0.0 0.0 0.0 0.0 0.1 0.1 0.2 0.4 1.1 0.0 0.1 0.1 0.5 0.1 0.3 0.1 1.0 0.3 0.1 0.4 0.3 0.0
+breaths: [[0.0, 0.3], [5.52, 6.03], [13.27, 13.85]]
+B&W: [[36.8, 38.52], [59.78, 60.38], [66.28, 68.0]] | black frames at: [24.05, 38.42, 66.35]
+motifs: [[59.03, 65.7], [59.13, 65.78], [59.23, 65.88]]
+on kick/snare: cuts {'n': 36, 'on_hit_pct': 25.0, 'chance_pct': 14.0, 'median_offset_frames': 0.54} | flashes {'n': 10, 'on_hit_pct': 20.0, 'chance_pct': 14.0, 'median_offset_frames': -0.38}
+on 8th-note grid: cuts {'n': 36, 'on_hit_pct': 22.2, 'chance_pct': 26.6, 'median_offset_frames': -0.42} | flashes {'n': 10, 'on_hit_pct': 20.0, 'chance_pct': 26.6, 'median_offset_frames': 0.5}

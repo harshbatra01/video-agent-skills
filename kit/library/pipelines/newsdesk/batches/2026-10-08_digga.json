@@ -1,0 +1,202 @@
+{
+ "name": "2026-10-08_digga",
+ "note": "Breaking: Digga D's teased 'Thursday 7PM' Morrisson reply premiered at 19:00 UK on 8 Oct as 'Girls All Around The World', a regular music video (YouTube gTrOdynWVzE). Stats read 19:38 UTC: 1,700 comments, 6.9K likes. 'COS OF YOU' out 1 Oct, 1.84M views. Coverage: GBMC (trolled the internet, IG live, Morrisson's comeback video), UKHipHopDaily. No lyrics on screen. Jaden's review: the zonegbp video now uses the first chorus (14.8 s to 30.8 s) instead of the intro. 9 Oct: IG live clip (from another page's recording, their caption removed with delogo; Digga's speech subtitled, the song is not) + YouTube pinned comment card (data via yt-dlp: 1.1K likes).",
+ "posts": [
+  {
+   "id": "z1_digga_troll",
+   "account": "zonegbp",
+   "fmt": "uk",
+   "theme": "beef",
+   "when": "Thu now, by 21:30",
+   "headline": "DIGGA D TROLLS THE *ENTIRE UK* WITH HIS MORRISSON 'RESPONSE' 😭",
+   "sub": "The 7pm premiere was 'Girls All Around The World'",
+   "clip": {
+    "path": "in/digga/digga_gaatw.mp4",
+    "in": 61,
+    "dur": 23,
+    "fill": "blur"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "caption": "Everyone waited for 7pm for Digga's Morrisson reply... and got 'Girls All Around The World' 😭 Troll of the year?\n#DiggaD #Morrisson",
+   "history": [
+    {
+     "version": "intro (replaced before the versioning rule, copy in out/2026-10-08_digga/_temp)",
+     "clip": {
+      "in": 0,
+      "dur": 14
+     }
+    },
+    {
+     "version": "01_digga_troll.mp4 (v1)",
+     "clip": {
+      "in": 14.8,
+      "dur": 16
+     }
+    }
+   ]
+  },
+  {
+   "id": "z1b_digga_troll_alt",
+   "account": "zonegbp",
+   "fmt": "uk",
+   "theme": "beef",
+   "when": "alternative opening for a Trial Reel test (post one, not both)",
+   "headline": "EVERYONE WAITED FOR DIGGA D'S MORRISSON DISS. HE DROPPED *THIS* 😭",
+   "sub": "'Girls All Around The World', 7pm Thursday",
+   "clip": {
+    "path": "in/digga/digga_gaatw.mp4",
+    "in": 0,
+    "dur": 14,
+    "fill": "blur"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "caption": "Everyone waited for 7pm for Digga's Morrisson reply... and got 'Girls All Around The World' 😭 Troll of the year?\n#DiggaD #Morrisson"
+  },
+  {
+   "id": "z2_beef_timeline",
+   "account": "zonegbp",
+   "fmt": "uk",
+   "theme": "beef",
+   "label": "TIMELINE",
+   "when": "Thu 21:30 to 22:30, an hour after the video",
+   "headline": "THE DIGGA D VS MORRISSON BEEF *SO FAR* 🍿",
+   "sub": "1 Oct to tonight",
+   "photo": "in/1008/digga_premiere.jpg",
+   "focus": "50% 30%",
+   "inset": {
+    "src": "in/1008/digga_2.jpg",
+    "size": 300,
+    "focus": "center 30%"
+   },
+   "slides": [
+    {
+     "photo": "in/1008/digga_2.jpg",
+     "focus": "center 30%",
+     "headline": "1 OCT: MORRISSON DROPS *'COS OF YOU'*, AIMED AT DIGGA D"
+    },
+    {
+     "photo": "in/1009/cover_68.jpg",
+     "focus": "center 50%",
+     "headline": "IT HITS #68 ON APPLE MUSIC UK AND PASSES 1.8M YOUTUBE VIEWS"
+    },
+    {
+     "photo": "in/1008/digga_premiere.jpg",
+     "focus": "50% 30%",
+     "headline": "DIGGA SETS UP A PREMIERE CALLED *'THURSDAY 7PM'* 👀"
+    },
+    {
+     "photo": "in/digga/title_card_full.jpg",
+     "focus": "center 40%",
+     "headline": "7PM: IT'S *'GIRLS ALL AROUND THE WORLD'*. NO DISS 😭"
+    },
+    {
+     "photo": "in/1007/fr/morr_mv_152.jpg",
+     "focus": "55% 30%",
+     "headline": "MORRISSON HITS BACK ON INSTAGRAM, TAKING THE MICK OUT OF DIGGA"
+    },
+    {
+     "photo": "in/digga/digga_face.jpg",
+     "focus": "50% 30%",
+     "headline": "1,700 COMMENTS IN UNDER 2 HOURS. *WHO'S WINNING?*"
+    }
+   ],
+   "caption": "The Digga D vs Morrisson beef so far 🍿 Who's winning right now?\n#DiggaD #Morrisson #UKRap"
+  },
+  {
+   "id": "b1_digga_troll",
+   "account": "beatswitchfm",
+   "fmt": "split",
+   "when": "Thu now, by 21:30",
+   "headline": "DIGGA D HAD THE UK WAITING FOR A MORRISSON DISS... THEN DROPPED THIS 😭",
+   "photos": [
+    {
+     "src": "in/1008/digga_premiere.jpg",
+     "focus": "50% 30%"
+    },
+    {
+     "src": "in/1008/digga_2.jpg",
+     "focus": "50% 30%"
+    }
+   ],
+   "clip": {
+    "path": "in/digga/digga_gaatw.mp4",
+    "in": 79.5,
+    "dur": 12
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "caption": "Digga D teased a Morrisson reply for 7pm and dropped 'Girls All Around The World' instead 😭 1,700 comments in under 2 hours. W troll or fumble?\n#DiggaD #Morrisson"
+  },
+  {
+   "id": "z3_digga_live",
+   "account": "zonegbp",
+   "fmt": "uk",
+   "theme": "beef",
+   "when": "Thu tonight, 21:00 to 22:00 (or first thing Fri)",
+   "headline": "DIGGA D COUNTED DOWN TO HIS MORRISSON 'DISS' ON LIVE... THEN CHOSE *PEACE* 😭",
+   "sub": "The 'response' was 'Girls All Around The World'",
+   "clip": {
+    "path": "in/digga_live/other_page.mp4",
+    "in": 0,
+    "dur": 30,
+    "fy": 0.1,
+    "pre": "delogo=x=20:y=258:w=536:h=160"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "subs": true,
+   "subs_until": 12.5,
+   "subs_margin": 1400,
+   "caption": "Digga really did a countdown on live for this 😭 \"You lot love war too much\"... done with the beef or still trolling?\n🎥: Digga's IG live\n#DiggaD #Morrisson"
+  },
+  {
+   "id": "z4_digga_live_tt",
+   "account": "zonegbp",
+   "fmt": "tt",
+   "when": "alternative style of 04 (post one, not both)",
+   "headline": "Digga really counted down on live like the Morrisson diss was coming 😭",
+   "clip": {
+    "path": "in/digga_live/other_page.mp4",
+    "in": 0,
+    "dur": 30,
+    "fy": 0.1,
+    "pre": "delogo=x=20:y=258:w=536:h=160"
+   },
+   "audio": {
+    "mode": "clip"
+   },
+   "subs": true,
+   "subs_until": 12.5,
+   "subs_margin": 700,
+   "caption": "Digga really did a countdown on live for this 😭 \"You lot love war too much\"... done with the beef or still trolling?\n🎥: Digga's IG live\n#DiggaD #Morrisson"
+  },
+  {
+   "id": "b2_pinned_peace",
+   "account": "beatswitchfm",
+   "fmt": "ytc",
+   "theme": "beef",
+   "when": "Thu tonight 21:00 to 22:00, or Fri 12:00 to 13:00",
+   "photo": "in/digga/digga_closeup.jpg",
+   "focus": "62% 30%",
+   "comment": {
+    "author": "@Digga_TV",
+    "avatar": "in/digga_live/digga_avatar.jpg",
+    "text": "Peace\nLove\n& Unity",
+    "likes": "1.1K",
+    "when": "2 hours ago",
+    "pinned": true,
+    "uploader": true,
+    "artist": true
+   },
+   "headline": "DIGGA D PINNED THIS UNDER HIS MORRISSON *'RESPONSE'* 😭",
+   "sub": "Same words he said on live before playing it",
+   "caption": "After trolling the whole UK, Digga pinned 'Peace, Love & Unity' under the video 😭 He said the same on live before he played it. Is the beef actually done?\n#DiggaD #Morrisson"
+  }
+ ]
+}

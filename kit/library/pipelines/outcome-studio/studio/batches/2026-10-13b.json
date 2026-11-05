@@ -1,0 +1,195 @@
+{
+ "date": "2026-10-13b",
+ "page": "@yourpage",
+ "note": "Video batch 2 for the boss: every post is a 9:16 video with baked-in sound; each format has its own look. Built from live Outcome prices on 13 Oct.",
+ "posts": [
+  {
+   "id": "reel_tonight",
+   "recipe": "reel",
+   "args": {
+    "comp": "UEFA Champions League"
+   },
+   "when": "today 15:30 UTC, before the 16:45 kick-offs",
+   "notes": "Footage: stock clips (Mixkit and Coverr free licences, see footage/stock/LICENCES.md); check the licence terms allow paid promotion of a prediction market before posting."
+  },
+  {
+   "id": "forecast_tonight",
+   "recipe": "forecast",
+   "args": {
+    "comp": "UEFA Champions League"
+   },
+   "when": "today 15:30 UTC, before the 16:45 kick-offs"
+  },
+  {
+   "id": "race_epl_1",
+   "recipe": "race",
+   "args": {
+    "market": "Q198",
+    "n": 6,
+    "race_no": 1
+   },
+   "when": "any day; Race #2 tomorrow (keep a running tally)"
+  },
+  {
+   "id": "livetape_btc",
+   "recipe": "livetape",
+   "args": {
+    "tape": "footage/btc15m_1230.mp4",
+    "lead": 40,
+    "tail": 8,
+    "speed": 1.6
+   },
+   "when": "same day as filmed (film a fresh window with livetape.py btc15)"
+  },
+  {
+   "id": "countdown_ucl",
+   "recipe": "countdown",
+   "args": {
+    "market": "Q199",
+    "n": 8
+   },
+   "when": "today, before tonight's games"
+  },
+  {
+   "id": "quiz_tonight",
+   "recipe": "quizclock",
+   "args": {
+    "matches": [
+     "Q410",
+     "Q407",
+     "Q411",
+     "Q405"
+    ]
+   },
+   "when": "today, before 16:45 UTC"
+  },
+  {
+   "id": "sim100_atm_mun",
+   "recipe": "sim100",
+   "args": {
+    "match": "Q407"
+   },
+   "when": "today, before 19:00 UTC"
+  },
+  {
+   "id": "linestory_fed",
+   "recipe": "linestory",
+   "args": {
+    "market": "Q289",
+    "labels": [
+     "No change",
+     "Hike"
+    ],
+    "names": [
+     "Hold",
+     "Hike"
+    ],
+    "days": 24,
+    "title": "The money flipped on the Fed",
+    "kicker": "OUTCOME // FED DECISION, 28 OCT",
+    "hero_label": "CHANCE THE FED HOLDS RATES",
+    "next_line": "NEXT: US INFLATION, 14 OCT 12:30 UTC",
+    "next_caption": "Next: US inflation data, 14 Oct at 12:30 UTC."
+   },
+   "when": "today (US inflation data tomorrow 12:30 UTC)"
+  },
+  {
+   "id": "take_yamal",
+   "recipe": "take",
+   "args": {
+    "market": "Q391",
+    "labels": [
+     "Harry Kane",
+     "Lamine Yamal"
+    ],
+    "lines": [
+     "Yamal is the",
+     "*best player*",
+     "on the planet"
+    ],
+    "still": "footage/wcfinal_tsn_1.jpg",
+    "move": {
+     "x0": 0.6,
+     "x1": 0.66,
+     "z0": 1.0,
+     "z1": 1.12
+    },
+    "title": "The money's *Ballon d'Or*",
+    "note": "Ceremony on *26 Oct*. Who wins it?",
+    "cut": 3.4,
+    "dur": 9
+   },
+   "when": "any day before 26 Oct",
+   "notes": "Footage: the photo is a news photo used as a placeholder for this demo; swap in licensed or own footage before posting."
+  },
+  {
+   "id": "aichat_atm_mun",
+   "recipe": "aichat",
+   "args": {
+    "match": "Q407",
+    "ai_pick": "Atletico Madrid",
+    "ai_answer": "*Atletico*. Four straight wins, while United have one win in their last five.",
+    "day": 1
+   },
+   "when": "today, before 19:00 UTC",
+   "notes": "The AI answer is a real model reply (Claude, 13 Oct), checked against ESPN's last-five results: Atletico W W W W after a loss; United W L L D D."
+  },
+  {
+   "id": "pnl_edit_spain",
+   "recipe": "pnl_film",
+   "args": {
+    "username": "trader-J",
+    "coin": "#2120",
+    "hours": 2400,
+    "still": "footage/wcfinal_tsn_1.jpg",
+    "move": {
+     "x0": 0.6,
+     "x1": 0.64,
+     "z0": 1.0,
+     "z1": 1.18
+    },
+    "title": "2026 WORLD CUP CHAMPION",
+    "side": "SPAIN"
+   },
+   "when": "HOLD: client OK on usernames"
+  },
+  {
+   "id": "demo_app",
+   "recipe": "demo",
+   "args": {
+    "market": "Q422"
+   },
+   "when": "any day (re-capture the screens first)"
+  },
+  {
+   "id": "wheel_gal_bar",
+   "recipe": "wheel",
+   "args": {
+    "match": "Q413",
+    "day": 1,
+    "seed": 20261013
+   },
+   "when": "today, before 19:00 UTC"
+  },
+  {
+   "id": "thennow_bdo",
+   "recipe": "thennow",
+   "args": {
+    "market": "Q391",
+    "days": 30,
+    "n": 3
+   },
+   "when": "today (the Ballon d'Or market opened on 5 Oct)"
+  },
+  {
+   "id": "thennow_epl",
+   "recipe": "thennow",
+   "args": {
+    "market": "Q198",
+    "days": 30,
+    "n": 3
+   },
+   "when": "any day; weekly series (a month ago vs today)"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "window_hours": 48,
+  "breakout_over": 2.5,
+  "primary_min_over": 1.0,
+  "hn_strong_score": 300,
+  "min_sources_for_event": 3,
+  "cluster_cosine": 0.3,
+  "seen_event_cosine": 0.45,
+  "ai": {"model": "haiku", "max_events": 30, "batch_size": 30},
+  "alert_score": 7,
+  "mega_score": 9,
+  "context": {"top": 3, "timeout_s": 120, "sources": ["reddit", "hackernews", "polymarket"]},
+
+  "x_primary": ["OpenAI", "AnthropicAI", "GoogleDeepMind", "AIatMeta", "Tesla", "elonmusk", "sama", "perplexity_ai",
+                "deepseek_ai", "Alibaba_Qwen", "nvidia", "MistralAI", "OfficialLoganK"],
+  "x_watchers": ["testingcatalog", "rowancheung", "ArtificialAnlys", "kimmonismus"],
+
+  "rss_primary": [
+    {"name": "OpenAI News", "url": "https://openai.com/news/rss.xml"},
+    {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml"}
+  ],
+  "rss_press": [
+    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"name": "Techmeme", "url": "https://www.techmeme.com/feed.xml"},
+    {"name": "Electrek Tesla", "url": "https://electrek.co/guides/tesla/feed/"}
+  ],
+  "google_news": ["OpenAI", "Anthropic Claude", "Google Gemini", "xAI Grok", "Tesla Optimus OR Roadster OR robotaxi",
+                  "new AI model launch", "Nvidia AI", "DeepSeek"],
+  "reddit": ["singularity", "OpenAI", "ClaudeAI", "LocalLLaMA"],
+  "reddit_min_score": 200,
+  "hn_top": 60,
+  "hn_min_score": 100,
+
+  "keywords": ["ai", "a\\.i\\.", "agi", "gpt", "chatgpt", "openai", "anthropic", "claude", "gemini", "deepmind", "grok", "xai",
+               "llama", "meta ai", "mistral", "deepseek", "qwen", "kimi", "perplexity", "cursor", "copilot", "codex", "sora", "veo",
+               "nvidia", "gpu", "chip", "robot", "robotaxi", "optimus", "humanoid", "tesla", "roadster", "cybercab", "spacex",
+               "starship", "neuralink", "elon", "musk", "altman", "hassabis", "amodei", "zuckerberg", "huang", "model",
+               "open source", "open-source", "agent", "superintelligence", "datacenter", "data center"],
+  "noise": ["\\bhiring\\b", "we're hiring", "\\bwebinar\\b", "\\bsponsored\\b", "\\bdeal(s)? of\\b", "\\bcoupon\\b", "\\bgiveaway\\b",
+            "\\bpodcast episode\\b", "best .{0,30} (of|in) 20\\d\\d", "\\bhow to\\b", "\\bprompt(s)? (pack|list)\\b", "\\bstock(s)? to buy\\b",
+            "price target", "\\bshares (rose|fell|jump|drop)", "\\bis it (a )?buy\\b", "\\bmotley fool\\b", "\\bzacks\\b"],
+  "stopwords_extra": ["ai", "new", "says", "said", "just", "now", "today", "will", "using", "use", "like", "get", "one", "https", "com",
+                      "http", "amp", "report", "reports", "news", "video", "according", "first", "made", "make", "more", "could", "would"]
+}

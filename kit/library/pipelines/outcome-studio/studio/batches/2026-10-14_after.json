@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-14_after",
+ "page": "@yourpage",
+ "note": "Morning after the 13 Oct Champions League night: replays from the price archive, the favourites scoreboard, and goal moments filmed live in the app.",
+ "posts": [
+  {
+   "id": "matchline_brugge",
+   "recipe": "matchline",
+   "args": {
+    "key": "Q409"
+   },
+   "when": "this morning (the upset of the night)"
+  },
+  {
+   "id": "scoreboard_1013",
+   "recipe": "scoreboard",
+   "args": {
+    "day": "20261013"
+   },
+   "when": "this morning; same board after every match night"
+  },
+  {
+   "id": "goalclip_sabah",
+   "recipe": "goalclip",
+   "args": {
+    "key": "Q406",
+    "n": 17
+   },
+   "when": "this morning"
+  },
+  {
+   "id": "matchline_viking",
+   "recipe": "matchline",
+   "args": {
+    "key": "Q408"
+   },
+   "when": "today"
+  },
+  {
+   "id": "goalclip_atletico",
+   "recipe": "goalclip",
+   "args": {
+    "key": "Q407",
+    "n": 2
+   },
+   "when": "today"
+  },
+  {
+   "id": "matchline_barca",
+   "recipe": "matchline",
+   "args": {
+    "key": "Q413"
+   },
+   "when": "today"
+  },
+  {
+   "id": "goalclip_sporting",
+   "recipe": "goalclip",
+   "args": {
+    "key": "Q405",
+    "n": 2
+   },
+   "when": "today"
+  }
+ ]
+}
