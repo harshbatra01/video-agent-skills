@@ -1,0 +1,1002 @@
+[
+{
+"t0": 0.0,
+"t1": 0.08,
+"dur": 0.08,
+"frames": 2,
+"sat": 13.0,
+"said": " This"
+},
+{
+"t0": 0.08,
+"t1": 0.8,
+"dur": 0.72,
+"frames": 18,
+"sat": 18.3,
+"said": " This  is  the"
+},
+{
+"t0": 0.8,
+"t1": 1.8,
+"dur": 1.0,
+"frames": 25,
+"sat": 14.5,
+"said": " the  investor  every"
+},
+{
+"t0": 1.8,
+"t1": 1.96,
+"dur": 0.16,
+"frames": 4,
+"sat": 18.1,
+"said": " every  CEO"
+},
+{
+"t0": 1.96,
+"t1": 2.88,
+"dur": 0.92,
+"frames": 23,
+"sat": 21.1,
+"said": " CEO  in  America"
+},
+{
+"t0": 2.88,
+"t1": 3.0,
+"dur": 0.12,
+"frames": 3,
+"sat": 21.2,
+"said": " America"
+},
+{
+"t0": 3.0,
+"t1": 4.44,
+"dur": 1.44,
+"frames": 36,
+"sat": 25.1,
+"said": " America  is  afraid  of,  and  he's"
+},
+{
+"t0": 4.44,
+"t1": 4.92,
+"dur": 0.48,
+"frames": 12,
+"sat": 20.6,
+"said": " he's  basically"
+},
+{
+"t0": 4.92,
+"t1": 5.24,
+"dur": 0.32,
+"frames": 8,
+"sat": 18.7,
+"said": " basically  the"
+},
+{
+"t0": 5.24,
+"t1": 6.92,
+"dur": 1.68,
+"frames": 42,
+"sat": 35.1,
+"said": " the  real  Wolf  of  Wall  Street."
+},
+{
+"t0": 6.92,
+"t1": 8.84,
+"dur": 1.92,
+"frames": 48,
+"sat": 10.8,
+"said": " The  real  question  is  this,  was"
+},
+{
+"t0": 8.84,
+"t1": 9.92,
+"dur": 1.08,
+"frames": 27,
+"sat": 14.7,
+"said": " was  all  this  legal?"
+},
+{
+"t0": 9.92,
+"t1": 10.4,
+"dur": 0.48,
+"frames": 12,
+"sat": 7.4,
+"said": " His  name's"
+},
+{
+"t0": 10.4,
+"t1": 10.72,
+"dur": 0.32,
+"frames": 8,
+"sat": 49.6,
+"said": " name's"
+},
+{
+"t0": 10.72,
+"t1": 11.16,
+"dur": 0.44,
+"frames": 11,
+"sat": 22.3,
+"said": " name's  Bill  Ackman,"
+},
+{
+"t0": 11.16,
+"t1": 11.56,
+"dur": 0.4,
+"frames": 10,
+"sat": 32.9,
+"said": " Ackman,"
+},
+{
+"t0": 11.56,
+"t1": 12.24,
+"dur": 0.68,
+"frames": 17,
+"sat": 7.5,
+"said": " and  the  thing  that"
+},
+{
+"t0": 12.24,
+"t1": 12.68,
+"dur": 0.44,
+"frames": 11,
+"sat": 6.4,
+"said": " that  made  him  one"
+},
+{
+"t0": 12.68,
+"t1": 14.08,
+"dur": 1.4,
+"frames": 35,
+"sat": 11.6,
+"said": " one  of  the  most  feared  investors"
+},
+{
+"t0": 14.08,
+"t1": 14.84,
+"dur": 0.76,
+"frames": 19,
+"sat": 135.4,
+"said": " investors  alive  is"
+},
+{
+"t0": 14.84,
+"t1": 16.0,
+"dur": 1.16,
+"frames": 29,
+"sat": 40.8,
+"said": " is  the  same  thing  that"
+},
+{
+"t0": 16.0,
+"t1": 16.64,
+"dur": 0.64,
+"frames": 16,
+"sat": 9.4,
+"said": " that  nearly  blew"
+},
+{
+"t0": 16.64,
+"t1": 16.84,
+"dur": 0.2,
+"frames": 5,
+"sat": 83.5,
+"said": " blew  up"
+},
+{
+"t0": 16.84,
+"t1": 17.0,
+"dur": 0.16,
+"frames": 4,
+"sat": 85.3,
+"said": " up"
+},
+{
+"t0": 17.0,
+"t1": 17.64,
+"dur": 0.64,
+"frames": 16,
+"sat": 20.5,
+"said": " up  his  entire"
+},
+{
+"t0": 17.64,
+"t1": 17.92,
+"dur": 0.28,
+"frames": 7,
+"sat": 13.0,
+"said": " entire  career."
+},
+{
+"t0": 17.92,
+"t1": 18.36,
+"dur": 0.44,
+"frames": 11,
+"sat": 8.7,
+"said": " career."
+},
+{
+"t0": 18.36,
+"t1": 19.8,
+"dur": 1.44,
+"frames": 36,
+"sat": 16.8,
+"said": " In  2002,"
+},
+{
+"t0": 19.8,
+"t1": 20.28,
+"dur": 0.48,
+"frames": 12,
+"sat": 14.8,
+"said": " he  looked  at"
+},
+{
+"t0": 20.28,
+"t1": 20.88,
+"dur": 0.6,
+"frames": 15,
+"sat": 14.1,
+"said": " a  company  called"
+},
+{
+"t0": 20.88,
+"t1": 21.24,
+"dur": 0.36,
+"frames": 9,
+"sat": 12.4,
+"said": " called  MBIA,"
+},
+{
+"t0": 21.24,
+"t1": 21.76,
+"dur": 0.52,
+"frames": 13,
+"sat": 6.4,
+"said": " MBIA,"
+},
+{
+"t0": 21.76,
+"t1": 22.36,
+"dur": 0.6,
+"frames": 15,
+"sat": 16.0,
+"said": " MBIA,"
+},
+{
+"t0": 22.36,
+"t1": 23.28,
+"dur": 0.92,
+"frames": 23,
+"sat": 25.8,
+"said": " AAA -rated,"
+},
+{
+"t0": 23.28,
+"t1": 23.48,
+"dur": 0.2,
+"frames": 5,
+"sat": 12.4,
+"said": " every"
+},
+{
+"t0": 23.48,
+"t1": 23.64,
+"dur": 0.16,
+"frames": 4,
+"sat": 9.1,
+"said": " every  major"
+},
+{
+"t0": 23.64,
+"t1": 23.84,
+"dur": 0.2,
+"frames": 5,
+"sat": 29.0,
+"said": " major"
+},
+{
+"t0": 23.84,
+"t1": 24.08,
+"dur": 0.24,
+"frames": 6,
+"sat": 19.5,
+"said": " major  bank"
+},
+{
+"t0": 24.08,
+"t1": 24.28,
+"dur": 0.2,
+"frames": 5,
+"sat": 41.0,
+"said": " bank  in"
+},
+{
+"t0": 24.28,
+"t1": 24.48,
+"dur": 0.2,
+"frames": 5,
+"sat": 10.4,
+"said": " in  the"
+},
+{
+"t0": 24.48,
+"t1": 24.68,
+"dur": 0.2,
+"frames": 5,
+"sat": 21.9,
+"said": " the  country"
+},
+{
+"t0": 24.68,
+"t1": 24.92,
+"dur": 0.24,
+"frames": 6,
+"sat": 48.1,
+"said": " country  behind"
+},
+{
+"t0": 24.92,
+"t1": 25.36,
+"dur": 0.44,
+"frames": 11,
+"sat": 15.6,
+"said": " behind  it,  and"
+},
+{
+"t0": 25.36,
+"t1": 25.8,
+"dur": 0.44,
+"frames": 11,
+"sat": 56.4,
+"said": " and  told  Wall"
+},
+{
+"t0": 25.8,
+"t1": 26.28,
+"dur": 0.48,
+"frames": 12,
+"sat": 15.1,
+"said": " Wall  Street"
+},
+{
+"t0": 26.28,
+"t1": 26.52,
+"dur": 0.24,
+"frames": 6,
+"sat": 17.4,
+"said": " Street  the"
+},
+{
+"t0": 26.52,
+"t1": 26.88,
+"dur": 0.36,
+"frames": 9,
+"sat": 13.7,
+"said": " the  whole  thing"
+},
+{
+"t0": 26.88,
+"t1": 27.36,
+"dur": 0.48,
+"frames": 12,
+"sat": 15.1,
+"said": " thing  was"
+},
+{
+"t0": 27.36,
+"t1": 27.64,
+"dur": 0.28,
+"frames": 7,
+"sat": 25.6,
+"said": " was  a"
+},
+{
+"t0": 27.64,
+"t1": 28.16,
+"dur": 0.52,
+"frames": 13,
+"sat": 56.0,
+"said": " a  fraud.  The"
+},
+{
+"t0": 28.16,
+"t1": 28.92,
+"dur": 0.76,
+"frames": 19,
+"sat": 14.7,
+"said": " The  CEO  tried"
+},
+{
+"t0": 28.92,
+"t1": 29.2,
+"dur": 0.28,
+"frames": 7,
+"sat": 5.2,
+"said": " tried"
+},
+{
+"t0": 29.2,
+"t1": 29.4,
+"dur": 0.2,
+"frames": 5,
+"sat": 3.7,
+"said": " tried  to"
+},
+{
+"t0": 29.4,
+"t1": 29.6,
+"dur": 0.2,
+"frames": 5,
+"sat": 3.4,
+"said": " to  bury"
+},
+{
+"t0": 29.6,
+"t1": 29.84,
+"dur": 0.24,
+"frames": 6,
+"sat": 3.6,
+"said": " bury  him."
+},
+{
+"t0": 29.84,
+"t1": 31.04,
+"dur": 1.2,
+"frames": 30,
+"sat": 20.5,
+"said": " him.  His  investors  pulled"
+},
+{
+"t0": 31.04,
+"t1": 31.72,
+"dur": 0.68,
+"frames": 17,
+"sat": 3.3,
+"said": " pulled  their  money."
+},
+{
+"t0": 31.72,
+"t1": 33.6,
+"dur": 1.88,
+"frames": 47,
+"sat": 56.1,
+"said": " And  for  six  years  straight,"
+},
+{
+"t0": 33.6,
+"t1": 33.88,
+"dur": 0.28,
+"frames": 7,
+"sat": 15.7,
+"said": " the  entire"
+},
+{
+"t0": 33.88,
+"t1": 34.16,
+"dur": 0.28,
+"frames": 7,
+"sat": 25.2,
+"said": " entire  industry"
+},
+{
+"t0": 34.16,
+"t1": 34.48,
+"dur": 0.32,
+"frames": 8,
+"sat": 16.8,
+"said": " industry"
+},
+{
+"t0": 34.48,
+"t1": 34.84,
+"dur": 0.36,
+"frames": 9,
+"sat": 19.1,
+"said": " industry  basically"
+},
+{
+"t0": 34.84,
+"t1": 35.16,
+"dur": 0.32,
+"frames": 8,
+"sat": 23.6,
+"said": " basically"
+},
+{
+"t0": 35.16,
+"t1": 35.52,
+"dur": 0.36,
+"frames": 9,
+"sat": 18.6,
+"said": " treated"
+},
+{
+"t0": 35.52,
+"t1": 35.84,
+"dur": 0.32,
+"frames": 8,
+"sat": 24.6,
+"said": " treated  him  like"
+},
+{
+"t0": 35.84,
+"t1": 36.12,
+"dur": 0.28,
+"frames": 7,
+"sat": 23.3,
+"said": " like  a"
+},
+{
+"t0": 36.12,
+"t1": 36.36,
+"dur": 0.24,
+"frames": 6,
+"sat": 5.9,
+"said": " a  crazy"
+},
+{
+"t0": 36.36,
+"t1": 36.92,
+"dur": 0.56,
+"frames": 14,
+"sat": 21.9,
+"said": " person."
+},
+{
+"t0": 36.92,
+"t1": 37.8,
+"dur": 0.88,
+"frames": 22,
+"sat": 19.9,
+"said": " Then  2008"
+},
+{
+"t0": 37.8,
+"t1": 38.68,
+"dur": 0.88,
+"frames": 22,
+"sat": 18.6,
+"said": " 2008  hit.  This"
+},
+{
+"t0": 38.68,
+"t1": 41.04,
+"dur": 2.36,
+"frames": 59,
+"sat": 11.3,
+"said": " This  could  be  the  most  serious  recession  in"
+},
+{
+"t0": 41.04,
+"t1": 41.76,
+"dur": 0.72,
+"frames": 18,
+"sat": 23.9,
+"said": " in  decades."
+},
+{
+"t0": 41.76,
+"t1": 42.84,
+"dur": 1.08,
+"frames": 27,
+"sat": 25.5,
+"said": " And  MBIA"
+},
+{
+"t0": 42.84,
+"t1": 44.04,
+"dur": 1.2,
+"frames": 30,
+"sat": 48.1,
+"said": " went  down  exactly"
+},
+{
+"t0": 44.04,
+"t1": 44.4,
+"dur": 0.36,
+"frames": 9,
+"sat": 37.3,
+"said": " exactly  the"
+},
+{
+"t0": 44.4,
+"t1": 45.72,
+"dur": 1.32,
+"frames": 33,
+"sat": 24.5,
+"said": " the  way  he  said  it  would."
+},
+{
+"t0": 45.72,
+"t1": 46.16,
+"dur": 0.44,
+"frames": 11,
+"sat": 36.9,
+"said": " The  guy  they'd"
+},
+{
+"t0": 46.16,
+"t1": 46.68,
+"dur": 0.52,
+"frames": 13,
+"sat": 37.7,
+"said": " they'd  spent  six"
+},
+{
+"t0": 46.68,
+"t1": 47.32,
+"dur": 0.64,
+"frames": 16,
+"sat": 8.6,
+"said": " six  years"
+},
+{
+"t0": 47.32,
+"t1": 48.16,
+"dur": 0.84,
+"frames": 21,
+"sat": 12.8,
+"said": " years  laughing  at  walked"
+},
+{
+"t0": 48.16,
+"t1": 48.28,
+"dur": 0.12,
+"frames": 3,
+"sat": 11.7,
+"said": " walked"
+},
+{
+"t0": 48.28,
+"t1": 49.6,
+"dur": 1.32,
+"frames": 33,
+"sat": 26.3,
+"said": " walked  out  with  1 .4"
+},
+{
+"t0": 49.6,
+"t1": 51.8,
+"dur": 2.2,
+"frames": 55,
+"sat": 25.0,
+"said": ".4  billion  dollars.  And"
+},
+{
+"t0": 51.8,
+"t1": 52.6,
+"dur": 0.8,
+"frames": 20,
+"sat": 31.3,
+"said": " And  when  Carl  Icahn,"
+},
+{
+"t0": 52.6,
+"t1": 53.08,
+"dur": 0.48,
+"frames": 12,
+"sat": 39.2,
+"said": " Icahn,  who'd"
+},
+{
+"t0": 53.08,
+"t1": 53.8,
+"dur": 0.72,
+"frames": 18,
+"sat": 61.3,
+"said": " who'd  been  tearing  him"
+},
+{
+"t0": 53.8,
+"t1": 54.68,
+"dur": 0.88,
+"frames": 22,
+"sat": 97.8,
+"said": " him  apart  on  live"
+},
+{
+"t0": 54.68,
+"t1": 55.4,
+"dur": 0.72,
+"frames": 18,
+"sat": 24.4,
+"said": " live  television  for"
+},
+{
+"t0": 55.4,
+"t1": 56.36,
+"dur": 0.96,
+"frames": 24,
+"sat": 42.5,
+"said": " for  years,  called"
+},
+{
+"t0": 56.36,
+"t1": 57.44,
+"dur": 1.08,
+"frames": 27,
+"sat": 37.1,
+"said": " called  to  say,  congratulations,"
+},
+{
+"t0": 57.44,
+"t1": 58.56,
+"dur": 1.12,
+"frames": 28,
+"sat": 36.2,
+"said": " congratulations,"
+},
+{
+"t0": 58.56,
+"t1": 59.48,
+"dur": 0.92,
+"frames": 23,
+"sat": 3.4,
+"said": " let's  be  friends,"
+},
+{
+"t0": 59.48,
+"t1": 60.6,
+"dur": 1.12,
+"frames": 28,
+"sat": 24.4,
+"said": " let's  invest  together,"
+},
+{
+"t0": 60.6,
+"t1": 62.24,
+"dur": 1.64,
+"frames": 41,
+"sat": 9.3,
+"said": " Ackman  said.  Carl,"
+},
+{
+"t0": 62.24,
+"t1": 62.64,
+"dur": 0.4,
+"frames": 10,
+"sat": 12.0,
+"said": " fuck  you."
+},
+{
+"t0": 62.64,
+"t1": 63.16,
+"dur": 0.52,
+"frames": 13,
+"sat": 16.7,
+"said": " you."
+},
+{
+"t0": 63.16,
+"t1": 63.92,
+"dur": 0.76,
+"frames": 19,
+"sat": 2.8,
+"said": " And  then  he"
+},
+{
+"t0": 63.92,
+"t1": 65.0,
+"dur": 1.08,
+"frames": 27,
+"sat": 28.1,
+"said": " he  did  the  exact  same"
+},
+{
+"t0": 65.0,
+"t1": 65.8,
+"dur": 0.8,
+"frames": 20,
+"sat": 11.5,
+"said": " same  thing  with"
+},
+{
+"t0": 65.8,
+"t1": 66.28,
+"dur": 0.48,
+"frames": 12,
+"sat": 25.6,
+"said": " with  Herbalife,"
+},
+{
+"t0": 66.28,
+"t1": 67.0,
+"dur": 0.72,
+"frames": 18,
+"sat": 34.0,
+"said": " Herbalife,"
+},
+{
+"t0": 67.0,
+"t1": 67.68,
+"dur": 0.68,
+"frames": 17,
+"sat": 18.8,
+"said": " put  a  billion"
+},
+{
+"t0": 67.68,
+"t1": 68.12,
+"dur": 0.44,
+"frames": 11,
+"sat": 84.6,
+"said": " on  it"
+},
+{
+"t0": 68.12,
+"t1": 68.48,
+"dur": 0.36,
+"frames": 9,
+"sat": 41.6,
+"said": " being  a"
+},
+{
+"t0": 68.48,
+"t1": 68.76,
+"dur": 0.28,
+"frames": 7,
+"sat": 54.5,
+"said": " a  pyramid"
+},
+{
+"t0": 68.76,
+"t1": 69.36,
+"dur": 0.6,
+"frames": 15,
+"sat": 57.0,
+"said": " pyramid  scheme,  held"
+},
+{
+"t0": 69.36,
+"t1": 70.24,
+"dur": 0.88,
+"frames": 22,
+"sat": 10.8,
+"said": " held  the  exact"
+},
+{
+"t0": 70.24,
+"t1": 71.16,
+"dur": 0.92,
+"frames": 23,
+"sat": 41.3,
+"said": " same  way,"
+},
+{
+"t0": 71.16,
+"t1": 72.84,
+"dur": 1.68,
+"frames": 42,
+"sat": 17.8,
+"said": " and  lost  everything."
+},
+{
+"t0": 72.84,
+"t1": 74.24,
+"dur": 1.4,
+"frames": 35,
+"sat": 69.4,
+"said": " The  funds  down  35%,  investors"
+},
+{
+"t0": 74.24,
+"t1": 75.56,
+"dur": 1.32,
+"frames": 33,
+"sat": 71.8,
+"said": " investors  are  redeeming,  got"
+},
+{
+"t0": 75.56,
+"t1": 77.44,
+"dur": 1.88,
+"frames": 47,
+"sat": 73.2,
+"said": " got  a  court  case  that's  going  poorly,"
+},
+{
+"t0": 77.44,
+"t1": 79.36,
+"dur": 1.92,
+"frames": 48,
+"sat": 105.0,
+"said": " and  Brad  Pitt's  gonna  steal  my  girlfriend."
+},
+{
+"t0": 79.36,
+"t1": 80.32,
+"dur": 0.96,
+"frames": 24,
+"sat": 0.1,
+"said": " And  right  now,"
+},
+{
+"t0": 80.32,
+"t1": 81.08,
+"dur": 0.76,
+"frames": 19,
+"sat": 26.9,
+"said": " some  CEO"
+},
+{
+"t0": 81.08,
+"t1": 81.88,
+"dur": 0.8,
+"frames": 20,
+"sat": 22.0,
+"said": " CEO  just  found"
+},
+{
+"t0": 81.88,
+"t1": 82.44,
+"dur": 0.56,
+"frames": 14,
+"sat": 22.6,
+"said": " found  out  Ackman's"
+},
+{
+"t0": 82.44,
+"t1": 83.16,
+"dur": 0.72,
+"frames": 18,
+"sat": 21.0,
+"said": " Ackman's  in  his"
+},
+{
+"t0": 83.16,
+"t1": 83.88,
+"dur": 0.72,
+"frames": 18,
+"sat": 24.1,
+"said": " his  stock.  He"
+},
+{
+"t0": 83.88,
+"t1": 85.56,
+"dur": 1.68,
+"frames": 42,
+"sat": 32.0,
+"said": " He  has  no  idea  which"
+},
+{
+"t0": 85.56,
+"t1": 86.68,
+"dur": 1.12,
+"frames": 28,
+"sat": 12.7,
+"said": " which  version  of  Ackman  he's"
+},
+{
+"t0": 86.68,
+"t1": 87.0,
+"dur": 0.32,
+"frames": 8,
+"sat": 74.1,
+"said": " he's  getting."
+},
+{
+"t0": 87.0,
+"t1": 87.48,
+"dur": 0.48,
+"frames": 12,
+"sat": 76.2,
+"said": " getting."
+},
+{
+"t0": 87.48,
+"t1": 88.4,
+"dur": 0.92,
+"frames": 23,
+"sat": 15.4,
+"said": " Neither  does  Ackman."
+},
+{
+"t0": 88.4,
+"t1": 94.96,
+"dur": 6.56,
+"frames": 164,
+"sat": 12.8,
+"said": " Ackman."
+}
+]

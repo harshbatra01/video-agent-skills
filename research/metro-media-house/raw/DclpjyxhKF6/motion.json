@@ -1,0 +1,852 @@
+[
+{
+"t0": 0.0,
+"t1": 0.12,
+"dur": 0.12,
+"frames": 3,
+"sat": 16.4,
+"said": " This",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 0.12,
+"t1": 0.79,
+"dur": 0.67,
+"frames": 16,
+"sat": 22.7,
+"said": " This  is  the  most",
+"motion": 38.82,
+"kind": "video"
+},
+{
+"t0": 0.79,
+"t1": 1.92,
+"dur": 1.12,
+"frames": 27,
+"sat": 9.6,
+"said": " most  powerful  man  in",
+"motion": 1.14,
+"kind": "still"
+},
+{
+"t0": 1.92,
+"t1": 3.12,
+"dur": 1.21,
+"frames": 29,
+"sat": 31.5,
+"said": " in  Silicon  Valley  right  now,",
+"motion": 1.22,
+"kind": "still"
+},
+{
+"t0": 3.12,
+"t1": 3.33,
+"dur": 0.21,
+"frames": 5,
+"sat": 19.8,
+"said": " now,  and",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 3.33,
+"t1": 4.38,
+"dur": 1.04,
+"frames": 25,
+"sat": 17.1,
+"said": " and  he's  basically  Tony",
+"motion": 7.85,
+"kind": "video"
+},
+{
+"t0": 4.38,
+"t1": 5.83,
+"dur": 1.46,
+"frames": 35,
+"sat": 24.7,
+"said": " Tony  Stark  in  real  life.",
+"motion": 5.03,
+"kind": "video"
+},
+{
+"t0": 5.83,
+"t1": 8.0,
+"dur": 2.17,
+"frames": 52,
+"sat": 20.6,
+"said": " life.  Genius  billionaire  playboy  philanthropist.",
+"motion": 2.95,
+"kind": "video"
+},
+{
+"t0": 8.0,
+"t1": 8.83,
+"dur": 0.83,
+"frames": 20,
+"sat": 13.1,
+"said": " philanthropist.  His  name's",
+"motion": 0.43,
+"kind": "still"
+},
+{
+"t0": 8.83,
+"t1": 9.88,
+"dur": 1.04,
+"frames": 25,
+"sat": 56.8,
+"said": " name's  Palmer  Lucky,",
+"motion": 1.44,
+"kind": "still"
+},
+{
+"t0": 9.88,
+"t1": 10.67,
+"dur": 0.79,
+"frames": 19,
+"sat": 25.0,
+"said": " and  the  same  company",
+"motion": 3.37,
+"kind": "video"
+},
+{
+"t0": 10.67,
+"t1": 12.21,
+"dur": 1.54,
+"frames": 37,
+"sat": 21.4,
+"said": " company  that  made  him  a  billionaire  ended  up  throwing",
+"motion": 9.55,
+"kind": "video"
+},
+{
+"t0": 12.21,
+"t1": 13.0,
+"dur": 0.79,
+"frames": 19,
+"sat": 16.4,
+"said": " throwing  him  out,",
+"motion": 1.91,
+"kind": "still"
+},
+{
+"t0": 13.0,
+"t1": 13.83,
+"dur": 0.83,
+"frames": 20,
+"sat": 5.7,
+"said": " all  over  a",
+"motion": 1.35,
+"kind": "still"
+},
+{
+"t0": 13.83,
+"t1": 14.38,
+"dur": 0.54,
+"frames": 13,
+"sat": 7.6,
+"said": " a  $10 ,000",
+"motion": 0.85,
+"kind": "still"
+},
+{
+"t0": 14.38,
+"t1": 15.5,
+"dur": 1.12,
+"frames": 27,
+"sat": 32.0,
+"said": ",000  donation  he  made",
+"motion": 4.55,
+"kind": "video"
+},
+{
+"t0": 15.5,
+"t1": 16.5,
+"dur": 1.0,
+"frames": 24,
+"sat": 39.0,
+"said": " made  to  a  meme  page",
+"motion": 2.33,
+"kind": "video"
+},
+{
+"t0": 16.5,
+"t1": 17.38,
+"dur": 0.88,
+"frames": 21,
+"sat": 3.8,
+"said": " page  they  didn't  like.",
+"motion": 3.57,
+"kind": "video"
+},
+{
+"t0": 17.38,
+"t1": 17.58,
+"dur": 0.21,
+"frames": 5,
+"sat": 22.4,
+"said": " But  instead",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 17.58,
+"t1": 17.75,
+"dur": 0.17,
+"frames": 4,
+"sat": 41.3,
+"said": " instead",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 17.75,
+"t1": 17.96,
+"dur": 0.21,
+"frames": 5,
+"sat": 43.6,
+"said": " instead  of",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 17.96,
+"t1": 18.33,
+"dur": 0.38,
+"frames": 9,
+"sat": 42.8,
+"said": " of  apologizing",
+"motion": 2.2,
+"kind": "still"
+},
+{
+"t0": 18.33,
+"t1": 18.92,
+"dur": 0.58,
+"frames": 14,
+"sat": 44.3,
+"said": " apologizing  or",
+"motion": 3.87,
+"kind": "video"
+},
+{
+"t0": 18.92,
+"t1": 19.21,
+"dur": 0.29,
+"frames": 7,
+"sat": 26.6,
+"said": " or  quietly",
+"motion": 0.94,
+"kind": "still"
+},
+{
+"t0": 19.21,
+"t1": 20.04,
+"dur": 0.83,
+"frames": 20,
+"sat": 34.6,
+"said": " quietly  starting  another",
+"motion": 2.69,
+"kind": "video"
+},
+{
+"t0": 20.04,
+"t1": 20.71,
+"dur": 0.67,
+"frames": 16,
+"sat": 29.0,
+"said": " another  app,",
+"motion": 3.96,
+"kind": "video"
+},
+{
+"t0": 20.71,
+"t1": 21.25,
+"dur": 0.54,
+"frames": 13,
+"sat": 27.4,
+"said": " he  went  and",
+"motion": 1.09,
+"kind": "still"
+},
+{
+"t0": 21.25,
+"t1": 21.75,
+"dur": 0.5,
+"frames": 12,
+"sat": 31.2,
+"said": " and  did  the",
+"motion": 2.61,
+"kind": "video"
+},
+{
+"t0": 21.75,
+"t1": 22.58,
+"dur": 0.83,
+"frames": 20,
+"sat": 42.0,
+"said": " the  one  thing  the",
+"motion": 3.49,
+"kind": "video"
+},
+{
+"t0": 22.58,
+"t1": 22.79,
+"dur": 0.21,
+"frames": 5,
+"sat": 28.1,
+"said": " the",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 22.79,
+"t1": 22.96,
+"dur": 0.17,
+"frames": 4,
+"sat": 32.7,
+"said": " the  whole",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 22.96,
+"t1": 23.12,
+"dur": 0.17,
+"frames": 4,
+"sat": 35.9,
+"said": " whole",
+"motion": null,
+"kind": "too short"
+},
+{
+"t0": 23.12,
+"t1": 23.38,
+"dur": 0.25,
+"frames": 6,
+"sat": 31.9,
+"said": " whole  valley",
+"motion": 1.05,
+"kind": "still"
+},
+{
+"t0": 23.38,
+"t1": 24.58,
+"dur": 1.21,
+"frames": 29,
+"sat": 20.3,
+"said": " valley  was  too  squeamish",
+"motion": 5.8,
+"kind": "video"
+},
+{
+"t0": 24.58,
+"t1": 25.33,
+"dur": 0.75,
+"frames": 18,
+"sat": 15.6,
+"said": " squeamish  to  touch.",
+"motion": 1.2,
+"kind": "still"
+},
+{
+"t0": 25.33,
+"t1": 26.0,
+"dur": 0.67,
+"frames": 16,
+"sat": 50.1,
+"said": " He  started  building",
+"motion": 2.04,
+"kind": "still"
+},
+{
+"t0": 26.0,
+"t1": 26.67,
+"dur": 0.67,
+"frames": 16,
+"sat": 4.0,
+"said": " building  weapons,",
+"motion": 3.98,
+"kind": "video"
+},
+{
+"t0": 26.67,
+"t1": 27.33,
+"dur": 0.67,
+"frames": 16,
+"sat": 47.4,
+"said": " weapons,",
+"motion": 1.89,
+"kind": "still"
+},
+{
+"t0": 27.33,
+"t1": 28.0,
+"dur": 0.67,
+"frames": 16,
+"sat": 54.6,
+"said": " autonomous  drones",
+"motion": 7.37,
+"kind": "video"
+},
+{
+"t0": 28.0,
+"t1": 28.96,
+"dur": 0.96,
+"frames": 23,
+"sat": 27.7,
+"said": " drones  that  hunt",
+"motion": 21.02,
+"kind": "video"
+},
+{
+"t0": 28.96,
+"t1": 29.88,
+"dur": 0.92,
+"frames": 22,
+"sat": 8.7,
+"said": " hunt  their  own  targets,  the",
+"motion": 0.63,
+"kind": "still"
+},
+{
+"t0": 29.88,
+"t1": 30.79,
+"dur": 0.92,
+"frames": 22,
+"sat": 22.9,
+"said": " the  kind  that  fight  real",
+"motion": 1.98,
+"kind": "still"
+},
+{
+"t0": 30.79,
+"t1": 31.88,
+"dur": 1.08,
+"frames": 26,
+"sat": 6.5,
+"said": " real  wars.",
+"motion": 2.52,
+"kind": "video"
+},
+{
+"t0": 31.88,
+"t1": 34.46,
+"dur": 2.58,
+"frames": 62,
+"sat": 25.5,
+"said": " But  Palmer's  only  the  side  piece.  He  came  out  of  a",
+"motion": 5.12,
+"kind": "video"
+},
+{
+"t0": 34.46,
+"t1": 36.79,
+"dur": 2.33,
+"frames": 56,
+"sat": 7.4,
+"said": " a  company  that's  quietly  turned  out  some  of  the  most  powerful",
+"motion": 0.83,
+"kind": "still"
+},
+{
+"t0": 36.79,
+"t1": 37.33,
+"dur": 0.54,
+"frames": 13,
+"sat": 22.4,
+"said": " powerful  people",
+"motion": 1.35,
+"kind": "still"
+},
+{
+"t0": 37.33,
+"t1": 37.75,
+"dur": 0.42,
+"frames": 10,
+"sat": 26.8,
+"said": " people  in",
+"motion": 0.62,
+"kind": "still"
+},
+{
+"t0": 37.75,
+"t1": 38.33,
+"dur": 0.58,
+"frames": 14,
+"sat": 14.5,
+"said": " in  tech.",
+"motion": 0.28,
+"kind": "still"
+},
+{
+"t0": 38.33,
+"t1": 38.83,
+"dur": 0.5,
+"frames": 12,
+"sat": 1.1,
+"said": " A  crew  everyone",
+"motion": 1.31,
+"kind": "still"
+},
+{
+"t0": 38.83,
+"t1": 40.08,
+"dur": 1.25,
+"frames": 30,
+"sat": 14.2,
+"said": " everyone  now  calls  the",
+"motion": 0.65,
+"kind": "still"
+},
+{
+"t0": 40.08,
+"t1": 42.62,
+"dur": 2.54,
+"frames": 61,
+"sat": 23.5,
+"said": " the  Palantir  Mafia.  And  it  all  traces  back",
+"motion": 1.64,
+"kind": "still"
+},
+{
+"t0": 42.62,
+"t1": 43.0,
+"dur": 0.38,
+"frames": 9,
+"sat": 15.4,
+"said": " back  to",
+"motion": 4.89,
+"kind": "video"
+},
+{
+"t0": 43.0,
+"t1": 45.88,
+"dur": 2.88,
+"frames": 69,
+"sat": 17.0,
+"said": " to  the  godfather  of  the  PayPal  Mafia.  Teal  took  the  system",
+"motion": 10.09,
+"kind": "video"
+},
+{
+"t0": 45.88,
+"t1": 46.62,
+"dur": 0.75,
+"frames": 18,
+"sat": 17.2,
+"said": " system  PayPal  built  to",
+"motion": 4.36,
+"kind": "video"
+},
+{
+"t0": 46.62,
+"t1": 47.75,
+"dur": 1.12,
+"frames": 27,
+"sat": 26.0,
+"said": " to  hunt  down  fraudsters",
+"motion": 1.45,
+"kind": "still"
+},
+{
+"t0": 47.75,
+"t1": 48.54,
+"dur": 0.79,
+"frames": 19,
+"sat": 55.9,
+"said": " fraudsters  and  aimed  it  at",
+"motion": 1.12,
+"kind": "still"
+},
+{
+"t0": 48.54,
+"t1": 49.04,
+"dur": 0.5,
+"frames": 12,
+"sat": 53.3,
+"said": " at  hunting  terrorists",
+"motion": 0.78,
+"kind": "still"
+},
+{
+"t0": 49.04,
+"t1": 49.67,
+"dur": 0.62,
+"frames": 15,
+"sat": 29.6,
+"said": " terrorists  instead.",
+"motion": 2.1,
+"kind": "still"
+},
+{
+"t0": 49.67,
+"t1": 50.25,
+"dur": 0.58,
+"frames": 14,
+"sat": 27.0,
+"said": " instead.",
+"motion": 2.09,
+"kind": "still"
+},
+{
+"t0": 50.25,
+"t1": 51.17,
+"dur": 0.92,
+"frames": 22,
+"sat": 3.7,
+"said": " That  became  Palantir.",
+"motion": 3.07,
+"kind": "video"
+},
+{
+"t0": 51.17,
+"t1": 51.83,
+"dur": 0.67,
+"frames": 16,
+"sat": 8.6,
+"said": " Palantir.",
+"motion": 4.9,
+"kind": "video"
+},
+{
+"t0": 51.83,
+"t1": 56.25,
+"dur": 4.42,
+"frames": 106,
+"sat": 39.6,
+"said": " Palantir  is  here  to  scare  enemies  and  on  occasion  kill  them.",
+"motion": 0.75,
+"kind": "still"
+},
+{
+"t0": 56.25,
+"t1": 56.88,
+"dur": 0.62,
+"frames": 15,
+"sat": 31.6,
+"said": " And  its  first",
+"motion": 7.61,
+"kind": "video"
+},
+{
+"t0": 56.88,
+"t1": 57.46,
+"dur": 0.58,
+"frames": 14,
+"sat": 30.6,
+"said": " first  customer  was",
+"motion": 3.81,
+"kind": "video"
+},
+{
+"t0": 57.46,
+"t1": 57.83,
+"dur": 0.38,
+"frames": 9,
+"sat": 9.3,
+"said": " was  the",
+"motion": 3.53,
+"kind": "video"
+},
+{
+"t0": 57.83,
+"t1": 58.5,
+"dur": 0.67,
+"frames": 16,
+"sat": 25.0,
+"said": " the  CIA.  Now",
+"motion": 7.16,
+"kind": "video"
+},
+{
+"t0": 58.5,
+"t1": 60.33,
+"dur": 1.83,
+"frames": 44,
+"sat": 30.2,
+"said": " Now  look  at  what  that  crew  runs.",
+"motion": 9.23,
+"kind": "video"
+},
+{
+"t0": 60.33,
+"t1": 60.88,
+"dur": 0.54,
+"frames": 13,
+"sat": 30.4,
+"said": " One  builds",
+"motion": 10.31,
+"kind": "video"
+},
+{
+"t0": 60.88,
+"t1": 61.67,
+"dur": 0.79,
+"frames": 19,
+"sat": 19.8,
+"said": " builds  the  weapons,",
+"motion": 0.89,
+"kind": "still"
+},
+{
+"t0": 61.67,
+"t1": 62.33,
+"dur": 0.67,
+"frames": 16,
+"sat": 22.7,
+"said": " one  runs  the",
+"motion": 6.55,
+"kind": "video"
+},
+{
+"t0": 62.33,
+"t1": 63.29,
+"dur": 0.96,
+"frames": 23,
+"sat": 33.7,
+"said": " the  surveillance  state,",
+"motion": 1.53,
+"kind": "still"
+},
+{
+"t0": 63.29,
+"t1": 64.12,
+"dur": 0.83,
+"frames": 20,
+"sat": 17.2,
+"said": " and  one  of  them  quietly",
+"motion": 2.12,
+"kind": "still"
+},
+{
+"t0": 64.12,
+"t1": 65.04,
+"dur": 0.92,
+"frames": 22,
+"sat": 13.8,
+"said": " quietly  took  over",
+"motion": 3.22,
+"kind": "video"
+},
+{
+"t0": 65.04,
+"t1": 66.04,
+"dur": 1.0,
+"frames": 24,
+"sat": 32.9,
+"said": " over  the  accelerator  that",
+"motion": 0.77,
+"kind": "still"
+},
+{
+"t0": 66.04,
+"t1": 66.62,
+"dur": 0.58,
+"frames": 14,
+"sat": 23.6,
+"said": " that  decides  which",
+"motion": 3.72,
+"kind": "video"
+},
+{
+"t0": 66.62,
+"t1": 67.33,
+"dur": 0.71,
+"frames": 17,
+"sat": 30.3,
+"said": " which  startups",
+"motion": 1.55,
+"kind": "still"
+},
+{
+"t0": 67.33,
+"t1": 68.04,
+"dur": 0.71,
+"frames": 17,
+"sat": 23.3,
+"said": " startups  on  Earth  even",
+"motion": 1.17,
+"kind": "still"
+},
+{
+"t0": 68.04,
+"t1": 68.71,
+"dur": 0.67,
+"frames": 16,
+"sat": 17.3,
+"said": " even  get  to",
+"motion": 0.82,
+"kind": "still"
+},
+{
+"t0": 68.71,
+"t1": 69.33,
+"dur": 0.62,
+"frames": 15,
+"sat": 18.3,
+"said": " to  exist.",
+"motion": 0.7,
+"kind": "still"
+},
+{
+"t0": 69.33,
+"t1": 70.54,
+"dur": 1.21,
+"frames": 29,
+"sat": 7.7,
+"said": " The  PayPal  Mafia  built",
+"motion": 0.95,
+"kind": "still"
+},
+{
+"t0": 70.54,
+"t1": 72.21,
+"dur": 1.67,
+"frames": 40,
+"sat": 7.7,
+"said": " built  the  internet  you  scroll  all",
+"motion": 2.61,
+"kind": "video"
+},
+{
+"t0": 72.21,
+"t1": 72.62,
+"dur": 0.42,
+"frames": 10,
+"sat": 4.4,
+"said": " all  day.",
+"motion": 3.72,
+"kind": "video"
+},
+{
+"t0": 72.62,
+"t1": 74.0,
+"dur": 1.38,
+"frames": 33,
+"sat": 22.2,
+"said": " The  Palantir  Mafia  built",
+"motion": 2.94,
+"kind": "video"
+},
+{
+"t0": 74.0,
+"t1": 74.75,
+"dur": 0.75,
+"frames": 18,
+"sat": 10.7,
+"said": " built  the  thing  quietly",
+"motion": 3.82,
+"kind": "video"
+},
+{
+"t0": 74.75,
+"t1": 78.38,
+"dur": 3.62,
+"frames": 87,
+"sat": 7.7,
+"said": " quietly  watching  you  do  it.",
+"motion": 0.81,
+"kind": "still"
+}
+]

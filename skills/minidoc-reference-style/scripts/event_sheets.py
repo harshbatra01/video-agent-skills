@@ -2,11 +2,17 @@
 import json, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+# Font falls back to DejaVu on Linux (patched 5 Nov 2026).
+def _pfont(size, paths=("/System/Library/Fonts/Supplemental/Arial.ttf", "/System/Library/Fonts/HelveticaNeue.ttc", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")):
+    for p in paths:
+        try: return ImageFont.truetype(p, size)
+        except OSError: pass
+    return ImageFont.load_default()
 ev, video, pre = sys.argv[1:4]; per = int(sys.argv[4]) if len(sys.argv) > 4 else 24
 E = json.load(open(ev))["events"]; w, h = 160, 120
 raw = subprocess.run(["ffmpeg", "-v", "error", "-i", video, "-vf", f"scale={w}:{h}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
 V = np.frombuffer(raw, np.uint8).reshape(-1, h, w, 3)
-F = ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 13)
+F = _pfont(13)
 for s in range(0, len(E), per):
     chunk = E[s:s + per]; cols = 7; S = Image.new("RGB", (cols * w + 150, len(chunk) * h), (15, 15, 15)); d = ImageDraw.Draw(S)
     for r, e in enumerate(chunk):

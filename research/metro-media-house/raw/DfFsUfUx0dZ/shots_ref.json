@@ -1,0 +1,994 @@
+[
+{
+"t0": 0.0,
+"t1": 0.04,
+"dur": 0.04,
+"frames": 1,
+"sat": 17.3,
+"said": " This"
+},
+{
+"t0": 0.04,
+"t1": 0.42,
+"dur": 0.38,
+"frames": 9,
+"sat": 35.3,
+"said": " This  might"
+},
+{
+"t0": 0.42,
+"t1": 1.25,
+"dur": 0.83,
+"frames": 20,
+"sat": 26.8,
+"said": " might  be  the  most  important"
+},
+{
+"t0": 1.25,
+"t1": 1.5,
+"dur": 0.25,
+"frames": 6,
+"sat": 9.1,
+"said": " important"
+},
+{
+"t0": 1.5,
+"t1": 2.25,
+"dur": 0.75,
+"frames": 18,
+"sat": 7.5,
+"said": " important  photo  in"
+},
+{
+"t0": 2.25,
+"t1": 3.62,
+"dur": 1.38,
+"frames": 33,
+"sat": 0.0,
+"said": " in  startup  history,  and"
+},
+{
+"t0": 3.62,
+"t1": 5.29,
+"dur": 1.67,
+"frames": 40,
+"sat": 27.3,
+"said": " and  they  are  the  reason  the"
+},
+{
+"t0": 5.29,
+"t1": 5.42,
+"dur": 0.12,
+"frames": 3,
+"sat": 28.1,
+"said": " the  PayPal"
+},
+{
+"t0": 5.42,
+"t1": 5.67,
+"dur": 0.25,
+"frames": 6,
+"sat": 30.5,
+"said": " PayPal"
+},
+{
+"t0": 5.67,
+"t1": 5.79,
+"dur": 0.12,
+"frames": 3,
+"sat": 27.5,
+"said": " PayPal  mafia"
+},
+{
+"t0": 5.79,
+"t1": 5.92,
+"dur": 0.12,
+"frames": 3,
+"sat": 24.4,
+"said": " mafia"
+},
+{
+"t0": 5.92,
+"t1": 6.04,
+"dur": 0.12,
+"frames": 3,
+"sat": 25.3,
+"said": " mafia"
+},
+{
+"t0": 6.04,
+"t1": 6.17,
+"dur": 0.12,
+"frames": 3,
+"sat": 29.2,
+"said": " mafia  might"
+},
+{
+"t0": 6.17,
+"t1": 6.83,
+"dur": 0.67,
+"frames": 16,
+"sat": 29.0,
+"said": " might  finally"
+},
+{
+"t0": 6.83,
+"t1": 7.75,
+"dur": 0.92,
+"frames": 22,
+"sat": 28.0,
+"said": " finally  be  getting  some  competition."
+},
+{
+"t0": 7.75,
+"t1": 8.46,
+"dur": 0.71,
+"frames": 17,
+"sat": 28.6,
+"said": " competition."
+},
+{
+"t0": 8.46,
+"t1": 9.33,
+"dur": 0.88,
+"frames": 21,
+"sat": 3.6,
+"said": " It  all  starts  with"
+},
+{
+"t0": 9.33,
+"t1": 11.0,
+"dur": 1.67,
+"frames": 40,
+"sat": 9.1,
+"said": " with  the  kid  next  to  Paul  Graham."
+},
+{
+"t0": 11.0,
+"t1": 11.29,
+"dur": 0.29,
+"frames": 7,
+"sat": 29.5,
+"said": " He  built"
+},
+{
+"t0": 11.29,
+"t1": 11.79,
+"dur": 0.5,
+"frames": 12,
+"sat": 17.1,
+"said": " built  a  location"
+},
+{
+"t0": 11.79,
+"t1": 12.12,
+"dur": 0.33,
+"frames": 8,
+"sat": 35.3,
+"said": " location  app"
+},
+{
+"t0": 12.12,
+"t1": 12.54,
+"dur": 0.42,
+"frames": 10,
+"sat": 39.7,
+"said": " app  with"
+},
+{
+"t0": 12.54,
+"t1": 13.08,
+"dur": 0.54,
+"frames": 13,
+"sat": 11.0,
+"said": " with  zero  customers"
+},
+{
+"t0": 13.08,
+"t1": 13.79,
+"dur": 0.71,
+"frames": 17,
+"sat": 45.1,
+"said": " customers  and"
+},
+{
+"t0": 13.79,
+"t1": 14.42,
+"dur": 0.62,
+"frames": 15,
+"sat": 88.9,
+"said": " and  still  managed"
+},
+{
+"t0": 14.42,
+"t1": 14.92,
+"dur": 0.5,
+"frames": 12,
+"sat": 61.8,
+"said": " managed  to"
+},
+{
+"t0": 14.92,
+"t1": 15.5,
+"dur": 0.58,
+"frames": 14,
+"sat": 18.8,
+"said": " to  sell  it  for  $43"
+},
+{
+"t0": 15.5,
+"t1": 16.83,
+"dur": 1.33,
+"frames": 32,
+"sat": 31.5,
+"said": " $43  million."
+},
+{
+"t0": 16.83,
+"t1": 17.42,
+"dur": 0.58,
+"frames": 14,
+"sat": 13.1,
+"said": " Sam  went"
+},
+{
+"t0": 17.42,
+"t1": 17.88,
+"dur": 0.46,
+"frames": 11,
+"sat": 12.1,
+"said": " went  from  a"
+},
+{
+"t0": 17.88,
+"t1": 18.46,
+"dur": 0.58,
+"frames": 14,
+"sat": 28.2,
+"said": " a  $6 ,000"
+},
+{
+"t0": 18.46,
+"t1": 19.08,
+"dur": 0.62,
+"frames": 15,
+"sat": 23.4,
+"said": ",000  check  in"
+},
+{
+"t0": 19.08,
+"t1": 19.46,
+"dur": 0.38,
+"frames": 9,
+"sat": 29.0,
+"said": " in  YC"
+},
+{
+"t0": 19.46,
+"t1": 20.0,
+"dur": 0.54,
+"frames": 13,
+"sat": 30.7,
+"said": " YC  to"
+},
+{
+"t0": 20.0,
+"t1": 20.29,
+"dur": 0.29,
+"frames": 7,
+"sat": 22.6,
+"said": " to  building"
+},
+{
+"t0": 20.29,
+"t1": 20.62,
+"dur": 0.33,
+"frames": 8,
+"sat": 24.2,
+"said": " building  OpenAI"
+},
+{
+"t0": 20.62,
+"t1": 21.58,
+"dur": 0.96,
+"frames": 23,
+"sat": 10.8,
+"said": " OpenAI  and"
+},
+{
+"t0": 21.58,
+"t1": 22.0,
+"dur": 0.42,
+"frames": 10,
+"sat": 18.1,
+"said": " and  raising"
+},
+{
+"t0": 22.0,
+"t1": 22.46,
+"dur": 0.46,
+"frames": 11,
+"sat": 15.9,
+"said": " raising  $122"
+},
+{
+"t0": 22.46,
+"t1": 22.79,
+"dur": 0.33,
+"frames": 8,
+"sat": 17.1,
+"said": " $122"
+},
+{
+"t0": 22.79,
+"t1": 23.21,
+"dur": 0.42,
+"frames": 10,
+"sat": 17.5,
+"said": " $122  billion,"
+},
+{
+"t0": 23.21,
+"t1": 23.83,
+"dur": 0.62,
+"frames": 15,
+"sat": 25.0,
+"said": " billion,"
+},
+{
+"t0": 23.83,
+"t1": 24.54,
+"dur": 0.71,
+"frames": 17,
+"sat": 19.8,
+"said": " billion,  the"
+},
+{
+"t0": 24.54,
+"t1": 25.96,
+"dur": 1.42,
+"frames": 34,
+"sat": 0.0,
+"said": " the  largest  private  round  in"
+},
+{
+"t0": 25.96,
+"t1": 26.79,
+"dur": 0.83,
+"frames": 20,
+"sat": 3.5,
+"said": " in  history."
+},
+{
+"t0": 26.79,
+"t1": 28.29,
+"dur": 1.5,
+"frames": 36,
+"sat": 4.8,
+"said": " The  guy  at  the  back  of  the  photo  got"
+},
+{
+"t0": 28.29,
+"t1": 28.62,
+"dur": 0.33,
+"frames": 8,
+"sat": 12.0,
+"said": " got  rejected"
+},
+{
+"t0": 28.62,
+"t1": 28.92,
+"dur": 0.29,
+"frames": 7,
+"sat": 15.2,
+"said": " rejected"
+},
+{
+"t0": 28.92,
+"t1": 29.92,
+"dur": 1.0,
+"frames": 24,
+"sat": 20.6,
+"said": " rejected  at  his  interview,  But"
+},
+{
+"t0": 29.92,
+"t1": 30.04,
+"dur": 0.12,
+"frames": 3,
+"sat": 5.7,
+"said": " But"
+},
+{
+"t0": 30.04,
+"t1": 30.71,
+"dur": 0.67,
+"frames": 16,
+"sat": 9.7,
+"said": " But  Graham  called  him"
+},
+{
+"t0": 30.71,
+"t1": 31.71,
+"dur": 1.0,
+"frames": 24,
+"sat": 38.6,
+"said": " him  back  anyway  because"
+},
+{
+"t0": 31.71,
+"t1": 32.25,
+"dur": 0.54,
+"frames": 13,
+"sat": 18.0,
+"said": " because  he  liked"
+},
+{
+"t0": 32.25,
+"t1": 33.08,
+"dur": 0.83,
+"frames": 20,
+"sat": 7.9,
+"said": " liked  the  founder,"
+},
+{
+"t0": 33.08,
+"t1": 34.0,
+"dur": 0.92,
+"frames": 22,
+"sat": 9.0,
+"said": " not  the  idea."
+},
+{
+"t0": 34.0,
+"t1": 34.5,
+"dur": 0.5,
+"frames": 12,
+"sat": 40.6,
+"said": " Steve  Huffman"
+},
+{
+"t0": 34.5,
+"t1": 35.04,
+"dur": 0.54,
+"frames": 13,
+"sat": 25.4,
+"said": " Huffman  ended"
+},
+{
+"t0": 35.04,
+"t1": 35.33,
+"dur": 0.29,
+"frames": 7,
+"sat": 16.6,
+"said": " ended  up"
+},
+{
+"t0": 35.33,
+"t1": 35.67,
+"dur": 0.33,
+"frames": 8,
+"sat": 16.4,
+"said": " up  creating"
+},
+{
+"t0": 35.67,
+"t1": 36.25,
+"dur": 0.58,
+"frames": 14,
+"sat": 31.4,
+"said": " creating  Reddit."
+},
+{
+"t0": 36.25,
+"t1": 38.29,
+"dur": 2.04,
+"frames": 49,
+"sat": 9.7,
+"said": " Then  comes  the  guy  with  the  engineer  outfit."
+},
+{
+"t0": 38.29,
+"t1": 38.79,
+"dur": 0.5,
+"frames": 12,
+"sat": 46.0,
+"said": " outfit.  His  calendar"
+},
+{
+"t0": 38.79,
+"t1": 39.12,
+"dur": 0.33,
+"frames": 8,
+"sat": 20.8,
+"said": " calendar  app"
+},
+{
+"t0": 39.12,
+"t1": 39.33,
+"dur": 0.21,
+"frames": 5,
+"sat": 35.3,
+"said": " app"
+},
+{
+"t0": 39.33,
+"t1": 40.0,
+"dur": 0.67,
+"frames": 16,
+"sat": 40.0,
+"said": " app  lasted  a"
+},
+{
+"t0": 40.0,
+"t1": 40.46,
+"dur": 0.46,
+"frames": 11,
+"sat": 24.0,
+"said": " a  month  before"
+},
+{
+"t0": 40.46,
+"t1": 40.75,
+"dur": 0.29,
+"frames": 7,
+"sat": 25.9,
+"said": " before"
+},
+{
+"t0": 40.75,
+"t1": 40.96,
+"dur": 0.21,
+"frames": 5,
+"sat": 21.1,
+"said": " before  Google"
+},
+{
+"t0": 40.96,
+"t1": 41.42,
+"dur": 0.46,
+"frames": 11,
+"sat": 9.9,
+"said": " Google  shipped  the"
+},
+{
+"t0": 41.42,
+"t1": 41.83,
+"dur": 0.42,
+"frames": 10,
+"sat": 6.3,
+"said": " the  same"
+},
+{
+"t0": 41.83,
+"t1": 42.33,
+"dur": 0.5,
+"frames": 12,
+"sat": 16.8,
+"said": " same  thing  and"
+},
+{
+"t0": 42.33,
+"t1": 43.08,
+"dur": 0.75,
+"frames": 18,
+"sat": 18.8,
+"said": " and  killed  him."
+},
+{
+"t0": 43.08,
+"t1": 43.62,
+"dur": 0.54,
+"frames": 13,
+"sat": 26.9,
+"said": " So  he"
+},
+{
+"t0": 43.62,
+"t1": 44.0,
+"dur": 0.38,
+"frames": 9,
+"sat": 22.6,
+"said": " he  auctioned"
+},
+{
+"t0": 44.0,
+"t1": 44.58,
+"dur": 0.58,
+"frames": 14,
+"sat": 24.1,
+"said": " auctioned  the  company  on"
+},
+{
+"t0": 44.58,
+"t1": 45.12,
+"dur": 0.54,
+"frames": 13,
+"sat": 30.5,
+"said": " on  eBay."
+},
+{
+"t0": 45.12,
+"t1": 45.83,
+"dur": 0.71,
+"frames": 17,
+"sat": 0.0,
+"said": " That  stunt  is"
+},
+{
+"t0": 45.83,
+"t1": 47.04,
+"dur": 1.21,
+"frames": 29,
+"sat": 3.5,
+"said": " is  the  only  reason  Graham"
+},
+{
+"t0": 47.04,
+"t1": 47.5,
+"dur": 0.46,
+"frames": 11,
+"sat": 61.0,
+"said": " Graham  funded"
+},
+{
+"t0": 47.5,
+"t1": 48.21,
+"dur": 0.71,
+"frames": 17,
+"sat": 30.8,
+"said": " funded  eBay."
+},
+{
+"t0": 48.21,
+"t1": 48.67,
+"dur": 0.46,
+"frames": 11,
+"sat": 23.1,
+"said": " And  the  next"
+},
+{
+"t0": 48.67,
+"t1": 49.17,
+"dur": 0.5,
+"frames": 12,
+"sat": 34.0,
+"said": " next  company"
+},
+{
+"t0": 49.17,
+"t1": 50.21,
+"dur": 1.04,
+"frames": 25,
+"sat": 45.7,
+"said": " company  became  Twitch."
+},
+{
+"t0": 50.21,
+"t1": 51.92,
+"dur": 1.71,
+"frames": 41,
+"sat": 3.9,
+"said": " These  two  on  the  edges  went"
+},
+{
+"t0": 51.92,
+"t1": 52.67,
+"dur": 0.75,
+"frames": 18,
+"sat": 0.0,
+"said": " went  on  to  fund  Airbnb,"
+},
+{
+"t0": 52.67,
+"t1": 52.79,
+"dur": 0.12,
+"frames": 3,
+"sat": 41.9,
+"said": " Airbnb,"
+},
+{
+"t0": 52.79,
+"t1": 53.54,
+"dur": 0.75,
+"frames": 18,
+"sat": 79.0,
+"said": " Airbnb,"
+},
+{
+"t0": 53.54,
+"t1": 54.29,
+"dur": 0.75,
+"frames": 18,
+"sat": 23.3,
+"said": " Stripe,"
+},
+{
+"t0": 54.29,
+"t1": 55.08,
+"dur": 0.79,
+"frames": 19,
+"sat": 48.5,
+"said": " Doordash,"
+},
+{
+"t0": 55.08,
+"t1": 55.96,
+"dur": 0.88,
+"frames": 21,
+"sat": 18.5,
+"said": " Coinbase."
+},
+{
+"t0": 55.96,
+"t1": 58.04,
+"dur": 2.08,
+"frames": 50,
+"sat": 3.5,
+"said": " 5 ,000  more  came  after.  The"
+},
+{
+"t0": 58.04,
+"t1": 59.21,
+"dur": 1.17,
+"frames": 28,
+"sat": 11.1,
+"said": " The  PayPal  Mafia  built"
+},
+{
+"t0": 59.21,
+"t1": 59.42,
+"dur": 0.21,
+"frames": 5,
+"sat": 0.2,
+"said": " built  15"
+},
+{
+"t0": 59.42,
+"t1": 60.92,
+"dur": 1.5,
+"frames": 36,
+"sat": 12.7,
+"said": " 15  companies."
+},
+{
+"t0": 60.92,
+"t1": 61.38,
+"dur": 0.46,
+"frames": 11,
+"sat": 50.2,
+"said": " These  people"
+},
+{
+"t0": 61.38,
+"t1": 61.92,
+"dur": 0.54,
+"frames": 13,
+"sat": 21.6,
+"said": " people  built  15"
+},
+{
+"t0": 61.92,
+"t1": 62.58,
+"dur": 0.67,
+"frames": 16,
+"sat": 20.5,
+"said": " 15  companies"
+},
+{
+"t0": 62.58,
+"t1": 63.21,
+"dur": 0.62,
+"frames": 15,
+"sat": 34.7,
+"said": " companies  and"
+},
+{
+"t0": 63.21,
+"t1": 63.79,
+"dur": 0.58,
+"frames": 14,
+"sat": 22.9,
+"said": " and  the  machine  that"
+},
+{
+"t0": 63.79,
+"t1": 64.25,
+"dur": 0.46,
+"frames": 11,
+"sat": 22.9,
+"said": " that  builds"
+},
+{
+"t0": 64.25,
+"t1": 64.71,
+"dur": 0.46,
+"frames": 11,
+"sat": 16.2,
+"said": " builds  everyone"
+},
+{
+"t0": 64.71,
+"t1": 64.96,
+"dur": 0.25,
+"frames": 6,
+"sat": 30.5,
+"said": " everyone  else's."
+},
+{
+"t0": 64.96,
+"t1": 65.38,
+"dur": 0.42,
+"frames": 10,
+"sat": 26.9,
+"said": " else's."
+},
+{
+"t0": 65.38,
+"t1": 66.0,
+"dur": 0.62,
+"frames": 15,
+"sat": 15.2,
+"said": " Paul  Graham  got"
+},
+{
+"t0": 66.0,
+"t1": 66.88,
+"dur": 0.88,
+"frames": 21,
+"sat": 28.1,
+"said": " got  to  back  the  companies"
+},
+{
+"t0": 66.88,
+"t1": 67.46,
+"dur": 0.58,
+"frames": 14,
+"sat": 19.3,
+"said": " companies  building"
+},
+{
+"t0": 67.46,
+"t1": 67.92,
+"dur": 0.46,
+"frames": 11,
+"sat": 30.0,
+"said": " building  the  future"
+},
+{
+"t0": 67.92,
+"t1": 68.17,
+"dur": 0.25,
+"frames": 6,
+"sat": 48.5,
+"said": " future  before"
+},
+{
+"t0": 68.17,
+"t1": 68.71,
+"dur": 0.54,
+"frames": 13,
+"sat": 66.0,
+"said": " before"
+},
+{
+"t0": 68.71,
+"t1": 69.12,
+"dur": 0.42,
+"frames": 10,
+"sat": 31.7,
+"said": " before  it  was  obvious."
+},
+{
+"t0": 69.12,
+"t1": 69.62,
+"dur": 0.5,
+"frames": 12,
+"sat": 28.9,
+"said": " obvious."
+},
+{
+"t0": 69.62,
+"t1": 69.75,
+"dur": 0.12,
+"frames": 3,
+"sat": 31.4,
+"said": ""
+},
+{
+"t0": 69.75,
+"t1": 70.54,
+"dur": 0.79,
+"frames": 19,
+"sat": 3.6,
+"said": " But  to  date,"
+},
+{
+"t0": 70.54,
+"t1": 71.0,
+"dur": 0.46,
+"frames": 11,
+"sat": 17.6,
+"said": " the  public  has"
+},
+{
+"t0": 71.0,
+"t1": 71.5,
+"dur": 0.5,
+"frames": 12,
+"sat": 25.6,
+"said": " has  had  limited"
+},
+{
+"t0": 71.5,
+"t1": 72.0,
+"dur": 0.5,
+"frames": 12,
+"sat": 17.6,
+"said": " limited  access"
+},
+{
+"t0": 72.0,
+"t1": 72.33,
+"dur": 0.33,
+"frames": 8,
+"sat": 16.2,
+"said": " access  to"
+},
+{
+"t0": 72.33,
+"t1": 72.46,
+"dur": 0.12,
+"frames": 3,
+"sat": 14.7,
+"said": " to"
+},
+{
+"t0": 72.46,
+"t1": 73.12,
+"dur": 0.67,
+"frames": 16,
+"sat": 9.1,
+"said": " to  investing  in  these"
+},
+{
+"t0": 73.12,
+"t1": 73.5,
+"dur": 0.38,
+"frames": 9,
+"sat": 13.1,
+"said": " these  companies."
+},
+{
+"t0": 73.5,
+"t1": 73.71,
+"dur": 0.21,
+"frames": 5,
+"sat": 10.4,
+"said": " companies."
+},
+{
+"t0": 73.71,
+"t1": 74.75,
+"dur": 1.04,
+"frames": 25,
+"sat": 7.4,
+"said": " USVC  gives"
+},
+{
+"t0": 74.75,
+"t1": 76.04,
+"dur": 1.29,
+"frames": 31,
+"sat": 0.0,
+"said": " gives  you  access  to  that."
+},
+{
+"t0": 76.04,
+"t1": 80.17,
+"dur": 4.12,
+"frames": 99,
+"sat": 4.4,
+"said": " Comment  GUIDE  and  we'll  share  their  investment  guide  for  2026."
+}
+]

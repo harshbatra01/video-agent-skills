@@ -7,8 +7,10 @@ v, tj, px = sys.argv[1:4]; thr = float(sys.argv[4]) if len(sys.argv) > 4 else .2
 W = json.load(open(tj)); W = W["words"] if isinstance(W, dict) else W
 W = [dict(w=w["w"], s=w.get("s", w.get("t0")), e=w.get("e", w.get("t1"))) for w in W]
 def _font(path, size):
-    try: return ImageFont.truetype(path, size)
-    except OSError: return ImageFont.load_default()
+    for p in (path, "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"):  # Linux fallback, patched 5 Nov 2026
+        try: return ImageFont.truetype(p, size)
+        except OSError: pass
+    return ImageFont.load_default()
 raw = subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-i", v, "-vf", f"scale=320:-2,select='gt(scene,{thr})',showinfo", "-an", "-f", "null", "-"], capture_output=True, text=True).stderr
 cuts = [0.0] + [float(x) for x in re.findall(r"pts_time:([\d.]+)", raw)]
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", v], capture_output=True, text=True).stdout); cuts.append(dur)

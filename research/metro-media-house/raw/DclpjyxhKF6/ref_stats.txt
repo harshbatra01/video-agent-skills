@@ -1,0 +1,12 @@
+shots 85 (+26 micro-shots inside montage events) | median 0.75s mean 0.92s | under 0.25s: 8 | over 1.5s: 10
+  hook 0-5           shots   7  median 1.04s  cuts/s 1.40
+  context 5-20       shots  18  median 0.81s  cuts/s 1.20
+  turn 20-28         shots  14  median 0.67s  cuts/s 1.75
+  escalation 28-45   shots  14  median 0.94s  cuts/s 0.82
+  fallout 45-60      shots  14  median 0.67s  cuts/s 0.93
+  peg 60-75          shots  18  median 0.77s  cuts/s 1.20
+  kicker 75-86.5     shots   0  median nans  cuts/s 0.00
+cuts within 0.12s of a word start: 67% | cuts inside a word: 43% | mean distance to nearest word start 0.10s
+words per shot: 2.76 | shots per sentence approx: 5.0
+near-monochrome shots (low saturation): 17/85 = 20%
+flash frames (luma > 200): 216 | near-black frames (luma < 12): 12 = 1% of runtime

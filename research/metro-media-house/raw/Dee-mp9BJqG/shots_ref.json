@@ -1,0 +1,946 @@
+[
+{
+"t0": 0.0,
+"t1": 0.04,
+"dur": 0.04,
+"frames": 1,
+"sat": 1.9,
+"said": " This"
+},
+{
+"t0": 0.04,
+"t1": 0.52,
+"dur": 0.48,
+"frames": 12,
+"sat": 2.0,
+"said": " This  is"
+},
+{
+"t0": 0.52,
+"t1": 0.76,
+"dur": 0.24,
+"frames": 6,
+"sat": 2.0,
+"said": " is  one"
+},
+{
+"t0": 0.76,
+"t1": 1.6,
+"dur": 0.84,
+"frames": 21,
+"sat": 1.2,
+"said": " one  of  the  most  iconic"
+},
+{
+"t0": 1.6,
+"t1": 2.84,
+"dur": 1.24,
+"frames": 31,
+"sat": 1.2,
+"said": " iconic  photos  of  all"
+},
+{
+"t0": 2.84,
+"t1": 3.52,
+"dur": 0.68,
+"frames": 17,
+"sat": 1.1,
+"said": " all  time."
+},
+{
+"t0": 3.52,
+"t1": 4.28,
+"dur": 0.76,
+"frames": 19,
+"sat": 1.7,
+"said": " Einstein,"
+},
+{
+"t0": 4.28,
+"t1": 4.88,
+"dur": 0.6,
+"frames": 15,
+"sat": 1.6,
+"said": " Bohr,"
+},
+{
+"t0": 4.88,
+"t1": 5.68,
+"dur": 0.8,
+"frames": 20,
+"sat": 0.7,
+"said": " Bohr,  Schrodinger,"
+},
+{
+"t0": 5.68,
+"t1": 6.6,
+"dur": 0.92,
+"frames": 23,
+"sat": 1.0,
+"said": " Heisenberg,"
+},
+{
+"t0": 6.6,
+"t1": 6.8,
+"dur": 0.2,
+"frames": 5,
+"sat": 1.0,
+"said": ""
+},
+{
+"t0": 6.8,
+"t1": 7.0,
+"dur": 0.2,
+"frames": 5,
+"sat": 1.0,
+"said": " 17"
+},
+{
+"t0": 7.0,
+"t1": 7.2,
+"dur": 0.2,
+"frames": 5,
+"sat": 0.6,
+"said": " 17"
+},
+{
+"t0": 7.2,
+"t1": 7.4,
+"dur": 0.2,
+"frames": 5,
+"sat": 0.7,
+"said": " 17"
+},
+{
+"t0": 7.4,
+"t1": 10.24,
+"dur": 2.84,
+"frames": 71,
+"sat": 1.0,
+"said": " 17  Nobel  Prize  winners  in  one  frame."
+},
+{
+"t0": 10.24,
+"t1": 10.56,
+"dur": 0.32,
+"frames": 8,
+"sat": 0.0,
+"said": " They  were  gathered"
+},
+{
+"t0": 10.56,
+"t1": 10.92,
+"dur": 0.36,
+"frames": 9,
+"sat": 0.0,
+"said": " gathered  in"
+},
+{
+"t0": 10.92,
+"t1": 11.36,
+"dur": 0.44,
+"frames": 11,
+"sat": 0.4,
+"said": " in  Brussels  for"
+},
+{
+"t0": 11.36,
+"t1": 12.16,
+"dur": 0.8,
+"frames": 20,
+"sat": 0.1,
+"said": " for  a  week -long"
+},
+{
+"t0": 12.16,
+"t1": 12.68,
+"dur": 0.52,
+"frames": 13,
+"sat": 0.3,
+"said": " meeting  that"
+},
+{
+"t0": 12.68,
+"t1": 14.08,
+"dur": 1.4,
+"frames": 35,
+"sat": 0.2,
+"said": " that  would  rewrite  physics."
+},
+{
+"t0": 14.08,
+"t1": 15.24,
+"dur": 1.16,
+"frames": 29,
+"sat": 13.4,
+"said": " And  at  that  meeting,"
+},
+{
+"t0": 15.24,
+"t1": 15.8,
+"dur": 0.56,
+"frames": 14,
+"sat": 0.3,
+"said": " Einstein  started"
+},
+{
+"t0": 15.8,
+"t1": 16.96,
+"dur": 1.16,
+"frames": 29,
+"sat": 0.7,
+"said": " started  an  argument  he"
+},
+{
+"t0": 16.96,
+"t1": 18.6,
+"dur": 1.64,
+"frames": 41,
+"sat": 3.9,
+"said": " he  was  certain  he'd  win,  but"
+},
+{
+"t0": 18.6,
+"t1": 19.44,
+"dur": 0.84,
+"frames": 21,
+"sat": 0.0,
+"said": " but  he  didn't.  And"
+},
+{
+"t0": 19.44,
+"t1": 20.08,
+"dur": 0.64,
+"frames": 16,
+"sat": 0.1,
+"said": " And  the  idea"
+},
+{
+"t0": 20.08,
+"t1": 20.88,
+"dur": 0.8,
+"frames": 20,
+"sat": 0.4,
+"said": " idea  that  stuck  is"
+},
+{
+"t0": 20.88,
+"t1": 22.08,
+"dur": 1.2,
+"frames": 30,
+"sat": 8.4,
+"said": " is  arguably  the  reason  we"
+},
+{
+"t0": 22.08,
+"t1": 22.92,
+"dur": 0.84,
+"frames": 21,
+"sat": 15.1,
+"said": " we  even  have"
+},
+{
+"t0": 22.92,
+"t1": 24.12,
+"dur": 1.2,
+"frames": 30,
+"sat": 22.6,
+"said": " have  AI  today."
+},
+{
+"t0": 24.12,
+"t1": 26.24,
+"dur": 2.12,
+"frames": 53,
+"sat": 0.1,
+"said": " It  came  down  to  one  question.  Is"
+},
+{
+"t0": 26.24,
+"t1": 26.88,
+"dur": 0.64,
+"frames": 16,
+"sat": 12.3,
+"said": " Is  the  universe"
+},
+{
+"t0": 26.88,
+"t1": 27.36,
+"dur": 0.48,
+"frames": 12,
+"sat": 52.6,
+"said": " universe  certain,"
+},
+{
+"t0": 27.36,
+"t1": 28.0,
+"dur": 0.64,
+"frames": 16,
+"sat": 54.4,
+"said": " certain,"
+},
+{
+"t0": 28.0,
+"t1": 28.12,
+"dur": 0.12,
+"frames": 3,
+"sat": 130.6,
+"said": " or"
+},
+{
+"t0": 28.12,
+"t1": 29.68,
+"dur": 1.56,
+"frames": 39,
+"sat": 111.1,
+"said": " or  is  it  just  odds?  Einstein's"
+},
+{
+"t0": 29.68,
+"t1": 30.16,
+"dur": 0.48,
+"frames": 12,
+"sat": 8.8,
+"said": " Einstein's"
+},
+{
+"t0": 30.16,
+"t1": 30.44,
+"dur": 0.28,
+"frames": 7,
+"sat": 13.6,
+"said": " Einstein's  worldview"
+},
+{
+"t0": 30.44,
+"t1": 31.56,
+"dur": 1.12,
+"frames": 28,
+"sat": 9.3,
+"said": " worldview  was  built  on"
+},
+{
+"t0": 31.56,
+"t1": 32.36,
+"dur": 0.8,
+"frames": 20,
+"sat": 9.0,
+"said": " on  certainty."
+},
+{
+"t0": 32.36,
+"t1": 33.28,
+"dur": 0.92,
+"frames": 23,
+"sat": 28.1,
+"said": " He  believed  that  if  you"
+},
+{
+"t0": 33.28,
+"t1": 34.92,
+"dur": 1.64,
+"frames": 41,
+"sat": 25.0,
+"said": " you  knew  everything  about  a  system,"
+},
+{
+"t0": 34.92,
+"t1": 36.92,
+"dur": 2.0,
+"frames": 50,
+"sat": 1.0,
+"said": " you  could  predict  what  it  would  do  next."
+},
+{
+"t0": 36.92,
+"t1": 37.56,
+"dur": 0.64,
+"frames": 16,
+"sat": 49.6,
+"said": " That's  what  he  meant"
+},
+{
+"t0": 37.56,
+"t1": 39.0,
+"dur": 1.44,
+"frames": 36,
+"sat": 55.6,
+"said": " meant  by  his  famous  line,"
+},
+{
+"t0": 39.0,
+"t1": 41.12,
+"dur": 2.12,
+"frames": 53,
+"sat": 0.4,
+"said": " God  does  not  play  dice."
+},
+{
+"t0": 41.12,
+"t1": 42.6,
+"dur": 1.48,
+"frames": 37,
+"sat": 10.1,
+"said": " But  a  younger  physicist  named"
+},
+{
+"t0": 42.6,
+"t1": 43.56,
+"dur": 0.96,
+"frames": 24,
+"sat": 2.0,
+"said": " named  Niels  Bohr  landed"
+},
+{
+"t0": 43.56,
+"t1": 45.48,
+"dur": 1.92,
+"frames": 48,
+"sat": 1.1,
+"said": " landed  on  the  opposite  conclusion."
+},
+{
+"t0": 45.48,
+"t1": 45.84,
+"dur": 0.36,
+"frames": 9,
+"sat": 3.5,
+"said": " Down  at"
+},
+{
+"t0": 45.84,
+"t1": 45.96,
+"dur": 0.12,
+"frames": 3,
+"sat": 3.9,
+"said": " at"
+},
+{
+"t0": 45.96,
+"t1": 46.8,
+"dur": 0.84,
+"frames": 21,
+"sat": 4.5,
+"said": " at  the  level  of  atoms,"
+},
+{
+"t0": 46.8,
+"t1": 47.68,
+"dur": 0.88,
+"frames": 22,
+"sat": 10.4,
+"said": " atoms,  Bohr  said,"
+},
+{
+"t0": 47.68,
+"t1": 48.92,
+"dur": 1.24,
+"frames": 31,
+"sat": 3.1,
+"said": " said,  there  is  no  exact"
+},
+{
+"t0": 48.92,
+"t1": 49.12,
+"dur": 0.2,
+"frames": 5,
+"sat": 6.0,
+"said": " exact"
+},
+{
+"t0": 49.12,
+"t1": 50.88,
+"dur": 1.76,
+"frames": 44,
+"sat": 0.7,
+"said": " exact  outcome  waiting  to  be  found.  There"
+},
+{
+"t0": 50.88,
+"t1": 51.08,
+"dur": 0.2,
+"frames": 5,
+"sat": 1.6,
+"said": " There  are"
+},
+{
+"t0": 51.08,
+"t1": 52.76,
+"dur": 1.68,
+"frames": 42,
+"sat": 11.7,
+"said": " are  only  probabilities.  You"
+},
+{
+"t0": 52.76,
+"t1": 53.48,
+"dur": 0.72,
+"frames": 18,
+"sat": 14.0,
+"said": " You  can  know  the"
+},
+{
+"t0": 53.48,
+"t1": 55.04,
+"dur": 1.56,
+"frames": 39,
+"sat": 72.0,
+"said": " odds  of  what  happens  next  and"
+},
+{
+"t0": 55.04,
+"t1": 56.2,
+"dur": 1.16,
+"frames": 29,
+"sat": 0.1,
+"said": " and  nothing  more."
+},
+{
+"t0": 56.2,
+"t1": 56.36,
+"dur": 0.16,
+"frames": 4,
+"sat": 0.2,
+"said": ""
+},
+{
+"t0": 56.36,
+"t1": 56.52,
+"dur": 0.16,
+"frames": 4,
+"sat": 0.3,
+"said": " Einstein"
+},
+{
+"t0": 56.52,
+"t1": 58.44,
+"dur": 1.92,
+"frames": 48,
+"sat": 0.3,
+"said": " Einstein  found  this  almost  offensive,  so"
+},
+{
+"t0": 58.44,
+"t1": 59.8,
+"dur": 1.36,
+"frames": 34,
+"sat": 2.2,
+"said": " so  he  went  to  war."
+},
+{
+"t0": 59.8,
+"t1": 60.16,
+"dur": 0.36,
+"frames": 9,
+"sat": 59.3,
+"said": " Every  morning"
+},
+{
+"t0": 60.16,
+"t1": 60.68,
+"dur": 0.52,
+"frames": 13,
+"sat": 12.6,
+"said": " morning  that"
+},
+{
+"t0": 60.68,
+"t1": 61.16,
+"dur": 0.48,
+"frames": 12,
+"sat": 23.3,
+"said": " that  week,"
+},
+{
+"t0": 61.16,
+"t1": 61.68,
+"dur": 0.52,
+"frames": 13,
+"sat": 28.7,
+"said": " he'd  show  up"
+},
+{
+"t0": 61.68,
+"t1": 62.04,
+"dur": 0.36,
+"frames": 9,
+"sat": 18.4,
+"said": " up  with  a"
+},
+{
+"t0": 62.04,
+"t1": 62.92,
+"dur": 0.88,
+"frames": 22,
+"sat": 9.4,
+"said": " a  new  thought  experiment,"
+},
+{
+"t0": 62.92,
+"t1": 63.28,
+"dur": 0.36,
+"frames": 9,
+"sat": 32.1,
+"said": " experiment,"
+},
+{
+"t0": 63.28,
+"t1": 63.76,
+"dur": 0.48,
+"frames": 12,
+"sat": 5.3,
+"said": " some  clever"
+},
+{
+"t0": 63.76,
+"t1": 64.2,
+"dur": 0.44,
+"frames": 11,
+"sat": 5.0,
+"said": " clever  trap"
+},
+{
+"t0": 64.2,
+"t1": 64.76,
+"dur": 0.56,
+"frames": 14,
+"sat": 4.7,
+"said": " trap  built"
+},
+{
+"t0": 64.76,
+"t1": 66.16,
+"dur": 1.4,
+"frames": 35,
+"sat": 33.5,
+"said": " to  prove  Bohr  wrong."
+},
+{
+"t0": 66.16,
+"t1": 67.0,
+"dur": 0.84,
+"frames": 21,
+"sat": 0.0,
+"said": " And  every  night,"
+},
+{
+"t0": 67.0,
+"t1": 67.6,
+"dur": 0.6,
+"frames": 15,
+"sat": 37.2,
+"said": " Bohr  would"
+},
+{
+"t0": 67.6,
+"t1": 68.2,
+"dur": 0.6,
+"frames": 15,
+"sat": 40.6,
+"said": " stay  up  tearing"
+},
+{
+"t0": 68.2,
+"t1": 69.56,
+"dur": 1.36,
+"frames": 34,
+"sat": 62.3,
+"said": " tearing  the  logic  apart  until"
+},
+{
+"t0": 69.56,
+"t1": 71.28,
+"dur": 1.72,
+"frames": 43,
+"sat": 39.9,
+"said": " until  he  had  his  answer  ready."
+},
+{
+"t0": 71.28,
+"t1": 72.32,
+"dur": 1.04,
+"frames": 26,
+"sat": 1.4,
+"said": " One  by  one,"
+},
+{
+"t0": 72.32,
+"t1": 73.12,
+"dur": 0.8,
+"frames": 20,
+"sat": 2.5,
+"said": " Einstein's"
+},
+{
+"t0": 73.12,
+"t1": 73.48,
+"dur": 0.36,
+"frames": 9,
+"sat": 3.9,
+"said": " Einstein's  traps"
+},
+{
+"t0": 73.48,
+"t1": 74.24,
+"dur": 0.76,
+"frames": 19,
+"sat": 0.3,
+"said": " traps  fell."
+},
+{
+"t0": 74.24,
+"t1": 75.08,
+"dur": 0.84,
+"frames": 21,
+"sat": 0.3,
+"said": " The  most  celebrated"
+},
+{
+"t0": 75.08,
+"t1": 75.88,
+"dur": 0.8,
+"frames": 20,
+"sat": 2.3,
+"said": " celebrated  physicist  of"
+},
+{
+"t0": 75.88,
+"t1": 76.68,
+"dur": 0.8,
+"frames": 20,
+"sat": 3.5,
+"said": " of  the  century  couldn't"
+},
+{
+"t0": 76.68,
+"t1": 77.48,
+"dur": 0.8,
+"frames": 20,
+"sat": 0.1,
+"said": " couldn't  land  a"
+},
+{
+"t0": 77.48,
+"t1": 78.28,
+"dur": 0.8,
+"frames": 20,
+"sat": 3.5,
+"said": " convincing  blow"
+},
+{
+"t0": 78.28,
+"t1": 79.4,
+"dur": 1.12,
+"frames": 28,
+"sat": 3.5,
+"said": " to  Bohr's  logic,  and"
+},
+{
+"t0": 79.4,
+"t1": 81.88,
+"dur": 2.48,
+"frames": 62,
+"sat": 0.1,
+"said": " and  the  probability  hypothesis  won  out."
+},
+{
+"t0": 81.88,
+"t1": 84.16,
+"dur": 2.28,
+"frames": 57,
+"sat": 15.2,
+"said": " Probability  is  what  enabled  physicists  to"
+},
+{
+"t0": 84.16,
+"t1": 85.6,
+"dur": 1.44,
+"frames": 36,
+"sat": 10.9,
+"said": " to  understand  the  atom,  And"
+},
+{
+"t0": 85.6,
+"t1": 86.92,
+"dur": 1.32,
+"frames": 33,
+"sat": 11.1,
+"said": " And  understanding  the  atom  is"
+},
+{
+"t0": 86.92,
+"t1": 87.04,
+"dur": 0.12,
+"frames": 3,
+"sat": 9.8,
+"said": " is"
+},
+{
+"t0": 87.04,
+"t1": 87.88,
+"dur": 0.84,
+"frames": 21,
+"sat": 0.6,
+"said": " is  what  gave  us  the"
+},
+{
+"t0": 87.88,
+"t1": 88.56,
+"dur": 0.68,
+"frames": 17,
+"sat": 52.5,
+"said": " the  semiconductor,"
+},
+{
+"t0": 88.56,
+"t1": 88.92,
+"dur": 0.36,
+"frames": 9,
+"sat": 51.3,
+"said": " semiconductor,"
+},
+{
+"t0": 88.92,
+"t1": 89.36,
+"dur": 0.44,
+"frames": 11,
+"sat": 26.7,
+"said": " the  chip,"
+},
+{
+"t0": 89.36,
+"t1": 89.48,
+"dur": 0.12,
+"frames": 3,
+"sat": 23.4,
+"said": ""
+},
+{
+"t0": 89.48,
+"t1": 91.64,
+"dur": 2.16,
+"frames": 54,
+"sat": 23.4,
+"said": " and  the  hardware  AI  runs  on."
+},
+{
+"t0": 91.64,
+"t1": 93.56,
+"dur": 1.92,
+"frames": 48,
+"sat": 30.4,
+"said": " But  it  goes  deeper  than  the  hardware."
+},
+{
+"t0": 93.56,
+"t1": 95.76,
+"dur": 2.2,
+"frames": 55,
+"sat": 0.4,
+"said": " When  ChatGPT  writes  you  a  sentence,"
+},
+{
+"t0": 95.76,
+"t1": 97.52,
+"dur": 1.76,
+"frames": 44,
+"sat": 0.3,
+"said": " it  isn't  reaching  for  the  correct  word,"
+},
+{
+"t0": 97.52,
+"t1": 101.08,
+"dur": 3.56,
+"frames": 89,
+"sat": 0.3,
+"said": " it's  reaching  for  the  most  probable  one  again  and  again."
+},
+{
+"t0": 101.08,
+"t1": 101.56,
+"dur": 0.48,
+"frames": 12,
+"sat": 0.2,
+"said": " Einstein"
+},
+{
+"t0": 101.56,
+"t1": 102.0,
+"dur": 0.44,
+"frames": 11,
+"sat": 2.1,
+"said": " Einstein  said"
+},
+{
+"t0": 102.0,
+"t1": 102.44,
+"dur": 0.44,
+"frames": 11,
+"sat": 3.4,
+"said": " God  doesn't"
+},
+{
+"t0": 102.44,
+"t1": 102.56,
+"dur": 0.12,
+"frames": 3,
+"sat": 0.1,
+"said": " doesn't"
+},
+{
+"t0": 102.56,
+"t1": 102.76,
+"dur": 0.2,
+"frames": 5,
+"sat": 0.1,
+"said": " doesn't"
+},
+{
+"t0": 102.76,
+"t1": 103.32,
+"dur": 0.56,
+"frames": 14,
+"sat": 3.4,
+"said": " doesn't  play  dice."
+},
+{
+"t0": 103.32,
+"t1": 103.76,
+"dur": 0.44,
+"frames": 11,
+"sat": 3.4,
+"said": " dice."
+},
+{
+"t0": 103.76,
+"t1": 105.04,
+"dur": 1.28,
+"frames": 32,
+"sat": 0.1,
+"said": " A  hundred  years  later,"
+},
+{
+"t0": 105.04,
+"t1": 107.0,
+"dur": 1.96,
+"frames": 49,
+"sat": 6.2,
+"said": " we  built  machines  that  do."
+},
+{
+"t0": 107.0,
+"t1": 110.56,
+"dur": 3.56,
+"frames": 89,
+"sat": 0.2,
+"said": " And  he  wasn't  the  only  genius  who  bet  against  the  idea  that  won."
+},
+{
+"t0": 110.56,
+"t1": 119.36,
+"dur": 8.8,
+"frames": 220,
+"sat": 14.3,
+"said": " We  pulled  together  the  stories  of  13  of  the  most  successful  companies  in  technology  and  what  they  ALMOST  got  wrong.  Comment  book  and  we'll  send  it  over."
+}
+]

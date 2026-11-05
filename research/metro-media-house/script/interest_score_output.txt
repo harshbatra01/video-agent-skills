@@ -1,0 +1,73 @@
+DclpjyxhKF6_tagged.txt
+  words                   234
+  sentences               17
+  avg_sentence            13.8
+  longest_sentence        32
+  event_pct               29
+  tension_pct             38
+  info_pct                32
+  longest_info_run        2
+  pct_before_first_event  10
+  hard_word_pct           11.6
+  reading_ease            69
+DdHKc5GBqT-_tagged.txt
+  words                   250
+  sentences               18
+  avg_sentence            13.9
+  longest_sentence        28
+  event_pct               60
+  tension_pct             28
+  info_pct                12
+  longest_info_run        1
+  pct_before_first_event  23
+  hard_word_pct           8.9
+  reading_ease            74
+Dee-mp9BJqG_tagged.txt
+  words                   348
+  sentences               27
+  avg_sentence            12.9
+  longest_sentence        27
+  event_pct               33
+  tension_pct             20
+  info_pct                47
+  longest_info_run        3
+  pct_before_first_event  6
+  hard_word_pct           10.4
+  reading_ease            71
+Dee-mp9BJqG_story_only.txt
+  words                   321
+  sentences               25
+  avg_sentence            12.8
+  longest_sentence        27
+  event_pct               36
+  tension_pct             21
+  info_pct                43
+  longest_info_run        3
+  pct_before_first_event  7
+  hard_word_pct           10.0
+  reading_ease            71
+DfFsUfUx0dZ_tagged.txt
+  words                   230
+  sentences               19
+  avg_sentence            12.1
+  longest_sentence        27
+  event_pct               55
+  tension_pct             20
+  info_pct                25
+  longest_info_run        4
+  pct_before_first_event  15
+  hard_word_pct           11.2
+  reading_ease            69
+DfFsUfUx0dZ_story_only.txt
+  words                   186
+  sentences               15
+  avg_sentence            12.4
+  longest_sentence        27
+  event_pct               68
+  tension_pct             25
+  info_pct                8
+  longest_info_run        1
+  pct_before_first_event  18
+  hard_word_pct           11.1
+  reading_ease            68
+reference range (4 scripts): event 40-79%, info 4-31%, info run 1-5, sentence 10.7-15.6, ease 68-80

@@ -1,0 +1,26 @@
+# Einstein vs Bohr (USVC account, paid). Whisper text.
+T| This is one of the most iconic photos of all time.
+I| Einstein, Bohr, Schrodinger, Heisenberg, 17 Nobel Prize winners in one frame.
+E| They were gathered in Brussels for a week-long meeting that would rewrite physics.
+E| And at that meeting, Einstein started an argument he was certain he'd win, but he didn't.
+T| And the idea that stuck is arguably the reason we even have AI today.
+T| It came down to one question.
+T| Is the universe certain, or is it just odds?
+I| Einstein's worldview was built on certainty.
+I| He believed that if you knew everything about a system, you could predict what it would do next.
+I| That's what he meant by his famous line, God does not play dice.
+E| But a younger physicist named Niels Bohr landed on the opposite conclusion.
+I| Down at the level of atoms, Bohr said, there is no exact outcome waiting to be found.
+I| There are only probabilities.
+I| You can know the odds of what happens next and nothing more.
+E| Einstein found this almost offensive, so he went to war.
+E| Every morning that week, he'd show up with a new thought experiment, some clever trap built to prove Bohr wrong.
+E| And every night, Bohr would stay up tearing the logic apart until he had his answer ready.
+E| One by one, Einstein's traps fell.
+E| The most celebrated physicist of the century couldn't land a convincing blow to Bohr's logic, and the probability hypothesis won out.
+I| Probability is what enabled physicists to understand the atom, and understanding the atom is what gave us the semiconductor, the chip, and the hardware AI runs on.
+T| But it goes deeper than the hardware.
+I| When ChatGPT writes you a sentence, it isn't reaching for the correct word, it's reaching for the most probable one again and again.
+I| Einstein said God doesn't play dice.
+T| A hundred years later, we built machines that do.
+T| And he wasn't the only genius who bet against the idea that won.

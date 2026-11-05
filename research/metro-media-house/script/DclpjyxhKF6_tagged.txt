@@ -1,0 +1,18 @@
+# Palantir Mafia / Palmer Luckey. Whisper text, names fixed from frames: Lucky->Luckey, Teal->Thiel.
+T| This is the most powerful man in Silicon Valley right now, and he's basically Tony Stark in real life.
+I| Genius billionaire playboy philanthropist.
+E| His name's Palmer Luckey, and the same company that made him a billionaire ended up throwing him out, all over a $10,000 donation he made to a meme page they didn't like.
+T| But instead of apologizing or quietly starting another app, he went and did the one thing the whole valley was too squeamish to touch.
+E| He started building weapons, autonomous drones that hunt their own targets, the kind that fight real wars.
+T| But Palmer's only the side piece.
+I| He came out of a company that's quietly turned out some of the most powerful people in tech.
+I| A crew everyone now calls the Palantir Mafia.
+T| And it all traces back to the godfather of the PayPal Mafia.
+E| Thiel took the system PayPal built to hunt down fraudsters and aimed it at hunting terrorists instead.
+E| That became Palantir.
+I| Palantir is here to scare enemies and on occasion kill them.
+I| And its first customer was the CIA.
+T| Now look at what that crew runs.
+I| One builds the weapons, one runs the surveillance state, and one of them quietly took over the accelerator that decides which startups on Earth even get to exist.
+T| The PayPal Mafia built the internet you scroll all day.
+T| The Palantir Mafia built the thing quietly watching you do it.

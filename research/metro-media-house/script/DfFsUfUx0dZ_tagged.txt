@@ -1,0 +1,20 @@
+# YC photo (Metro Media House, paid by USVC adviser). Whisper text; "Graham funded eBay" fixed to "Graham funded him again" from the on-screen caption.
+T| This might be the most important photo in startup history, and they are the reason the PayPal mafia might finally be getting some competition.
+T| It all starts with the kid next to Paul Graham.
+E| He built a location app with zero customers and still managed to sell it for $43 million.
+E| Sam went from a $6,000 check in YC to building OpenAI and raising $122 billion, the largest private round in history.
+E| The guy at the back of the photo got rejected at his interview, but Graham called him back anyway because he liked the founder, not the idea.
+E| Steve Huffman ended up creating Reddit.
+I| Then comes the guy with the engineer outfit.
+E| His calendar app lasted a month before Google shipped the same thing and killed him.
+E| So he auctioned the company on eBay.
+E| That stunt is the only reason Graham funded him again.
+E| And the next company became Twitch.
+E| These two on the edges went on to fund Airbnb, Stripe, Doordash, Coinbase.
+E| 5,000 more came after.
+I| The PayPal Mafia built 15 companies.
+T| These people built 15 companies and the machine that builds everyone else's.
+I| Paul Graham got to back the companies building the future before it was obvious.
+I| But to date, the public has had limited access to investing in these companies.
+I| USVC gives you access to that.
+I| Comment GUIDE and we'll share their investment guide for 2026.
