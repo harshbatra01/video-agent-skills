@@ -10,7 +10,7 @@ import sys, os, subprocess, math, argparse
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-ap = argparse.ArgumentParser(); ap.add_argument("out", nargs="?", default=os.path.join(os.path.dirname(__file__), "out", "animatic_v1.mp4"))
+ap = argparse.ArgumentParser(); ap.add_argument("out", nargs="?", default=os.path.join(os.path.dirname(__file__), "out", "picture_v2.mp4"))
 ap.add_argument("--scale", type=float, default=1.0); ap.add_argument("--only", default=None)
 A = ap.parse_args()
 S = A.scale; W, H = int(1280 * S), int(720 * S); FPS = 30; N = 495
@@ -125,6 +125,53 @@ def band_glitch(a, g, strength):
         yy = int(rng.integers(0, H - 3)); out[yy:yy + max(1, int(2 * S))] = 255
     return out
 
+
+# ---------- real footage (build/assets, uploaded 6 Nov 2026; see assets/sources.txt) ----------
+# slot: (file, start s in the trimmed clip, frames needed). Start times from sources.txt notes ("best at ...").
+CLIPS = {"notification_stack": ("notification_stack.mp4", 2.0, 2), "sticky_notes": ("sticky_notes.mp4", 1.0, 2),
+         "tangled_cables": ("tangled_cables.mp4", 3.0, 2), "alarm_clock": ("alarm_clock.mp4", 2.0, 5),
+         "whiteboard": ("whiteboard.mp4", 7.3, 8), "typing_fast": ("typing_fast.mp4", 2.0, 9),
+         "office_lowangle": ("office_lowangle.mp4", 6.8, 12), "office_crowd": ("office_crowd.mp4", 3.0, 5),
+         "crowd_threshold": ("crowd_threshold.mp4", 4.0, 5), "crowd_above": ("crowd_above.mp4", 3.0, 5),
+         "slowshutter_crowd": ("slowshutter_crowd.mp4", 3.0, 8), "stairwell": ("stairwell.mp4", 6.0, 6), "fisheye": ("fisheye.mp4", 4.0, 6)}
+_clip_cache = {}
+def clip_frames(slot):
+    if slot in _clip_cache: return _clip_cache[slot]
+    f, t0, n = CLIPS[slot]; path = os.path.join(ASSETS, f)
+    if not os.path.exists(path): _clip_cache[slot] = None; return None
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", str(t0), "-i", path, "-vf", f"fps=30,scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+                          "-frames:v", str(n), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+    fr = np.frombuffer(raw, np.uint8).reshape(-1, H, W, 3).astype(np.float32); _clip_cache[slot] = fr; return fr
+
+def grade(a, black=0.06, white=0.90, gamma=0.92, contrast=1.15):
+    """High-contrast monochrome like WHP: luma only, black point crushed (WHP blacks sit at 0 to 4), soft S-curve."""
+    y = (a @ np.array([0.2126, 0.7152, 0.0722], np.float32)) / 255
+    y = np.clip((y - black) / (white - black), 0, 1) ** gamma
+    y = np.clip(0.5 + (y - 0.5) * contrast, 0, 1); y = y * y * (3 - 2 * y) * 0.35 + y * 0.65
+    return (y * 255)[..., None] * np.ones(3, np.float32)
+
+def barrel(a, k=0.35):
+    """Fisheye-style barrel warp plus a round dark edge, for the climber shot (the clip is not a fisheye)."""
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32); nx, ny = (x - W / 2) / (W / 2), (y - H / 2) / (W / 2); r2 = nx ** 2 + ny ** 2
+    f = 1 + k * r2; sx = np.clip(W / 2 + nx / f * (W / 2), 0, W - 1).astype(int); sy = np.clip(H / 2 + ny / f * (W / 2), 0, H - 1).astype(int)
+    out = a[sy, sx]; edge = np.clip(1.25 - np.sqrt(r2) * 1.05, 0, 1)[..., None]; return out * edge
+
+def footage(slot, g, f0, label):
+    fr = clip_frames(slot)
+    if fr is None or len(fr) == 0: return placeholder(g, label, sub=f"f{f0}")
+    gp = GRADE_SLOT.get(slot, {})
+    return grade(fr[min(g - f0, len(fr) - 1)], **gp)
+GRADE_SLOT = {"whiteboard": dict(black=0.30, white=0.82, gamma=1.1, contrast=1.35)}   # v2 note: whiteboard read flat grey
+
+def brand_png(name, width_px):
+    """Linear's own files, unaltered (brand_notes.txt): only scaled, and composited after the finish."""
+    im = Image.open(os.path.join(ASSETS, name)).convert("RGBA"); h = int(im.height * width_px / im.width)
+    return im.resize((int(width_px), max(1, h)), Image.LANCZOS)
+_coll = [os.path.join(ASSETS, f"collage_{i:02d}.jpg") for i in range(1, 10)]
+COLL_FULL = [np.asarray(Image.open(p).convert("RGB").resize((640, 427)), np.uint8) if os.path.exists(p) else np.full((427, 640, 3), 60, np.uint8) for p in _coll]
+COLL = [c.astype(np.float32) for c in COLL_FULL]
+POST = []   # (rgba image, centre x, centre y, opacity) laid on top after grain and vignette
+
 # ---------- shot builders (global frame g) ----------
 def ui_card():
     """Placeholder for the Linear app recording, as a card that can be tilted."""
@@ -162,17 +209,19 @@ def frame(g):
         m = ring_mask(W / 2, H / 2, 46 * S, 62 * S); a = glow(dots_from_mask(m, 4, 3, dropout=0.35), 0.8)
         if g == 2: a = np.roll(a, int(14 * S), axis=1) * 0.8 + a * 0.4
     elif g <= 44 or 76 <= g <= 90:
-        slots = [(4, 5, "notification stack"), (6, 7, "sticky-note wall"), (8, 9, "tangled cables"), (10, 10, None), (11, 15, "alarm clock macro"),
-                 (16, 23, "crossed-out whiteboard"), (24, 32, "hands typing fast"), (33, 44, "crowded office, low angle"),
-                 (76, 77, "crowded open-plan office"), (78, 80, "BLOWOUT"), (81, 85, "THRESHOLD"), (86, 90, "crowd from above")]
+        slots = [(4, 5, "notification_stack"), (6, 7, "sticky_notes"), (8, 9, "tangled_cables"), (10, 10, None), (11, 15, "alarm_clock"),
+                 (16, 23, "whiteboard"), (24, 32, "typing_fast"), (33, 44, "office_lowangle"),
+                 (76, 77, "office_crowd"), (78, 80, "BLOWOUT"), (81, 85, "THRESHOLD"), (86, 90, "crowd_above")]
         for f0, f1, name in slots:
             if f0 <= g <= f1: break
         if name is None: a = blank(255)
         elif name == "BLOWOUT":
-            k = {78: 0.6, 79: 0.85, 80: 1.0}[g]; a = placeholder(g, "crowded open-plan office") * (1 - k) + 255 * k
+            k = {78: 0.6, 79: 0.85, 80: 1.0}[g]; fr = clip_frames("office_crowd")
+            base = grade(fr[min(g - 76, len(fr) - 1)]) if fr is not None else placeholder(g, "office_crowd")
+            a = np.clip(base * (1 + 2.5 * k) + 255 * k * 0.6, 0, 255)
         elif name == "THRESHOLD":
-            p = placeholder(g, "crowd, 1-bit threshold", tone=60); a = np.where(p.mean(2, keepdims=True) > 70, 245.0, 8.0) * np.ones(3, np.float32)
-        else: a = placeholder(g, name, sub=f"f{f0} to f{f1}")
+            p = footage("crowd_threshold", g, 81, "crowd_threshold"); a = np.where(blur(p, 1.0).mean(2, keepdims=True) > 118, 245.0, 8.0) * np.ones(3, np.float32)
+        else: a = footage(name, g, f0, name)
         lines = name not in (None, "BLOWOUT", "THRESHOLD")
     elif g == 45: a = blank(255)
     elif g <= 75:                                # cursor blinking on a blank page, B&W macro, slow push
@@ -227,52 +276,64 @@ def frame(g):
             t = (g - 245) / 41; r = (300 - 210 * ease_out(clamp01(t * 1.6))) * S
             a = (120 * np.exp(-(d / r) ** 2))[..., None] * np.ones(3)
         if g >= 245:
-            sc = 1.0 - 0.35 * ease_out(t); a = put_text(a, "[ Linear logo ]", font("Inter-Medium", 30 * sc), (W / 2, H / 2), fill=(235, 235, 235), anchor="mm")
+            sc = 1.0 - 0.35 * ease_out(t); POST.append((brand_png("logo.png", 120 * S * sc), W / 2, H / 2, 1.0))
     elif g <= 321:                               # the mark as photo tiles, bursting into a collage; camera push; "this"
         t = (g - 287) / 34; s = 1 + 0.9 * ease_in(t); rng = np.random.default_rng(21)
         world = blank()
         if g <= 300:
-            for i in range(90):
-                x0, y0 = W / 2 + rng.normal(0, 70 * S), H / 2 + rng.normal(0, 28 * S); sz = int(9 * S)
-                v = rng.integers(60, 200); world[int(y0):int(y0) + sz, int(x0):int(x0) + sz] = v
+            m = ring_mask(W / 2, H / 2, 46 * S, 74 * S); gp = int(10 * S); k = 0
+            for yy in range(gp // 2, H, gp):
+                for xx in range(gp // 2, W, gp):
+                    if m[yy, xx] > 0 and rng.random() > 0.2:
+                        ph = COLL[k % len(COLL)]; k += 1; cx0, cy0 = int(rng.uniform(0, ph.shape[1] - gp)), int(rng.uniform(0, ph.shape[0] - gp))
+                        world[yy - gp // 2 + 1: yy + gp // 2, xx - gp // 2 + 1: xx + gp // 2] = ph[cy0:cy0 + gp - 1, cx0:cx0 + gp - 1] * 0.9
         else:
-            for i in range(9):
-                x0, y0 = W * rng.uniform(0.2, 0.75), H * rng.uniform(0.15, 0.6); w0, h0 = int(rng.uniform(120, 260) * S), int(rng.uniform(80, 170) * S)
-                k = ease_out(clamp01((g - 301 - i) / 6)); world[int(y0):int(y0) + int(h0 * k), int(x0):int(x0) + int(w0 * k)] = 30 + 8 * i
-                if k > 0.9: world = put_text(world, "PHOTO", font("Inter-Medium", 12), (x0 + 8 * S, y0 + 6 * S), fill=(120, 120, 120))
+            spots = [(0.22, 0.14, 230, 150), (0.42, 0.10, 210, 140), (0.62, 0.16, 190, 130), (0.20, 0.40, 250, 160), (0.45, 0.36, 230, 150),
+                     (0.66, 0.42, 200, 130), (0.30, 0.62, 180, 120), (0.52, 0.62, 220, 140), (0.74, 0.66, 170, 110)]
+            for i, (fx, fy, w0, h0) in enumerate(spots):
+                k = ease_out(clamp01((g - 301 - i) / 5)); w1, h1 = int(w0 * S * k), int(h0 * S * k)
+                if w1 > 4 and h1 > 4:
+                    ph = to_arr(Image.fromarray(COLL_FULL[i]).resize((w1, h1), Image.BICUBIC)); x0, y0 = int(W * fx), int(H * fy)
+                    world[y0:y0 + h1, x0:x0 + w1] = ph[: H - y0, : W - x0]
             world = put_text(world, "[ 09:41 ]", font("Inter-Regular", 11), (200 * S, 668 * S), fill=(110, 110, 110))
         if 287 <= g <= 300 or 316 <= g <= 321: world = put_text(world, "this", font("Inter-Regular", 20), (205 * S, 150 * S), fill=(200, 200, 200))
         im = to_img(world).resize((int(W * s), int(H * s)), Image.BICUBIC); ox, oy = (im.width - W) // 2, (im.height - H) // 2
         a = to_arr(im.crop((ox, oy, ox + W, oy + H)))
     elif g == 322: a = blank(255)
     elif g <= 342:
-        name = "slow-shutter crowd, terminal" if g <= 330 else "spiral stairwell, looking down" if g <= 336 else "fisheye, person climbing"
-        a = placeholder(g, name); lines = True
+        if g <= 330: a = footage("slowshutter_crowd", g, 323, "slowshutter_crowd")
+        elif g <= 336: a = footage("stairwell", g, 331, "stairwell")
+        else: a = barrel(footage("fisheye", g, 337, "fisheye"))
+        lines = True
     elif g <= 410:                               # v1: halftone of a turning textured sphere on a fixed screen grid, stepped every 3 f
         gs = 343 + ((g - 343) // 3) * 3; t = (gs - 343) / 67
-        gp = max(2, int(round(6 * S))); R = 185 * S; cx, cy = W * 0.48, H * 0.46
+        gp = max(2, int(round(6 * S))); R = 200 * S; cx, cy = W * 0.48, H * 0.46
         ys, xs = np.mgrid[gp // 2:H:gp, gp // 2:W:gp].astype(np.float32); nx, ny = (xs - cx) / R, (ys - cy) / R; r2 = nx ** 2 + ny ** 2
         inside = r2 < 1; nz = np.sqrt(np.clip(1 - r2, 0, 1))
         lon = np.arctan2(nx, nz) + 0.9 * t + 1.3; lat = np.arcsin(np.clip(-ny, -1, 1))
         tex = 0.5 + 0.22 * np.sin(3 * lon + 2 * np.sin(2 * lat)) + 0.18 * np.sin(7 * lon - 3 * lat) + 0.12 * np.sin(11 * lat + 5 * lon)
         shade = np.clip(0.25 + 0.75 * (0.55 * nz - 0.45 * nx + 0.2), 0, 1)
-        v = np.where(inside, np.clip(tex, 0, 1) * shade * (1 - ease_in(t) * 0.97), 0)
+        v = np.where(inside, np.clip(np.clip(tex, 0, 1) * shade * 1.35, 0, 1) * (1 - ease_in(t) * 0.97), 0)
         a = blank(); dmax = gp - max(1, int(S))
         for (yy, xx, vv) in zip(ys[inside].astype(int), xs[inside].astype(int), v[inside]):
             d = int(round(dmax * min(1, vv * 1.4)))
             if d >= 1: a[yy - d // 2:yy - d // 2 + d, xx - d // 2:xx - d // 2 + d] = (200 * vv + 40, 150 * vv + 25, 150 * vv + 25)
     elif g <= 420: a = blank()
     else:                                        # wordmark: right-to-left wipe over 3 f, brightness stepped every 3 f to f431
-        a = blank(); txt = "[ Linear wordmark ]"; F = font("Inter-SemiBold", 30)
-        steps = {421: 0.05, 424: 0.27, 427: 0.55, 430: 0.78, 433: 0.92, 436: 1.0}
+        a = blank(); steps = {421: 0.05, 424: 0.27, 427: 0.55, 430: 0.78, 433: 0.92, 436: 1.0}   # WHP's measured stepped fade
         lv = 0.0
         for k, v in steps.items():
             if g >= k: lv = v
-        c = int(242 * lv); a = put_text(a, txt, F, (W / 2, H / 2), fill=(c, c, c), anchor="mm")
-        if g <= 423:
-            frac = {421: 0.35, 422: 0.65, 423: 1.0}[g]; a[:, : int(W / 2 - 150 * S + (1 - frac) * 300 * S)] = 0
+        POST.append((brand_png("wordmark.png", 160 * S), W / 2, H / 2, lv))
     if 21 <= g <= 95: a = labels(a, g)
-    return finish(a, g, lines=lines)
+    a = finish(a, g, lines=lines)
+    if POST:
+        base = to_img(a).convert("RGBA")
+        for im, cx, cy, op in POST:
+            if op < 1: im = im.copy(); im.putalpha(im.getchannel("A").point(lambda v, o=op: int(v * o)))
+            base.alpha_composite(im, (int(cx - im.width / 2), int(cy - im.height / 2)))
+        a = to_arr(base); POST.clear()
+    return a
 
 # ---------- render ----------
 if __name__ == "__main__":
