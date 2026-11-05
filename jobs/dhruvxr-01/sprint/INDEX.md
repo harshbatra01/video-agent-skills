@@ -25,7 +25,8 @@ Base study: `research/dhruvxr/STUDY.md`. Corrections to it: `10_LEAD_CHECKS.md`.
 3. Opening density: 8 to 9 shots in the first second breaks the mini-doc opening limits (approved for this job only).
 4. 16:9 only, or also a separate 4:5 layout for Instagram (red team).
 5. Which script to pilot: the scripts agent prefers script 1 ("Taste"); both red teams say script 1 reads as an ATN copy, and 12 recommends script 3 ("Frame one") with its fixes.
-6. Master size: 1920x1080 (study default, 05, 06) or 1280x720 (07's build master).
+6. Script 3 has two sets of fixed lines: 08 section F and 12 (12 defers to 08 where they differ). Pick one.
+7. Master size: 1920x1080 (study default, 05, 06) or 1280x720 (07's build master).
 
 ## Folders
 - `sheets/`: one frame per shot for each reel, and text placement maps (02).
@@ -36,4 +37,4 @@ Base study: `research/dhruvxr/STUDY.md`. Corrections to it: `10_LEAD_CHECKS.md`.
 - Stage 1 approved (Gate 1 defaults). Stage 2 (idea pick) not started; the scripts in 06 are early drafts ahead of it, not locked.
 - HANDOFF.md was not updated during the sprint (no-overwrite rule). This INDEX is the current handoff.
 - Not checked by anyone: playback, sound, any live X page (blocked), source web pages (snippets only), licences for music, stock and fonts, phone readability on a real device.
-- Recommended next step: rule on conflicts 1 to 6 above, then run Stage 2 with the red-team fixes folded into the scripts.
+- Recommended next step: rule on conflicts 1 to 7 above, then run Stage 2 with the red-team fixes folded into the scripts.
