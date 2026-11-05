@@ -1,0 +1,13 @@
+draft-v3_H4_tagged.txt
+  words                   251
+  sentences               18
+  avg_sentence            13.9
+  longest_sentence        22
+  event_pct               45
+  tension_pct             38
+  info_pct                18
+  longest_info_run        2
+  pct_before_first_event  24
+  hard_word_pct           5.8
+  reading_ease            74
+reference range (4 scripts): event 40-79%, info 4-31%, info run 1-5, sentence 10.7-15.6, ease 68-80

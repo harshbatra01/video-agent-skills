@@ -18,9 +18,11 @@ See `../../research/metro-media-house/STUDY.md` section 5 and `sprint/S5-rule-bo
 - 5 Nov 2026: organic post, no feature-film clips, voice by ear (defaults accepted).
 - 6 Nov 2026: topic is Masayoshi Son. Do deep research first, then one broad draft, following the scripting skills.
 - 6 Nov 2026: work sequentially, with approval at each step.
+- 6 Nov 2026: hook H1 if the Son and Jensen Huang photo exists; otherwise the user's H4: "This man missed out on 150 billion dollars by selling Nvidia, and then did the exact same mistake again" ("did" changed to "made" for usage).
+- 6 Nov 2026: comparison C (James Bond at the poker table) WITH the actual movie footage. This overrides the no-film-clips default for this line only.
 
 ## 5. Script
-Not locked. Current draft: `script/DRAFT-v1.md` (248 words). Earlier: `script/DRAFT-v0.md`.
+Not locked. Current: `script/DRAFT-v3.md` (251 words), text locked pending fact and asset checks. Earlier: v0, v1, v2.
 
 ## 6. Facts
 See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at its source and marked here as VERIFIED.
@@ -33,3 +35,4 @@ See `research/STORY-LIBRARY.md`. Nothing goes on screen until it is checked at i
 | D3 | 6 Nov | Kicker "cost him" changed to "missed out on" | DONE | Accuracy: it was a missed gain, not a loss |
 | D4 | 6 Nov | Tight draft v1: 279 to 248 words; photo hook; open loop; WeWork cut; peg moved to on-screen text | PROPOSED | User asked for a tighter version matching the repo skills and Metro |
 | D5 | 6 Nov | Draft v2: 8 hook options, 3 comparison variants (Buffett, Uncut Gems, Bond), numbers 14 to 11 | PROPOSED | User asked for multiple hooks and both comparison types |
+| D6 | 6 Nov | v3: H1 (fallback user's H4), comparison C with Bond film footage | USER VERDICT | User picks |
