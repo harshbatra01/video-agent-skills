@@ -292,3 +292,7 @@ ACK counts (total 95.0s):
 | S | 20 | 13.7 | 14% |
 
 Notes: labels are by eye from one middle frame per shot, so very short shots (0.04s) are mostly flashes or transitions. "white flash" rows are filed as text card white for counting. Film identifications (Iron Man, Wolf of Wall Street) and names (Thiel, Karp, Icahn) are visual guesses, not verified.
+
+## Main finding (from these labels)
+
+In both reels the most screen time goes to mid-size subjects (M, 20 to 50% of frame height: PAL 41%, ACK 44%), not big faces (L: PAL 27%, ACK 22%). PAL leans on built composites and collages (28% of time, the top type), while ACK leans on real archive, interview and film footage (58% combined) cut in fast bursts (for example 9 bank logos over "every major bank in the country" at 23.3-25.4s, and about 17 banknote and cash-stack shots of 0.08s each at 48.2-50.1s counting up to "1.4 billion dollars").

@@ -1,6 +1,6 @@
 # S2 Look study: Metro Media House reels (grade, captions, graphics)
 
-Status: stopped at deadline, missing: by-eye review of ACK, EIN, YC sheets and strips/, graphic counts for those three reels, grain check, more full-res frames
+Status: stopped at deadline, missing: strips/ review, exact graphic counts for ACK, EIN, YC (only skimmed), grain check, more full-res frames
 
 Reels: PAL=DclpjyxhKF6, ACK=DdHKc5GBqT-, EIN=Dee-mp9BJqG (USVC, paid), YC=DfFsUfUx0dZ (paid).
 
@@ -51,7 +51,7 @@ Measured result: the caption is white text centred on the frame's horizontal mid
 - Visible edge darkening (vignette) on the YC 44.0s frame, left and right edges darker than centre (judged).
 - Blacks near but not fully crushed (fits p2 of 5 to 9). No strong colour cast overall; mixed warm interiors and cool blue/teal stage and HUD shots.
 - Grain: could not judge at sheet scale.
-- White paper card colour, MEASURED with numpy (median of top-left background region, x 3 to 18%, y 8 to 30%): PAL 8.4s: #d6d6d9 (RGB 214,214,217); PAL 69.9s: #ebe8ec (RGB 235,232,236); PAL 74.4s: #f5f2f6 (RGB 245,242,246). Treat as a light warm-grey off-white, not pure #ffffff (check which of these three frames is a true card before copying).
+- White paper card colour, MEASURED with numpy (median of top-left background region, x 3 to 18%, y 8 to 30%): PAL 8.4s: #d6d6d9 (RGB 214,214,217); PAL 69.9s: #ebe8ec (RGB 235,232,236); PAL 74.4s: #f5f2f6 (RGB 245,242,246). Measured: neutral off-white with blue a hair above red and green (about +2 to +3), so not warm; brightest card reads #f5f2f6, not pure #ffffff. The 8.4s value (#d6d6d9) is darker, likely shading or a different card (check before copying).
 
 ## 4b. Caption look (JUDGED from the PAL sheet and YC 44.0s full-res frame)
 
@@ -69,10 +69,17 @@ Measured result: the caption is white text centred on the frame's horizontal mid
 - Tilted 3D screen stacks / magazine pages: about 3 (#51 to #53).
 - Chess piece metaphor shots: 2 (#43, #44).
 
+## 5b. EIN and YC sheets, quick look (JUDGED, not counted)
+
+- EIN: mostly black-and-white archival photos (fits the measured 59% near-mono), with colour only on a few inserts (planet, red dice card, chip, amber meter). Graphics: big bold condensed white headline words ("17", "OF ALL TIME", "EINSTEIN", "CERTAINTY", "FELL", "SEMI CONDUCTOR"), photo cut-outs and polaroid frames on off-white paper, serif name labels over portraits (Einstein, Bohr, Schrodinger, Heisenberg), quote-mark cards ("GOD DOESN'T PLAY DICE"), book-page close-ups.
+- YC: colour interview and event footage; small white midline captions on almost every shot; off-white and black plain text cards (e.g. 16 8.9s, 43 25.2s, 76 45.5s, 77 46.4s, 90 57.0s); a few big bold words ("customers", "$43 Million", "$6 thousand", "OpenAI"); logo inserts (twitch, doordash, Airbnb, Stripe, reddit, TED); end card "USVC" in blue on white (121 74.2s), showing YC is a paid USVC piece.
+
+- ACK (quick look, JUDGED): colour footage with small white midline captions on nearly every shot; drawn-on graphics (red devil horns 6 to 7, 3.7 to 4.7s), cut-outs on off-white paper (12, 16 to 18, 24 to 26), logo/bank-front montage (34 to 42), meme and collage inserts, stock-chart and news-ticker footage, flat illustration pyramid scheme (102 to 105), Pac-Man insert (108), big bold hero words ("1.4 billion", "Carl, Fuck you", "getting.").
+
 ## Look spec (numbers to copy)
 
 - Luma: black point p2 about 6 to 9 (of 255), mid p50 about 72 to 82, white point p98 about 175 to 210, almost no clipping (under 0.01% pixels at 250+).
 - Saturation (HSV mean, shot median): about 0.29 to 0.31 for Metro Media House; keep 10 to 20% of shots near-monochrome. EIN-style (USVC) is a mostly black-and-white grade (sat 0.07, 59% mono).
 - Slight warm lean: about 35% warm shots vs 20% cool.
 - Captions: white sans, no box, single line, y centre 48 to 51% of height, glyph height 3 to 4.5% of height, word-by-word build; hero words 2 to 3 times larger, bold, white, key names red, key numbers yellow highlight.
-- Paper card: off-white, see sampled hex above.
+- Paper card: neutral off-white, about #ebe8ec to #f5f2f6 (never pure white).

@@ -1,6 +1,6 @@
 # S8 Red team: a skeptical stranger scrolls past Metro Media House
 
-Status: in progress (started 13:21 IST)
+Status: done (13:21 to 13:25 IST). S6 had no scripts yet at 13:22, so script hooks were not red-teamed.
 
 Lens: someone who has never heard of this page, thumb moving, sound maybe off. Each problem: what they think in the first 3 s, why they scroll or distrust, severity, fix.
 
@@ -27,7 +27,7 @@ Lens: someone who has never heard of this page, thumb moving, sound maybe off. E
 
 **1e. Huang hook: "This might be the most valuable table in the world."** Severity: MEDIUM.
 - Good length (10 words). But first 3 s: "a diner booth" and, for many, "I've seen the Denny's story" (IDEAS: very heavily covered). "Most valuable" is only true while Nvidia leads; check market cap on the post date.
-- Fact trap for any rewrite: Huang washed dishes at a Denny's as a teen, not at the San Jose Denny's where Nvidia was planned. Never say "where he used to wash dishes".
+- Fact trap for any rewrite: Huang washed dishes at a Denny's as a teen, not at the San Jose Denny's where Nvidia was planned (common reporting, recheck at source). Never say "where he used to wash dishes".
 
 **1f. Traitorous Eight hook: "Before the PayPal Mafia, there was this photo."** Severity: HIGH.
 - First 3 s: "Old black and white men in suits. What is the PayPal Mafia?" Needs knowledge, names not famous, no moving footage, Magnum rights.
@@ -50,3 +50,42 @@ Lens: someone who has never heard of this page, thumb moving, sound maybe off. E
 **1m. "This might be the most..." on every reel.** Severity: LOW to MEDIUM. Reads as a bait template to a stranger unless the frame proves it fast. Fix: the superlative must be checkable and a number, logo or known noun must be on screen by 2 s.
 
 **1n. The formula is from 4 reels with no view data.** Severity: LOW. It is a hypothesis (STUDY says so). Do not let the rule book lock it as law beyond the measured ranges.
+
+## 2. Sprint files as of 13:22 IST
+**S6-scripts.md** had only its header and picks (Son, Huang, Traitorous Eight; OpenAI Mafia skipped for the conflict flag). No hooks or kickers to test yet.
+- **2a. Traitorous Eight as script 3.** Severity: HIGH. It fails S5's own idea rules: "a name a stranger half-knows" (IDEAS who score 5) and "list 3+ real clips" (IDEAS: footage thin, mostly stills, Magnum photo). Fix: only keep it if moving archive of Noyce or Moore is found; otherwise drop it and ship two scripts.
+- **2b. Huang.** Severity: MEDIUM. Feed fatigue (IDEAS: very heavily covered). Fix: the booth is the photo, but the hook must carry the twist (dishwasher, 30 days) inside 3 s.
+- **2c. Son.** Severity: HIGH. The handshake photo is not found. Fix: hook on footage that exists (Son on stage with Altman, per IDEAS) and say ChatGPT in the hook.
+
+**S5-rule-book.md** (sections 1 and 2 only):
+- **2d. "Do not say the person's name in the first 3 s; hold it to 8 to 17 s."** Severity: HIGH. Needs a condition: only when a known noun or famous photo is in the first 3 s (see 1g).
+- **2e. Hook "This is / This might be [one of] the most [X]".** Severity: MEDIUM. "Might be one of the most" stacks two hedges; a stranger hears bait. The rule has no word cap. All 4 hooks are 10 to 11 words (PAL 11, ACK 11, EIN 11, YC 10, counted from STUDY section 7). IDEAS hooks run 26 (Son) and 21 (OpenAI Mafia).
+- **2f. Idea rules are good** ("stranger half-knows", "3+ real clips"). Add: the hook claim must be A or B grade.
+
+## 3. Fixed versions (all numbers still need the source check IDEAS asks for)
+
+### Hooks
+- **Son:** "This man once lost about 70 billion dollars. Now he's betting billions on ChatGPT." (14 words; $70 billion is B grade; picture: Son on stage, ChatGPT logo as big word.) Page-shape option: "This might be the most expensive bet in tech, and it's on ChatGPT." Use only if the OpenAI figure is confirmed in SoftBank filings.
+- **Huang:** "A former Denny's dishwasher planned Nvidia in this Denny's booth." (10 words; "former" matters, he did not wash dishes at that Denny's.) Beat 3 paradox: "And he still runs it like it's 30 days from going broke."
+- **Traitorous Eight (only if footage is found):** "These eight men quit their boss in 1957. Two of them started Intel." (13 words; Noyce and Moore co-founded Intel in 1968.)
+- **OpenAI Mafia (only if the user accepts the conflict, with disclosure):** "These people all quit the company that made ChatGPT. Now they run its rivals." Check every face in the photo first.
+
+### Kickers (no new facts allowed in a kicker)
+- **Son:** "The first time, he was right too early. This time, he can't afford to be."
+- **Huang:** "He built Nvidia scared of running out of money. It made more than anyone. He's still scared." Cut to the plaque. (Check "more than anyone" against the latest results, or drop that sentence.)
+- **Traitorous Eight:** "Their boss won the Nobel Prize. They won the industry." (Keep "industry" about chips.)
+- **OpenAI Mafia:** "They left OpenAI to slow it down. Now they're racing it." (Fits the Anthropic founders only; check the stated reason they left.)
+
+### Rule changes for S5
+1. Hook sentence 10 to 11 words, hard cap 14. First 5 s stays 13 to 16 words.
+2. Hold the name to 8 to 17 s only if a known noun (ChatGPT, Nvidia, Intel, PayPal) or a famous photo is in the first 3 s. Otherwise put the known noun in the hook.
+3. No C-grade number in the first 5 s or in the kicker. The hook's superlative must be checkable.
+4. A kicker may not add a fact the body did not show.
+5. Comparison slot without film: a rival group, a known person or a product, proved with real footage, a logo burst or a printed card. If nothing fits, skip it and name earlier (EIN names at 3.7 s and still scored 21/24).
+6. At most 2 spoken dates; print the rest.
+7. Frame 0 shows at least half the hook photo, sharp by 0.6 s; set a custom cover (sharp photo plus the first big word).
+8. Sound-off test: read only the big words; a stranger must get who, what and the stake.
+9. "One of the most" only when "the most" would be false. Never reuse the page's exact lines ("the internet you scroll").
+10. Idea needs a name a stranger half-knows (Big score who 7+) and 3+ real moving clips, or it does not reach scripting.
+
+Main finding: the IDEAS hooks fail a stranger's 3 seconds because they are too long (26 and 21 words against the page's 10 to 11), hold back both the name and any known noun, and lean on unconfirmed photos and C-grade facts.
