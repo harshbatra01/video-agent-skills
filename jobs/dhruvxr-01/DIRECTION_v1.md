@@ -9,7 +9,7 @@
 | Visual effects in Python | `skills/effect-library/blocks/` (particle-mind, screen-photo-push, colorize-reveal, video-wall) | Particles and the tilted screen are direct helps. Not run yet |
 | Effect values | `skills/motion-design/effects-library/recipes/` (pixel dither, one-frame glitch, slow shutter, luma dissolve), `skills/motion-design/references/native-looks.md` (halftone, glow, globe maths), `transitions.md` (flash values) | AE recipes, but the numbers carry over to Python |
 | Type | `skills/motion-design/references/titles-captions-type.md`; Inter is installed here | |
-| After Effects route | `skills/premiere-ae-editing/scripts/ae/` (ae_build, ae_run, motion_lib, scene_lib) plus the 18-effect AE library | Only if After Effects runs on your Mac. Raises the quality ceiling a lot |
+| After Effects route | `skills/premiere-ae-editing/scripts/ae/` plus the 18-effect AE library | NOT USED: user decision 5 Nov 2026, no After Effects. Recipes are read for values only |
 | HTML cards | `skills/production-automation` (headless Chrome templates); headless Chrome works here | For UI cards and labels |
 | Gates and QA | `skills/video-agent`, `skills/edit-loop-guard` (+ guard_check.py), `skills/goal-alignment-review`, `kit/library/pipelines/edits-kit/tools/` (cuts.py snaps cuts to hits, compare.py, qasheet.py) | guard_check thresholds were set for the Altman job; adjust them. edits-kit tools not run yet |
 | Not useful here | idea-finder radar (news), word-matched-broll (narrated B-roll), mass-reel-writer, meme and podcast skills | |
@@ -67,7 +67,7 @@ Copy risk: the shape mirrors WHP closely ("Every team. One system." against "Eve
 | 2 | Brand check: brand page, logo files, guidelines, the real domain and colours | Me, if the site loads here; else you | 20 min | |
 | 3 | Sound first: 3 tracks for you to hear, the voice read, beat map and hit list measured on the real files | Both | 1 to 2 h | GATE B |
 | 4 | Assets: app recording (your Mac), stock picks with licences in SOURCES.txt | You record; I pick and log | 1 to 2 h | |
-| 5 | Engine: After Effects on your Mac (better 3D, glow, particles) or Python here | You decide | | GATE C |
+| 5 | Engine: DECIDED, Python here (ffmpeg, numpy, Pillow, headless Chrome). No After Effects | | | |
 | 6 | Pilot: first 3 s, beside WHP, every-frame strips and numbers; 3 to 4 strengths for glow and glitch | Me | 1 to 2 h | GATE D |
 | 7 | Full build, then the same numbers table ours against WHP before you see it | Me | 3 to 5 h | GATE E |
 | 8 | Notes rounds with a ledger, final checks (size, fps, loudness, spelling, rights) | Both | per round | GATE F |
@@ -77,5 +77,8 @@ Copy risk: the shape mirrors WHP closely ("Every team. One system." against "Eve
 2. Rights: spec label and guideline-safe logo use? Default: yes, "spec, not affiliated" in the post.
 3. Voice: yours, hired, or ElevenLabs? Default: ElevenLabs if you have a key, else yours.
 4. Music: licensed library (which account do you have)? Default: Epidemic Sound.
-5. Engine: is After Effects on your Mac? Default: Python here, and a 3 s pilot decides.
+5. Engine: ANSWERED 5 Nov 2026: no After Effects. Python here.
 6. "Every team. One system." or "Every idea. One place."? Default: the first.
+
+## 6. Decision log
+- 5 Nov 2026: user, "no ae". Engine is Python here. 3D tilt = 2D perspective warp; glow = layered Gaussian blurs; particles and dots in numpy; UI cards via headless Chrome or PIL. The 3 s pilot shows whether this reaches WHP's finish.
