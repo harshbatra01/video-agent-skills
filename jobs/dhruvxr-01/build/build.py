@@ -14,9 +14,9 @@ ap = argparse.ArgumentParser(); ap.add_argument("out", nargs="?", default=os.pat
 ap.add_argument("--scale", type=float, default=1.0); ap.add_argument("--only", default=None)
 A = ap.parse_args()
 S = A.scale; W, H = int(1280 * S), int(720 * S); FPS = 30; N = 495
-FD = "/usr/share/fonts/opentype/inter/"
+FD = os.path.expanduser("~/Library/Fonts/")  # Mac: where the font-inter cask drops Inter-*.otf
 def font(name, px): return ImageFont.truetype(FD + name + ".otf", max(6, int(px * S)))
-MONO = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
+MONO = "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf"
 ASSETS = os.path.join(os.path.dirname(__file__), "assets")   # footage/<slot>.mp4|png, logo.png, wordmark.png, ui.mp4|png when they exist
 
 # ---------- helpers ----------
